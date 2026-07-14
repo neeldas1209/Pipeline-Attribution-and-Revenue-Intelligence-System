@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dashboard Input Validation",
+  "description": "Optional schema for Agent 06: validates that all 5 upstream JSON outputs are present and contain required top-level sections",
+  "type": "object",
+  "required": ["attribution_data", "velocity_data", "performance_data", "scenario_data", "narrative_data"],
+  "properties": {
+    "attribution_data": {
+      "type": "object",
+      "description": "Agent 1 output — attribution-analysis.json",
+      "required": ["metadata", "channel_summary", "campaign_detail", "deal_attribution"],
+      "properties": {
+        "metadata": { "type": "object" },
+        "channel_summary": { "type": "object" },
+        "campaign_detail": { "type": "object" },
+        "deal_attribution": { "type": "array" }
+      }
+    },
+    "velocity_data": {
+      "type": "object",
+      "description": "Agent 2 output — funnel-velocity.json",
+      "required": ["metadata", "stage_velocity", "conversion_rates", "drop_off_analysis", "bottleneck_flags", "sales_rep_analysis"],
+      "properties": {
+        "metadata": { "type": "object" },
+        "stage_velocity": { "type": "object" },
+        "conversion_rates": { "type": "object" },
+        "drop_off_analysis": { "type": "object" },
+        "bottleneck_flags": { "type": "array" },
+        "sales_rep_analysis": { "type": "array" }
+      }
+    },
+    "performance_data": {
+      "type": "object",
+      "description": "Agent 3 output — channel-performance.json",
+      "required": ["metadata", "channel_leaderboard", "campaign_detail", "diagnostic_flags", "persona_analysis"],
+      "properties": {
+        "metadata": { "type": "object" },
+        "channel_leaderboard": { "type": "object" },
+        "campaign_detail": { "type": "object" },
+        "diagnostic_flags": { "type": "array" },
+        "persona_analysis": { "type": "object" }
+      }
+    },
+    "scenario_data": {
+      "type": "object",
+      "description": "Agent 4 output — scenario-analysis.json",
+      "required": ["metadata", "scenarios", "custom_scenario_parameters"],
+      "properties": {
+        "metadata": { "type": "object" },
+        "scenarios": { "type": "array", "minItems": 1 },
+        "custom_scenario_parameters": { "type": "object" }
+      }
+    },
+    "narrative_data": {
+      "type": "object",
+      "description": "Agent 5 output — executive-narrative.json",
+      "required": ["metadata", "sections"],
+      "properties": {
+        "metadata": { "type": "object" },
+        "sections": {
+          "type": "object",
+          "required": ["executive_summary", "attribution_insights", "funnel_health", "channel_efficiency", "budget_recommendations", "key_risks"]
+        }
+      }
+    }
+  }
+}

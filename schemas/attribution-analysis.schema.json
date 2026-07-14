@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Attribution Analysis",
+  "description": "Agent 01 output: 5-model attribution at channel, campaign, and deal level",
+  "type": "object",
+  "required": ["metadata", "channel_summary", "campaign_detail", "deal_attribution"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["run_id", "total_deals_processed", "deals_skipped", "total_pipeline_attributed", "models_computed", "half_life_days", "channel_activity"],
+      "properties": {
+        "run_id": { "type": "string" },
+        "generated_date": { "type": "string", "format": "date-time" },
+        "agent": { "type": "string" },
+        "total_deals_processed": { "type": "integer", "minimum": 0 },
+        "deals_skipped": {
+          "type": "object",
+          "required": ["count", "deal_ids"],
+          "properties": {
+            "count": { "type": "integer", "minimum": 0 },
+            "deal_ids": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "total_pipeline_attributed": { "type": "number", "minimum": 0 },
+        "models_computed": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["first_touch", "last_touch", "linear", "time_decay", "w_shaped"] },
+          "minItems": 5,
+          "maxItems": 5
+        },
+        "half_life_days": { "type": "integer", "minimum": 1 },
+        "channel_activity": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["first_touchpoint_date", "last_touchpoint_date", "total_touchpoint_count"],
+            "properties": {
+              "first_touchpoint_date": { "type": "string", "format": "date" },
+              "last_touchpoint_date": { "type": "string", "format": "date" },
+              "total_touchpoint_count": { "type": "integer", "minimum": 0 }
+            }
+          }
+        },
+        "quality_check": { "type": "object" }
+      }
+    },
+    "channel_summary": {
+      "type": "object",
+      "description": "Per-channel attribution under each model",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "required": ["pipeline_credited", "rank", "deals_touched", "touchpoint_count", "avg_credit_per_deal", "pct_of_total"],
+          "properties": {
+            "pipeline_credited": { "type": "number", "minimum": 0 },
+            "rank": { "type": "integer", "minimum": 1 },
+            "deals_touched": { "type": "integer", "minimum": 0 },
+            "touchpoint_count": { "type": "integer", "minimum": 0 },
+            "avg_credit_per_deal": { "type": "number", "minimum": 0 },
+            "pct_of_total": { "type": "number", "minimum": 0, "maximum": 100 }
+          }
+        }
+      }
+    },
+    "campaign_detail": {
+      "type": "object",
+      "description": "Per-campaign attribution nested under parent channel",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["pipeline_credited", "rank", "deals_touched", "touchpoint_count", "avg_credit_per_deal", "pct_of_total"],
+            "properties": {
+              "pipeline_credited": { "type": "number", "minimum": 0 },
+              "rank": { "type": "integer", "minimum": 1 },
+              "deals_touched": { "type": "integer", "minimum": 0 },
+              "touchpoint_count": { "type": "integer", "minimum": 0 },
+              "avg_credit_per_deal": { "type": "number", "minimum": 0 },
+              "pct_of_total": { "type": "number", "minimum": 0, "maximum": 100 }
+            }
+          }
+        }
+      }
+    },
+    "deal_attribution": {
+      "type": "array",
+      "description": "Per-deal audit trail with touchpoint-level credits",
+      "items": {
+        "type": "object",
+        "required": ["deal_id", "company_name", "deal_size", "deal_outcome", "touchpoint_count", "key_moments", "touchpoints"],
+        "properties": {
+          "deal_id": { "type": "string" },
+          "company_name": { "type": "string" },
+          "deal_size": { "type": "number", "minimum": 0 },
+          "deal_outcome": { "type": "string", "enum": ["won", "lost"] },
+          "touchpoint_count": { "type": "integer", "minimum": 1 },
+          "key_moments": {
+            "type": "object",
+            "required": ["first_touch_index", "lead_creation_index", "opp_creation_index"],
+            "properties": {
+              "first_touch_index": { "type": "integer", "minimum": 0 },
+              "lead_creation_index": { "type": "integer", "minimum": 0 },
+              "opp_creation_index": { "type": "integer", "minimum": 0 }
+            }
+          },
+          "touchpoints": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["touchpoint_date", "channel", "campaign_name", "touchpoint_type", "contact_role", "credits"],
+              "properties": {
+                "touchpoint_date": { "type": "string", "format": "date" },
+                "channel": { "type": "string" },
+                "campaign_name": { "type": "string" },
+                "content_asset": { "type": "string" },
+                "touchpoint_type": { "type": "string" },
+                "funnel_stage_at_touch": { "type": "string" },
+                "contact_role": { "type": "string" },
+                "credits": {
+                  "type": "object",
+                  "required": ["first_touch", "last_touch", "linear", "time_decay", "w_shaped"],
+                  "properties": {
+                    "first_touch": { "type": "number", "minimum": 0 },
+                    "last_touch": { "type": "number", "minimum": 0 },
+                    "linear": { "type": "number", "minimum": 0 },
+                    "time_decay": { "type": "number", "minimum": 0 },
+                    "w_shaped": { "type": "number", "minimum": 0 }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

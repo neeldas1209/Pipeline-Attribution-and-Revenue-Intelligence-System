@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Scenario Analysis",
+  "description": "Agent 04 output: data-driven budget reallocation scenarios with per-model projections and custom scenario parameters",
+  "type": "object",
+  "required": ["metadata", "scenarios", "custom_scenario_parameters", "generation_reasoning"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["run_id", "total_budget", "current_pipeline", "current_revenue", "current_roi", "historical_win_rate", "scenarios_generated", "models_computed"],
+      "properties": {
+        "run_id": { "type": "string" },
+        "generated_date": { "type": "string", "format": "date-time" },
+        "agent": { "type": "string" },
+        "total_budget": { "type": "number", "minimum": 0 },
+        "current_pipeline": { "type": "number", "minimum": 0 },
+        "current_revenue": { "type": "number", "minimum": 0 },
+        "current_roi": { "type": "number" },
+        "historical_win_rate": { "type": "number", "minimum": 0, "maximum": 1 },
+        "scenarios_generated": { "type": "integer", "minimum": 1 },
+        "models_computed": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["first_touch", "last_touch", "linear", "time_decay", "w_shaped"] },
+          "minItems": 5,
+          "maxItems": 5
+        },
+        "quality_check": { "type": "object" }
+      }
+    },
+    "scenarios": {
+      "type": "array",
+      "description": "Generated scenarios including mandatory Status Quo",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["scenario_id", "name", "description", "reallocation", "projections", "assumptions"],
+        "properties": {
+          "scenario_id": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "reallocation": {
+            "type": "object",
+            "required": ["changes", "unchanged"],
+            "properties": {
+              "changes": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["channel", "from_pct", "to_pct", "delta_dollars"],
+                  "properties": {
+                    "channel": { "type": "string" },
+                    "from_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+                    "to_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+                    "delta_dollars": { "type": "number" }
+                  }
+                }
+              },
+              "unchanged": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          },
+          "projections": {
+            "type": "object",
+            "required": ["first_touch", "last_touch", "linear", "time_decay", "w_shaped"],
+            "additionalProperties": {
+              "type": "object",
+              "required": ["projected_pipeline", "pipeline_delta", "pipeline_delta_pct", "projected_revenue", "projected_roi", "roi_delta", "confidence"],
+              "properties": {
+                "projected_pipeline": { "type": "number" },
+                "pipeline_delta": { "type": "number" },
+                "pipeline_delta_pct": { "type": "number" },
+                "projected_revenue": { "type": "number" },
+                "projected_roi": { "type": "number" },
+                "roi_delta": { "type": "number" },
+                "confidence": { "type": "string", "enum": ["High", "Medium", "Low"] }
+              }
+            }
+          },
+          "assumptions": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" }
+          },
+          "generated_because": { "type": "string" }
+        }
+      }
+    },
+    "custom_scenario_parameters": {
+      "type": "object",
+      "description": "Data structure for dashboard slider calculations",
+      "required": ["total_budget", "win_rate", "current_pipeline", "current_revenue", "current_roi", "current_allocation", "pipeline_per_dollar"],
+      "properties": {
+        "total_budget": { "type": "number", "minimum": 0 },
+        "win_rate": { "type": "number", "minimum": 0, "maximum": 1 },
+        "current_pipeline": { "type": "number", "minimum": 0 },
+        "current_revenue": { "type": "number", "minimum": 0 },
+        "current_roi": { "type": "number" },
+        "current_allocation": {
+          "type": "object",
+          "description": "Current budget percentage per channel",
+          "additionalProperties": { "type": "number", "minimum": 0, "maximum": 100 }
+        },
+        "pipeline_per_dollar": {
+          "type": "object",
+          "description": "Conversion rate per channel per attribution model",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["first_touch", "last_touch", "linear", "time_decay", "w_shaped"],
+            "additionalProperties": { "type": "number", "minimum": 0 }
+          }
+        }
+      }
+    },
+    "generation_reasoning": {
+      "type": "object",
+      "description": "Audit log of the scenario generation reasoning chain",
+      "required": ["flags_found", "scenarios_generated"],
+      "properties": {
+        "flags_found": {
+          "type": "object",
+          "properties": {
+            "underfunded": { "type": "array", "items": { "type": "string" } },
+            "high_volume_low_quality": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "source_channel_selection": { "type": "string" },
+        "destination_channel_selection": { "type": "string" },
+        "reallocation_sizing": { "type": "string" },
+        "scenarios_generated": { "type": "integer", "minimum": 1 },
+        "note": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

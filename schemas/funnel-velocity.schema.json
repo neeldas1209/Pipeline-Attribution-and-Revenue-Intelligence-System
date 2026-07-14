@@ -1,0 +1,277 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Funnel Velocity Analysis",
+  "description": "Agent 02 output: stage velocity, conversion, drop-off, bottlenecks, segments, and rep analysis",
+  "type": "object",
+  "required": ["metadata", "stage_velocity", "conversion_rates", "drop_off_analysis", "bottleneck_flags", "segment_comparisons", "sales_rep_analysis"],
+  "definitions": {
+    "velocity_metrics": {
+      "type": "object",
+      "required": ["avg", "median", "p90", "min", "max", "deal_count"],
+      "properties": {
+        "avg": { "type": "number", "minimum": 0 },
+        "median": { "type": "number", "minimum": 0 },
+        "p90": { "type": "number", "minimum": 0 },
+        "min": { "type": "number", "minimum": 0 },
+        "max": { "type": "number", "minimum": 0 },
+        "deal_count": { "type": "integer", "minimum": 0 },
+        "low_confidence": { "type": "boolean" }
+      }
+    },
+    "segment_breakdown": {
+      "type": "object",
+      "description": "Velocity metrics keyed by segment value",
+      "additionalProperties": { "$ref": "#/definitions/velocity_metrics" }
+    }
+  },
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["run_id", "total_deals", "deals_included", "deals_excluded", "deal_counts_by_outcome", "deal_counts_by_stage", "analysis_date"],
+      "properties": {
+        "run_id": { "type": "string" },
+        "generated_date": { "type": "string", "format": "date-time" },
+        "agent": { "type": "string" },
+        "total_deals": { "type": "integer", "minimum": 0 },
+        "deals_included": { "type": "integer", "minimum": 0 },
+        "deals_excluded": {
+          "type": "object",
+          "properties": {
+            "count": { "type": "integer", "minimum": 0 },
+            "deal_ids": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "deal_counts_by_outcome": {
+          "type": "object",
+          "required": ["won", "lost", "open"],
+          "properties": {
+            "won": { "type": "integer", "minimum": 0 },
+            "lost": { "type": "integer", "minimum": 0 },
+            "open": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "deal_counts_by_stage": {
+          "type": "object",
+          "properties": {
+            "lead": { "type": "integer", "minimum": 0 },
+            "mql": { "type": "integer", "minimum": 0 },
+            "sql": { "type": "integer", "minimum": 0 },
+            "opportunity": { "type": "integer", "minimum": 0 },
+            "closed": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "stage_skipping_deals": {
+          "type": "object",
+          "properties": {
+            "count": { "type": "integer", "minimum": 0 },
+            "deal_ids": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "stalled_deals": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "deal_id": { "type": "string" },
+              "current_stage": { "type": "string" },
+              "days_stalled": { "type": "integer", "minimum": 0 }
+            }
+          }
+        },
+        "data_quality_warnings": { "type": "array", "items": { "type": "string" } },
+        "analysis_date": { "type": "string", "format": "date" },
+        "quality_check": { "type": "object" }
+      }
+    },
+    "stage_velocity": {
+      "type": "object",
+      "description": "Velocity metrics per stage transition, overall and by segment",
+      "required": ["lead_to_mql", "mql_to_sql", "sql_to_opp", "opp_to_closed"],
+      "properties": {
+        "lead_to_mql": {
+          "type": "object",
+          "required": ["overall"],
+          "properties": {
+            "_data_type": { "type": "string", "const": "computed" },
+            "overall": { "$ref": "#/definitions/velocity_metrics" },
+            "by_company_size": { "$ref": "#/definitions/segment_breakdown" },
+            "by_industry": { "$ref": "#/definitions/segment_breakdown" },
+            "by_lead_source": { "$ref": "#/definitions/segment_breakdown" },
+            "by_deal_type": { "$ref": "#/definitions/segment_breakdown" },
+            "by_geography": { "$ref": "#/definitions/segment_breakdown" }
+          }
+        },
+        "mql_to_sql": {
+          "type": "object",
+          "required": ["overall"],
+          "properties": {
+            "_data_type": { "type": "string", "const": "computed" },
+            "overall": { "$ref": "#/definitions/velocity_metrics" },
+            "by_company_size": { "$ref": "#/definitions/segment_breakdown" },
+            "by_industry": { "$ref": "#/definitions/segment_breakdown" },
+            "by_lead_source": { "$ref": "#/definitions/segment_breakdown" },
+            "by_deal_type": { "$ref": "#/definitions/segment_breakdown" },
+            "by_geography": { "$ref": "#/definitions/segment_breakdown" }
+          }
+        },
+        "sql_to_opp": {
+          "type": "object",
+          "required": ["overall"],
+          "properties": {
+            "_data_type": { "type": "string", "const": "computed" },
+            "overall": { "$ref": "#/definitions/velocity_metrics" },
+            "by_company_size": { "$ref": "#/definitions/segment_breakdown" },
+            "by_industry": { "$ref": "#/definitions/segment_breakdown" },
+            "by_lead_source": { "$ref": "#/definitions/segment_breakdown" },
+            "by_deal_type": { "$ref": "#/definitions/segment_breakdown" },
+            "by_geography": { "$ref": "#/definitions/segment_breakdown" }
+          }
+        },
+        "opp_to_closed": {
+          "type": "object",
+          "required": ["overall"],
+          "properties": {
+            "_data_type": { "type": "string", "const": "computed" },
+            "overall": { "$ref": "#/definitions/velocity_metrics" },
+            "by_company_size": { "$ref": "#/definitions/segment_breakdown" },
+            "by_industry": { "$ref": "#/definitions/segment_breakdown" },
+            "by_lead_source": { "$ref": "#/definitions/segment_breakdown" },
+            "by_deal_type": { "$ref": "#/definitions/segment_breakdown" },
+            "by_geography": { "$ref": "#/definitions/segment_breakdown" }
+          }
+        },
+        "full_cycle": {
+          "type": "object",
+          "properties": {
+            "overall": { "$ref": "#/definitions/velocity_metrics" }
+          }
+        }
+      }
+    },
+    "conversion_rates": {
+      "type": "object",
+      "description": "Stage-by-stage and cumulative conversion rates",
+      "required": ["lead_to_mql", "mql_to_sql", "sql_to_opp", "opp_to_closed"],
+      "properties": {
+        "_data_type": { "type": "string", "const": "computed" },
+        "lead_to_mql": {
+          "type": "object",
+          "required": ["overall"],
+          "properties": {
+            "overall": {
+              "type": "object",
+              "required": ["rate", "numerator", "denominator"],
+              "properties": {
+                "rate": { "type": "number", "minimum": 0, "maximum": 100 },
+                "numerator": { "type": "integer", "minimum": 0 },
+                "denominator": { "type": "integer", "minimum": 0 }
+              }
+            },
+            "by_company_size": { "type": "object" },
+            "by_industry": { "type": "object" },
+            "by_lead_source": { "type": "object" },
+            "by_deal_type": { "type": "object" },
+            "by_geography": { "type": "object" }
+          }
+        },
+        "mql_to_sql": { "type": "object", "required": ["overall"] },
+        "sql_to_opp": { "type": "object", "required": ["overall"] },
+        "opp_to_closed": { "type": "object", "required": ["overall"] },
+        "cumulative": {
+          "type": "object",
+          "properties": {
+            "lead_to_won": { "type": "number", "minimum": 0, "maximum": 100 }
+          }
+        }
+      }
+    },
+    "drop_off_analysis": {
+      "type": "object",
+      "description": "Deals lost at each stage transition",
+      "required": ["lead_to_mql", "mql_to_sql", "sql_to_opp", "opp_to_closed"],
+      "additionalProperties": {
+        "type": "object",
+        "required": ["deals_dropped", "drop_rate"],
+        "properties": {
+          "_data_type": { "type": "string", "const": "computed" },
+          "deals_dropped": { "type": "integer", "minimum": 0 },
+          "drop_rate": { "type": "number", "minimum": 0, "maximum": 100 },
+          "still_open_count": { "type": "integer", "minimum": 0 },
+          "lost_reason_breakdown": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "reason": { "type": "string" },
+                "count": { "type": "integer", "minimum": 0 },
+                "pct": { "type": "number", "minimum": 0, "maximum": 100 }
+              }
+            }
+          }
+        }
+      }
+    },
+    "bottleneck_flags": {
+      "type": "array",
+      "description": "Flagged stage transitions exceeding thresholds",
+      "items": {
+        "type": "object",
+        "required": ["transition", "type", "value", "threshold", "ratio"],
+        "properties": {
+          "_data_type": { "type": "string", "const": "computed" },
+          "transition": { "type": "string" },
+          "type": { "type": "string", "enum": ["velocity", "conversion"] },
+          "value": { "type": "number" },
+          "threshold": { "type": "number" },
+          "ratio": { "type": "number" },
+          "segments_most_affected": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["dimension", "segment", "value", "vs_overall"],
+              "properties": {
+                "_data_type": { "type": "string", "const": "interpretive" },
+                "dimension": { "type": "string" },
+                "segment": { "type": "string" },
+                "value": { "type": "number" },
+                "vs_overall": { "type": "number" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "segment_comparisons": {
+      "type": "object",
+      "description": "Full metrics for every segment across all dimensions"
+    },
+    "sales_rep_analysis": {
+      "type": "array",
+      "description": "Per-rep performance metrics",
+      "items": {
+        "type": "object",
+        "required": ["rep_name", "total_deals", "won", "lost", "open", "win_rate"],
+        "properties": {
+          "rep_name": { "type": "string" },
+          "total_deals": { "type": "integer", "minimum": 0 },
+          "won": { "type": "integer", "minimum": 0 },
+          "lost": { "type": "integer", "minimum": 0 },
+          "open": { "type": "integer", "minimum": 0 },
+          "win_rate": { "type": "number", "minimum": 0, "maximum": 100 },
+          "avg_cycle_won": { "type": ["number", "null"] },
+          "velocity_by_transition": { "type": "object" },
+          "conversion_by_transition": { "type": "object" },
+          "bottleneck_flag": {
+            "type": ["object", "null"],
+            "properties": {
+              "type": { "type": "string" },
+              "value": { "type": "number" },
+              "team_avg": { "type": "number" },
+              "ratio": { "type": "number" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

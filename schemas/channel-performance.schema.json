@@ -1,0 +1,165 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Channel Performance Analysis",
+  "description": "Agent 03 output: channel leaderboard with 11 metrics × 5 models, diagnostic flags, persona analysis",
+  "type": "object",
+  "required": ["metadata", "channel_leaderboard", "campaign_detail", "diagnostic_flags", "persona_analysis"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["run_id", "total_spend", "total_pipeline_attributed"],
+      "properties": {
+        "run_id": { "type": "string" },
+        "generated_date": { "type": "string", "format": "date-time" },
+        "agent": { "type": "string" },
+        "total_spend": { "type": "number", "minimum": 0 },
+        "total_pipeline_attributed": { "type": "number", "minimum": 0 },
+        "channels_matched": { "type": "integer", "minimum": 0 },
+        "channels_unmatched": { "type": "array", "items": { "type": "string" } },
+        "campaigns_matched": { "type": "integer", "minimum": 0 },
+        "campaigns_unmatched": { "type": "array", "items": { "type": "string" } },
+        "data_quality_warnings": { "type": "array", "items": { "type": "string" } },
+        "quality_check": { "type": "object" }
+      }
+    },
+    "channel_leaderboard": {
+      "type": "object",
+      "description": "Per-channel: volume metrics (model-independent) + attribution metrics (per model) + time-normalized",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["total_spend", "budget_pct", "leads_generated", "mqls", "sqls", "opps", "won", "cost_per_lead", "cost_per_mql", "cost_per_sql", "cost_per_opp", "cost_per_won", "conversion_lead_to_won", "pipeline_created", "by_model"],
+        "properties": {
+          "total_spend": { "type": "number", "minimum": 0 },
+          "budget_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+          "leads_generated": { "type": "integer", "minimum": 0 },
+          "mqls": { "type": "integer", "minimum": 0 },
+          "sqls": { "type": "integer", "minimum": 0 },
+          "opps": { "type": "integer", "minimum": 0 },
+          "won": { "type": "integer", "minimum": 0 },
+          "cost_per_lead": { "type": ["number", "null"] },
+          "cost_per_mql": { "type": ["number", "null"] },
+          "cost_per_sql": { "type": ["number", "null"] },
+          "cost_per_opp": { "type": ["number", "null"] },
+          "cost_per_won": { "type": ["number", "null"] },
+          "conversion_lead_to_won": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+          "pipeline_created": { "type": "number", "minimum": 0 },
+          "by_model": {
+            "type": "object",
+            "required": ["first_touch", "last_touch", "linear", "time_decay", "w_shaped"],
+            "additionalProperties": {
+              "type": "object",
+              "required": ["pipeline_influenced", "avg_deal_size_attributed", "roi", "pipeline_per_dollar", "rank"],
+              "properties": {
+                "pipeline_influenced": { "type": "number", "minimum": 0 },
+                "avg_deal_size_attributed": { "type": ["number", "null"] },
+                "roi": { "type": ["number", "null"] },
+                "pipeline_per_dollar": { "type": ["number", "null"] },
+                "rank": { "type": "integer", "minimum": 1, "maximum": 6 }
+              }
+            }
+          },
+          "time_normalized": {
+            "type": "object",
+            "properties": {
+              "active_months": { "type": "number", "minimum": 0 },
+              "pipeline_per_month": { "type": "object" },
+              "roi_per_month": { "type": "object" },
+              "spend_per_month": { "type": "number", "minimum": 0 }
+            }
+          },
+          "channel_activity": {
+            "type": "object",
+            "properties": {
+              "first_touchpoint_date": { "type": "string", "format": "date" },
+              "last_touchpoint_date": { "type": "string", "format": "date" },
+              "total_touchpoint_count": { "type": "integer", "minimum": 0 }
+            }
+          }
+        }
+      }
+    },
+    "campaign_detail": {
+      "type": "object",
+      "description": "Per-campaign metrics nested under parent channel",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "properties": {
+            "total_spend": { "type": "number", "minimum": 0 },
+            "leads_generated": { "type": "integer", "minimum": 0 },
+            "mqls": { "type": "integer", "minimum": 0 },
+            "sqls": { "type": "integer", "minimum": 0 },
+            "opps": { "type": "integer", "minimum": 0 },
+            "won": { "type": "integer", "minimum": 0 },
+            "cost_per_lead": { "type": ["number", "null"] },
+            "cost_per_mql": { "type": ["number", "null"] },
+            "cost_per_sql": { "type": ["number", "null"] },
+            "cost_per_opp": { "type": ["number", "null"] },
+            "cost_per_won": { "type": ["number", "null"] },
+            "conversion_lead_to_won": { "type": ["number", "null"] },
+            "pipeline_created": { "type": "number", "minimum": 0 },
+            "by_model": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "pipeline_influenced": { "type": "number", "minimum": 0 },
+                  "avg_deal_size_attributed": { "type": ["number", "null"] },
+                  "roi": { "type": ["number", "null"] },
+                  "pipeline_per_dollar": { "type": ["number", "null"] },
+                  "rank": { "type": "integer", "minimum": 1 }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "diagnostic_flags": {
+      "type": "array",
+      "description": "Channels flagged for strategic attention, per model",
+      "items": {
+        "type": "object",
+        "required": ["channel", "model", "flag_type"],
+        "properties": {
+          "channel": { "type": "string" },
+          "model": { "type": "string", "enum": ["first_touch", "last_touch", "linear", "time_decay", "w_shaped"] },
+          "flag_type": { "type": "string", "enum": ["underfunded", "high_volume_low_quality"] },
+          "roi": { "type": ["number", "null"] },
+          "roi_rank": { "type": "integer" },
+          "budget_pct": { "type": "number" },
+          "budget_rank": { "type": "integer" },
+          "pipeline_influenced": { "type": "number" },
+          "leads_generated": { "type": "integer" },
+          "cost_per_won": { "type": ["number", "null"] },
+          "conversion_rate": { "type": ["number", "null"] }
+        }
+      }
+    },
+    "persona_analysis": {
+      "type": "object",
+      "description": "Per-channel touchpoint distribution by contact_role",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["touchpoint_distribution", "top_persona", "persona_reach_breadth"],
+        "properties": {
+          "touchpoint_distribution": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["contact_role", "count", "pct"],
+              "properties": {
+                "contact_role": { "type": "string" },
+                "count": { "type": "integer", "minimum": 0 },
+                "pct": { "type": "number", "minimum": 0, "maximum": 100 }
+              }
+            }
+          },
+          "top_persona": { "type": "string" },
+          "persona_reach_breadth": { "type": "integer", "minimum": 0 }
+        }
+      }
+    }
+  }
+}

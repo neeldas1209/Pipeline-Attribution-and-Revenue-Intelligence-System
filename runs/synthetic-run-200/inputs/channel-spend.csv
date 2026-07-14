@@ -1,0 +1,217 @@
+channel,campaign_name,month,spend
+Google Ads,Brand Search,2025-07,4739.89
+Google Ads,Brand Search,2025-08,4754.67
+Google Ads,Brand Search,2025-09,4571.87
+Google Ads,Brand Search,2025-10,4186.66
+Google Ads,Brand Search,2025-11,4321.61
+Google Ads,Brand Search,2025-12,4916.67
+Google Ads,Brand Search,2026-01,4908.27
+Google Ads,Brand Search,2026-02,4821.22
+Google Ads,Brand Search,2026-03,4828.79
+Google Ads,Brand Search,2026-04,4746.55
+Google Ads,Brand Search,2026-05,4406.66
+Google Ads,Brand Search,2026-06,4018.49
+Google Ads,Non-Brand Search,2025-07,4553.79
+Google Ads,Non-Brand Search,2025-08,5246.37
+Google Ads,Non-Brand Search,2025-09,4847.74
+Google Ads,Non-Brand Search,2025-10,4398.26
+Google Ads,Non-Brand Search,2025-11,4744.27
+Google Ads,Non-Brand Search,2025-12,4350.8
+Google Ads,Non-Brand Search,2026-01,5079.93
+Google Ads,Non-Brand Search,2026-02,5052.13
+Google Ads,Non-Brand Search,2026-03,5361.89
+Google Ads,Non-Brand Search,2026-04,5558.92
+Google Ads,Non-Brand Search,2026-05,5705.66
+Google Ads,Non-Brand Search,2026-06,4333.96
+Google Ads,Retargeting,2025-07,3187.53
+Google Ads,Retargeting,2025-08,2888.72
+Google Ads,Retargeting,2025-09,2896.32
+Google Ads,Retargeting,2025-10,3349.47
+Google Ads,Retargeting,2025-11,3302.84
+Google Ads,Retargeting,2025-12,3266.38
+Google Ads,Retargeting,2026-01,2886.02
+Google Ads,Retargeting,2026-02,3302.79
+Google Ads,Retargeting,2026-03,3083.81
+Google Ads,Retargeting,2026-04,2693.97
+Google Ads,Retargeting,2026-05,3227.32
+Google Ads,Retargeting,2026-06,3173.73
+LinkedIn,Sponsored Content,2025-07,3619.31
+LinkedIn,Sponsored Content,2025-08,3741.39
+LinkedIn,Sponsored Content,2025-09,4534.23
+LinkedIn,Sponsored Content,2025-10,3585.04
+LinkedIn,Sponsored Content,2025-11,4623.88
+LinkedIn,Sponsored Content,2025-12,4152.92
+LinkedIn,Sponsored Content,2026-01,3581.57
+LinkedIn,Sponsored Content,2026-02,3787.89
+LinkedIn,Sponsored Content,2026-03,4231.03
+LinkedIn,Sponsored Content,2026-04,4225.57
+LinkedIn,Sponsored Content,2026-05,4080.79
+LinkedIn,Sponsored Content,2026-06,4170.71
+LinkedIn,InMail,2025-07,2982.17
+LinkedIn,InMail,2025-08,2600.56
+LinkedIn,InMail,2025-09,2860.47
+LinkedIn,InMail,2025-10,2499.55
+LinkedIn,InMail,2025-11,2433.54
+LinkedIn,InMail,2025-12,2406.29
+LinkedIn,InMail,2026-01,2500.35
+LinkedIn,InMail,2026-02,2784.95
+LinkedIn,InMail,2026-03,2514.87
+LinkedIn,InMail,2026-04,2739.47
+LinkedIn,InMail,2026-05,2807.2
+LinkedIn,InMail,2026-06,2817.41
+LinkedIn,Conversation Ads,2025-07,2539.95
+LinkedIn,Conversation Ads,2025-08,2024.59
+LinkedIn,Conversation Ads,2025-09,2557.4
+LinkedIn,Conversation Ads,2025-10,2482.38
+LinkedIn,Conversation Ads,2025-11,2081.84
+LinkedIn,Conversation Ads,2025-12,2501.88
+LinkedIn,Conversation Ads,2026-01,2370.33
+LinkedIn,Conversation Ads,2026-02,2261.59
+LinkedIn,Conversation Ads,2026-03,1948.26
+LinkedIn,Conversation Ads,2026-04,2466.68
+LinkedIn,Conversation Ads,2026-05,2361.35
+LinkedIn,Conversation Ads,2026-06,2286.58
+Content Marketing,Blog/SEO,2025-07,2257.4
+Content Marketing,Blog/SEO,2025-08,2505.47
+Content Marketing,Blog/SEO,2025-09,2510.65
+Content Marketing,Blog/SEO,2025-10,2838.58
+Content Marketing,Blog/SEO,2025-11,2349.73
+Content Marketing,Blog/SEO,2025-12,2775.45
+Content Marketing,Blog/SEO,2026-01,2311.77
+Content Marketing,Blog/SEO,2026-02,2331.47
+Content Marketing,Blog/SEO,2026-03,2545.95
+Content Marketing,Blog/SEO,2026-04,2356.6
+Content Marketing,Blog/SEO,2026-05,2455.03
+Content Marketing,Blog/SEO,2026-06,2857.92
+Content Marketing,Webinars,2025-07,2479.99
+Content Marketing,Webinars,2025-08,2179.35
+Content Marketing,Webinars,2025-09,2068.85
+Content Marketing,Webinars,2025-10,2498.8
+Content Marketing,Webinars,2025-11,2168.14
+Content Marketing,Webinars,2025-12,1966.43
+Content Marketing,Webinars,2026-01,1902.4
+Content Marketing,Webinars,2026-02,2142.88
+Content Marketing,Webinars,2026-03,2059.3
+Content Marketing,Webinars,2026-04,2466.6
+Content Marketing,Webinars,2026-05,2150.22
+Content Marketing,Webinars,2026-06,2277.99
+Content Marketing,Ebooks/Guides,2025-07,1580.59
+Content Marketing,Ebooks/Guides,2025-08,1413.74
+Content Marketing,Ebooks/Guides,2025-09,1693.18
+Content Marketing,Ebooks/Guides,2025-10,1685.71
+Content Marketing,Ebooks/Guides,2025-11,1428.07
+Content Marketing,Ebooks/Guides,2025-12,1563.33
+Content Marketing,Ebooks/Guides,2026-01,1478.13
+Content Marketing,Ebooks/Guides,2026-02,1576.75
+Content Marketing,Ebooks/Guides,2026-03,1376.37
+Content Marketing,Ebooks/Guides,2026-04,1468.78
+Content Marketing,Ebooks/Guides,2026-05,1613.84
+Content Marketing,Ebooks/Guides,2026-06,1595.79
+Events,Conferences,2025-07,2427.69
+Events,Conferences,2025-08,2429.15
+Events,Conferences,2025-09,2924.78
+Events,Conferences,2025-10,2940.55
+Events,Conferences,2025-11,2994.62
+Events,Conferences,2025-12,2797.81
+Events,Conferences,2026-01,2429.75
+Events,Conferences,2026-02,3079.41
+Events,Conferences,2026-03,3099.27
+Events,Conferences,2026-04,2833.04
+Events,Conferences,2026-05,2942.94
+Events,Conferences,2026-06,2935.63
+Events,Hosted Roundtables,2025-07,1512.57
+Events,Hosted Roundtables,2025-08,1836.01
+Events,Hosted Roundtables,2025-09,1611.34
+Events,Hosted Roundtables,2025-10,1798.67
+Events,Hosted Roundtables,2025-11,1529.26
+Events,Hosted Roundtables,2025-12,1451.93
+Events,Hosted Roundtables,2026-01,1543.94
+Events,Hosted Roundtables,2026-02,1553.79
+Events,Hosted Roundtables,2026-03,1744.54
+Events,Hosted Roundtables,2026-04,1600.48
+Events,Hosted Roundtables,2026-05,1588.58
+Events,Hosted Roundtables,2026-06,1573.1
+Events,Partner Events,2025-07,1056.4
+Events,Partner Events,2025-08,1168.56
+Events,Partner Events,2025-09,1052.16
+Events,Partner Events,2025-10,1235.65
+Events,Partner Events,2025-11,1035.76
+Events,Partner Events,2025-12,1182.58
+Events,Partner Events,2026-01,1237.7
+Events,Partner Events,2026-02,1170.12
+Events,Partner Events,2026-03,927.16
+Events,Partner Events,2026-04,1149.74
+Events,Partner Events,2026-05,988.63
+Events,Partner Events,2026-06,1153.75
+Outbound BDR,Cold Outbound,2025-07,2111.49
+Outbound BDR,Cold Outbound,2025-08,2164.6
+Outbound BDR,Cold Outbound,2025-09,2129.75
+Outbound BDR,Cold Outbound,2025-10,2446.37
+Outbound BDR,Cold Outbound,2025-11,2132.34
+Outbound BDR,Cold Outbound,2025-12,2290.48
+Outbound BDR,Cold Outbound,2026-01,2047.13
+Outbound BDR,Cold Outbound,2026-02,2057.61
+Outbound BDR,Cold Outbound,2026-03,2251.99
+Outbound BDR,Cold Outbound,2026-04,2490.57
+Outbound BDR,Cold Outbound,2026-05,1984.61
+Outbound BDR,Cold Outbound,2026-06,2076.62
+Outbound BDR,Warm Follow-up,2025-07,1421.47
+Outbound BDR,Warm Follow-up,2025-08,1490.86
+Outbound BDR,Warm Follow-up,2025-09,1599.57
+Outbound BDR,Warm Follow-up,2025-10,1486.44
+Outbound BDR,Warm Follow-up,2025-11,1712.01
+Outbound BDR,Warm Follow-up,2025-12,1295.7
+Outbound BDR,Warm Follow-up,2026-01,1571.74
+Outbound BDR,Warm Follow-up,2026-02,1584.51
+Outbound BDR,Warm Follow-up,2026-03,1684.0
+Outbound BDR,Warm Follow-up,2026-04,1494.17
+Outbound BDR,Warm Follow-up,2026-05,1401.06
+Outbound BDR,Warm Follow-up,2026-06,1548.02
+Outbound BDR,Inbound Response,2025-07,1203.13
+Outbound BDR,Inbound Response,2025-08,1100.54
+Outbound BDR,Inbound Response,2025-09,1302.36
+Outbound BDR,Inbound Response,2025-10,1166.02
+Outbound BDR,Inbound Response,2025-11,1201.04
+Outbound BDR,Inbound Response,2025-12,1408.85
+Outbound BDR,Inbound Response,2026-01,1104.14
+Outbound BDR,Inbound Response,2026-02,1112.86
+Outbound BDR,Inbound Response,2026-03,1343.68
+Outbound BDR,Inbound Response,2026-04,1184.2
+Outbound BDR,Inbound Response,2026-05,1353.22
+Outbound BDR,Inbound Response,2026-06,1217.67
+Email Campaigns,Nurture Sequences,2025-07,1194.04
+Email Campaigns,Nurture Sequences,2025-08,1193.5
+Email Campaigns,Nurture Sequences,2025-09,1252.88
+Email Campaigns,Nurture Sequences,2025-10,1213.33
+Email Campaigns,Nurture Sequences,2025-11,1168.54
+Email Campaigns,Nurture Sequences,2025-12,1231.42
+Email Campaigns,Nurture Sequences,2026-01,1362.43
+Email Campaigns,Nurture Sequences,2026-02,1438.45
+Email Campaigns,Nurture Sequences,2026-03,1237.62
+Email Campaigns,Nurture Sequences,2026-04,1345.74
+Email Campaigns,Nurture Sequences,2026-05,1249.9
+Email Campaigns,Nurture Sequences,2026-06,1142.07
+Email Campaigns,Product Updates,2025-07,1261.9
+Email Campaigns,Product Updates,2025-08,1015.47
+Email Campaigns,Product Updates,2025-09,1266.73
+Email Campaigns,Product Updates,2025-10,1240.66
+Email Campaigns,Product Updates,2025-11,1101.55
+Email Campaigns,Product Updates,2025-12,1290.37
+Email Campaigns,Product Updates,2026-01,1308.45
+Email Campaigns,Product Updates,2026-02,1147.71
+Email Campaigns,Product Updates,2026-03,1301.27
+Email Campaigns,Product Updates,2026-04,1056.12
+Email Campaigns,Product Updates,2026-05,1155.58
+Email Campaigns,Product Updates,2026-06,1152.95
+Email Campaigns,Re-engagement,2025-07,791.59
+Email Campaigns,Re-engagement,2025-08,877.75
+Email Campaigns,Re-engagement,2025-09,884.35
+Email Campaigns,Re-engagement,2025-10,772.17
+Email Campaigns,Re-engagement,2025-11,895.25
+Email Campaigns,Re-engagement,2025-12,714.12
+Email Campaigns,Re-engagement,2026-01,738.13
+Email Campaigns,Re-engagement,2026-02,811.03
+Email Campaigns,Re-engagement,2026-03,807.41
+Email Campaigns,Re-engagement,2026-04,829.92
+Email Campaigns,Re-engagement,2026-05,720.34
+Email Campaigns,Re-engagement,2026-06,840.43

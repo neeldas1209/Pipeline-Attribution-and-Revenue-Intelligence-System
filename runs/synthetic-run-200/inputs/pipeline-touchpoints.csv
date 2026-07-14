@@ -1,0 +1,1206 @@
+deal_id,touchpoint_date,channel,campaign_name,content_asset,touchpoint_type,funnel_stage_at_touch,contact_role
+DEAL-001,2025-11-07,Google Ads,Retargeting,Case Study LP,page_visit,lead,Product Manager
+DEAL-001,2026-01-08,Email Campaigns,Nurture Sequences,Welcome Series Email,email_open,opportunity,Product Manager
+DEAL-002,2025-10-07,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,lead,Director of Marketing
+DEAL-002,2025-10-23,Google Ads,Brand Search,Product Overview Page,page_visit,sql,Director of Ops
+DEAL-002,2025-11-09,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,email_click,opportunity,Director of Ops
+DEAL-003,2026-03-18,LinkedIn,Conversation Ads,ROI Assessment Tool,content_download,lead,Director of Ops
+DEAL-003,2026-03-28,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,content_download,lead,Product Manager
+DEAL-003,2026-04-03,LinkedIn,Conversation Ads,Interactive Product Tour,page_visit,mql,Director of Ops
+DEAL-003,2026-04-19,LinkedIn,InMail,Personalized Demo Invite,page_visit,mql,Director of Ops
+DEAL-003,2026-04-28,Email Campaigns,Re-engagement,Special Offer Email,page_visit,sql,Product Manager
+DEAL-003,2026-05-05,Content Marketing,Webinars,Attribution Masterclass,email_click,sql,Product Manager
+DEAL-003,2026-05-15,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,email_click,opportunity,Director of Ops
+DEAL-003,2026-05-26,Content Marketing,Blog/SEO,Channel ROI Framework,email_click,opportunity,Product Manager
+DEAL-004,2026-05-26,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,email_click,lead,Marketing Analyst
+DEAL-004,2026-06-02,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,lead,Marketing Analyst
+DEAL-004,2026-06-09,Content Marketing,Webinars,Pipeline Analytics Deep Dive,page_visit,mql,VP Sales
+DEAL-004,2026-06-17,Google Ads,Retargeting,Free Trial Page,ad_click,sql,VP Sales
+DEAL-004,2026-06-19,Email Campaigns,Nurture Sequences,Welcome Series Email,email_click,opportunity,VP Sales
+DEAL-004,2026-06-27,Content Marketing,Webinars,CMO Metrics That Matter,content_download,opportunity,VP Sales
+DEAL-005,2025-08-29,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_click,lead,Marketing Manager
+DEAL-005,2025-09-08,Google Ads,Brand Search,Pricing Page,page_visit,lead,Product Manager
+DEAL-005,2025-09-16,LinkedIn,Conversation Ads,Quick Demo Scheduler,page_visit,mql,Product Manager
+DEAL-005,2025-09-23,Events,Hosted Roundtables,RevOps Leaders Forum,webinar_attendance,sql,Product Manager
+DEAL-005,2025-10-02,Events,Conferences,B2B Marketing Exchange,webinar_attendance,opportunity,CMO
+DEAL-005,2025-10-09,Events,Partner Events,HubSpot INBOUND Talk,webinar_attendance,opportunity,CMO
+DEAL-006,2025-08-13,Google Ads,Retargeting,Free Trial Page,page_visit,lead,CFO
+DEAL-006,2025-08-22,Google Ads,Retargeting,Case Study LP,ad_click,lead,CFO
+DEAL-006,2025-09-03,Google Ads,Retargeting,Case Study LP,page_visit,mql,VP Marketing
+DEAL-006,2025-09-17,Outbound BDR,Warm Follow-up,Content Download Follow-up,sales_call,mql,VP Marketing
+DEAL-006,2025-09-26,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,sql,CFO
+DEAL-006,2025-10-08,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,sql,VP Marketing
+DEAL-006,2025-10-18,Email Campaigns,Re-engagement,New Feature Alert,email_open,opportunity,CFO
+DEAL-006,2025-11-02,Content Marketing,Blog/SEO,Channel ROI Framework,content_download,opportunity,CFO
+DEAL-006,2025-11-13,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,sales_call,opportunity,CFO
+DEAL-007,2026-01-12,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,lead,Head of Demand Gen
+DEAL-007,2026-01-18,Google Ads,Retargeting,Case Study LP,ad_click,lead,Head of Demand Gen
+DEAL-007,2026-01-28,LinkedIn,Sponsored Content,Pipeline ROI Infographic,ad_click,lead,Head of Demand Gen
+DEAL-007,2026-02-06,Content Marketing,Webinars,CMO Metrics That Matter,content_download,mql,Head of Demand Gen
+DEAL-007,2026-02-19,LinkedIn,InMail,Executive Briefing Invite,ad_click,mql,CMO
+DEAL-007,2026-03-01,Outbound BDR,Warm Follow-up,Referral Introduction Call,sales_call,sql,CMO
+DEAL-007,2026-03-08,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,sales_call,sql,CMO
+DEAL-007,2026-03-14,Content Marketing,Blog/SEO,B2B Funnel Optimization,page_visit,sql,Head of Demand Gen
+DEAL-007,2026-03-24,Content Marketing,Blog/SEO,Channel ROI Framework,content_download,opportunity,VP Sales
+DEAL-007,2026-04-07,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,email_click,opportunity,CMO
+DEAL-007,2026-04-14,Content Marketing,Webinars,Attribution Masterclass,page_visit,opportunity,VP Sales
+DEAL-008,2026-03-30,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,lead,Marketing Director
+DEAL-008,2026-04-16,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_click,mql,Product Manager
+DEAL-008,2026-04-27,Email Campaigns,Re-engagement,Special Offer Email,page_visit,sql,CEO
+DEAL-008,2026-05-11,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,opportunity,CEO
+DEAL-008,2026-05-28,Content Marketing,Webinars,CMO Metrics That Matter,content_download,opportunity,CMO
+DEAL-009,2025-10-22,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,lead,Marketing Analyst
+DEAL-009,2025-11-03,LinkedIn,InMail,Executive Briefing Invite,ad_click,mql,Director of Marketing
+DEAL-009,2025-11-15,Events,Partner Events,HubSpot INBOUND Talk,event_attendance,sql,Director of Marketing
+DEAL-009,2025-12-05,Content Marketing,Webinars,Pipeline Analytics Deep Dive,email_click,opportunity,VP Sales
+DEAL-009,2025-12-16,Outbound BDR,Cold Outbound,LinkedIn Connection Request,sales_call,opportunity,CFO
+DEAL-010,2025-09-15,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,page_visit,lead,Content Strategist
+DEAL-010,2025-09-26,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,email_click,lead,Content Strategist
+DEAL-010,2025-10-12,LinkedIn,InMail,Product Update Announcement,content_download,lead,Marketing Director
+DEAL-010,2025-10-24,Events,Conferences,Revenue Summit,webinar_attendance,mql,Marketing Director
+DEAL-010,2025-11-07,Content Marketing,Webinars,Pipeline Analytics Deep Dive,email_click,mql,VP Sales
+DEAL-010,2025-11-21,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,page_visit,sql,Marketing Director
+DEAL-010,2025-12-05,Events,Conferences,Revenue Summit,webinar_attendance,sql,VP Sales
+DEAL-010,2025-12-21,LinkedIn,Conversation Ads,Quick Demo Scheduler,page_visit,sql,VP Sales
+DEAL-010,2026-01-06,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,content_download,opportunity,Marketing Director
+DEAL-010,2026-01-16,Events,Hosted Roundtables,RevOps Leaders Forum,webinar_attendance,opportunity,VP Sales
+DEAL-010,2026-01-31,Events,Conferences,Revenue Summit,event_attendance,opportunity,CEO
+DEAL-011,2025-12-19,Google Ads,Retargeting,Demo Request Page,page_visit,lead,Marketing Manager
+DEAL-011,2025-12-21,LinkedIn,Sponsored Content,Customer Success Story,page_visit,lead,Director of Ops
+DEAL-011,2025-12-31,Outbound BDR,Inbound Response,Demo Request Response,email_open,lead,Director of Ops
+DEAL-011,2026-01-02,Email Campaigns,Re-engagement,New Feature Alert,email_open,mql,Marketing Analyst
+DEAL-011,2026-01-08,Email Campaigns,Nurture Sequences,Welcome Series Email,email_open,mql,Director of Ops
+DEAL-011,2026-01-18,LinkedIn,InMail,Executive Briefing Invite,content_download,mql,Director of Ops
+DEAL-011,2026-01-25,Email Campaigns,Product Updates,Platform Update Newsletter,email_open,sql,CFO
+DEAL-011,2026-02-04,LinkedIn,Conversation Ads,Quick Demo Scheduler,content_download,sql,CFO
+DEAL-011,2026-02-10,LinkedIn,InMail,Executive Briefing Invite,page_visit,sql,Director of Ops
+DEAL-011,2026-02-17,LinkedIn,InMail,Executive Briefing Invite,content_download,opportunity,Director of Ops
+DEAL-011,2026-02-20,Email Campaigns,Product Updates,Platform Update Newsletter,page_visit,opportunity,Director of Ops
+DEAL-011,2026-02-28,Email Campaigns,Product Updates,Feature Launch Announcement,email_click,opportunity,CFO
+DEAL-012,2026-05-02,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,lead,Director of Marketing
+DEAL-012,2026-06-14,Google Ads,Retargeting,Case Study LP,ad_click,opportunity,Director of Marketing
+DEAL-013,2025-12-31,Content Marketing,Webinars,Pipeline Analytics Deep Dive,content_download,lead,Product Manager
+DEAL-013,2026-01-31,LinkedIn,Conversation Ads,Quick Demo Scheduler,page_visit,sql,Head of Demand Gen
+DEAL-013,2026-02-27,Content Marketing,Webinars,Pipeline Analytics Deep Dive,content_download,opportunity,Head of Demand Gen
+DEAL-014,2026-03-12,Content Marketing,Blog/SEO,Channel ROI Framework,email_click,lead,Marketing Director
+DEAL-014,2026-03-21,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,webinar_attendance,lead,Marketing Director
+DEAL-014,2026-04-06,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,mql,Marketing Director
+DEAL-014,2026-04-15,Content Marketing,Webinars,CMO Metrics That Matter,email_click,mql,Marketing Director
+DEAL-014,2026-04-29,Google Ads,Brand Search,Pricing Page,ad_click,sql,CMO
+DEAL-014,2026-05-07,Content Marketing,Webinars,Revenue Ops Workshop,page_visit,sql,Marketing Director
+DEAL-014,2026-05-20,Content Marketing,Blog/SEO,Channel ROI Framework,content_download,opportunity,CMO
+DEAL-014,2026-05-31,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,content_download,opportunity,Marketing Director
+DEAL-015,2025-07-24,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_open,lead,Head of Demand Gen
+DEAL-015,2025-08-16,Content Marketing,Webinars,CMO Metrics That Matter,page_visit,sql,CTO
+DEAL-015,2025-09-04,Events,Partner Events,Salesforce Dreamforce Session,webinar_attendance,opportunity,Head of Demand Gen
+DEAL-016,2026-04-10,Google Ads,Retargeting,Case Study LP,page_visit,lead,VP Sales
+DEAL-016,2026-04-15,Outbound BDR,Cold Outbound,Cold Email Sequence,email_click,mql,VP Sales
+DEAL-016,2026-04-16,Outbound BDR,Warm Follow-up,Content Download Follow-up,email_open,sql,VP Sales
+DEAL-016,2026-04-19,Email Campaigns,Nurture Sequences,Welcome Series Email,page_visit,opportunity,CMO
+DEAL-016,2026-04-22,Outbound BDR,Cold Outbound,Cold Email Sequence,email_open,opportunity,CMO
+DEAL-017,2026-03-29,Content Marketing,Webinars,CMO Metrics That Matter,content_download,lead,Director of Ops
+DEAL-017,2026-05-05,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,content_download,sql,CMO
+DEAL-017,2026-06-06,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,content_download,opportunity,VP Sales
+DEAL-018,2025-12-07,Google Ads,Brand Search,Product Overview Page,ad_click,lead,Marketing Director
+DEAL-018,2025-12-07,Google Ads,Brand Search,Brand Landing Page,ad_click,lead,Marketing Director
+DEAL-018,2025-12-10,Events,Partner Events,Salesforce Dreamforce Session,event_attendance,lead,Marketing Manager
+DEAL-018,2025-12-11,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,webinar_attendance,mql,Marketing Director
+DEAL-018,2025-12-12,Events,Partner Events,Salesforce Dreamforce Session,event_attendance,mql,Marketing Director
+DEAL-018,2025-12-15,Events,Hosted Roundtables,VP Marketing Roundtable,webinar_attendance,sql,VP Marketing
+DEAL-018,2025-12-17,Outbound BDR,Inbound Response,Pricing Inquiry Call,sales_call,sql,VP Marketing
+DEAL-018,2025-12-19,Email Campaigns,Re-engagement,New Feature Alert,page_visit,opportunity,Marketing Director
+DEAL-018,2025-12-21,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_open,opportunity,VP Marketing
+DEAL-018,2025-12-22,Email Campaigns,Re-engagement,We Miss You Email,email_open,opportunity,Marketing Director
+DEAL-019,2026-04-16,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,lead,Content Strategist
+DEAL-019,2026-06-30,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,content_download,opportunity,Marketing Director
+DEAL-020,2025-12-27,Outbound BDR,Warm Follow-up,Content Download Follow-up,email_click,lead,Marketing Director
+DEAL-020,2026-01-16,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,mql,Marketing Director
+DEAL-020,2026-01-29,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,page_visit,sql,CFO
+DEAL-020,2026-02-17,Content Marketing,Webinars,Attribution Masterclass,page_visit,opportunity,Marketing Director
+DEAL-021,2026-05-30,Email Campaigns,Re-engagement,We Miss You Email,page_visit,lead,Director of Ops
+DEAL-021,2026-06-15,Google Ads,Brand Search,Product Overview Page,page_visit,sql,Director of Ops
+DEAL-021,2026-06-27,Email Campaigns,Nurture Sequences,Welcome Series Email,email_click,opportunity,CEO
+DEAL-022,2026-02-02,Google Ads,Retargeting,Case Study LP,page_visit,lead,Content Strategist
+DEAL-022,2026-02-06,Google Ads,Retargeting,Case Study LP,page_visit,lead,Director of Marketing
+DEAL-022,2026-02-11,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,mql,Director of Marketing
+DEAL-022,2026-02-21,Email Campaigns,Product Updates,Feature Launch Announcement,email_click,mql,Director of Marketing
+DEAL-022,2026-02-25,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,sql,CMO
+DEAL-022,2026-02-27,Email Campaigns,Nurture Sequences,Product Education Drip,email_open,sql,Director of Marketing
+DEAL-022,2026-03-11,Email Campaigns,Product Updates,Feature Launch Announcement,page_visit,opportunity,CMO
+DEAL-022,2026-03-14,Email Campaigns,Product Updates,Feature Launch Announcement,email_open,opportunity,Director of Marketing
+DEAL-023,2026-01-14,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,lead,Content Strategist
+DEAL-023,2026-01-26,Google Ads,Brand Search,Brand Landing Page,page_visit,lead,Marketing Manager
+DEAL-023,2026-02-09,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_click,lead,Marketing Manager
+DEAL-023,2026-03-01,LinkedIn,Conversation Ads,Interactive Product Tour,content_download,mql,Marketing Manager
+DEAL-023,2026-03-12,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,mql,CFO
+DEAL-023,2026-03-30,LinkedIn,Sponsored Content,Customer Success Story,content_download,sql,CFO
+DEAL-023,2026-04-13,LinkedIn,Sponsored Content,Customer Success Story,content_download,sql,CFO
+DEAL-023,2026-04-27,Email Campaigns,Nurture Sequences,Customer Testimonial Email,page_visit,opportunity,CFO
+DEAL-023,2026-05-15,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,opportunity,CFO
+DEAL-023,2026-05-27,Google Ads,Retargeting,Case Study LP,page_visit,opportunity,CFO
+DEAL-024,2025-11-30,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,lead,Director of Ops
+DEAL-024,2025-12-02,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,mql,Director of Ops
+DEAL-024,2025-12-12,Outbound BDR,Inbound Response,Free Trial Onboarding Call,sales_call,sql,CFO
+DEAL-024,2025-12-20,Google Ads,Brand Search,Pricing Page,page_visit,opportunity,CFO
+DEAL-024,2025-12-29,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,email_click,opportunity,CTO
+DEAL-025,2026-03-21,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,lead,Director of Marketing
+DEAL-025,2026-03-26,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,lead,Director of Marketing
+DEAL-025,2026-04-06,Google Ads,Brand Search,Product Overview Page,ad_click,mql,Director of Marketing
+DEAL-025,2026-04-11,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,sql,Director of Marketing
+DEAL-025,2026-04-19,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,content_download,opportunity,CFO
+DEAL-025,2026-04-27,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,opportunity,Director of Marketing
+DEAL-026,2025-09-10,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_open,lead,Director of Marketing
+DEAL-026,2025-10-02,LinkedIn,Conversation Ads,Interactive Product Tour,content_download,sql,CEO
+DEAL-026,2025-10-23,Email Campaigns,Nurture Sequences,Product Education Drip,email_open,opportunity,Director of Marketing
+DEAL-027,2026-03-31,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,lead,Product Manager
+DEAL-027,2026-05-01,LinkedIn,Conversation Ads,Quick Demo Scheduler,page_visit,sql,VP Marketing
+DEAL-027,2026-05-30,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_open,opportunity,VP Marketing
+DEAL-028,2025-09-05,Email Campaigns,Product Updates,Platform Update Newsletter,page_visit,lead,Marketing Analyst
+DEAL-028,2025-09-08,Outbound BDR,Cold Outbound,Cold Email Sequence,sales_call,lead,Marketing Analyst
+DEAL-028,2025-09-14,Google Ads,Retargeting,Case Study LP,page_visit,mql,Marketing Analyst
+DEAL-028,2025-09-19,Email Campaigns,Re-engagement,Special Offer Email,page_visit,sql,CMO
+DEAL-028,2025-09-27,Google Ads,Brand Search,Brand Landing Page,page_visit,sql,CMO
+DEAL-028,2025-09-27,Content Marketing,Webinars,Attribution Masterclass,content_download,opportunity,CMO
+DEAL-028,2025-10-06,Email Campaigns,Product Updates,Platform Update Newsletter,page_visit,opportunity,VP Marketing
+DEAL-029,2025-10-10,Google Ads,Retargeting,Demo Request Page,page_visit,lead,Product Manager
+DEAL-029,2025-10-26,Content Marketing,Webinars,Attribution Masterclass,content_download,mql,Product Manager
+DEAL-029,2025-11-09,Google Ads,Retargeting,Demo Request Page,ad_click,sql,Product Manager
+DEAL-029,2025-11-22,Email Campaigns,Re-engagement,We Miss You Email,page_visit,opportunity,CTO
+DEAL-029,2025-12-11,Content Marketing,Webinars,Revenue Ops Workshop,page_visit,opportunity,VP Marketing
+DEAL-030,2025-08-01,Content Marketing,Webinars,CMO Metrics That Matter,email_click,lead,Marketing Director
+DEAL-030,2025-08-02,Outbound BDR,Inbound Response,Free Trial Onboarding Call,sales_call,lead,Marketing Analyst
+DEAL-030,2025-08-06,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,lead,Product Manager
+DEAL-030,2025-08-06,Email Campaigns,Product Updates,Platform Update Newsletter,email_open,mql,Head of Demand Gen
+DEAL-030,2025-08-10,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_open,mql,Head of Demand Gen
+DEAL-030,2025-08-11,Content Marketing,Webinars,CMO Metrics That Matter,email_click,sql,Head of Demand Gen
+DEAL-030,2025-08-12,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,page_visit,sql,Product Manager
+DEAL-030,2025-08-14,Email Campaigns,Nurture Sequences,Product Education Drip,page_visit,opportunity,Product Manager
+DEAL-030,2025-08-15,Email Campaigns,Nurture Sequences,Use Case Showcase,page_visit,sql,Head of Demand Gen
+DEAL-030,2025-08-21,Content Marketing,Webinars,Revenue Ops Workshop,email_click,opportunity,Product Manager
+DEAL-030,2025-08-21,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,email_click,opportunity,Marketing Director
+DEAL-031,2025-07-20,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,lead,Director of Marketing
+DEAL-031,2025-09-26,Google Ads,Brand Search,Brand Landing Page,page_visit,opportunity,Director of Marketing
+DEAL-032,2025-08-19,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,lead,Content Strategist
+DEAL-032,2025-08-29,Email Campaigns,Re-engagement,Special Offer Email,email_open,lead,Marketing Manager
+DEAL-032,2025-09-10,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,sales_call,mql,Marketing Manager
+DEAL-032,2025-09-27,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_click,mql,VP Marketing
+DEAL-032,2025-10-11,Email Campaigns,Product Updates,Integration Release Email,page_visit,sql,Head of Demand Gen
+DEAL-032,2025-10-22,LinkedIn,Conversation Ads,Interactive Product Tour,content_download,sql,VP Marketing
+DEAL-032,2025-11-06,Email Campaigns,Nurture Sequences,Welcome Series Email,page_visit,opportunity,Head of Demand Gen
+DEAL-032,2025-11-14,Email Campaigns,Re-engagement,Special Offer Email,email_open,opportunity,Head of Demand Gen
+DEAL-032,2025-11-29,Email Campaigns,Re-engagement,We Miss You Email,email_click,opportunity,Head of Demand Gen
+DEAL-033,2025-07-12,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,lead,Digital Marketing Specialist
+DEAL-033,2025-08-01,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,email_click,mql,Director of Marketing
+DEAL-033,2025-08-19,Google Ads,Brand Search,Pricing Page,ad_click,sql,CMO
+DEAL-033,2025-09-05,Google Ads,Retargeting,Case Study LP,ad_click,opportunity,Director of Marketing
+DEAL-033,2025-09-25,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,email_click,opportunity,CMO
+DEAL-034,2025-07-19,Email Campaigns,Product Updates,Platform Update Newsletter,email_click,lead,Marketing Analyst
+DEAL-034,2025-07-21,Email Campaigns,Re-engagement,New Feature Alert,page_visit,lead,Digital Marketing Specialist
+DEAL-034,2025-07-25,Email Campaigns,Product Updates,Platform Update Newsletter,email_open,mql,VP Marketing
+DEAL-034,2025-07-26,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,mql,SDR/BDR
+DEAL-034,2025-08-03,Email Campaigns,Nurture Sequences,Use Case Showcase,email_open,sql,VP Marketing
+DEAL-034,2025-08-04,Email Campaigns,Nurture Sequences,Customer Testimonial Email,page_visit,sql,VP Marketing
+DEAL-034,2025-08-05,Email Campaigns,Product Updates,Platform Update Newsletter,email_open,opportunity,VP Marketing
+DEAL-034,2025-08-07,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,opportunity,VP Marketing
+DEAL-035,2025-10-06,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_open,lead,Content Strategist
+DEAL-035,2025-10-09,Events,Conferences,MarTech Conference,event_attendance,lead,Head of Demand Gen
+DEAL-035,2025-10-13,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,event_attendance,mql,Content Strategist
+DEAL-035,2025-10-22,Events,Partner Events,HubSpot INBOUND Talk,event_attendance,sql,CMO
+DEAL-035,2025-10-22,Content Marketing,Webinars,Revenue Ops Workshop,content_download,sql,Head of Demand Gen
+DEAL-035,2025-10-30,Email Campaigns,Product Updates,Feature Launch Announcement,email_open,opportunity,CMO
+DEAL-035,2025-11-03,Events,Conferences,SaaStr Annual Booth,event_attendance,opportunity,CEO
+DEAL-036,2026-03-07,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,lead,SDR/BDR
+DEAL-036,2026-03-30,Events,Hosted Roundtables,RevOps Leaders Forum,event_attendance,mql,SDR/BDR
+DEAL-036,2026-04-25,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,sql,CFO
+DEAL-036,2026-05-20,Email Campaigns,Product Updates,Platform Update Newsletter,page_visit,opportunity,CFO
+DEAL-037,2025-07-27,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_open,lead,Head of Demand Gen
+DEAL-037,2025-08-11,Google Ads,Retargeting,Case Study LP,page_visit,lead,Head of Demand Gen
+DEAL-037,2025-08-30,Google Ads,Brand Search,Pricing Page,page_visit,mql,Director of Ops
+DEAL-037,2025-09-19,Outbound BDR,Warm Follow-up,Referral Introduction Call,sales_call,sql,CTO
+DEAL-037,2025-10-04,Outbound BDR,Warm Follow-up,Content Download Follow-up,sales_call,sql,Director of Ops
+DEAL-037,2025-10-19,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_click,opportunity,Director of Ops
+DEAL-037,2025-11-06,Email Campaigns,Product Updates,Integration Release Email,email_open,opportunity,Head of Demand Gen
+DEAL-038,2025-09-06,Google Ads,Brand Search,Product Overview Page,ad_click,lead,Product Manager
+DEAL-038,2025-09-13,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,sales_call,sql,Marketing Director
+DEAL-038,2025-09-21,Content Marketing,Webinars,Attribution Masterclass,content_download,opportunity,Marketing Director
+DEAL-039,2026-02-11,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,lead,Marketing Analyst
+DEAL-039,2026-03-06,LinkedIn,Conversation Ads,Interactive Product Tour,content_download,mql,Marketing Director
+DEAL-039,2026-03-29,Email Campaigns,Re-engagement,New Feature Alert,email_open,sql,Marketing Director
+DEAL-039,2026-04-17,LinkedIn,InMail,Executive Briefing Invite,content_download,opportunity,CEO
+DEAL-040,2025-07-19,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,sales_call,lead,Director of Marketing
+DEAL-040,2025-08-05,LinkedIn,InMail,Executive Briefing Invite,page_visit,lead,Director of Marketing
+DEAL-040,2025-08-15,Outbound BDR,Warm Follow-up,Content Download Follow-up,sales_call,mql,CMO
+DEAL-040,2025-08-29,LinkedIn,Sponsored Content,Customer Success Story,ad_click,sql,CEO
+DEAL-040,2025-09-12,Content Marketing,Webinars,Pipeline Analytics Deep Dive,content_download,opportunity,CFO
+DEAL-040,2025-09-25,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_click,opportunity,Director of Marketing
+DEAL-041,2026-02-04,Outbound BDR,Cold Outbound,Cold Email Sequence,email_open,lead,Digital Marketing Specialist
+DEAL-041,2026-02-13,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,mql,Content Strategist
+DEAL-041,2026-02-24,LinkedIn,InMail,Executive Briefing Invite,content_download,sql,Marketing Director
+DEAL-041,2026-03-08,LinkedIn,InMail,Personalized Demo Invite,content_download,opportunity,CMO
+DEAL-041,2026-03-15,Email Campaigns,Nurture Sequences,Product Education Drip,page_visit,opportunity,CMO
+DEAL-042,2025-09-24,Google Ads,Brand Search,Brand Landing Page,page_visit,lead,Digital Marketing Specialist
+DEAL-042,2025-09-25,Outbound BDR,Inbound Response,Demo Request Response,email_click,lead,Content Strategist
+DEAL-042,2025-09-29,Google Ads,Brand Search,Pricing Page,page_visit,lead,Content Strategist
+DEAL-042,2025-10-03,Google Ads,Retargeting,Demo Request Page,page_visit,mql,Head of Demand Gen
+DEAL-042,2025-10-04,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,mql,Head of Demand Gen
+DEAL-042,2025-10-05,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,page_visit,mql,CFO
+DEAL-042,2025-10-07,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,email_click,sql,Head of Demand Gen
+DEAL-042,2025-10-10,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,sql,CFO
+DEAL-042,2025-10-13,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,page_visit,sql,Head of Demand Gen
+DEAL-042,2025-10-14,Content Marketing,Webinars,CMO Metrics That Matter,email_click,opportunity,CFO
+DEAL-042,2025-10-16,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,opportunity,Head of Demand Gen
+DEAL-042,2025-10-17,Email Campaigns,Nurture Sequences,Product Education Drip,email_click,opportunity,CFO
+DEAL-043,2025-08-17,Google Ads,Brand Search,Brand Landing Page,page_visit,lead,Product Manager
+DEAL-043,2025-08-23,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_open,lead,Digital Marketing Specialist
+DEAL-043,2025-08-29,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,lead,Digital Marketing Specialist
+DEAL-043,2025-09-01,Google Ads,Brand Search,Brand Landing Page,ad_click,mql,Product Manager
+DEAL-043,2025-09-09,LinkedIn,InMail,Product Update Announcement,ad_click,mql,CMO
+DEAL-043,2025-09-11,Google Ads,Brand Search,Brand Landing Page,page_visit,mql,Product Manager
+DEAL-043,2025-09-14,LinkedIn,InMail,Product Update Announcement,content_download,sql,CMO
+DEAL-043,2025-09-22,Google Ads,Retargeting,Demo Request Page,page_visit,sql,CMO
+DEAL-043,2025-09-28,LinkedIn,Conversation Ads,Interactive Product Tour,ad_click,sql,CMO
+DEAL-043,2025-09-30,LinkedIn,Sponsored Content,State of B2B Attribution Report,content_download,opportunity,Product Manager
+DEAL-043,2025-10-10,LinkedIn,Conversation Ads,Interactive Product Tour,page_visit,opportunity,Product Manager
+DEAL-043,2025-10-11,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,opportunity,Product Manager
+DEAL-044,2026-05-30,Google Ads,Brand Search,Pricing Page,ad_click,lead,Marketing Analyst
+DEAL-044,2026-06-01,Google Ads,Brand Search,Pricing Page,page_visit,lead,SDR/BDR
+DEAL-044,2026-06-01,Google Ads,Brand Search,Product Overview Page,page_visit,lead,SDR/BDR
+DEAL-044,2026-06-04,Outbound BDR,Inbound Response,Demo Request Response,email_click,mql,SDR/BDR
+DEAL-044,2026-06-08,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,mql,CEO
+DEAL-044,2026-06-09,Events,Conferences,B2B Marketing Exchange,webinar_attendance,mql,CEO
+DEAL-044,2026-06-13,Events,Partner Events,HubSpot INBOUND Talk,webinar_attendance,sql,CEO
+DEAL-044,2026-06-14,Events,Conferences,SaaStr Annual Booth,event_attendance,sql,CEO
+DEAL-044,2026-06-20,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,sql,CEO
+DEAL-044,2026-06-20,Events,Conferences,B2B Marketing Exchange,webinar_attendance,opportunity,CEO
+DEAL-044,2026-06-21,Email Campaigns,Re-engagement,We Miss You Email,email_open,opportunity,CEO
+DEAL-044,2026-06-27,Email Campaigns,Nurture Sequences,Welcome Series Email,email_click,opportunity,CEO
+DEAL-045,2026-01-10,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,email_open,lead,Head of Demand Gen
+DEAL-045,2026-02-02,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_click,sql,Head of Demand Gen
+DEAL-045,2026-03-01,Email Campaigns,Nurture Sequences,Welcome Series Email,email_open,opportunity,Head of Demand Gen
+DEAL-046,2025-08-09,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,content_download,lead,Marketing Analyst
+DEAL-046,2025-09-04,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,content_download,mql,Marketing Analyst
+DEAL-046,2025-10-06,Email Campaigns,Product Updates,Feature Launch Announcement,email_open,sql,VP Sales
+DEAL-046,2025-11-02,Email Campaigns,Nurture Sequences,Welcome Series Email,email_click,opportunity,VP Sales
+DEAL-047,2026-01-28,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,page_visit,lead,SDR/BDR
+DEAL-047,2026-01-30,Content Marketing,Blog/SEO,B2B Funnel Optimization,page_visit,lead,Head of Demand Gen
+DEAL-047,2026-02-04,LinkedIn,Sponsored Content,Pipeline ROI Infographic,content_download,mql,VP Marketing
+DEAL-047,2026-02-06,Email Campaigns,Product Updates,Feature Launch Announcement,email_click,sql,VP Marketing
+DEAL-047,2026-02-09,Email Campaigns,Product Updates,Integration Release Email,page_visit,opportunity,Head of Demand Gen
+DEAL-047,2026-02-14,Content Marketing,Webinars,Attribution Masterclass,page_visit,opportunity,Head of Demand Gen
+DEAL-048,2025-08-25,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,content_download,lead,Marketing Manager
+DEAL-048,2025-09-26,Content Marketing,Blog/SEO,B2B Funnel Optimization,page_visit,mql,Marketing Manager
+DEAL-048,2025-11-05,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,content_download,sql,Marketing Manager
+DEAL-048,2025-12-12,Email Campaigns,Nurture Sequences,Product Education Drip,email_click,opportunity,Marketing Manager
+DEAL-049,2025-10-11,Email Campaigns,Nurture Sequences,Use Case Showcase,email_click,lead,Marketing Manager
+DEAL-049,2025-11-02,LinkedIn,Sponsored Content,State of B2B Attribution Report,content_download,mql,Marketing Manager
+DEAL-049,2025-11-26,LinkedIn,Sponsored Content,Pipeline ROI Infographic,content_download,sql,CFO
+DEAL-049,2025-12-16,Content Marketing,Blog/SEO,Channel ROI Framework,page_visit,opportunity,CFO
+DEAL-049,2026-01-06,LinkedIn,Conversation Ads,ROI Assessment Tool,content_download,opportunity,CFO
+DEAL-050,2026-03-27,Outbound BDR,Inbound Response,Pricing Inquiry Call,sales_call,lead,CEO
+DEAL-050,2026-04-13,Outbound BDR,Cold Outbound,Cold Email Sequence,email_click,opportunity,CEO
+DEAL-051,2025-10-01,Google Ads,Brand Search,Product Overview Page,page_visit,lead,SDR/BDR
+DEAL-051,2025-10-07,Google Ads,Retargeting,Free Trial Page,page_visit,lead,SDR/BDR
+DEAL-051,2025-10-20,Google Ads,Brand Search,Product Overview Page,ad_click,mql,Director of Marketing
+DEAL-051,2025-10-27,Google Ads,Retargeting,Case Study LP,ad_click,sql,VP Sales
+DEAL-051,2025-11-04,LinkedIn,Sponsored Content,Pipeline ROI Infographic,page_visit,sql,VP Sales
+DEAL-051,2025-11-14,Email Campaigns,Nurture Sequences,Product Education Drip,email_click,opportunity,Director of Marketing
+DEAL-051,2025-11-23,Google Ads,Brand Search,Brand Landing Page,page_visit,opportunity,VP Sales
+DEAL-052,2025-09-25,Content Marketing,Webinars,CMO Metrics That Matter,page_visit,lead,Director of Marketing
+DEAL-052,2025-10-01,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,lead,SDR/BDR
+DEAL-052,2025-10-16,Email Campaigns,Re-engagement,We Miss You Email,email_click,lead,Marketing Manager
+DEAL-052,2025-10-25,Content Marketing,Webinars,Revenue Ops Workshop,content_download,mql,Marketing Manager
+DEAL-052,2025-11-02,Events,Conferences,MarTech Conference,webinar_attendance,mql,Director of Marketing
+DEAL-052,2025-11-12,Events,Conferences,SaaStr Annual Booth,webinar_attendance,sql,Director of Marketing
+DEAL-052,2025-11-20,LinkedIn,InMail,Executive Briefing Invite,ad_click,sql,Director of Marketing
+DEAL-052,2025-12-05,Content Marketing,Blog/SEO,Channel ROI Framework,email_click,sql,Director of Marketing
+DEAL-052,2025-12-15,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,email_click,opportunity,Director of Marketing
+DEAL-052,2025-12-22,Content Marketing,Webinars,Revenue Ops Workshop,email_click,opportunity,Director of Marketing
+DEAL-052,2025-12-30,Events,Conferences,SaaStr Annual Booth,webinar_attendance,opportunity,Director of Marketing
+DEAL-053,2025-09-17,Google Ads,Retargeting,Case Study LP,ad_click,lead,Marketing Director
+DEAL-053,2025-09-19,LinkedIn,InMail,Executive Briefing Invite,content_download,lead,Digital Marketing Specialist
+DEAL-053,2025-09-23,Events,Partner Events,Marketo Summit Workshop,webinar_attendance,mql,Marketing Director
+DEAL-053,2025-09-29,Content Marketing,Webinars,Pipeline Analytics Deep Dive,content_download,sql,Marketing Director
+DEAL-053,2025-10-07,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,event_attendance,opportunity,Marketing Director
+DEAL-053,2025-10-13,Outbound BDR,Cold Outbound,Cold Email Sequence,email_open,opportunity,Marketing Director
+DEAL-054,2026-02-12,Outbound BDR,Cold Outbound,Cold Email Sequence,sales_call,lead,Marketing Manager
+DEAL-054,2026-04-09,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,opportunity,CTO
+DEAL-055,2025-08-17,Outbound BDR,Inbound Response,Demo Request Response,sales_call,lead,Head of Demand Gen
+DEAL-055,2025-09-14,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_click,mql,Head of Demand Gen
+DEAL-055,2025-10-13,Outbound BDR,Warm Follow-up,Content Download Follow-up,email_open,sql,Head of Demand Gen
+DEAL-055,2025-11-12,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,email_click,opportunity,VP Marketing
+DEAL-056,2025-12-14,Google Ads,Retargeting,Free Trial Page,page_visit,lead,Digital Marketing Specialist
+DEAL-056,2025-12-23,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_click,mql,Digital Marketing Specialist
+DEAL-056,2026-01-05,Google Ads,Retargeting,Demo Request Page,page_visit,sql,CEO
+DEAL-056,2026-01-12,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,email_click,opportunity,CEO
+DEAL-056,2026-01-26,Email Campaigns,Nurture Sequences,Use Case Showcase,page_visit,opportunity,VP Sales
+DEAL-057,2025-11-14,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,lead,Marketing Analyst
+DEAL-057,2025-12-17,Content Marketing,Blog/SEO,Channel ROI Framework,content_download,opportunity,SDR/BDR
+DEAL-058,2026-02-08,Outbound BDR,Inbound Response,Demo Request Response,email_open,lead,SDR/BDR
+DEAL-058,2026-02-13,Events,Hosted Roundtables,VP Marketing Roundtable,webinar_attendance,mql,Director of Ops
+DEAL-058,2026-02-18,Google Ads,Retargeting,Free Trial Page,page_visit,sql,Director of Ops
+DEAL-058,2026-02-23,Content Marketing,Webinars,Pipeline Analytics Deep Dive,page_visit,opportunity,Director of Ops
+DEAL-058,2026-03-06,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,email_click,opportunity,Director of Ops
+DEAL-059,2025-08-26,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,lead,SDR/BDR
+DEAL-059,2025-09-03,Content Marketing,Webinars,Attribution Masterclass,page_visit,lead,Product Manager
+DEAL-059,2025-09-18,Content Marketing,Webinars,Pipeline Analytics Deep Dive,email_click,mql,Product Manager
+DEAL-059,2025-09-25,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,sql,Product Manager
+DEAL-059,2025-10-10,Email Campaigns,Product Updates,Feature Launch Announcement,email_open,opportunity,VP Marketing
+DEAL-059,2025-10-16,Content Marketing,Blog/SEO,B2B Funnel Optimization,email_click,opportunity,VP Marketing
+DEAL-060,2025-11-26,Google Ads,Brand Search,Product Overview Page,ad_click,lead,CTO
+DEAL-060,2025-12-16,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,mql,VP Sales
+DEAL-060,2026-01-11,Events,Partner Events,Salesforce Dreamforce Session,event_attendance,sql,VP Sales
+DEAL-060,2026-02-04,Email Campaigns,Re-engagement,New Feature Alert,page_visit,opportunity,VP Sales
+DEAL-060,2026-02-26,Email Campaigns,Product Updates,Feature Launch Announcement,page_visit,opportunity,VP Sales
+DEAL-061,2025-12-21,Content Marketing,Webinars,Pipeline Analytics Deep Dive,content_download,lead,Digital Marketing Specialist
+DEAL-061,2025-12-28,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,page_visit,lead,Digital Marketing Specialist
+DEAL-061,2026-01-01,LinkedIn,Sponsored Content,Pipeline ROI Infographic,page_visit,lead,Digital Marketing Specialist
+DEAL-061,2026-01-13,Email Campaigns,Product Updates,Feature Launch Announcement,email_click,mql,Digital Marketing Specialist
+DEAL-061,2026-01-19,Content Marketing,Blog/SEO,B2B Funnel Optimization,content_download,mql,CEO
+DEAL-061,2026-01-28,Content Marketing,Blog/SEO,Channel ROI Framework,email_click,sql,CEO
+DEAL-061,2026-02-05,Email Campaigns,Product Updates,Feature Launch Announcement,email_click,sql,CEO
+DEAL-061,2026-02-11,Email Campaigns,Product Updates,Integration Release Email,page_visit,opportunity,CTO
+DEAL-061,2026-02-13,Email Campaigns,Product Updates,Platform Update Newsletter,page_visit,opportunity,CEO
+DEAL-061,2026-02-24,Email Campaigns,Nurture Sequences,Use Case Showcase,email_open,opportunity,CTO
+DEAL-062,2025-09-01,Events,Partner Events,Marketo Summit Workshop,webinar_attendance,lead,Head of Demand Gen
+DEAL-062,2025-09-18,Events,Partner Events,Marketo Summit Workshop,event_attendance,mql,SDR/BDR
+DEAL-062,2025-10-12,Google Ads,Retargeting,Demo Request Page,page_visit,sql,Head of Demand Gen
+DEAL-062,2025-11-02,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,opportunity,Head of Demand Gen
+DEAL-063,2025-12-24,Google Ads,Brand Search,Product Overview Page,ad_click,lead,Marketing Manager
+DEAL-063,2025-12-26,Outbound BDR,Cold Outbound,Cold Email Sequence,sales_call,lead,Marketing Manager
+DEAL-063,2025-12-28,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,sales_call,lead,Marketing Manager
+DEAL-063,2026-01-04,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,mql,Marketing Manager
+DEAL-063,2026-01-05,Events,Conferences,SaaStr Annual Booth,webinar_attendance,mql,CMO
+DEAL-063,2026-01-05,Events,Partner Events,Marketo Summit Workshop,webinar_attendance,sql,CTO
+DEAL-063,2026-01-13,Content Marketing,Blog/SEO,B2B Funnel Optimization,email_click,sql,CTO
+DEAL-063,2026-01-17,Email Campaigns,Re-engagement,New Feature Alert,page_visit,opportunity,CTO
+DEAL-063,2026-01-19,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_click,opportunity,CTO
+DEAL-063,2026-01-20,Google Ads,Brand Search,Pricing Page,ad_click,opportunity,CTO
+DEAL-064,2025-07-27,LinkedIn,Sponsored Content,Pipeline ROI Infographic,content_download,lead,Director of Marketing
+DEAL-064,2025-08-02,Google Ads,Brand Search,Pricing Page,page_visit,lead,Content Strategist
+DEAL-064,2025-08-11,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,lead,Content Strategist
+DEAL-064,2025-08-24,LinkedIn,InMail,Executive Briefing Invite,ad_click,mql,Director of Marketing
+DEAL-064,2025-09-01,LinkedIn,Sponsored Content,Pipeline ROI Infographic,content_download,mql,Director of Marketing
+DEAL-064,2025-09-08,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,sql,CMO
+DEAL-064,2025-09-18,Events,Partner Events,Marketo Summit Workshop,event_attendance,sql,CMO
+DEAL-064,2025-09-30,LinkedIn,Conversation Ads,Interactive Product Tour,page_visit,opportunity,CMO
+DEAL-064,2025-10-05,Email Campaigns,Re-engagement,Special Offer Email,email_open,opportunity,CMO
+DEAL-064,2025-10-15,Email Campaigns,Re-engagement,We Miss You Email,email_click,opportunity,CMO
+DEAL-065,2025-09-01,Events,Partner Events,Marketo Summit Workshop,webinar_attendance,lead,Product Manager
+DEAL-065,2025-09-15,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,webinar_attendance,mql,Marketing Analyst
+DEAL-065,2025-09-26,Events,Conferences,SaaStr Annual Booth,event_attendance,sql,Product Manager
+DEAL-065,2025-10-07,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,content_download,opportunity,Product Manager
+DEAL-066,2026-04-11,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,lead,Marketing Director
+DEAL-066,2026-04-19,Content Marketing,Webinars,Attribution Masterclass,page_visit,lead,Marketing Director
+DEAL-066,2026-05-04,Email Campaigns,Re-engagement,Special Offer Email,page_visit,mql,Marketing Director
+DEAL-066,2026-05-19,LinkedIn,Sponsored Content,Customer Success Story,content_download,sql,Director of Marketing
+DEAL-066,2026-06-03,LinkedIn,InMail,Executive Briefing Invite,page_visit,sql,Director of Marketing
+DEAL-066,2026-06-19,Email Campaigns,Nurture Sequences,Welcome Series Email,page_visit,opportunity,Director of Marketing
+DEAL-066,2026-06-30,LinkedIn,Conversation Ads,ROI Assessment Tool,ad_click,opportunity,Marketing Director
+DEAL-067,2025-09-15,Google Ads,Retargeting,Demo Request Page,ad_click,lead,Digital Marketing Specialist
+DEAL-067,2025-09-29,LinkedIn,Sponsored Content,State of B2B Attribution Report,page_visit,lead,Digital Marketing Specialist
+DEAL-067,2025-10-16,Google Ads,Brand Search,Pricing Page,ad_click,mql,CFO
+DEAL-067,2025-10-28,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,sql,CFO
+DEAL-067,2025-11-16,Email Campaigns,Nurture Sequences,Use Case Showcase,page_visit,opportunity,CFO
+DEAL-067,2025-11-30,Email Campaigns,Re-engagement,New Feature Alert,email_open,opportunity,CFO
+DEAL-068,2025-07-06,Outbound BDR,Warm Follow-up,Referral Introduction Call,sales_call,lead,Marketing Analyst
+DEAL-068,2025-07-28,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,page_visit,mql,Marketing Analyst
+DEAL-068,2025-08-16,Google Ads,Brand Search,Pricing Page,ad_click,sql,Head of Demand Gen
+DEAL-068,2025-09-12,Content Marketing,Webinars,Revenue Ops Workshop,page_visit,opportunity,Head of Demand Gen
+DEAL-069,2026-03-19,Outbound BDR,Inbound Response,Demo Request Response,email_click,lead,Marketing Analyst
+DEAL-069,2026-06-09,Email Campaigns,Re-engagement,Special Offer Email,email_open,opportunity,Marketing Analyst
+DEAL-070,2025-09-07,Events,Conferences,B2B Marketing Exchange,event_attendance,lead,Director of Ops
+DEAL-070,2025-09-18,Outbound BDR,Warm Follow-up,Content Download Follow-up,email_click,lead,Director of Ops
+DEAL-070,2025-09-23,Google Ads,Brand Search,Pricing Page,page_visit,mql,Director of Ops
+DEAL-070,2025-10-06,Google Ads,Retargeting,Free Trial Page,page_visit,sql,Director of Ops
+DEAL-070,2025-10-17,Google Ads,Retargeting,Demo Request Page,page_visit,sql,VP Marketing
+DEAL-070,2025-10-20,LinkedIn,Conversation Ads,ROI Assessment Tool,ad_click,opportunity,VP Marketing
+DEAL-070,2025-10-31,Google Ads,Retargeting,Free Trial Page,page_visit,opportunity,VP Marketing
+DEAL-071,2026-01-15,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,page_visit,lead,Head of Demand Gen
+DEAL-071,2026-02-02,Outbound BDR,Cold Outbound,Cold Email Sequence,sales_call,sql,Marketing Director
+DEAL-071,2026-02-24,Email Campaigns,Product Updates,Feature Launch Announcement,page_visit,opportunity,Head of Demand Gen
+DEAL-072,2025-07-03,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,lead,Marketing Analyst
+DEAL-072,2025-08-04,Email Campaigns,Product Updates,Platform Update Newsletter,email_open,opportunity,CFO
+DEAL-073,2026-04-13,Events,Conferences,B2B Marketing Exchange,event_attendance,lead,Digital Marketing Specialist
+DEAL-073,2026-05-06,Events,Hosted Roundtables,RevOps Leaders Forum,webinar_attendance,mql,Digital Marketing Specialist
+DEAL-073,2026-05-30,Content Marketing,Webinars,CMO Metrics That Matter,page_visit,sql,VP Sales
+DEAL-073,2026-06-28,Content Marketing,Blog/SEO,B2B Funnel Optimization,page_visit,opportunity,VP Sales
+DEAL-074,2025-10-18,Email Campaigns,Re-engagement,We Miss You Email,email_click,lead,Digital Marketing Specialist
+DEAL-074,2025-10-19,Outbound BDR,Cold Outbound,LinkedIn Connection Request,email_click,lead,Product Manager
+DEAL-074,2025-10-21,Google Ads,Brand Search,Pricing Page,ad_click,mql,Product Manager
+DEAL-074,2025-10-26,Google Ads,Retargeting,Free Trial Page,page_visit,sql,Head of Demand Gen
+DEAL-074,2025-10-27,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_click,mql,Product Manager
+DEAL-074,2025-11-01,Google Ads,Retargeting,Free Trial Page,ad_click,sql,Product Manager
+DEAL-074,2025-11-04,Email Campaigns,Product Updates,Platform Update Newsletter,page_visit,opportunity,Head of Demand Gen
+DEAL-074,2025-11-05,LinkedIn,Sponsored Content,Pipeline ROI Infographic,ad_click,opportunity,Head of Demand Gen
+DEAL-074,2025-11-08,Google Ads,Retargeting,Free Trial Page,page_visit,opportunity,Product Manager
+DEAL-075,2026-01-12,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,lead,Marketing Director
+DEAL-075,2026-01-30,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,sales_call,mql,Product Manager
+DEAL-075,2026-02-13,Events,Partner Events,Salesforce Dreamforce Session,event_attendance,sql,Product Manager
+DEAL-075,2026-02-26,Outbound BDR,Cold Outbound,Cold Email Sequence,sales_call,opportunity,VP Marketing
+DEAL-076,2025-09-03,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,lead,VP Sales
+DEAL-076,2025-09-26,Google Ads,Retargeting,Case Study LP,ad_click,mql,CEO
+DEAL-076,2025-10-18,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_open,sql,VP Sales
+DEAL-076,2025-11-14,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,page_visit,opportunity,VP Sales
+DEAL-076,2025-12-07,Email Campaigns,Nurture Sequences,Customer Testimonial Email,page_visit,opportunity,CEO
+DEAL-077,2026-01-16,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,email_open,lead,SDR/BDR
+DEAL-077,2026-01-25,Google Ads,Brand Search,Product Overview Page,ad_click,lead,SDR/BDR
+DEAL-077,2026-02-06,Outbound BDR,Inbound Response,Demo Request Response,sales_call,mql,SDR/BDR
+DEAL-077,2026-02-18,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,mql,VP Sales
+DEAL-077,2026-02-28,Content Marketing,Webinars,Attribution Masterclass,content_download,sql,VP Sales
+DEAL-077,2026-03-15,Content Marketing,Blog/SEO,B2B Funnel Optimization,content_download,sql,CFO
+DEAL-077,2026-03-29,Email Campaigns,Nurture Sequences,Use Case Showcase,email_open,opportunity,VP Sales
+DEAL-077,2026-04-05,Google Ads,Brand Search,Product Overview Page,ad_click,opportunity,VP Sales
+DEAL-078,2025-07-25,Outbound BDR,Inbound Response,Demo Request Response,email_click,lead,Marketing Manager
+DEAL-078,2025-07-27,LinkedIn,Sponsored Content,Pipeline ROI Infographic,ad_click,lead,Marketing Manager
+DEAL-078,2025-07-31,Google Ads,Retargeting,Case Study LP,ad_click,mql,Marketing Manager
+DEAL-078,2025-08-02,LinkedIn,Conversation Ads,Interactive Product Tour,content_download,mql,CEO
+DEAL-078,2025-08-09,LinkedIn,InMail,Product Update Announcement,content_download,sql,CEO
+DEAL-078,2025-08-09,Email Campaigns,Re-engagement,We Miss You Email,email_open,sql,CEO
+DEAL-078,2025-08-15,Content Marketing,Webinars,Revenue Ops Workshop,page_visit,opportunity,CEO
+DEAL-078,2025-08-18,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,email_click,opportunity,CEO
+DEAL-079,2026-01-04,LinkedIn,InMail,Executive Briefing Invite,content_download,lead,SDR/BDR
+DEAL-079,2026-01-25,Google Ads,Retargeting,Case Study LP,ad_click,mql,SDR/BDR
+DEAL-079,2026-02-16,Outbound BDR,Cold Outbound,Cold Email Sequence,sales_call,sql,Marketing Director
+DEAL-079,2026-03-15,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_click,opportunity,CEO
+DEAL-079,2026-04-05,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,email_click,opportunity,Marketing Director
+DEAL-080,2025-07-30,Outbound BDR,Warm Follow-up,Content Download Follow-up,email_click,lead,Content Strategist
+DEAL-080,2025-08-08,Google Ads,Brand Search,Pricing Page,page_visit,mql,Content Strategist
+DEAL-080,2025-08-15,Google Ads,Retargeting,Free Trial Page,page_visit,sql,VP Sales
+DEAL-080,2025-08-21,Content Marketing,Webinars,Revenue Ops Workshop,content_download,opportunity,CMO
+DEAL-081,2025-07-09,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,lead,Marketing Manager
+DEAL-081,2025-07-26,Events,Conferences,Revenue Summit,event_attendance,mql,Marketing Manager
+DEAL-081,2025-08-21,Events,Hosted Roundtables,RevOps Leaders Forum,event_attendance,sql,Marketing Analyst
+DEAL-081,2025-09-09,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,opportunity,Marketing Analyst
+DEAL-082,2025-07-06,Google Ads,Brand Search,Product Overview Page,ad_click,lead,Digital Marketing Specialist
+DEAL-082,2025-07-22,Outbound BDR,Inbound Response,Free Trial Onboarding Call,sales_call,lead,SDR/BDR
+DEAL-082,2025-08-12,Content Marketing,Webinars,Revenue Ops Workshop,email_click,mql,Marketing Analyst
+DEAL-082,2025-08-27,Content Marketing,Webinars,Pipeline Analytics Deep Dive,email_click,sql,Director of Ops
+DEAL-082,2025-09-11,Events,Partner Events,Marketo Summit Workshop,event_attendance,sql,Director of Ops
+DEAL-082,2025-09-27,Content Marketing,Webinars,CMO Metrics That Matter,content_download,opportunity,Director of Ops
+DEAL-082,2025-10-17,Content Marketing,Webinars,CMO Metrics That Matter,content_download,opportunity,Director of Ops
+DEAL-083,2025-08-15,Google Ads,Retargeting,Free Trial Page,ad_click,lead,Marketing Director
+DEAL-083,2025-09-20,LinkedIn,Sponsored Content,State of B2B Attribution Report,page_visit,sql,Product Manager
+DEAL-083,2025-10-31,Google Ads,Retargeting,Case Study LP,page_visit,opportunity,Marketing Director
+DEAL-084,2025-08-20,Google Ads,Retargeting,Case Study LP,page_visit,lead,SDR/BDR
+DEAL-084,2025-08-30,Email Campaigns,Re-engagement,We Miss You Email,email_click,lead,SDR/BDR
+DEAL-084,2025-09-12,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,page_visit,lead,SDR/BDR
+DEAL-084,2025-09-22,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_click,mql,SDR/BDR
+DEAL-084,2025-10-04,Google Ads,Retargeting,Free Trial Page,ad_click,mql,VP Marketing
+DEAL-084,2025-10-16,LinkedIn,InMail,Personalized Demo Invite,content_download,mql,VP Sales
+DEAL-084,2025-10-27,Google Ads,Retargeting,Case Study LP,ad_click,sql,VP Marketing
+DEAL-084,2025-11-04,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,sql,VP Sales
+DEAL-084,2025-11-14,Email Campaigns,Re-engagement,Special Offer Email,page_visit,sql,VP Sales
+DEAL-084,2025-11-27,LinkedIn,Sponsored Content,State of B2B Attribution Report,content_download,opportunity,VP Marketing
+DEAL-084,2025-12-11,Content Marketing,Webinars,CMO Metrics That Matter,content_download,opportunity,VP Sales
+DEAL-084,2025-12-19,Google Ads,Brand Search,Brand Landing Page,ad_click,opportunity,VP Sales
+DEAL-085,2026-03-17,LinkedIn,Sponsored Content,Pipeline ROI Infographic,ad_click,lead,Director of Ops
+DEAL-085,2026-03-22,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,lead,Director of Ops
+DEAL-085,2026-03-24,Google Ads,Retargeting,Demo Request Page,page_visit,mql,CMO
+DEAL-085,2026-04-01,Google Ads,Retargeting,Free Trial Page,ad_click,sql,CMO
+DEAL-085,2026-04-04,Google Ads,Brand Search,Pricing Page,page_visit,opportunity,Director of Ops
+DEAL-085,2026-04-07,Email Campaigns,Re-engagement,We Miss You Email,page_visit,opportunity,Director of Ops
+DEAL-086,2026-03-14,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,lead,VP Marketing
+DEAL-086,2026-04-27,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,sql,CEO
+DEAL-086,2026-06-07,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,email_click,opportunity,VP Marketing
+DEAL-087,2026-02-15,Events,Partner Events,Salesforce Dreamforce Session,event_attendance,lead,Director of Ops
+DEAL-087,2026-03-18,Outbound BDR,Inbound Response,Demo Request Response,sales_call,mql,Head of Demand Gen
+DEAL-087,2026-04-26,Events,Partner Events,Salesforce Dreamforce Session,webinar_attendance,sql,Head of Demand Gen
+DEAL-087,2026-05-24,Events,Partner Events,HubSpot INBOUND Talk,webinar_attendance,opportunity,CEO
+DEAL-087,2026-06-30,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,event_attendance,opportunity,Director of Ops
+DEAL-088,2026-02-04,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,email_click,lead,Director of Ops
+DEAL-088,2026-02-16,Google Ads,Retargeting,Demo Request Page,page_visit,mql,Director of Marketing
+DEAL-088,2026-02-26,Email Campaigns,Product Updates,Integration Release Email,email_open,sql,Director of Ops
+DEAL-088,2026-03-06,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,page_visit,opportunity,Marketing Director
+DEAL-088,2026-03-16,Email Campaigns,Nurture Sequences,Product Education Drip,page_visit,opportunity,Director of Marketing
+DEAL-089,2025-08-31,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,lead,SDR/BDR
+DEAL-089,2025-09-05,Google Ads,Retargeting,Demo Request Page,page_visit,lead,SDR/BDR
+DEAL-089,2025-09-21,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,event_attendance,mql,Head of Demand Gen
+DEAL-089,2025-09-30,LinkedIn,InMail,Product Update Announcement,page_visit,sql,VP Marketing
+DEAL-089,2025-10-12,Events,Conferences,Revenue Summit,event_attendance,sql,Head of Demand Gen
+DEAL-089,2025-10-19,LinkedIn,InMail,Personalized Demo Invite,page_visit,opportunity,Head of Demand Gen
+DEAL-089,2025-10-30,Content Marketing,Webinars,Pipeline Analytics Deep Dive,content_download,opportunity,Head of Demand Gen
+DEAL-090,2026-03-26,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_click,lead,Head of Demand Gen
+DEAL-090,2026-04-16,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,page_visit,sql,Director of Marketing
+DEAL-090,2026-05-12,Content Marketing,Webinars,CMO Metrics That Matter,email_click,opportunity,Head of Demand Gen
+DEAL-091,2025-11-26,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,lead,Marketing Director
+DEAL-091,2025-11-29,Outbound BDR,Inbound Response,Demo Request Response,sales_call,lead,Marketing Director
+DEAL-091,2025-12-11,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,lead,Marketing Director
+DEAL-091,2025-12-21,Content Marketing,Blog/SEO,Channel ROI Framework,page_visit,mql,Marketing Director
+DEAL-091,2025-12-30,Google Ads,Retargeting,Free Trial Page,page_visit,mql,Marketing Director
+DEAL-091,2026-01-08,Google Ads,Brand Search,Brand Landing Page,page_visit,mql,Marketing Director
+DEAL-091,2026-01-19,Content Marketing,Blog/SEO,Channel ROI Framework,content_download,sql,CFO
+DEAL-091,2026-01-30,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,sql,CFO
+DEAL-091,2026-02-03,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,content_download,sql,Marketing Director
+DEAL-091,2026-02-12,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,page_visit,opportunity,Marketing Director
+DEAL-091,2026-02-25,Content Marketing,Blog/SEO,B2B Funnel Optimization,email_click,opportunity,Marketing Director
+DEAL-091,2026-03-06,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,opportunity,CFO
+DEAL-092,2025-08-27,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,lead,Product Manager
+DEAL-092,2025-09-22,Content Marketing,Webinars,CMO Metrics That Matter,email_click,sql,Product Manager
+DEAL-092,2025-10-16,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,email_click,opportunity,Product Manager
+DEAL-093,2025-12-12,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,page_visit,lead,Marketing Manager
+DEAL-093,2025-12-16,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,sales_call,lead,Marketing Manager
+DEAL-093,2025-12-16,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_click,mql,SDR/BDR
+DEAL-093,2025-12-17,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_open,sql,Marketing Manager
+DEAL-093,2025-12-25,Content Marketing,Webinars,Attribution Masterclass,email_click,sql,Marketing Manager
+DEAL-093,2025-12-26,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_click,opportunity,Marketing Manager
+DEAL-093,2025-12-26,Content Marketing,Blog/SEO,B2B Funnel Optimization,page_visit,opportunity,Marketing Manager
+DEAL-094,2026-04-04,LinkedIn,Sponsored Content,Pipeline ROI Infographic,content_download,lead,Marketing Director
+DEAL-094,2026-04-20,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_open,mql,Marketing Director
+DEAL-094,2026-05-09,Email Campaigns,Nurture Sequences,Welcome Series Email,email_open,sql,CMO
+DEAL-094,2026-05-25,Events,Partner Events,HubSpot INBOUND Talk,webinar_attendance,opportunity,CMO
+DEAL-094,2026-06-16,Email Campaigns,Nurture Sequences,Product Education Drip,page_visit,opportunity,VP Sales
+DEAL-095,2025-10-30,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_open,lead,Director of Ops
+DEAL-095,2025-12-01,Content Marketing,Webinars,CMO Metrics That Matter,content_download,opportunity,Head of Demand Gen
+DEAL-096,2025-11-02,Google Ads,Brand Search,Pricing Page,ad_click,lead,Director of Ops
+DEAL-096,2025-11-29,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,email_click,mql,Director of Ops
+DEAL-096,2025-12-23,Content Marketing,Webinars,Pipeline Analytics Deep Dive,email_click,sql,Director of Ops
+DEAL-096,2026-01-17,Content Marketing,Webinars,Revenue Ops Workshop,content_download,opportunity,Director of Ops
+DEAL-096,2026-02-09,LinkedIn,InMail,Product Update Announcement,page_visit,opportunity,CFO
+DEAL-097,2026-01-18,Content Marketing,Blog/SEO,B2B Funnel Optimization,email_click,lead,SDR/BDR
+DEAL-097,2026-02-07,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_open,lead,SDR/BDR
+DEAL-097,2026-02-28,Outbound BDR,Warm Follow-up,Content Download Follow-up,email_open,mql,SDR/BDR
+DEAL-097,2026-03-18,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,page_visit,mql,CFO
+DEAL-097,2026-04-04,Google Ads,Brand Search,Product Overview Page,page_visit,sql,CFO
+DEAL-097,2026-04-24,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,sql,CFO
+DEAL-097,2026-05-10,Events,Conferences,Revenue Summit,webinar_attendance,opportunity,VP Marketing
+DEAL-097,2026-06-01,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,content_download,opportunity,CFO
+DEAL-098,2026-01-18,Events,Partner Events,Salesforce Dreamforce Session,event_attendance,lead,Product Manager
+DEAL-098,2026-01-21,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,lead,Product Manager
+DEAL-098,2026-02-03,Events,Conferences,SaaStr Annual Booth,event_attendance,lead,Product Manager
+DEAL-098,2026-02-11,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,mql,Product Manager
+DEAL-098,2026-02-13,Google Ads,Brand Search,Pricing Page,page_visit,mql,VP Marketing
+DEAL-098,2026-02-23,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,mql,Product Manager
+DEAL-098,2026-03-07,Google Ads,Retargeting,Free Trial Page,ad_click,sql,VP Marketing
+DEAL-098,2026-03-09,Google Ads,Retargeting,Free Trial Page,ad_click,sql,CFO
+DEAL-098,2026-03-21,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,content_download,sql,CTO
+DEAL-098,2026-03-26,Events,Hosted Roundtables,RevOps Leaders Forum,event_attendance,opportunity,CFO
+DEAL-098,2026-04-05,Google Ads,Retargeting,Case Study LP,page_visit,opportunity,CFO
+DEAL-098,2026-04-13,Google Ads,Brand Search,Brand Landing Page,ad_click,opportunity,CFO
+DEAL-099,2025-07-23,Content Marketing,Webinars,Pipeline Analytics Deep Dive,page_visit,lead,Head of Demand Gen
+DEAL-099,2025-08-04,Google Ads,Retargeting,Free Trial Page,page_visit,mql,Head of Demand Gen
+DEAL-099,2025-08-22,LinkedIn,Sponsored Content,Customer Success Story,ad_click,sql,CMO
+DEAL-099,2025-09-06,Content Marketing,Webinars,CMO Metrics That Matter,content_download,opportunity,VP Marketing
+DEAL-100,2025-12-14,Content Marketing,Webinars,Pipeline Analytics Deep Dive,email_click,lead,Director of Marketing
+DEAL-100,2025-12-23,Content Marketing,Webinars,Attribution Masterclass,page_visit,lead,Director of Marketing
+DEAL-100,2026-01-02,Content Marketing,Blog/SEO,B2B Funnel Optimization,content_download,lead,Director of Marketing
+DEAL-100,2026-01-16,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,content_download,mql,Director of Marketing
+DEAL-100,2026-01-28,Google Ads,Brand Search,Pricing Page,page_visit,mql,Director of Marketing
+DEAL-100,2026-02-02,Google Ads,Retargeting,Free Trial Page,page_visit,sql,Director of Marketing
+DEAL-100,2026-02-16,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,page_visit,sql,Director of Marketing
+DEAL-100,2026-02-26,Google Ads,Retargeting,Demo Request Page,ad_click,sql,CMO
+DEAL-100,2026-03-09,Google Ads,Brand Search,Pricing Page,page_visit,opportunity,CMO
+DEAL-100,2026-03-20,Email Campaigns,Product Updates,Feature Launch Announcement,page_visit,opportunity,Director of Marketing
+DEAL-100,2026-03-29,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,email_click,opportunity,Director of Marketing
+DEAL-101,2026-02-23,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,lead,Content Strategist
+DEAL-101,2026-02-23,Outbound BDR,Warm Follow-up,Content Download Follow-up,email_open,lead,Director of Ops
+DEAL-101,2026-02-26,LinkedIn,Sponsored Content,Customer Success Story,content_download,lead,Director of Ops
+DEAL-101,2026-02-28,Outbound BDR,Cold Outbound,Cold Email Sequence,sales_call,mql,Director of Ops
+DEAL-101,2026-02-28,Google Ads,Retargeting,Free Trial Page,ad_click,mql,CMO
+DEAL-101,2026-03-02,Content Marketing,Webinars,Attribution Masterclass,page_visit,sql,CMO
+DEAL-101,2026-03-03,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_open,mql,VP Marketing
+DEAL-101,2026-03-05,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,email_open,opportunity,CMO
+DEAL-101,2026-03-06,Content Marketing,Webinars,Attribution Masterclass,email_click,sql,CMO
+DEAL-101,2026-03-06,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,email_click,sql,CMO
+DEAL-101,2026-03-07,LinkedIn,Conversation Ads,Interactive Product Tour,content_download,opportunity,Director of Ops
+DEAL-101,2026-03-08,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,email_open,opportunity,VP Marketing
+DEAL-102,2025-10-05,Google Ads,Brand Search,Brand Landing Page,page_visit,lead,Digital Marketing Specialist
+DEAL-102,2025-11-10,Events,Conferences,Revenue Summit,event_attendance,mql,Digital Marketing Specialist
+DEAL-102,2025-12-14,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,page_visit,sql,CEO
+DEAL-102,2026-01-18,Events,Partner Events,Salesforce Dreamforce Session,event_attendance,opportunity,Marketing Director
+DEAL-103,2025-12-02,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,lead,Marketing Director
+DEAL-103,2025-12-08,Email Campaigns,Re-engagement,We Miss You Email,page_visit,lead,Marketing Director
+DEAL-103,2025-12-18,Google Ads,Retargeting,Free Trial Page,ad_click,lead,Marketing Director
+DEAL-103,2026-01-03,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,email_click,mql,SDR/BDR
+DEAL-103,2026-01-12,Email Campaigns,Nurture Sequences,Welcome Series Email,email_open,mql,VP Sales
+DEAL-103,2026-01-19,Email Campaigns,Re-engagement,We Miss You Email,page_visit,mql,VP Sales
+DEAL-103,2026-01-30,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,sql,VP Sales
+DEAL-103,2026-02-10,Google Ads,Retargeting,Free Trial Page,page_visit,sql,CMO
+DEAL-103,2026-02-16,Content Marketing,Webinars,CMO Metrics That Matter,content_download,sql,CMO
+DEAL-103,2026-02-24,Content Marketing,Webinars,Revenue Ops Workshop,content_download,opportunity,VP Sales
+DEAL-103,2026-03-12,Email Campaigns,Re-engagement,Special Offer Email,email_click,opportunity,Marketing Director
+DEAL-103,2026-03-19,Content Marketing,Webinars,Revenue Ops Workshop,page_visit,opportunity,VP Sales
+DEAL-104,2025-09-28,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,lead,Digital Marketing Specialist
+DEAL-104,2025-09-28,Outbound BDR,Warm Follow-up,Content Download Follow-up,sales_call,lead,Marketing Manager
+DEAL-104,2025-10-05,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,webinar_attendance,mql,Digital Marketing Specialist
+DEAL-104,2025-10-09,Google Ads,Retargeting,Free Trial Page,page_visit,sql,Digital Marketing Specialist
+DEAL-104,2025-10-11,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,opportunity,Marketing Manager
+DEAL-104,2025-10-12,Events,Conferences,B2B Marketing Exchange,webinar_attendance,opportunity,Marketing Manager
+DEAL-105,2025-09-24,Google Ads,Brand Search,Pricing Page,ad_click,lead,Director of Ops
+DEAL-105,2025-09-29,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,page_visit,lead,Director of Ops
+DEAL-105,2025-10-06,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,mql,Director of Ops
+DEAL-105,2025-10-08,Google Ads,Brand Search,Brand Landing Page,page_visit,sql,Director of Ops
+DEAL-105,2025-10-15,Outbound BDR,Inbound Response,Free Trial Onboarding Call,sales_call,opportunity,Director of Ops
+DEAL-105,2025-10-22,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,sales_call,opportunity,Director of Ops
+DEAL-106,2025-08-31,Google Ads,Brand Search,Pricing Page,ad_click,lead,Head of Demand Gen
+DEAL-106,2025-09-04,Google Ads,Brand Search,Brand Landing Page,ad_click,mql,Product Manager
+DEAL-106,2025-09-05,Google Ads,Retargeting,Free Trial Page,ad_click,lead,Head of Demand Gen
+DEAL-106,2025-09-08,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,mql,Product Manager
+DEAL-106,2025-09-08,Email Campaigns,Nurture Sequences,Product Education Drip,page_visit,sql,Product Manager
+DEAL-106,2025-09-14,LinkedIn,Sponsored Content,State of B2B Attribution Report,page_visit,sql,Head of Demand Gen
+DEAL-106,2025-09-14,LinkedIn,Conversation Ads,Quick Demo Scheduler,page_visit,opportunity,Head of Demand Gen
+DEAL-106,2025-09-20,LinkedIn,InMail,Executive Briefing Invite,ad_click,opportunity,Product Manager
+DEAL-107,2025-07-07,Outbound BDR,Cold Outbound,Cold Email Sequence,sales_call,lead,Marketing Analyst
+DEAL-107,2025-07-29,Google Ads,Retargeting,Demo Request Page,page_visit,lead,Director of Marketing
+DEAL-107,2025-08-24,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_click,mql,Director of Marketing
+DEAL-107,2025-09-15,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,email_open,sql,Director of Ops
+DEAL-107,2025-10-07,Email Campaigns,Product Updates,Integration Release Email,email_open,opportunity,Director of Ops
+DEAL-107,2025-11-03,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,page_visit,opportunity,Director of Marketing
+DEAL-108,2025-11-28,Google Ads,Retargeting,Free Trial Page,ad_click,lead,Digital Marketing Specialist
+DEAL-108,2025-12-23,Google Ads,Retargeting,Free Trial Page,page_visit,mql,Content Strategist
+DEAL-108,2026-01-15,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_click,sql,Digital Marketing Specialist
+DEAL-108,2026-02-08,Outbound BDR,Inbound Response,Pricing Inquiry Call,sales_call,opportunity,Digital Marketing Specialist
+DEAL-108,2026-03-03,Email Campaigns,Re-engagement,New Feature Alert,page_visit,opportunity,Digital Marketing Specialist
+DEAL-109,2025-10-29,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,lead,Head of Demand Gen
+DEAL-109,2025-11-02,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,mql,Marketing Manager
+DEAL-109,2025-11-09,LinkedIn,Conversation Ads,ROI Assessment Tool,content_download,sql,VP Sales
+DEAL-109,2025-11-15,Content Marketing,Webinars,Pipeline Analytics Deep Dive,content_download,opportunity,Head of Demand Gen
+DEAL-109,2025-11-16,Google Ads,Retargeting,Free Trial Page,ad_click,opportunity,Head of Demand Gen
+DEAL-110,2025-08-10,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,lead,Marketing Analyst
+DEAL-110,2025-08-20,LinkedIn,Conversation Ads,ROI Assessment Tool,ad_click,mql,Marketing Analyst
+DEAL-110,2025-09-07,LinkedIn,Sponsored Content,Customer Success Story,content_download,sql,Marketing Director
+DEAL-110,2025-09-15,Email Campaigns,Product Updates,Feature Launch Announcement,email_click,opportunity,Head of Demand Gen
+DEAL-110,2025-09-30,Email Campaigns,Product Updates,Integration Release Email,email_click,opportunity,Director of Marketing
+DEAL-111,2025-09-21,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,sales_call,lead,Digital Marketing Specialist
+DEAL-111,2025-10-03,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_click,mql,Director of Ops
+DEAL-111,2025-10-25,Google Ads,Retargeting,Free Trial Page,ad_click,sql,CTO
+DEAL-111,2025-11-07,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,content_download,opportunity,Director of Ops
+DEAL-111,2025-11-23,Google Ads,Brand Search,Brand Landing Page,ad_click,opportunity,Director of Ops
+DEAL-112,2025-07-11,Email Campaigns,Product Updates,Feature Launch Announcement,email_open,lead,Director of Ops
+DEAL-112,2025-07-28,LinkedIn,InMail,Executive Briefing Invite,content_download,lead,Director of Ops
+DEAL-112,2025-08-11,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,mql,Director of Ops
+DEAL-112,2025-08-27,LinkedIn,InMail,Executive Briefing Invite,content_download,mql,CMO
+DEAL-112,2025-09-07,Events,Partner Events,Marketo Summit Workshop,webinar_attendance,sql,CMO
+DEAL-112,2025-09-23,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,email_click,sql,Director of Ops
+DEAL-112,2025-10-05,Events,Conferences,B2B Marketing Exchange,event_attendance,opportunity,CMO
+DEAL-112,2025-10-23,Content Marketing,Blog/SEO,Channel ROI Framework,email_click,opportunity,Director of Ops
+DEAL-113,2025-09-27,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_click,lead,Head of Demand Gen
+DEAL-113,2025-10-04,Outbound BDR,Warm Follow-up,Content Download Follow-up,email_click,lead,Head of Demand Gen
+DEAL-113,2025-10-20,Email Campaigns,Nurture Sequences,Welcome Series Email,page_visit,lead,Head of Demand Gen
+DEAL-113,2025-10-25,Email Campaigns,Product Updates,Integration Release Email,email_click,mql,Content Strategist
+DEAL-113,2025-11-07,Google Ads,Retargeting,Case Study LP,ad_click,mql,CFO
+DEAL-113,2025-11-22,Email Campaigns,Product Updates,Feature Launch Announcement,email_click,sql,CFO
+DEAL-113,2025-12-01,Google Ads,Retargeting,Free Trial Page,ad_click,sql,CEO
+DEAL-113,2025-12-07,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,sql,Head of Demand Gen
+DEAL-113,2025-12-18,Email Campaigns,Product Updates,Integration Release Email,email_open,opportunity,CFO
+DEAL-113,2025-12-28,Email Campaigns,Re-engagement,Special Offer Email,page_visit,opportunity,CFO
+DEAL-113,2026-01-11,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,opportunity,CEO
+DEAL-114,2025-11-09,LinkedIn,Sponsored Content,Pipeline ROI Infographic,ad_click,lead,Content Strategist
+DEAL-114,2025-12-01,LinkedIn,InMail,Executive Briefing Invite,page_visit,mql,Content Strategist
+DEAL-114,2025-12-27,LinkedIn,InMail,Executive Briefing Invite,ad_click,sql,CEO
+DEAL-114,2026-01-14,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,email_click,opportunity,CEO
+DEAL-115,2026-03-10,Outbound BDR,Cold Outbound,LinkedIn Connection Request,email_open,lead,Director of Marketing
+DEAL-115,2026-03-14,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,lead,Director of Marketing
+DEAL-115,2026-03-16,Google Ads,Retargeting,Free Trial Page,ad_click,mql,Director of Marketing
+DEAL-115,2026-03-24,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,mql,Director of Ops
+DEAL-115,2026-03-31,Events,Partner Events,HubSpot INBOUND Talk,event_attendance,sql,Director of Marketing
+DEAL-115,2026-04-05,Content Marketing,Webinars,Attribution Masterclass,page_visit,opportunity,Director of Ops
+DEAL-115,2026-04-06,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,event_attendance,sql,Director of Marketing
+DEAL-115,2026-04-10,Email Campaigns,Product Updates,Feature Launch Announcement,email_open,opportunity,Director of Ops
+DEAL-115,2026-04-17,Outbound BDR,Cold Outbound,Cold Email Sequence,sales_call,opportunity,Director of Ops
+DEAL-116,2026-02-14,Email Campaigns,Nurture Sequences,Use Case Showcase,email_click,lead,Digital Marketing Specialist
+DEAL-116,2026-03-13,Content Marketing,Blog/SEO,B2B Funnel Optimization,email_click,mql,SDR/BDR
+DEAL-116,2026-04-09,Google Ads,Retargeting,Case Study LP,ad_click,sql,Head of Demand Gen
+DEAL-116,2026-05-04,Email Campaigns,Product Updates,Platform Update Newsletter,email_open,opportunity,Head of Demand Gen
+DEAL-117,2026-04-29,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,event_attendance,mql,Content Strategist
+DEAL-117,2026-04-30,Google Ads,Brand Search,Product Overview Page,page_visit,lead,Content Strategist
+DEAL-117,2026-05-01,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,lead,Content Strategist
+DEAL-117,2026-05-07,Google Ads,Brand Search,Pricing Page,ad_click,sql,CMO
+DEAL-117,2026-05-09,Google Ads,Brand Search,Pricing Page,page_visit,sql,CMO
+DEAL-117,2026-05-09,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_click,opportunity,CMO
+DEAL-117,2026-05-12,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,event_attendance,opportunity,CMO
+DEAL-118,2026-02-09,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_click,lead,Director of Ops
+DEAL-118,2026-02-27,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,mql,Director of Ops
+DEAL-118,2026-03-22,Email Campaigns,Product Updates,Feature Launch Announcement,email_open,sql,Director of Ops
+DEAL-118,2026-04-11,Outbound BDR,Warm Follow-up,Content Download Follow-up,email_open,opportunity,Director of Ops
+DEAL-118,2026-04-29,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_click,opportunity,Director of Ops
+DEAL-119,2026-03-05,Google Ads,Brand Search,Brand Landing Page,ad_click,lead,Content Strategist
+DEAL-119,2026-03-16,Email Campaigns,Product Updates,Feature Launch Announcement,email_click,lead,Director of Marketing
+DEAL-119,2026-04-03,Email Campaigns,Re-engagement,Special Offer Email,page_visit,mql,CMO
+DEAL-119,2026-04-17,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,sql,CMO
+DEAL-119,2026-04-29,Email Campaigns,Re-engagement,Special Offer Email,email_open,opportunity,CMO
+DEAL-119,2026-05-10,Google Ads,Brand Search,Brand Landing Page,ad_click,opportunity,CEO
+DEAL-120,2026-01-29,Content Marketing,Webinars,Revenue Ops Workshop,content_download,lead,SDR/BDR
+DEAL-120,2026-02-18,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,page_visit,mql,SDR/BDR
+DEAL-120,2026-03-12,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,sql,CMO
+DEAL-120,2026-04-04,Google Ads,Retargeting,Demo Request Page,ad_click,opportunity,CMO
+DEAL-120,2026-04-24,Email Campaigns,Re-engagement,New Feature Alert,page_visit,opportunity,CMO
+DEAL-121,2025-10-14,Outbound BDR,Warm Follow-up,Content Download Follow-up,email_click,lead,Digital Marketing Specialist
+DEAL-121,2025-11-03,Google Ads,Retargeting,Case Study LP,page_visit,mql,Product Manager
+DEAL-121,2025-11-22,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,page_visit,sql,Product Manager
+DEAL-121,2025-12-05,LinkedIn,InMail,Product Update Announcement,content_download,opportunity,Product Manager
+DEAL-122,2025-12-01,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,email_open,lead,Marketing Manager
+DEAL-122,2025-12-14,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,email_click,lead,Marketing Manager
+DEAL-122,2025-12-21,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,content_download,mql,Marketing Manager
+DEAL-122,2026-01-01,Outbound BDR,Inbound Response,Demo Request Response,email_open,sql,Digital Marketing Specialist
+DEAL-122,2026-01-12,LinkedIn,InMail,Executive Briefing Invite,content_download,sql,Digital Marketing Specialist
+DEAL-122,2026-01-20,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,page_visit,opportunity,Digital Marketing Specialist
+DEAL-122,2026-01-27,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,email_click,opportunity,Marketing Manager
+DEAL-123,2025-09-15,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,lead,Marketing Director
+DEAL-123,2025-10-05,Events,Partner Events,HubSpot INBOUND Talk,webinar_attendance,mql,Head of Demand Gen
+DEAL-123,2025-11-01,Events,Conferences,B2B Marketing Exchange,webinar_attendance,sql,Marketing Director
+DEAL-123,2025-11-28,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,page_visit,opportunity,CEO
+DEAL-123,2025-12-18,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,page_visit,opportunity,Head of Demand Gen
+DEAL-124,2026-03-15,Content Marketing,Webinars,CMO Metrics That Matter,page_visit,lead,Director of Ops
+DEAL-124,2026-04-05,Outbound BDR,Cold Outbound,LinkedIn Connection Request,sales_call,sql,VP Marketing
+DEAL-124,2026-04-27,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,content_download,opportunity,VP Marketing
+DEAL-125,2026-01-12,Email Campaigns,Nurture Sequences,Welcome Series Email,email_click,lead,CTO
+DEAL-125,2026-01-27,Google Ads,Retargeting,Free Trial Page,ad_click,mql,VP Marketing
+DEAL-125,2026-02-13,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,sql,CTO
+DEAL-125,2026-03-01,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_open,opportunity,VP Marketing
+DEAL-126,2025-10-19,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_open,lead,Director of Marketing
+DEAL-126,2025-11-20,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,sql,CEO
+DEAL-126,2025-12-28,Events,Partner Events,Marketo Summit Workshop,event_attendance,opportunity,Director of Marketing
+DEAL-127,2026-02-13,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,lead,Head of Demand Gen
+DEAL-127,2026-02-20,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_click,lead,Head of Demand Gen
+DEAL-127,2026-03-06,Email Campaigns,Product Updates,Platform Update Newsletter,email_open,mql,VP Sales
+DEAL-127,2026-03-11,Outbound BDR,Cold Outbound,LinkedIn Connection Request,sales_call,sql,VP Sales
+DEAL-127,2026-03-25,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,email_click,opportunity,Head of Demand Gen
+DEAL-127,2026-03-31,Email Campaigns,Re-engagement,Special Offer Email,page_visit,opportunity,Head of Demand Gen
+DEAL-128,2026-04-13,Outbound BDR,Inbound Response,Demo Request Response,sales_call,lead,Product Manager
+DEAL-128,2026-04-23,Outbound BDR,Warm Follow-up,Content Download Follow-up,sales_call,lead,Product Manager
+DEAL-128,2026-05-07,Outbound BDR,Inbound Response,Free Trial Onboarding Call,sales_call,mql,Product Manager
+DEAL-128,2026-05-15,LinkedIn,Sponsored Content,State of B2B Attribution Report,ad_click,mql,VP Sales
+DEAL-128,2026-05-24,LinkedIn,Sponsored Content,Customer Success Story,content_download,sql,VP Sales
+DEAL-128,2026-06-06,Email Campaigns,Product Updates,Integration Release Email,email_open,sql,CMO
+DEAL-128,2026-06-17,Content Marketing,Blog/SEO,B2B Funnel Optimization,page_visit,opportunity,VP Sales
+DEAL-128,2026-06-30,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_click,opportunity,VP Sales
+DEAL-129,2026-02-14,Google Ads,Retargeting,Free Trial Page,ad_click,lead,Director of Ops
+DEAL-129,2026-03-19,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,sql,Head of Demand Gen
+DEAL-129,2026-04-29,Google Ads,Brand Search,Pricing Page,ad_click,opportunity,Head of Demand Gen
+DEAL-130,2025-12-31,Email Campaigns,Re-engagement,We Miss You Email,email_open,lead,Director of Marketing
+DEAL-130,2026-01-14,Google Ads,Retargeting,Demo Request Page,page_visit,lead,Director of Marketing
+DEAL-130,2026-01-23,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,content_download,mql,Director of Marketing
+DEAL-130,2026-02-04,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_open,sql,Director of Ops
+DEAL-130,2026-02-16,LinkedIn,Sponsored Content,State of B2B Attribution Report,content_download,sql,Director of Ops
+DEAL-130,2026-03-03,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_open,opportunity,Director of Marketing
+DEAL-130,2026-03-11,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,content_download,opportunity,Director of Ops
+DEAL-131,2025-09-28,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_click,lead,Director of Marketing
+DEAL-131,2025-11-05,Google Ads,Brand Search,Pricing Page,ad_click,sql,Product Manager
+DEAL-131,2025-12-08,LinkedIn,InMail,Executive Briefing Invite,content_download,opportunity,CMO
+DEAL-132,2025-08-11,Outbound BDR,Inbound Response,Demo Request Response,email_click,lead,Product Manager
+DEAL-132,2025-08-22,LinkedIn,InMail,Executive Briefing Invite,ad_click,mql,Product Manager
+DEAL-132,2025-09-06,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,sql,Marketing Director
+DEAL-132,2025-09-19,Events,Conferences,Revenue Summit,event_attendance,opportunity,Marketing Director
+DEAL-132,2025-10-01,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,email_click,opportunity,Marketing Director
+DEAL-133,2025-08-12,LinkedIn,Conversation Ads,Quick Demo Scheduler,content_download,lead,Marketing Analyst
+DEAL-133,2025-09-08,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,mql,Marketing Analyst
+DEAL-133,2025-09-27,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,sql,Product Manager
+DEAL-133,2025-10-25,LinkedIn,InMail,Product Update Announcement,ad_click,opportunity,VP Sales
+DEAL-133,2025-11-17,Email Campaigns,Product Updates,Platform Update Newsletter,email_open,opportunity,Product Manager
+DEAL-134,2025-12-29,Events,Partner Events,Salesforce Dreamforce Session,webinar_attendance,lead,Marketing Analyst
+DEAL-134,2026-01-09,Email Campaigns,Re-engagement,Special Offer Email,email_click,mql,Marketing Analyst
+DEAL-134,2026-01-28,Events,Conferences,SaaStr Annual Booth,event_attendance,sql,CFO
+DEAL-134,2026-02-11,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,page_visit,opportunity,CMO
+DEAL-134,2026-02-26,Email Campaigns,Nurture Sequences,Use Case Showcase,email_open,opportunity,CFO
+DEAL-135,2025-08-06,Events,Hosted Roundtables,RevOps Leaders Forum,event_attendance,lead,Head of Demand Gen
+DEAL-135,2025-08-10,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_open,lead,SDR/BDR
+DEAL-135,2025-08-11,Events,Hosted Roundtables,VP Marketing Roundtable,webinar_attendance,lead,Head of Demand Gen
+DEAL-135,2025-08-14,Email Campaigns,Product Updates,Feature Launch Announcement,email_open,mql,Head of Demand Gen
+DEAL-135,2025-08-17,Email Campaigns,Re-engagement,Special Offer Email,email_open,mql,Head of Demand Gen
+DEAL-135,2025-08-22,Events,Conferences,Revenue Summit,event_attendance,mql,Head of Demand Gen
+DEAL-135,2025-08-26,Events,Partner Events,HubSpot INBOUND Talk,event_attendance,sql,Head of Demand Gen
+DEAL-135,2025-08-26,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,event_attendance,sql,Head of Demand Gen
+DEAL-135,2025-08-29,Email Campaigns,Nurture Sequences,Product Education Drip,email_click,sql,Head of Demand Gen
+DEAL-135,2025-09-03,Events,Conferences,B2B Marketing Exchange,webinar_attendance,opportunity,Head of Demand Gen
+DEAL-135,2025-09-03,Email Campaigns,Nurture Sequences,Welcome Series Email,email_click,opportunity,Head of Demand Gen
+DEAL-135,2025-09-08,Events,Partner Events,HubSpot INBOUND Talk,event_attendance,opportunity,Head of Demand Gen
+DEAL-136,2025-09-05,Google Ads,Brand Search,Brand Landing Page,ad_click,lead,Director of Ops
+DEAL-136,2025-09-11,Google Ads,Brand Search,Brand Landing Page,page_visit,lead,Marketing Analyst
+DEAL-136,2025-09-30,LinkedIn,InMail,Personalized Demo Invite,ad_click,mql,Director of Ops
+DEAL-136,2025-10-07,LinkedIn,Conversation Ads,Interactive Product Tour,content_download,sql,Director of Ops
+DEAL-136,2025-10-23,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,email_click,sql,Director of Ops
+DEAL-136,2025-11-06,Email Campaigns,Nurture Sequences,Use Case Showcase,email_click,opportunity,Director of Ops
+DEAL-136,2025-11-16,Google Ads,Retargeting,Free Trial Page,page_visit,opportunity,Director of Ops
+DEAL-137,2026-01-05,Email Campaigns,Product Updates,Integration Release Email,email_open,lead,CEO
+DEAL-137,2026-01-22,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,email_open,lead,CEO
+DEAL-137,2026-02-04,Email Campaigns,Product Updates,Integration Release Email,page_visit,mql,CEO
+DEAL-137,2026-02-20,Events,Conferences,SaaStr Annual Booth,event_attendance,sql,VP Marketing
+DEAL-137,2026-03-08,Email Campaigns,Nurture Sequences,Welcome Series Email,page_visit,opportunity,CMO
+DEAL-137,2026-03-27,Content Marketing,Webinars,Pipeline Analytics Deep Dive,content_download,opportunity,CMO
+DEAL-138,2026-01-29,Outbound BDR,Inbound Response,Demo Request Response,sales_call,lead,Director of Marketing
+DEAL-138,2026-01-29,Email Campaigns,Nurture Sequences,Product Education Drip,page_visit,lead,Product Manager
+DEAL-138,2026-02-04,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,email_click,mql,Product Manager
+DEAL-138,2026-02-04,Content Marketing,Webinars,Revenue Ops Workshop,email_click,mql,Product Manager
+DEAL-138,2026-02-07,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,content_download,sql,Director of Marketing
+DEAL-138,2026-02-10,Content Marketing,Webinars,Revenue Ops Workshop,email_click,sql,Director of Marketing
+DEAL-138,2026-02-15,Content Marketing,Webinars,CMO Metrics That Matter,page_visit,opportunity,Product Manager
+DEAL-138,2026-02-18,Email Campaigns,Product Updates,Platform Update Newsletter,email_click,opportunity,Director of Marketing
+DEAL-139,2026-01-11,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,lead,Director of Marketing
+DEAL-139,2026-01-17,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,content_download,sql,CMO
+DEAL-139,2026-01-17,Content Marketing,Webinars,CMO Metrics That Matter,email_click,opportunity,Director of Marketing
+DEAL-140,2025-09-15,Email Campaigns,Product Updates,Platform Update Newsletter,page_visit,lead,Digital Marketing Specialist
+DEAL-140,2025-09-21,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,content_download,lead,Director of Ops
+DEAL-140,2025-10-07,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,content_download,mql,Digital Marketing Specialist
+DEAL-140,2025-10-13,Content Marketing,Blog/SEO,B2B Funnel Optimization,page_visit,sql,Director of Ops
+DEAL-140,2025-10-29,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_open,sql,CFO
+DEAL-140,2025-11-06,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,content_download,opportunity,Director of Ops
+DEAL-140,2025-11-16,Google Ads,Retargeting,Case Study LP,ad_click,opportunity,CFO
+DEAL-141,2025-09-25,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,lead,Marketing Director
+DEAL-141,2025-09-27,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,lead,Marketing Director
+DEAL-141,2025-09-29,Content Marketing,Webinars,CMO Metrics That Matter,content_download,lead,Marketing Director
+DEAL-141,2025-10-02,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_open,mql,Marketing Director
+DEAL-141,2025-10-04,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,page_visit,sql,Marketing Director
+DEAL-141,2025-10-05,Google Ads,Brand Search,Pricing Page,ad_click,mql,Marketing Director
+DEAL-141,2025-10-06,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,mql,Marketing Director
+DEAL-141,2025-10-07,Email Campaigns,Nurture Sequences,Use Case Showcase,page_visit,sql,Marketing Director
+DEAL-141,2025-10-12,Content Marketing,Webinars,Attribution Masterclass,content_download,sql,Marketing Director
+DEAL-141,2025-10-13,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,opportunity,Marketing Director
+DEAL-141,2025-10-14,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,email_click,opportunity,CMO
+DEAL-141,2025-10-19,Content Marketing,Blog/SEO,B2B Funnel Optimization,content_download,opportunity,CMO
+DEAL-142,2025-11-23,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_click,lead,VP Sales
+DEAL-142,2025-11-24,Google Ads,Brand Search,Product Overview Page,ad_click,mql,CMO
+DEAL-142,2025-11-30,Content Marketing,Blog/SEO,Channel ROI Framework,page_visit,sql,VP Sales
+DEAL-142,2025-12-01,Outbound BDR,Inbound Response,Free Trial Onboarding Call,sales_call,opportunity,CFO
+DEAL-143,2025-10-22,Content Marketing,Webinars,Revenue Ops Workshop,email_click,lead,Marketing Director
+DEAL-143,2025-11-11,Google Ads,Retargeting,Case Study LP,page_visit,mql,Director of Marketing
+DEAL-143,2025-12-08,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,page_visit,sql,Marketing Director
+DEAL-143,2025-12-24,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,opportunity,Marketing Director
+DEAL-144,2026-04-07,Outbound BDR,Inbound Response,Free Trial Onboarding Call,sales_call,lead,Marketing Manager
+DEAL-144,2026-04-25,Google Ads,Retargeting,Case Study LP,ad_click,mql,Marketing Manager
+DEAL-144,2026-05-16,Google Ads,Brand Search,Brand Landing Page,ad_click,sql,Director of Marketing
+DEAL-144,2026-05-31,Google Ads,Brand Search,Brand Landing Page,page_visit,opportunity,Director of Marketing
+DEAL-144,2026-06-22,Content Marketing,Webinars,CMO Metrics That Matter,content_download,opportunity,Director of Marketing
+DEAL-145,2025-08-12,Events,Partner Events,HubSpot INBOUND Talk,event_attendance,lead,Marketing Analyst
+DEAL-145,2025-09-02,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_click,mql,Marketing Analyst
+DEAL-145,2025-09-24,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,email_click,sql,Director of Marketing
+DEAL-145,2025-10-08,Google Ads,Retargeting,Case Study LP,ad_click,opportunity,Director of Marketing
+DEAL-145,2025-10-29,Email Campaigns,Product Updates,Feature Launch Announcement,email_click,opportunity,Director of Marketing
+DEAL-146,2025-07-01,LinkedIn,Sponsored Content,Pipeline ROI Infographic,ad_click,lead,Content Strategist
+DEAL-146,2025-07-11,Google Ads,Retargeting,Demo Request Page,ad_click,lead,Marketing Analyst
+DEAL-146,2025-07-24,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,email_click,mql,Content Strategist
+DEAL-146,2025-08-03,Events,Hosted Roundtables,RevOps Leaders Forum,webinar_attendance,mql,Content Strategist
+DEAL-146,2025-08-15,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_click,sql,Content Strategist
+DEAL-146,2025-08-27,Content Marketing,Blog/SEO,Channel ROI Framework,email_click,sql,Content Strategist
+DEAL-146,2025-09-04,Events,Partner Events,HubSpot INBOUND Talk,event_attendance,opportunity,Content Strategist
+DEAL-146,2025-09-13,Email Campaigns,Product Updates,Integration Release Email,email_open,opportunity,Content Strategist
+DEAL-147,2025-07-06,Content Marketing,Blog/SEO,Channel ROI Framework,page_visit,lead,Product Manager
+DEAL-147,2025-08-09,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_click,sql,CEO
+DEAL-147,2025-09-08,Email Campaigns,Product Updates,Feature Launch Announcement,page_visit,opportunity,Product Manager
+DEAL-148,2026-01-31,LinkedIn,Conversation Ads,Interactive Product Tour,ad_click,lead,Director of Marketing
+DEAL-148,2026-02-13,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,page_visit,lead,Director of Marketing
+DEAL-148,2026-02-25,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,content_download,mql,Director of Marketing
+DEAL-148,2026-03-06,Email Campaigns,Re-engagement,Special Offer Email,page_visit,sql,Director of Marketing
+DEAL-148,2026-03-19,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,email_click,sql,Director of Marketing
+DEAL-148,2026-04-01,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,email_click,opportunity,CMO
+DEAL-148,2026-04-16,Email Campaigns,Re-engagement,We Miss You Email,page_visit,opportunity,Director of Marketing
+DEAL-149,2026-01-11,Google Ads,Brand Search,Brand Landing Page,page_visit,lead,Marketing Director
+DEAL-149,2026-02-02,LinkedIn,InMail,Personalized Demo Invite,page_visit,mql,Content Strategist
+DEAL-149,2026-02-24,LinkedIn,Sponsored Content,Pipeline ROI Infographic,page_visit,sql,CFO
+DEAL-149,2026-03-24,Content Marketing,Webinars,Attribution Masterclass,page_visit,opportunity,Marketing Director
+DEAL-149,2026-04-14,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,opportunity,CFO
+DEAL-150,2025-09-13,Google Ads,Brand Search,Product Overview Page,page_visit,lead,VP Marketing
+DEAL-150,2025-09-22,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,lead,VP Marketing
+DEAL-150,2025-10-07,LinkedIn,Sponsored Content,State of B2B Attribution Report,ad_click,mql,CEO
+DEAL-150,2025-10-22,LinkedIn,Conversation Ads,Interactive Product Tour,ad_click,mql,VP Marketing
+DEAL-150,2025-11-05,LinkedIn,InMail,Executive Briefing Invite,page_visit,sql,VP Marketing
+DEAL-150,2025-11-21,LinkedIn,InMail,Product Update Announcement,ad_click,sql,CEO
+DEAL-150,2025-12-05,Google Ads,Brand Search,Brand Landing Page,page_visit,opportunity,VP Marketing
+DEAL-150,2025-12-17,Google Ads,Retargeting,Case Study LP,page_visit,opportunity,VP Marketing
+DEAL-151,2026-02-06,Google Ads,Brand Search,Brand Landing Page,ad_click,lead,Marketing Manager
+DEAL-151,2026-02-18,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_click,lead,Director of Marketing
+DEAL-151,2026-03-02,LinkedIn,InMail,Executive Briefing Invite,ad_click,mql,Director of Marketing
+DEAL-151,2026-03-19,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,mql,CTO
+DEAL-151,2026-04-02,Email Campaigns,Nurture Sequences,Use Case Showcase,email_click,sql,Director of Marketing
+DEAL-151,2026-04-16,Email Campaigns,Re-engagement,New Feature Alert,page_visit,sql,CTO
+DEAL-151,2026-04-25,Email Campaigns,Nurture Sequences,Customer Testimonial Email,page_visit,opportunity,CTO
+DEAL-151,2026-05-10,Google Ads,Retargeting,Case Study LP,ad_click,opportunity,CTO
+DEAL-152,2025-11-07,Events,Partner Events,Marketo Summit Workshop,event_attendance,lead,Marketing Manager
+DEAL-152,2025-11-22,Outbound BDR,Inbound Response,Demo Request Response,email_click,mql,SDR/BDR
+DEAL-152,2025-12-06,LinkedIn,Conversation Ads,ROI Assessment Tool,page_visit,sql,Marketing Director
+DEAL-152,2025-12-27,Email Campaigns,Nurture Sequences,Product Education Drip,email_open,opportunity,CEO
+DEAL-152,2026-01-09,Content Marketing,Webinars,CMO Metrics That Matter,email_click,opportunity,Marketing Director
+DEAL-153,2025-11-19,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,lead,CTO
+DEAL-153,2025-12-13,Email Campaigns,Nurture Sequences,Use Case Showcase,page_visit,mql,CTO
+DEAL-153,2026-01-13,Google Ads,Retargeting,Demo Request Page,ad_click,sql,CFO
+DEAL-153,2026-02-09,Email Campaigns,Re-engagement,Special Offer Email,page_visit,opportunity,CTO
+DEAL-154,2026-03-11,Events,Conferences,SaaStr Annual Booth,event_attendance,lead,Head of Demand Gen
+DEAL-154,2026-03-19,Events,Conferences,SaaStr Annual Booth,event_attendance,lead,Head of Demand Gen
+DEAL-154,2026-04-03,LinkedIn,Sponsored Content,State of B2B Attribution Report,page_visit,lead,Head of Demand Gen
+DEAL-154,2026-04-08,Google Ads,Brand Search,Pricing Page,page_visit,mql,Head of Demand Gen
+DEAL-154,2026-04-19,LinkedIn,InMail,Executive Briefing Invite,content_download,mql,Head of Demand Gen
+DEAL-154,2026-05-01,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,sales_call,mql,Head of Demand Gen
+DEAL-154,2026-05-13,Outbound BDR,Inbound Response,Demo Request Response,email_click,sql,Head of Demand Gen
+DEAL-154,2026-05-23,Google Ads,Brand Search,Brand Landing Page,page_visit,sql,VP Marketing
+DEAL-154,2026-05-28,Events,Conferences,MarTech Conference,event_attendance,sql,Head of Demand Gen
+DEAL-154,2026-06-08,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,opportunity,VP Marketing
+DEAL-154,2026-06-22,LinkedIn,Conversation Ads,Quick Demo Scheduler,page_visit,opportunity,VP Marketing
+DEAL-154,2026-06-27,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,opportunity,Head of Demand Gen
+DEAL-155,2025-10-04,Email Campaigns,Product Updates,Integration Release Email,email_click,lead,Director of Marketing
+DEAL-155,2025-10-13,Outbound BDR,Cold Outbound,Cold Email Sequence,email_click,lead,Director of Marketing
+DEAL-155,2025-10-29,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,sales_call,mql,Director of Marketing
+DEAL-155,2025-11-14,Email Campaigns,Product Updates,Platform Update Newsletter,email_click,sql,Director of Marketing
+DEAL-155,2025-11-29,Google Ads,Brand Search,Product Overview Page,ad_click,opportunity,Director of Marketing
+DEAL-155,2025-12-13,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,email_click,opportunity,Director of Marketing
+DEAL-156,2026-04-12,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_click,lead,Content Strategist
+DEAL-156,2026-05-08,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,page_visit,mql,SDR/BDR
+DEAL-156,2026-06-01,Events,Conferences,MarTech Conference,event_attendance,sql,CTO
+DEAL-156,2026-06-28,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,page_visit,opportunity,CTO
+DEAL-157,2025-08-26,Outbound BDR,Warm Follow-up,Referral Introduction Call,sales_call,lead,Marketing Analyst
+DEAL-157,2025-09-11,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_click,lead,Marketing Director
+DEAL-157,2025-09-28,Google Ads,Retargeting,Demo Request Page,ad_click,mql,Marketing Analyst
+DEAL-157,2025-10-12,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_click,sql,VP Sales
+DEAL-157,2025-10-28,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,sql,VP Sales
+DEAL-157,2025-11-13,Google Ads,Brand Search,Pricing Page,page_visit,opportunity,VP Sales
+DEAL-157,2025-11-30,Outbound BDR,Warm Follow-up,Referral Introduction Call,sales_call,opportunity,Marketing Director
+DEAL-158,2025-07-25,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_open,lead,SDR/BDR
+DEAL-158,2025-08-12,Email Campaigns,Nurture Sequences,Customer Testimonial Email,page_visit,lead,SDR/BDR
+DEAL-158,2025-08-30,Events,Partner Events,Salesforce Dreamforce Session,event_attendance,mql,SDR/BDR
+DEAL-158,2025-09-12,Google Ads,Brand Search,Product Overview Page,page_visit,mql,SDR/BDR
+DEAL-158,2025-10-01,Email Campaigns,Product Updates,Platform Update Newsletter,page_visit,sql,SDR/BDR
+DEAL-158,2025-10-17,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,page_visit,sql,SDR/BDR
+DEAL-158,2025-11-03,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,page_visit,opportunity,Marketing Manager
+DEAL-158,2025-11-17,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,opportunity,Marketing Manager
+DEAL-159,2025-09-10,Email Campaigns,Re-engagement,Special Offer Email,email_open,lead,Content Strategist
+DEAL-159,2025-09-15,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_click,lead,Content Strategist
+DEAL-159,2025-09-16,Email Campaigns,Product Updates,Feature Launch Announcement,email_click,lead,Marketing Director
+DEAL-159,2025-09-16,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,mql,Marketing Director
+DEAL-159,2025-09-25,Outbound BDR,Cold Outbound,Cold Email Sequence,email_open,sql,Marketing Director
+DEAL-159,2025-09-26,Email Campaigns,Nurture Sequences,Welcome Series Email,page_visit,mql,VP Marketing
+DEAL-159,2025-09-26,LinkedIn,Conversation Ads,Interactive Product Tour,page_visit,sql,VP Marketing
+DEAL-159,2025-10-03,LinkedIn,InMail,Product Update Announcement,ad_click,sql,Marketing Director
+DEAL-159,2025-10-07,Google Ads,Retargeting,Free Trial Page,ad_click,opportunity,Marketing Director
+DEAL-159,2025-10-07,Outbound BDR,Cold Outbound,Cold Email Sequence,email_open,opportunity,VP Marketing
+DEAL-159,2025-10-12,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_open,opportunity,VP Marketing
+DEAL-160,2025-08-17,Outbound BDR,Inbound Response,Pricing Inquiry Call,sales_call,lead,Content Strategist
+DEAL-160,2025-08-17,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,lead,Content Strategist
+DEAL-160,2025-08-24,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,lead,Director of Ops
+DEAL-160,2025-08-25,Content Marketing,Webinars,Pipeline Analytics Deep Dive,email_click,mql,Director of Ops
+DEAL-160,2025-08-27,Events,Partner Events,Salesforce Dreamforce Session,event_attendance,mql,Director of Ops
+DEAL-160,2025-09-02,Events,Conferences,SaaStr Annual Booth,event_attendance,sql,Director of Ops
+DEAL-160,2025-09-03,Events,Partner Events,HubSpot INBOUND Talk,webinar_attendance,sql,Director of Ops
+DEAL-160,2025-09-04,Events,Conferences,Revenue Summit,webinar_attendance,sql,Director of Ops
+DEAL-160,2025-09-04,Google Ads,Retargeting,Demo Request Page,page_visit,opportunity,Director of Ops
+DEAL-160,2025-09-11,Events,Hosted Roundtables,VP Marketing Roundtable,webinar_attendance,opportunity,Director of Ops
+DEAL-160,2025-09-12,Email Campaigns,Nurture Sequences,Customer Testimonial Email,page_visit,opportunity,Director of Ops
+DEAL-161,2026-03-12,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,lead,Director of Marketing
+DEAL-161,2026-03-18,Google Ads,Brand Search,Product Overview Page,page_visit,lead,Director of Marketing
+DEAL-161,2026-03-24,Outbound BDR,Inbound Response,Demo Request Response,sales_call,mql,Director of Marketing
+DEAL-161,2026-04-03,Events,Conferences,Revenue Summit,event_attendance,sql,CMO
+DEAL-161,2026-04-09,Events,Partner Events,Salesforce Dreamforce Session,webinar_attendance,sql,CMO
+DEAL-161,2026-04-21,Email Campaigns,Nurture Sequences,Customer Testimonial Email,page_visit,opportunity,Director of Marketing
+DEAL-161,2026-04-27,Email Campaigns,Re-engagement,New Feature Alert,email_open,opportunity,CMO
+DEAL-162,2025-07-06,Events,Partner Events,HubSpot INBOUND Talk,webinar_attendance,lead,Director of Ops
+DEAL-162,2025-07-17,LinkedIn,Sponsored Content,State of B2B Attribution Report,content_download,lead,Director of Ops
+DEAL-162,2025-08-03,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,page_visit,mql,Director of Ops
+DEAL-162,2025-08-21,Google Ads,Brand Search,Brand Landing Page,ad_click,sql,Product Manager
+DEAL-162,2025-09-05,Google Ads,Brand Search,Brand Landing Page,page_visit,opportunity,Product Manager
+DEAL-162,2025-09-14,LinkedIn,InMail,Executive Briefing Invite,ad_click,opportunity,CTO
+DEAL-163,2025-12-23,LinkedIn,Sponsored Content,State of B2B Attribution Report,ad_click,lead,Director of Ops
+DEAL-163,2026-01-13,LinkedIn,InMail,Personalized Demo Invite,ad_click,mql,Marketing Manager
+DEAL-163,2026-01-31,LinkedIn,InMail,Executive Briefing Invite,content_download,sql,Director of Ops
+DEAL-163,2026-02-19,Google Ads,Brand Search,Brand Landing Page,page_visit,opportunity,Director of Ops
+DEAL-164,2026-05-02,LinkedIn,Sponsored Content,Pipeline ROI Infographic,page_visit,lead,Director of Ops
+DEAL-164,2026-05-04,Content Marketing,Blog/SEO,Channel ROI Framework,page_visit,lead,Marketing Manager
+DEAL-164,2026-05-12,Content Marketing,Blog/SEO,Channel ROI Framework,page_visit,mql,Director of Ops
+DEAL-164,2026-05-15,Content Marketing,Blog/SEO,Channel ROI Framework,content_download,sql,VP Sales
+DEAL-164,2026-05-19,LinkedIn,InMail,Product Update Announcement,page_visit,sql,VP Sales
+DEAL-164,2026-05-23,Content Marketing,Blog/SEO,Channel ROI Framework,email_click,opportunity,VP Sales
+DEAL-164,2026-05-25,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,content_download,opportunity,Director of Ops
+DEAL-165,2025-07-12,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,lead,Product Manager
+DEAL-165,2025-08-01,Email Campaigns,Product Updates,Feature Launch Announcement,page_visit,opportunity,Product Manager
+DEAL-166,2025-07-05,Events,Partner Events,Marketo Summit Workshop,webinar_attendance,lead,Digital Marketing Specialist
+DEAL-166,2025-07-05,LinkedIn,Conversation Ads,Interactive Product Tour,content_download,lead,Director of Marketing
+DEAL-166,2025-07-06,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_open,mql,Digital Marketing Specialist
+DEAL-166,2025-07-09,LinkedIn,InMail,Product Update Announcement,page_visit,mql,CFO
+DEAL-166,2025-07-13,LinkedIn,Sponsored Content,State of B2B Attribution Report,page_visit,sql,CFO
+DEAL-166,2025-07-15,LinkedIn,Conversation Ads,Quick Demo Scheduler,content_download,sql,CFO
+DEAL-166,2025-07-15,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,webinar_attendance,opportunity,Director of Marketing
+DEAL-166,2025-07-22,Email Campaigns,Re-engagement,Special Offer Email,email_open,opportunity,CFO
+DEAL-166,2025-07-23,Content Marketing,Blog/SEO,Channel ROI Framework,email_click,opportunity,Director of Marketing
+DEAL-167,2025-08-22,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_open,lead,Digital Marketing Specialist
+DEAL-167,2025-09-08,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_open,lead,Marketing Analyst
+DEAL-167,2025-09-19,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,content_download,mql,CTO
+DEAL-167,2025-10-07,Content Marketing,Blog/SEO,Channel ROI Framework,email_click,sql,CTO
+DEAL-167,2025-10-18,Email Campaigns,Nurture Sequences,Welcome Series Email,page_visit,opportunity,CTO
+DEAL-167,2025-11-04,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,page_visit,opportunity,CTO
+DEAL-168,2025-10-14,Events,Conferences,B2B Marketing Exchange,event_attendance,lead,Director of Marketing
+DEAL-168,2025-10-24,Google Ads,Brand Search,Brand Landing Page,page_visit,lead,Digital Marketing Specialist
+DEAL-168,2025-10-31,Google Ads,Retargeting,Free Trial Page,page_visit,mql,Digital Marketing Specialist
+DEAL-168,2025-11-09,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,sales_call,mql,CEO
+DEAL-168,2025-11-20,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,email_click,sql,CEO
+DEAL-168,2025-11-26,Google Ads,Brand Search,Pricing Page,page_visit,sql,CFO
+DEAL-168,2025-12-06,Events,Partner Events,Marketo Summit Workshop,webinar_attendance,opportunity,CFO
+DEAL-168,2025-12-16,Events,Hosted Roundtables,VP Marketing Roundtable,webinar_attendance,opportunity,CEO
+DEAL-168,2025-12-22,Content Marketing,Webinars,CMO Metrics That Matter,email_click,opportunity,Director of Marketing
+DEAL-169,2026-04-22,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_open,lead,Director of Marketing
+DEAL-169,2026-06-20,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_click,opportunity,CFO
+DEAL-170,2025-11-26,LinkedIn,InMail,Product Update Announcement,page_visit,lead,Content Strategist
+DEAL-170,2025-12-12,Content Marketing,Webinars,Pipeline Analytics Deep Dive,page_visit,sql,SDR/BDR
+DEAL-170,2025-12-25,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,opportunity,SDR/BDR
+DEAL-171,2025-09-10,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_open,lead,Product Manager
+DEAL-171,2025-10-07,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,mql,Product Manager
+DEAL-171,2025-11-07,LinkedIn,Conversation Ads,ROI Assessment Tool,ad_click,sql,Product Manager
+DEAL-171,2025-11-30,Email Campaigns,Re-engagement,We Miss You Email,email_click,opportunity,Product Manager
+DEAL-171,2025-12-30,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,content_download,opportunity,Product Manager
+DEAL-172,2026-03-04,Outbound BDR,Inbound Response,Demo Request Response,sales_call,lead,Marketing Manager
+DEAL-172,2026-04-05,Google Ads,Retargeting,Demo Request Page,ad_click,sql,CMO
+DEAL-172,2026-05-12,Events,Conferences,SaaStr Annual Booth,webinar_attendance,opportunity,Head of Demand Gen
+DEAL-173,2025-07-12,Google Ads,Brand Search,Product Overview Page,ad_click,lead,Director of Ops
+DEAL-173,2025-07-28,Outbound BDR,Warm Follow-up,Referral Introduction Call,sales_call,lead,Director of Ops
+DEAL-173,2025-08-19,Outbound BDR,Warm Follow-up,Content Download Follow-up,sales_call,mql,Director of Ops
+DEAL-173,2025-09-06,Google Ads,Non-Brand Search,Attribution Guide LP,page_visit,mql,CFO
+DEAL-173,2025-09-27,Google Ads,Retargeting,Free Trial Page,ad_click,sql,Director of Ops
+DEAL-173,2025-10-17,Content Marketing,Blog/SEO,Pipeline Velocity Best Practices,email_click,sql,Director of Ops
+DEAL-173,2025-11-02,Email Campaigns,Product Updates,Integration Release Email,email_click,opportunity,CFO
+DEAL-173,2025-11-22,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,opportunity,Director of Ops
+DEAL-174,2026-05-13,Outbound BDR,Inbound Response,Pricing Inquiry Call,email_open,lead,Marketing Analyst
+DEAL-174,2026-05-16,Google Ads,Brand Search,Pricing Page,ad_click,lead,Marketing Analyst
+DEAL-174,2026-05-17,Google Ads,Retargeting,Case Study LP,ad_click,mql,Marketing Analyst
+DEAL-174,2026-05-21,Outbound BDR,Warm Follow-up,Referral Introduction Call,sales_call,mql,CFO
+DEAL-174,2026-05-25,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_open,sql,CFO
+DEAL-174,2026-05-27,Outbound BDR,Inbound Response,Pricing Inquiry Call,sales_call,sql,CFO
+DEAL-174,2026-05-31,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,opportunity,CFO
+DEAL-174,2026-06-06,Outbound BDR,Cold Outbound,Cold Email Sequence,email_open,opportunity,CFO
+DEAL-175,2026-02-13,Google Ads,Brand Search,Brand Landing Page,page_visit,lead,Director of Marketing
+DEAL-175,2026-02-22,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,mql,Director of Marketing
+DEAL-175,2026-03-03,LinkedIn,InMail,Personalized Demo Invite,content_download,sql,CMO
+DEAL-175,2026-03-13,Email Campaigns,Product Updates,Platform Update Newsletter,email_open,opportunity,CMO
+DEAL-175,2026-03-23,LinkedIn,Conversation Ads,ROI Assessment Tool,content_download,opportunity,Director of Marketing
+DEAL-176,2026-03-03,Outbound BDR,Inbound Response,Free Trial Onboarding Call,sales_call,lead,VP Marketing
+DEAL-176,2026-03-19,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_click,lead,VP Marketing
+DEAL-176,2026-03-28,Outbound BDR,Inbound Response,Demo Request Response,sales_call,mql,VP Marketing
+DEAL-176,2026-04-11,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,mql,VP Marketing
+DEAL-176,2026-04-29,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,page_visit,sql,CMO
+DEAL-176,2026-05-16,Email Campaigns,Re-engagement,We Miss You Email,page_visit,sql,CMO
+DEAL-176,2026-05-25,Email Campaigns,Nurture Sequences,Welcome Series Email,email_open,opportunity,CMO
+DEAL-176,2026-06-10,Outbound BDR,Cold Outbound,Cold Call - Initial Outreach,email_open,opportunity,VP Marketing
+DEAL-177,2025-12-31,Outbound BDR,Inbound Response,Pricing Inquiry Call,sales_call,lead,Marketing Analyst
+DEAL-177,2026-01-04,Outbound BDR,Cold Outbound,LinkedIn Connection Request,email_open,mql,Product Manager
+DEAL-177,2026-01-13,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_open,sql,Product Manager
+DEAL-177,2026-01-25,LinkedIn,InMail,Executive Briefing Invite,ad_click,opportunity,Product Manager
+DEAL-178,2026-01-14,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_click,lead,Marketing Manager
+DEAL-178,2026-02-02,Email Campaigns,Re-engagement,Special Offer Email,email_click,mql,Director of Marketing
+DEAL-178,2026-02-18,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,webinar_attendance,sql,Director of Marketing
+DEAL-178,2026-03-06,Events,Conferences,Revenue Summit,event_attendance,opportunity,Director of Marketing
+DEAL-179,2025-10-03,Email Campaigns,Nurture Sequences,Product Education Drip,page_visit,lead,Product Manager
+DEAL-179,2025-10-15,LinkedIn,Conversation Ads,Interactive Product Tour,ad_click,sql,Product Manager
+DEAL-179,2025-10-23,Google Ads,Brand Search,Pricing Page,page_visit,opportunity,CTO
+DEAL-180,2025-08-25,LinkedIn,Sponsored Content,State of B2B Attribution Report,page_visit,lead,SDR/BDR
+DEAL-180,2025-09-07,Google Ads,Brand Search,Pricing Page,ad_click,lead,Head of Demand Gen
+DEAL-180,2025-09-17,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_click,lead,Marketing Director
+DEAL-180,2025-09-26,Outbound BDR,Cold Outbound,LinkedIn Connection Request,email_open,mql,Head of Demand Gen
+DEAL-180,2025-10-02,Content Marketing,Webinars,Attribution Masterclass,email_click,mql,VP Sales
+DEAL-180,2025-10-15,Google Ads,Retargeting,Demo Request Page,ad_click,sql,VP Sales
+DEAL-180,2025-10-22,Google Ads,Retargeting,Free Trial Page,page_visit,sql,Head of Demand Gen
+DEAL-180,2025-11-06,Content Marketing,Webinars,CMO Metrics That Matter,page_visit,opportunity,VP Sales
+DEAL-180,2025-11-10,Outbound BDR,Cold Outbound,Cold Email Sequence,email_open,opportunity,Marketing Director
+DEAL-180,2025-11-20,Email Campaigns,Nurture Sequences,Customer Testimonial Email,email_click,opportunity,Head of Demand Gen
+DEAL-181,2026-04-26,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,lead,Director of Marketing
+DEAL-181,2026-05-18,LinkedIn,InMail,Product Update Announcement,ad_click,sql,Director of Marketing
+DEAL-181,2026-06-14,Email Campaigns,Re-engagement,New Feature Alert,page_visit,opportunity,Director of Marketing
+DEAL-182,2025-12-30,Outbound BDR,Warm Follow-up,Content Download Follow-up,email_open,lead,VP Sales
+DEAL-182,2026-01-04,Google Ads,Brand Search,Product Overview Page,ad_click,lead,VP Marketing
+DEAL-182,2026-01-13,Events,Partner Events,HubSpot INBOUND Talk,webinar_attendance,mql,VP Marketing
+DEAL-182,2026-01-21,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,page_visit,mql,VP Sales
+DEAL-182,2026-01-27,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,email_click,sql,VP Sales
+DEAL-182,2026-02-05,Content Marketing,Blog/SEO,Channel ROI Framework,page_visit,sql,VP Marketing
+DEAL-182,2026-02-14,Email Campaigns,Nurture Sequences,Use Case Showcase,email_open,opportunity,VP Marketing
+DEAL-182,2026-02-19,Events,Conferences,MarTech Conference,webinar_attendance,opportunity,VP Sales
+DEAL-183,2026-02-13,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,page_visit,lead,VP Sales
+DEAL-183,2026-02-23,LinkedIn,Conversation Ads,ROI Assessment Tool,page_visit,lead,CMO
+DEAL-183,2026-03-02,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,email_click,mql,VP Sales
+DEAL-183,2026-03-14,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,email_click,mql,VP Sales
+DEAL-183,2026-03-17,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,sql,VP Sales
+DEAL-183,2026-03-28,Email Campaigns,Nurture Sequences,Product Education Drip,page_visit,sql,CMO
+DEAL-183,2026-04-05,LinkedIn,InMail,Product Update Announcement,ad_click,opportunity,CMO
+DEAL-183,2026-04-12,LinkedIn,Sponsored Content,State of B2B Attribution Report,content_download,opportunity,VP Sales
+DEAL-184,2026-03-29,Events,Partner Events,Salesforce Dreamforce Session,webinar_attendance,lead,Head of Demand Gen
+DEAL-184,2026-04-17,LinkedIn,Conversation Ads,ROI Assessment Tool,ad_click,mql,Director of Marketing
+DEAL-184,2026-05-04,Events,Hosted Roundtables,RevOps Leaders Forum,webinar_attendance,sql,Head of Demand Gen
+DEAL-184,2026-05-17,Events,Conferences,Revenue Summit,webinar_attendance,opportunity,Director of Marketing
+DEAL-184,2026-06-04,Google Ads,Brand Search,Product Overview Page,page_visit,opportunity,Director of Marketing
+DEAL-185,2026-04-23,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,lead,Marketing Manager
+DEAL-185,2026-05-11,Content Marketing,Webinars,CMO Metrics That Matter,page_visit,mql,Marketing Manager
+DEAL-185,2026-05-29,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,sql,VP Marketing
+DEAL-185,2026-06-22,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,page_visit,opportunity,VP Marketing
+DEAL-186,2026-01-22,Google Ads,Non-Brand Search,ROI Calculator Page,ad_click,lead,Marketing Director
+DEAL-186,2026-02-02,Outbound BDR,Cold Outbound,LinkedIn Connection Request,email_open,lead,Marketing Director
+DEAL-186,2026-02-14,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,lead,Marketing Director
+DEAL-186,2026-02-24,Outbound BDR,Warm Follow-up,Referral Introduction Call,email_open,mql,Marketing Director
+DEAL-186,2026-03-07,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,mql,Marketing Director
+DEAL-186,2026-03-18,Google Ads,Retargeting,Free Trial Page,ad_click,sql,Marketing Director
+DEAL-186,2026-03-28,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_click,sql,CMO
+DEAL-186,2026-04-07,Google Ads,Retargeting,Case Study LP,ad_click,sql,Marketing Director
+DEAL-186,2026-04-20,Email Campaigns,Re-engagement,We Miss You Email,email_open,opportunity,Marketing Director
+DEAL-186,2026-04-28,Email Campaigns,Re-engagement,Special Offer Email,page_visit,opportunity,Marketing Director
+DEAL-186,2026-05-13,Email Campaigns,Product Updates,Platform Update Newsletter,email_click,opportunity,CMO
+DEAL-187,2026-02-22,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,lead,Content Strategist
+DEAL-187,2026-02-22,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_open,lead,Content Strategist
+DEAL-187,2026-02-26,LinkedIn,Conversation Ads,Quick Demo Scheduler,page_visit,sql,CFO
+DEAL-187,2026-02-27,LinkedIn,InMail,Product Update Announcement,content_download,mql,CFO
+DEAL-187,2026-03-03,Google Ads,Retargeting,Demo Request Page,ad_click,opportunity,CFO
+DEAL-187,2026-03-03,Email Campaigns,Product Updates,Platform Update Newsletter,email_click,opportunity,CFO
+DEAL-188,2025-12-07,Google Ads,Non-Brand Search,ROI Calculator Page,page_visit,lead,SDR/BDR
+DEAL-188,2026-01-13,Events,Conferences,SaaStr Annual Booth,event_attendance,sql,Director of Ops
+DEAL-188,2026-02-20,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,opportunity,Director of Ops
+DEAL-189,2025-09-14,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,email_click,lead,Director of Marketing
+DEAL-189,2025-10-25,Content Marketing,Webinars,Pipeline Analytics Deep Dive,email_click,sql,Director of Marketing
+DEAL-189,2025-12-03,Content Marketing,Webinars,CMO Metrics That Matter,email_click,opportunity,CEO
+DEAL-190,2026-01-11,Email Campaigns,Product Updates,Feature Launch Announcement,page_visit,lead,Director of Ops
+DEAL-190,2026-02-20,Email Campaigns,Product Updates,Integration Release Email,page_visit,sql,Director of Ops
+DEAL-190,2026-04-01,Google Ads,Non-Brand Search,Attribution Guide LP,ad_click,opportunity,Director of Ops
+DEAL-191,2025-07-11,Content Marketing,Webinars,CMO Metrics That Matter,page_visit,lead,SDR/BDR
+DEAL-191,2025-07-24,Google Ads,Non-Brand Search,Pipeline Analytics LP,ad_click,lead,SDR/BDR
+DEAL-191,2025-08-11,Outbound BDR,Inbound Response,Demo Request Response,email_open,mql,Content Strategist
+DEAL-191,2025-08-24,Email Campaigns,Re-engagement,We Miss You Email,email_click,sql,VP Sales
+DEAL-191,2025-09-14,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,page_visit,sql,CEO
+DEAL-191,2025-10-01,Email Campaigns,Nurture Sequences,Welcome Series Email,email_open,opportunity,VP Sales
+DEAL-191,2025-10-15,Outbound BDR,Warm Follow-up,Referral Introduction Call,sales_call,opportunity,VP Sales
+DEAL-192,2026-04-16,Google Ads,Brand Search,Pricing Page,ad_click,lead,Marketing Manager
+DEAL-192,2026-04-24,Content Marketing,Blog/SEO,Channel ROI Framework,content_download,mql,Director of Marketing
+DEAL-192,2026-04-27,Events,Hosted Roundtables,VP Marketing Roundtable,event_attendance,sql,CTO
+DEAL-192,2026-05-07,Events,Partner Events,HubSpot INBOUND Talk,event_attendance,opportunity,Director of Marketing
+DEAL-192,2026-05-14,Email Campaigns,Product Updates,Integration Release Email,email_click,opportunity,CTO
+DEAL-193,2026-01-01,Google Ads,Brand Search,Product Overview Page,page_visit,lead,Marketing Analyst
+DEAL-193,2026-01-12,Events,Partner Events,Salesforce Dreamforce Session,event_attendance,lead,Content Strategist
+DEAL-193,2026-01-24,Google Ads,Retargeting,Demo Request Page,ad_click,lead,Content Strategist
+DEAL-193,2026-02-11,Outbound BDR,Warm Follow-up,Post-Event Follow-up Call,sales_call,mql,Marketing Analyst
+DEAL-193,2026-02-21,Outbound BDR,Warm Follow-up,Content Download Follow-up,email_open,mql,CFO
+DEAL-193,2026-03-05,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,page_visit,mql,CFO
+DEAL-193,2026-03-19,LinkedIn,Sponsored Content,State of B2B Attribution Report,ad_click,sql,CFO
+DEAL-193,2026-03-29,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,page_visit,sql,CFO
+DEAL-193,2026-04-15,Events,Conferences,SaaStr Annual Booth,webinar_attendance,sql,CFO
+DEAL-193,2026-04-29,Email Campaigns,Product Updates,Feature Launch Announcement,page_visit,opportunity,CFO
+DEAL-193,2026-05-08,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,event_attendance,opportunity,CFO
+DEAL-193,2026-05-24,LinkedIn,Sponsored Content,Pipeline ROI Infographic,page_visit,opportunity,CFO
+DEAL-194,2025-07-04,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,content_download,lead,Director of Ops
+DEAL-194,2025-07-11,LinkedIn,InMail,Product Update Announcement,content_download,sql,Product Manager
+DEAL-194,2025-07-17,Content Marketing,Blog/SEO,Channel ROI Framework,page_visit,opportunity,Product Manager
+DEAL-195,2026-02-16,Outbound BDR,Warm Follow-up,Content Download Follow-up,sales_call,lead,Marketing Analyst
+DEAL-195,2026-03-07,Email Campaigns,Product Updates,Platform Update Newsletter,email_click,sql,Product Manager
+DEAL-195,2026-03-24,Content Marketing,Webinars,CMO Metrics That Matter,content_download,opportunity,Marketing Director
+DEAL-196,2025-07-20,Events,Conferences,SaaStr Annual Booth,event_attendance,lead,Content Strategist
+DEAL-196,2025-07-20,LinkedIn,InMail,Product Update Announcement,content_download,lead,Content Strategist
+DEAL-196,2025-07-24,Google Ads,Brand Search,Pricing Page,ad_click,lead,Content Strategist
+DEAL-196,2025-07-26,Events,Partner Events,HubSpot INBOUND Talk,event_attendance,mql,Marketing Manager
+DEAL-196,2025-07-27,LinkedIn,Conversation Ads,ROI Assessment Tool,page_visit,mql,CFO
+DEAL-196,2025-07-29,Content Marketing,Webinars,Pipeline Analytics Deep Dive,email_click,sql,Director of Marketing
+DEAL-196,2025-07-29,Events,Conferences,MarTech Conference,webinar_attendance,sql,Director of Marketing
+DEAL-196,2025-07-30,LinkedIn,InMail,Executive Briefing Invite,content_download,sql,CFO
+DEAL-196,2025-07-30,Content Marketing,Webinars,Revenue Ops Workshop,content_download,opportunity,Director of Marketing
+DEAL-196,2025-08-01,Content Marketing,Blog/SEO,Channel ROI Framework,page_visit,opportunity,CFO
+DEAL-196,2025-08-02,LinkedIn,InMail,Personalized Demo Invite,ad_click,opportunity,Director of Marketing
+DEAL-197,2025-12-26,Events,Hosted Roundtables,CMO Dinner: Attribution in Practice,webinar_attendance,lead,SDR/BDR
+DEAL-197,2026-01-09,Outbound BDR,Inbound Response,Free Trial Onboarding Call,email_open,mql,SDR/BDR
+DEAL-197,2026-01-25,Content Marketing,Webinars,Revenue Ops Workshop,email_click,sql,VP Sales
+DEAL-197,2026-02-10,Content Marketing,Blog/SEO,Multi-Touch Attribution Guide,content_download,opportunity,VP Sales
+DEAL-198,2026-01-04,Content Marketing,Ebooks/Guides,Pipeline Intelligence Handbook,content_download,lead,SDR/BDR
+DEAL-198,2026-01-15,Content Marketing,Webinars,Revenue Ops Workshop,email_click,mql,SDR/BDR
+DEAL-198,2026-01-26,LinkedIn,Conversation Ads,Quick Demo Scheduler,ad_click,sql,CMO
+DEAL-198,2026-02-07,Content Marketing,Ebooks/Guides,Complete Attribution Playbook,email_click,opportunity,CMO
+DEAL-199,2026-02-20,Google Ads,Retargeting,Case Study LP,page_visit,lead,Director of Marketing
+DEAL-199,2026-03-13,Google Ads,Brand Search,Pricing Page,ad_click,lead,Head of Demand Gen
+DEAL-199,2026-03-31,Outbound BDR,Warm Follow-up,Content Download Follow-up,sales_call,mql,Head of Demand Gen
+DEAL-199,2026-04-19,Google Ads,Retargeting,Free Trial Page,ad_click,mql,Head of Demand Gen
+DEAL-199,2026-05-04,Google Ads,Non-Brand Search,Pipeline Analytics LP,page_visit,sql,Director of Marketing
+DEAL-199,2026-05-23,Email Campaigns,Re-engagement,Special Offer Email,page_visit,sql,Head of Demand Gen
+DEAL-199,2026-06-13,Google Ads,Brand Search,Product Overview Page,ad_click,opportunity,Director of Marketing
+DEAL-199,2026-06-28,Content Marketing,Webinars,CMO Metrics That Matter,content_download,opportunity,Director of Marketing
+DEAL-200,2025-11-12,Events,Conferences,B2B Marketing Exchange,webinar_attendance,lead,Digital Marketing Specialist
+DEAL-200,2025-11-13,Events,Conferences,Revenue Summit,event_attendance,lead,Marketing Director
+DEAL-200,2025-11-15,Content Marketing,Webinars,Revenue Ops Workshop,content_download,mql,Digital Marketing Specialist
+DEAL-200,2025-11-19,Content Marketing,Webinars,Pipeline Analytics Deep Dive,email_click,mql,CMO
+DEAL-200,2025-11-19,Content Marketing,Ebooks/Guides,B2B Marketing Measurement Guide,page_visit,sql,VP Sales
+DEAL-200,2025-11-21,Content Marketing,Webinars,Attribution Masterclass,page_visit,opportunity,VP Sales
+DEAL-200,2025-11-22,LinkedIn,InMail,Executive Briefing Invite,content_download,sql,VP Sales
+DEAL-200,2025-11-26,LinkedIn,Sponsored Content,State of B2B Attribution Report,ad_click,opportunity,VP Sales

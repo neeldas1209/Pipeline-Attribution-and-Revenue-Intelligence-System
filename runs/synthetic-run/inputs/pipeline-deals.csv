@@ -1,0 +1,51 @@
+deal_id,company_name,industry,company_size,employee_count,annual_revenue,geography,deal_size,deal_type,deal_stage,deal_outcome,lost_reason,sales_rep,product_line,lead_source,buyer_persona,lead_created_date,mql_date,sql_date,opportunity_created_date,closed_date
+DEAL-001,Orbit Fabrication,Manufacturing,SMB,95,$1M-$10M,North America,26073.98,New Business,closed_lost,lost,chose_competitor,Sarah Chen,Integrations,Inbound,CFO,2025-07-01,2025-07-06,,,2025-07-17
+DEAL-002,Xenon Therapeutics,Healthcare,Mid-Market,996,$50M-$100M,Europe,47438.02,New Business,opportunity,open,,Alex Kim,Analytics,Inbound,CMO,2025-07-06,2025-07-29,2025-08-22,2025-09-11,
+DEAL-003,Relay Diagnostics,Healthcare,Enterprise,11074,$100M-$500M,North America,144979.9,New Business,closed_lost,lost,no_budget,Alex Kim,Platform,Inbound,VP Marketing,2025-07-18,2025-07-22,,,2025-08-10
+DEAL-004,Echo Precision,Manufacturing,Enterprise,12164,$500M-$1B,North America,332778.12,Expansion,closed_lost,lost,chose_competitor,Priya Patel,Analytics,Outbound,CEO,2025-07-22,2025-08-02,,,2025-08-18
+DEAL-005,Pulse Computing,Technology,SMB,168,$10M-$50M,North America,34477.18,Renewal,opportunity,open,,Alex Kim,Platform,Inbound,VP Sales,2025-07-24,2025-08-09,2025-08-22,2025-09-05,
+DEAL-006,Delta Computing,Technology,Mid-Market,854,$10M-$50M,North America,65678.71,Renewal,sql,open,,Alex Kim,Enterprise Suite,Referral,CMO,2025-07-30,2025-08-12,2025-08-22,,
+DEAL-007,Alpha Industrial,Manufacturing,Enterprise,7765,$1B+,APAC,135050.75,New Business,opportunity,open,,Emily Thompson,Enterprise Suite,Inbound,CEO,2025-08-01,2025-08-11,2025-08-19,2025-08-21,
+DEAL-008,Orbit Payments,Financial Services,Mid-Market,454,$50M-$100M,North America,112847.66,Renewal,closed_won,won,,David Lee,Integrations,Event,CMO,2025-08-09,2025-08-21,2025-09-07,2025-09-30,2025-11-02
+DEAL-009,Core Labs,Technology,Enterprise,12069,$100M-$500M,North America,218016.98,New Business,closed_lost,lost,no_budget,Rachel Cohen,Analytics,Referral,CEO,2025-08-13,2025-08-23,2025-09-15,2025-10-16,2025-11-13
+DEAL-010,Pulse Diagnostics,Healthcare,Enterprise,14549,$500M-$1B,Europe,219125.78,Expansion,closed_won,won,,Priya Patel,Platform,Outbound,CTO,2025-08-18,2025-08-31,2025-09-18,2025-10-19,2025-11-29
+DEAL-011,Zen Group,Professional Services,Mid-Market,769,$100M-$500M,North America,81760.28,New Business,closed_won,won,,Jordan Martinez,Platform,Event,CTO,2025-08-22,2025-09-07,2025-09-22,2025-11-04,2025-12-13
+DEAL-012,Wave AI,Technology,Enterprise,9346,$500M-$1B,North America,263469.89,Renewal,closed_lost,lost,chose_competitor,Marcus Johnson,Integrations,Partner,VP Marketing,2025-08-29,2025-09-12,2025-09-23,2025-09-25,2025-10-09
+DEAL-013,Forge Industrial,Manufacturing,SMB,154,$1M-$10M,North America,22628.68,New Business,closed_won,won,,Jordan Martinez,Analytics,Inbound,VP Sales,2025-08-31,2025-09-16,2025-09-28,2025-10-04,2025-11-02
+DEAL-014,Orbit Precision,Manufacturing,Mid-Market,987,$50M-$100M,North America,64794.01,Renewal,opportunity,open,,David Lee,Platform,Referral,CTO,2025-09-07,2025-09-18,2025-10-13,2025-11-02,
+DEAL-015,Nova Capital,Financial Services,SMB,50,$1M-$10M,Europe,44672.62,Renewal,closed_lost,lost,chose_competitor,Rachel Cohen,Platform,Referral,CFO,2025-09-14,2025-09-29,2025-10-19,2025-11-08,2025-12-03
+DEAL-016,Zen Fintech,Financial Services,Enterprise,2213,$1B+,APAC,249950.34,New Business,closed_won,won,,Alex Kim,Platform,Event,VP Sales,2025-09-15,2025-10-06,2025-10-07,2025-12-09,2026-02-03
+DEAL-017,Kite Labs,Technology,Enterprise,7931,$100M-$500M,North America,211400.96,New Business,closed_lost,lost,chose_competitor,Jordan Martinez,Analytics,Outbound,CFO,2025-09-24,2025-10-03,,,2025-10-19
+DEAL-018,Cloud Tech,Technology,Mid-Market,403,$10M-$50M,North America,59148.58,New Business,closed_lost,lost,chose_competitor,Emily Thompson,Analytics,Outbound,CMO,2025-09-28,2025-10-06,2025-10-27,2025-11-14,2025-12-10
+DEAL-019,Lumen Care,Healthcare,Mid-Market,379,$50M-$100M,North America,61079.97,Renewal,closed_won,won,,Emily Thompson,Integrations,Referral,VP Sales,2025-09-29,2025-10-09,2025-10-10,2025-11-03,2025-11-24
+DEAL-020,Data Diagnostics,Healthcare,Mid-Market,945,$50M-$100M,Europe,103050.36,Expansion,sql,open,,Alex Kim,Platform,Partner,VP Sales,2025-10-07,2025-10-21,2025-11-11,,
+DEAL-021,Grid Fintech,Financial Services,SMB,145,$10M-$50M,North America,31734.96,Renewal,closed_lost,lost,went_dark,Alex Kim,Integrations,Referral,VP Sales,2025-10-10,2025-10-17,2025-10-28,2025-11-16,2025-12-11
+DEAL-022,Relay Solutions,Professional Services,SMB,145,$10M-$50M,Europe,41988.42,Expansion,closed_lost,lost,no_budget,David Lee,Enterprise Suite,Referral,VP Marketing,2025-11-04,2025-11-16,2025-12-06,2025-12-19,2026-01-09
+DEAL-023,Pulse Capital,Financial Services,SMB,84,$1M-$10M,North America,36481.35,Expansion,closed_lost,lost,built_in_house,Rachel Cohen,Enterprise Suite,Outbound,VP Marketing,2025-11-28,2025-12-12,,,2025-12-29
+DEAL-024,Edge AI,Technology,Enterprise,13314,$1B+,Europe,287244.47,New Business,closed_lost,lost,built_in_house,Alex Kim,Enterprise Suite,Inbound,VP Sales,2025-11-28,2025-12-06,2025-12-15,2026-01-19,2026-03-04
+DEAL-025,Relay Care,Healthcare,Enterprise,7929,$1B+,North America,93890.44,Renewal,closed_lost,lost,went_dark,Alex Kim,Integrations,Outbound,CFO,2025-12-07,2025-12-15,,,2025-12-23
+DEAL-026,Hive Computing,Technology,Enterprise,5623,$100M-$500M,North America,143515.12,New Business,sql,open,,Emily Thompson,Enterprise Suite,Inbound,CEO,2025-12-10,2025-12-20,2025-12-29,,
+DEAL-027,Lumen Digital,Technology,Mid-Market,831,$10M-$50M,North America,119501.4,New Business,closed_lost,lost,timing,Emily Thompson,Platform,Inbound,VP Marketing,2025-12-29,2026-01-20,2026-01-30,2026-02-09,2026-02-21
+DEAL-028,Relay Financial,Financial Services,SMB,69,$10M-$50M,APAC,43151.1,New Business,sql,open,,Alex Kim,Analytics,Outbound,CTO,2025-12-30,2026-01-18,2026-01-25,,
+DEAL-029,Core Advisory,Professional Services,SMB,126,$1M-$10M,Europe,16379.73,New Business,closed_lost,lost,no_budget,Alex Kim,Platform,Inbound,CMO,2025-12-31,2026-01-10,2026-01-27,2026-02-05,2026-02-27
+DEAL-030,Edge Digital,Technology,Enterprise,3539,$500M-$1B,Europe,159831.62,New Business,closed_won,won,,Jordan Martinez,Integrations,Event,CFO,2026-01-04,2026-01-08,2026-01-31,2026-02-18,2026-04-06
+DEAL-031,Nova Computing,Technology,Enterprise,7883,$500M-$1B,North America,324306.39,New Business,closed_won,won,,Sarah Chen,Platform,Outbound,CFO,2026-01-11,2026-01-12,2026-01-29,2026-03-01,2026-04-14
+DEAL-032,Xenon Advisory,Professional Services,Mid-Market,726,$50M-$100M,APAC,115961.11,New Business,closed_lost,lost,chose_competitor,Alex Kim,Enterprise Suite,Inbound,CTO,2026-01-11,2026-01-29,2026-02-26,2026-03-10,2026-04-16
+DEAL-033,Flow Health,Healthcare,Mid-Market,469,$10M-$50M,Europe,66520.99,Expansion,opportunity,open,,David Lee,Platform,Outbound,CEO,2026-01-13,2026-01-29,2026-02-10,2026-02-24,
+DEAL-034,Wave Consulting,Professional Services,Enterprise,7797,$100M-$500M,North America,187042.57,Renewal,closed_won,won,,Rachel Cohen,Integrations,Inbound,VP Sales,2026-01-14,2026-01-30,2026-02-13,2026-04-21,2026-05-28
+DEAL-035,Jump Engineering,Manufacturing,Enterprise,5584,$100M-$500M,North America,91853.07,Renewal,closed_lost,lost,timing,Sarah Chen,Analytics,Outbound,CFO,2026-01-28,2026-02-07,,,2026-02-16
+DEAL-036,Insight Software,Technology,Enterprise,6202,$1B+,APAC,292482.14,New Business,sql,open,,Emily Thompson,Platform,Partner,CFO,2026-01-29,2026-02-07,2026-02-18,,
+DEAL-037,Yield AI,Technology,Enterprise,13970,$500M-$1B,APAC,299559.89,Expansion,closed_lost,lost,timing,Alex Kim,Platform,Outbound,CEO,2026-02-02,2026-02-13,,,2026-03-14
+DEAL-038,Bright Risk Analytics,Financial Services,Enterprise,7484,$500M-$1B,North America,82186.45,New Business,closed_lost,lost,went_dark,Marcus Johnson,Platform,Partner,CFO,2026-03-12,2026-03-29,2026-04-01,2026-05-08,2026-05-31
+DEAL-039,Onyx Health,Healthcare,SMB,182,$1M-$10M,Europe,28907.37,New Business,closed_won,won,,Marcus Johnson,Enterprise Suite,Inbound,VP Marketing,2026-03-14,2026-04-01,2026-04-22,2026-05-19,2026-06-07
+DEAL-040,Data Tech,Technology,Enterprise,10571,$500M-$1B,North America,215769.6,Expansion,closed_lost,lost,chose_competitor,Emily Thompson,Analytics,Inbound,VP Marketing,2026-03-18,2026-04-01,2026-04-17,2026-05-05,2026-05-26
+DEAL-041,Forge Consulting,Professional Services,SMB,73,$1M-$10M,Europe,21978.7,Renewal,closed_lost,lost,went_dark,Jordan Martinez,Analytics,Outbound,VP Marketing,2026-03-27,2026-04-03,,,2026-04-13
+DEAL-042,Edge Systems,Technology,Mid-Market,481,$100M-$500M,North America,88811.52,Renewal,closed_won,won,,Jordan Martinez,Integrations,Inbound,CTO,2026-03-29,2026-04-08,2026-04-29,2026-05-05,2026-06-06
+DEAL-043,Grid Engineering,Manufacturing,SMB,127,$1M-$10M,North America,38886.82,Expansion,closed_won,won,,Priya Patel,Platform,Inbound,CMO,2026-03-30,2026-04-06,2026-04-23,2026-05-04,2026-05-28
+DEAL-044,Logic MedTech,Healthcare,Mid-Market,780,$10M-$50M,North America,107367.96,New Business,closed_won,won,,Marcus Johnson,Enterprise Suite,Inbound,CEO,2026-04-08,2026-04-26,2026-05-14,2026-05-31,2026-06-30
+DEAL-045,Data Computing,Technology,Enterprise,6464,$100M-$500M,Europe,346981.64,New Business,mql,open,,Sarah Chen,Analytics,Referral,VP Marketing,2026-04-10,2026-04-22,,,
+DEAL-046,Warp Group,Professional Services,SMB,94,$1M-$10M,Europe,26406.22,New Business,closed_won,won,,Rachel Cohen,Analytics,Inbound,CFO,2026-04-13,2026-04-29,2026-05-04,2026-06-03,2026-06-30
+DEAL-047,Trace Commerce,Retail/E-commerce,Mid-Market,588,$100M-$500M,APAC,59401.51,New Business,sql,open,,Jordan Martinez,Integrations,Referral,VP Sales,2026-04-16,2026-04-26,2026-05-14,,
+DEAL-048,Key Retail,Retail/E-commerce,Mid-Market,939,$50M-$100M,APAC,71845.09,New Business,opportunity,open,,Marcus Johnson,Enterprise Suite,Referral,CTO,2026-05-02,2026-05-13,2026-05-16,2026-05-27,
+DEAL-049,Pulse Precision,Manufacturing,Enterprise,14588,$500M-$1B,North America,91903.43,Renewal,opportunity,open,,Alex Kim,Integrations,Event,VP Sales,2026-05-23,2026-06-11,2026-06-29,2026-06-29,
+DEAL-050,Quartz Engineering,Manufacturing,Enterprise,3340,$100M-$500M,North America,223237.23,Renewal,opportunity,open,,Jordan Martinez,Platform,Inbound,CFO,2026-05-29,2026-06-12,2026-06-25,2026-06-27,

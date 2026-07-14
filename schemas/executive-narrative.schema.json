@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Executive Narrative",
+  "description": "Agent 05 output: 6-section CMO-ready executive summary with consensus methodology",
+  "type": "object",
+  "required": ["metadata", "sections"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["run_id", "generated_date", "source_agents", "total_word_count", "attribution_models_analyzed"],
+      "properties": {
+        "run_id": { "type": "string" },
+        "generated_date": { "type": "string", "format": "date-time" },
+        "agent": { "type": "string" },
+        "source_agents": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 4
+        },
+        "total_word_count": { "type": "integer", "minimum": 1000, "maximum": 2000 },
+        "attribution_models_analyzed": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["first_touch", "last_touch", "linear", "time_decay", "w_shaped"] },
+          "minItems": 5,
+          "maxItems": 5
+        },
+        "quality_check": { "type": "object" }
+      }
+    },
+    "sections": {
+      "type": "object",
+      "required": ["executive_summary", "attribution_insights", "funnel_health", "channel_efficiency", "budget_recommendations", "key_risks"],
+      "properties": {
+        "executive_summary": {
+          "type": "object",
+          "required": ["_data_type", "content", "key_metrics_referenced"],
+          "properties": {
+            "_data_type": { "type": "string", "const": "interpretive" },
+            "content": { "type": "string", "minLength": 50 },
+            "key_metrics_referenced": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["metric", "value", "source"],
+                "properties": {
+                  "metric": { "type": "string" },
+                  "value": { "type": "string" },
+                  "source": { "type": "string" },
+                  "model": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "attribution_insights": {
+          "type": "object",
+          "required": ["_data_type", "content", "consensus_findings", "divergence_findings"],
+          "properties": {
+            "_data_type": { "type": "string", "const": "interpretive" },
+            "content": { "type": "string", "minLength": 50 },
+            "consensus_findings": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["finding", "models_supporting", "models_analyzed"],
+                "properties": {
+                  "finding": { "type": "string" },
+                  "models_supporting": { "type": "integer", "minimum": 1, "maximum": 5 },
+                  "models_analyzed": { "type": "integer", "const": 5 }
+                }
+              }
+            },
+            "divergence_findings": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["channel", "rank_range", "interpretation"],
+                "properties": {
+                  "channel": { "type": "string" },
+                  "rank_range": { "type": "string" },
+                  "interpretation": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "funnel_health": {
+          "type": "object",
+          "required": ["_data_type", "content", "bottlenecks_cited"],
+          "properties": {
+            "_data_type": { "type": "string", "const": "interpretive" },
+            "content": { "type": "string", "minLength": 50 },
+            "bottlenecks_cited": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "channel_efficiency": {
+          "type": "object",
+          "required": ["_data_type", "content", "channels_highlighted"],
+          "properties": {
+            "_data_type": { "type": "string", "const": "interpretive" },
+            "content": { "type": "string", "minLength": 50 },
+            "channels_highlighted": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "budget_recommendations": {
+          "type": "object",
+          "required": ["_data_type", "content", "scenarios_referenced", "primary_recommendation"],
+          "properties": {
+            "_data_type": { "type": "string", "const": "interpretive" },
+            "content": { "type": "string", "minLength": 50 },
+            "scenarios_referenced": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "primary_recommendation": { "type": "string" },
+            "primary_recommendation_rationale": { "type": "string" }
+          }
+        },
+        "key_risks": {
+          "type": "object",
+          "required": ["_data_type", "content", "risks_identified"],
+          "properties": {
+            "_data_type": { "type": "string", "const": "interpretive" },
+            "content": { "type": "string", "minLength": 50 },
+            "risks_identified": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
