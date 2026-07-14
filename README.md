@@ -1,4 +1,4 @@
-# Pipeline Attribution & Revenue Intelligence
+# Pipeline Attribution & Revenue Intelligence System
 
 An agentic system built in Claude Code that ingests multi-touch B2B pipeline data and channel spend data, applies five attribution models simultaneously, identifies funnel bottlenecks, ranks channels by true ROI, models budget reallocation scenarios, and produces an interactive HTML dashboard for CMO presentation.
 
