@@ -94,17 +94,6 @@ claude --agent pipeline-orchestrator --dangerously-skip-permissions
 
 The orchestrator will preprocess CSVs, run Agents 01–03, pause for human review, then run Agents 04–06 and generate the dashboard.
 
-## Portfolio Context
-
-This is Project 4 in a four-project AI-powered marketing systems portfolio:
-
-| Project | Funnel Position | What It Does | Status |
-|---------|----------------|--------------|--------|
-| 1 — GTM Strategy Engine | Strategy Layer | Complete go-to-market strategy from product brief | Complete |
-| 2 — Account Intelligence | Top of Funnel | Account scoring, tiering, persona outreach | Complete |
-| 3 — Unified Search Intelligence | Mid Funnel | SEO + AEO content optimization | Skipped |
-| 4 — Pipeline Attribution | Bottom of Funnel | Attribution, velocity, ROI, scenario planning, dashboard | This project |
-
 ## Tech Stack
 
 - **Claude Code** — agentic orchestration and reasoning
