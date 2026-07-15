@@ -1,0 +1,1992 @@
+{
+  "metadata": {
+    "run_id": "synthetic-run",
+    "generated_date": "2026-07-14T00:00:00Z",
+    "agent": "03-channel-performance",
+    "total_spend": 124882.07,
+    "total_pipeline_attributed": 4464023.8,
+    "channels_matched": 6,
+    "channels_unmatched": [],
+    "campaigns_matched": 18,
+    "campaigns_unmatched": [],
+    "data_quality_warnings": []
+  },
+  "channel_leaderboard": {
+    "Content Marketing": {
+      "total_spend": 18732.82,
+      "budget_pct": 15.0,
+      "leads_generated": 34,
+      "mqls": 34,
+      "sqls": 29,
+      "opps": 24,
+      "won": 10,
+      "cost_per_lead": 550.97,
+      "cost_per_mql": 550.97,
+      "cost_per_sql": 645.96,
+      "cost_per_opp": 780.53,
+      "cost_per_won": 1873.28,
+      "conversion_lead_to_won": 29.4,
+      "pipeline_created": 1602969.63,
+      "by_model": {
+        "first_touch": {
+          "pipeline_influenced": 1210444.75,
+          "avg_deal_size_attributed": 52628.03,
+          "roi": 63.62,
+          "pipeline_per_dollar": 64.62,
+          "rank": 2
+        },
+        "last_touch": {
+          "pipeline_influenced": 1232736.05,
+          "avg_deal_size_attributed": 53597.22,
+          "roi": 64.81,
+          "pipeline_per_dollar": 65.81,
+          "rank": 1
+        },
+        "linear": {
+          "pipeline_influenced": 1146718.7,
+          "avg_deal_size_attributed": 49857.33,
+          "roi": 60.21,
+          "pipeline_per_dollar": 61.21,
+          "rank": 1
+        },
+        "time_decay": {
+          "pipeline_influenced": 1492538.61,
+          "avg_deal_size_attributed": 64892.98,
+          "roi": 78.68,
+          "pipeline_per_dollar": 79.68,
+          "rank": 1
+        },
+        "w_shaped": {
+          "pipeline_influenced": 1202339.48,
+          "avg_deal_size_attributed": 52275.63,
+          "roi": 63.18,
+          "pipeline_per_dollar": 64.18,
+          "rank": 2
+        }
+      },
+      "time_normalized": {
+        "active_months": 11.9,
+        "pipeline_per_month": {
+          "first_touch": 102066.31,
+          "last_touch": 103945.94,
+          "linear": 96692.85,
+          "time_decay": 125852.84,
+          "w_shaped": 101382.86
+        },
+        "roi_per_month": {
+          "first_touch": 5.36,
+          "last_touch": 5.46,
+          "linear": 5.08,
+          "time_decay": 6.63,
+          "w_shaped": 5.33
+        },
+        "spend_per_month": 1579.58
+      },
+      "channel_activity": {
+        "first_touchpoint_date": "2025-07-04",
+        "last_touchpoint_date": "2026-06-30",
+        "total_touchpoint_count": 59
+      }
+    },
+    "Email Campaigns": {
+      "total_spend": 9752.82,
+      "budget_pct": 7.8,
+      "leads_generated": 27,
+      "mqls": 27,
+      "sqls": 20,
+      "opps": 18,
+      "won": 7,
+      "cost_per_lead": 361.22,
+      "cost_per_mql": 361.22,
+      "cost_per_sql": 487.64,
+      "cost_per_opp": 541.82,
+      "cost_per_won": 1393.26,
+      "conversion_lead_to_won": 25.9,
+      "pipeline_created": 144979.9,
+      "by_model": {
+        "first_touch": {
+          "pipeline_influenced": 144979.9,
+          "avg_deal_size_attributed": 7630.52,
+          "roi": 13.87,
+          "pipeline_per_dollar": 14.87,
+          "rank": 5
+        },
+        "last_touch": {
+          "pipeline_influenced": 862863.89,
+          "avg_deal_size_attributed": 45413.89,
+          "roi": 87.47,
+          "pipeline_per_dollar": 88.47,
+          "rank": 2
+        },
+        "linear": {
+          "pipeline_influenced": 790309.43,
+          "avg_deal_size_attributed": 41595.23,
+          "roi": 80.03,
+          "pipeline_per_dollar": 81.03,
+          "rank": 3
+        },
+        "time_decay": {
+          "pipeline_influenced": 1327877.07,
+          "avg_deal_size_attributed": 69888.27,
+          "roi": 135.15,
+          "pipeline_per_dollar": 136.15,
+          "rank": 2
+        },
+        "w_shaped": {
+          "pipeline_influenced": 440766.88,
+          "avg_deal_size_attributed": 23198.26,
+          "roi": 44.19,
+          "pipeline_per_dollar": 45.19,
+          "rank": 4
+        }
+      },
+      "time_normalized": {
+        "active_months": 11.0,
+        "pipeline_per_month": {
+          "first_touch": 13173.7,
+          "last_touch": 78404.71,
+          "linear": 71812.0,
+          "time_decay": 120658.44,
+          "w_shaped": 40050.58
+        },
+        "roi_per_month": {
+          "first_touch": 1.26,
+          "last_touch": 7.95,
+          "linear": 7.27,
+          "time_decay": 12.28,
+          "w_shaped": 4.02
+        },
+        "spend_per_month": 886.2
+      },
+      "channel_activity": {
+        "first_touchpoint_date": "2025-07-19",
+        "last_touchpoint_date": "2026-06-19",
+        "total_touchpoint_count": 36
+      }
+    },
+    "Events": {
+      "total_spend": 16634.26,
+      "budget_pct": 13.3,
+      "leads_generated": 10,
+      "mqls": 10,
+      "sqls": 9,
+      "opps": 8,
+      "won": 2,
+      "cost_per_lead": 1663.43,
+      "cost_per_mql": 1663.43,
+      "cost_per_sql": 1848.25,
+      "cost_per_opp": 2079.28,
+      "cost_per_won": 8317.13,
+      "conversion_lead_to_won": 20.0,
+      "pipeline_created": 87422.69,
+      "by_model": {
+        "first_touch": {
+          "pipeline_influenced": 22628.68,
+          "avg_deal_size_attributed": 3771.45,
+          "roi": 0.36,
+          "pipeline_per_dollar": 1.36,
+          "rank": 6
+        },
+        "last_touch": {
+          "pipeline_influenced": 536048.91,
+          "avg_deal_size_attributed": 89341.49,
+          "roi": 31.23,
+          "pipeline_per_dollar": 32.23,
+          "rank": 5
+        },
+        "linear": {
+          "pipeline_influenced": 311645.15,
+          "avg_deal_size_attributed": 51940.86,
+          "roi": 17.74,
+          "pipeline_per_dollar": 18.74,
+          "rank": 6
+        },
+        "time_decay": {
+          "pipeline_influenced": 557763.72,
+          "avg_deal_size_attributed": 92960.62,
+          "roi": 32.53,
+          "pipeline_per_dollar": 33.53,
+          "rank": 3
+        },
+        "w_shaped": {
+          "pipeline_influenced": 206615.34,
+          "avg_deal_size_attributed": 34435.89,
+          "roi": 11.42,
+          "pipeline_per_dollar": 12.42,
+          "rank": 6
+        }
+      },
+      "time_normalized": {
+        "active_months": 6.6,
+        "pipeline_per_month": {
+          "first_touch": 3426.95,
+          "last_touch": 81180.74,
+          "linear": 47196.41,
+          "time_decay": 84469.29,
+          "w_shaped": 31290.4
+        },
+        "roi_per_month": {
+          "first_touch": 0.05,
+          "last_touch": 4.73,
+          "linear": 2.69,
+          "time_decay": 4.93,
+          "w_shaped": 1.73
+        },
+        "spend_per_month": 2519.14
+      },
+      "channel_activity": {
+        "first_touchpoint_date": "2025-09-01",
+        "last_touchpoint_date": "2026-03-21",
+        "total_touchpoint_count": 16
+      }
+    },
+    "Google Ads": {
+      "total_spend": 37928.48,
+      "budget_pct": 30.4,
+      "leads_generated": 32,
+      "mqls": 32,
+      "sqls": 25,
+      "opps": 22,
+      "won": 9,
+      "cost_per_lead": 1185.27,
+      "cost_per_mql": 1185.27,
+      "cost_per_sql": 1517.14,
+      "cost_per_opp": 1724.02,
+      "cost_per_won": 4214.28,
+      "conversion_lead_to_won": 28.1,
+      "pipeline_created": 2601490.68,
+      "by_model": {
+        "first_touch": {
+          "pipeline_influenced": 1868819.94,
+          "avg_deal_size_attributed": 77867.5,
+          "roi": 48.27,
+          "pipeline_per_dollar": 49.27,
+          "rank": 1
+        },
+        "last_touch": {
+          "pipeline_influenced": 612262.4,
+          "avg_deal_size_attributed": 25510.93,
+          "roi": 15.14,
+          "pipeline_per_dollar": 16.14,
+          "rank": 4
+        },
+        "linear": {
+          "pipeline_influenced": 1044229.73,
+          "avg_deal_size_attributed": 43509.57,
+          "roi": 26.53,
+          "pipeline_per_dollar": 27.53,
+          "rank": 2
+        },
+        "time_decay": {
+          "pipeline_influenced": 537607.74,
+          "avg_deal_size_attributed": 22400.32,
+          "roi": 13.17,
+          "pipeline_per_dollar": 14.17,
+          "rank": 4
+        },
+        "w_shaped": {
+          "pipeline_influenced": 1405247.82,
+          "avg_deal_size_attributed": 58551.99,
+          "roi": 36.05,
+          "pipeline_per_dollar": 37.05,
+          "rank": 1
+        }
+      },
+      "time_normalized": {
+        "active_months": 10.0,
+        "pipeline_per_month": {
+          "first_touch": 186514.36,
+          "last_touch": 61105.79,
+          "linear": 104217.55,
+          "time_decay": 53655.02,
+          "w_shaped": 140248.34
+        },
+        "roi_per_month": {
+          "first_touch": 4.82,
+          "last_touch": 1.51,
+          "linear": 2.65,
+          "time_decay": 1.31,
+          "w_shaped": 3.6
+        },
+        "spend_per_month": 3785.39
+      },
+      "channel_activity": {
+        "first_touchpoint_date": "2025-07-26",
+        "last_touchpoint_date": "2026-05-27",
+        "total_touchpoint_count": 53
+      }
+    },
+    "LinkedIn": {
+      "total_spend": 27041.01,
+      "budget_pct": 21.7,
+      "leads_generated": 18,
+      "mqls": 18,
+      "sqls": 15,
+      "opps": 14,
+      "won": 7,
+      "cost_per_lead": 1502.28,
+      "cost_per_mql": 1502.28,
+      "cost_per_sql": 1802.73,
+      "cost_per_opp": 1931.5,
+      "cost_per_won": 3863.0,
+      "conversion_lead_to_won": 38.9,
+      "pipeline_created": 447446.31,
+      "by_model": {
+        "first_touch": {
+          "pipeline_influenced": 375601.22,
+          "avg_deal_size_attributed": 25040.08,
+          "roi": 12.89,
+          "pipeline_per_dollar": 13.89,
+          "rank": 4
+        },
+        "last_touch": {
+          "pipeline_influenced": 426751.37,
+          "avg_deal_size_attributed": 28450.09,
+          "roi": 14.78,
+          "pipeline_per_dollar": 15.78,
+          "rank": 6
+        },
+        "linear": {
+          "pipeline_influenced": 616755.04,
+          "avg_deal_size_attributed": 41117.0,
+          "roi": 21.81,
+          "pipeline_per_dollar": 22.81,
+          "rank": 4
+        },
+        "time_decay": {
+          "pipeline_influenced": 272148.23,
+          "avg_deal_size_attributed": 18143.22,
+          "roi": 9.06,
+          "pipeline_per_dollar": 10.06,
+          "rank": 6
+        },
+        "w_shaped": {
+          "pipeline_influenced": 424572.07,
+          "avg_deal_size_attributed": 28304.8,
+          "roi": 14.7,
+          "pipeline_per_dollar": 15.7,
+          "rank": 5
+        }
+      },
+      "time_normalized": {
+        "active_months": 11.6,
+        "pipeline_per_month": {
+          "first_touch": 32297.46,
+          "last_touch": 36695.8,
+          "linear": 53033.96,
+          "time_decay": 23401.67,
+          "w_shaped": 36508.4
+        },
+        "roi_per_month": {
+          "first_touch": 1.11,
+          "last_touch": 1.27,
+          "linear": 1.88,
+          "time_decay": 0.78,
+          "w_shaped": 1.26
+        },
+        "spend_per_month": 2325.22
+      },
+      "channel_activity": {
+        "first_touchpoint_date": "2025-07-11",
+        "last_touchpoint_date": "2026-06-30",
+        "total_touchpoint_count": 26
+      }
+    },
+    "Outbound BDR": {
+      "total_spend": 14792.68,
+      "budget_pct": 11.8,
+      "leads_generated": 27,
+      "mqls": 27,
+      "sqls": 21,
+      "opps": 17,
+      "won": 4,
+      "cost_per_lead": 547.88,
+      "cost_per_mql": 547.88,
+      "cost_per_sql": 704.41,
+      "cost_per_opp": 870.16,
+      "cost_per_won": 3698.17,
+      "conversion_lead_to_won": 14.8,
+      "pipeline_created": 1369241.87,
+      "by_model": {
+        "first_touch": {
+          "pipeline_influenced": 841549.31,
+          "avg_deal_size_attributed": 56103.29,
+          "roi": 55.89,
+          "pipeline_per_dollar": 56.89,
+          "rank": 3
+        },
+        "last_touch": {
+          "pipeline_influenced": 793361.18,
+          "avg_deal_size_attributed": 52890.75,
+          "roi": 52.63,
+          "pipeline_per_dollar": 53.63,
+          "rank": 3
+        },
+        "linear": {
+          "pipeline_influenced": 554365.75,
+          "avg_deal_size_attributed": 36957.72,
+          "roi": 36.48,
+          "pipeline_per_dollar": 37.48,
+          "rank": 5
+        },
+        "time_decay": {
+          "pipeline_influenced": 276088.43,
+          "avg_deal_size_attributed": 18405.9,
+          "roi": 17.66,
+          "pipeline_per_dollar": 18.66,
+          "rank": 5
+        },
+        "w_shaped": {
+          "pipeline_influenced": 784482.21,
+          "avg_deal_size_attributed": 52298.81,
+          "roi": 52.03,
+          "pipeline_per_dollar": 53.03,
+          "rank": 3
+        }
+      },
+      "time_normalized": {
+        "active_months": 8.6,
+        "pipeline_per_month": {
+          "first_touch": 97773.9,
+          "last_touch": 92175.25,
+          "linear": 64407.99,
+          "time_decay": 32076.84,
+          "w_shaped": 91143.66
+        },
+        "roi_per_month": {
+          "first_touch": 6.49,
+          "last_touch": 6.11,
+          "linear": 4.24,
+          "time_decay": 2.05,
+          "w_shaped": 6.05
+        },
+        "spend_per_month": 1718.66
+      },
+      "channel_activity": {
+        "first_touchpoint_date": "2025-07-25",
+        "last_touchpoint_date": "2026-04-13",
+        "total_touchpoint_count": 22
+      }
+    }
+  },
+  "campaign_detail": {
+    "Content Marketing": {
+      "Blog/SEO": {
+        "total_spend": 7524.0,
+        "leads_generated": 18,
+        "mqls": 18,
+        "sqls": 15,
+        "opps": 12,
+        "won": 5,
+        "cost_per_lead": 418.0,
+        "cost_per_mql": 418.0,
+        "cost_per_sql": 501.6,
+        "cost_per_opp": 627.0,
+        "cost_per_won": 1504.8,
+        "conversion_lead_to_won": 27.8,
+        "pipeline_created": 247551.52,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 200113.5,
+            "avg_deal_size_attributed": 16676.12,
+            "roi": 25.6,
+            "pipeline_per_dollar": 26.6,
+            "rank": 2
+          },
+          "last_touch": {
+            "pipeline_influenced": 227335.66,
+            "avg_deal_size_attributed": 18944.64,
+            "roi": 29.21,
+            "pipeline_per_dollar": 30.21,
+            "rank": 3
+          },
+          "linear": {
+            "pipeline_influenced": 366111.35,
+            "avg_deal_size_attributed": 30509.28,
+            "roi": 47.66,
+            "pipeline_per_dollar": 48.66,
+            "rank": 2
+          },
+          "time_decay": {
+            "pipeline_influenced": 473978.83,
+            "avg_deal_size_attributed": 39498.24,
+            "roi": 62.0,
+            "pipeline_per_dollar": 63.0,
+            "rank": 3
+          },
+          "w_shaped": {
+            "pipeline_influenced": 228808.78,
+            "avg_deal_size_attributed": 19067.4,
+            "roi": 29.41,
+            "pipeline_per_dollar": 30.41,
+            "rank": 2
+          }
+        }
+      },
+      "Ebooks/Guides": {
+        "total_spend": 4618.58,
+        "leads_generated": 17,
+        "mqls": 17,
+        "sqls": 14,
+        "opps": 12,
+        "won": 8,
+        "cost_per_lead": 271.68,
+        "cost_per_mql": 271.68,
+        "cost_per_sql": 329.9,
+        "cost_per_opp": 384.88,
+        "cost_per_won": 577.32,
+        "conversion_lead_to_won": 47.1,
+        "pipeline_created": 1115176.11,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 905140.0,
+            "avg_deal_size_attributed": 69626.15,
+            "roi": 194.98,
+            "pipeline_per_dollar": 195.98,
+            "rank": 1
+          },
+          "last_touch": {
+            "pipeline_influenced": 570918.65,
+            "avg_deal_size_attributed": 43916.82,
+            "roi": 122.61,
+            "pipeline_per_dollar": 123.61,
+            "rank": 1
+          },
+          "linear": {
+            "pipeline_influenced": 447571.87,
+            "avg_deal_size_attributed": 34428.61,
+            "roi": 95.91,
+            "pipeline_per_dollar": 96.91,
+            "rank": 1
+          },
+          "time_decay": {
+            "pipeline_influenced": 535785.85,
+            "avg_deal_size_attributed": 41214.3,
+            "roi": 115.01,
+            "pipeline_per_dollar": 116.01,
+            "rank": 1
+          },
+          "w_shaped": {
+            "pipeline_influenced": 745527.45,
+            "avg_deal_size_attributed": 57348.27,
+            "roi": 160.42,
+            "pipeline_per_dollar": 161.42,
+            "rank": 1
+          }
+        }
+      },
+      "Webinars": {
+        "total_spend": 6590.24,
+        "leads_generated": 20,
+        "mqls": 20,
+        "sqls": 17,
+        "opps": 14,
+        "won": 5,
+        "cost_per_lead": 329.51,
+        "cost_per_mql": 329.51,
+        "cost_per_sql": 387.66,
+        "cost_per_opp": 470.73,
+        "cost_per_won": 1318.05,
+        "conversion_lead_to_won": 25.0,
+        "pipeline_created": 240242.0,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 105191.25,
+            "avg_deal_size_attributed": 7513.66,
+            "roi": 14.96,
+            "pipeline_per_dollar": 15.96,
+            "rank": 3
+          },
+          "last_touch": {
+            "pipeline_influenced": 434481.74,
+            "avg_deal_size_attributed": 31034.41,
+            "roi": 64.93,
+            "pipeline_per_dollar": 65.93,
+            "rank": 2
+          },
+          "linear": {
+            "pipeline_influenced": 333035.48,
+            "avg_deal_size_attributed": 23788.25,
+            "roi": 49.53,
+            "pipeline_per_dollar": 50.53,
+            "rank": 3
+          },
+          "time_decay": {
+            "pipeline_influenced": 482773.93,
+            "avg_deal_size_attributed": 34483.85,
+            "roi": 72.26,
+            "pipeline_per_dollar": 73.26,
+            "rank": 2
+          },
+          "w_shaped": {
+            "pipeline_influenced": 228003.25,
+            "avg_deal_size_attributed": 16285.95,
+            "roi": 33.6,
+            "pipeline_per_dollar": 34.6,
+            "rank": 3
+          }
+        }
+      }
+    },
+    "Email Campaigns": {
+      "Nurture Sequences": {
+        "total_spend": 3757.49,
+        "leads_generated": 17,
+        "mqls": 17,
+        "sqls": 13,
+        "opps": 12,
+        "won": 7,
+        "cost_per_lead": 221.03,
+        "cost_per_mql": 221.03,
+        "cost_per_sql": 289.04,
+        "cost_per_opp": 313.12,
+        "cost_per_won": 536.78,
+        "conversion_lead_to_won": 41.2,
+        "pipeline_created": 0,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 0.0,
+            "avg_deal_size_attributed": 0.0,
+            "roi": -1.0,
+            "pipeline_per_dollar": 0.0,
+            "rank": 2
+          },
+          "last_touch": {
+            "pipeline_influenced": 211400.96,
+            "avg_deal_size_attributed": 17616.75,
+            "roi": 55.26,
+            "pipeline_per_dollar": 56.26,
+            "rank": 2
+          },
+          "linear": {
+            "pipeline_influenced": 250783.45,
+            "avg_deal_size_attributed": 20898.62,
+            "roi": 65.74,
+            "pipeline_per_dollar": 66.74,
+            "rank": 2
+          },
+          "time_decay": {
+            "pipeline_influenced": 443441.19,
+            "avg_deal_size_attributed": 36953.43,
+            "roi": 117.02,
+            "pipeline_per_dollar": 118.02,
+            "rank": 2
+          },
+          "w_shaped": {
+            "pipeline_influenced": 95101.28,
+            "avg_deal_size_attributed": 7925.11,
+            "roi": 24.31,
+            "pipeline_per_dollar": 25.31,
+            "rank": 2
+          }
+        }
+      },
+      "Product Updates": {
+        "total_spend": 3574.7,
+        "leads_generated": 10,
+        "mqls": 10,
+        "sqls": 7,
+        "opps": 5,
+        "won": 2,
+        "cost_per_lead": 357.47,
+        "cost_per_mql": 357.47,
+        "cost_per_sql": 510.67,
+        "cost_per_opp": 714.94,
+        "cost_per_won": 1787.35,
+        "conversion_lead_to_won": 20.0,
+        "pipeline_created": 144979.9,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 144979.9,
+            "avg_deal_size_attributed": 28995.98,
+            "roi": 39.56,
+            "pipeline_per_dollar": 40.56,
+            "rank": 1
+          },
+          "last_touch": {
+            "pipeline_influenced": 518685.67,
+            "avg_deal_size_attributed": 103737.13,
+            "roi": 144.1,
+            "pipeline_per_dollar": 145.1,
+            "rank": 1
+          },
+          "linear": {
+            "pipeline_influenced": 249879.34,
+            "avg_deal_size_attributed": 49975.87,
+            "roi": 68.9,
+            "pipeline_per_dollar": 69.9,
+            "rank": 3
+          },
+          "time_decay": {
+            "pipeline_influenced": 322090.55,
+            "avg_deal_size_attributed": 64418.11,
+            "roi": 89.1,
+            "pipeline_per_dollar": 90.1,
+            "rank": 3
+          },
+          "w_shaped": {
+            "pipeline_influenced": 267646.69,
+            "avg_deal_size_attributed": 53529.34,
+            "roi": 73.87,
+            "pipeline_per_dollar": 74.87,
+            "rank": 1
+          }
+        }
+      },
+      "Re-engagement": {
+        "total_spend": 2420.63,
+        "leads_generated": 11,
+        "mqls": 11,
+        "sqls": 8,
+        "opps": 8,
+        "won": 3,
+        "cost_per_lead": 220.06,
+        "cost_per_mql": 220.06,
+        "cost_per_sql": 302.58,
+        "cost_per_opp": 302.58,
+        "cost_per_won": 806.88,
+        "conversion_lead_to_won": 27.3,
+        "pipeline_created": 0,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 0.0,
+            "avg_deal_size_attributed": 0.0,
+            "roi": -1.0,
+            "pipeline_per_dollar": 0.0,
+            "rank": 3
+          },
+          "last_touch": {
+            "pipeline_influenced": 132777.26,
+            "avg_deal_size_attributed": 13277.73,
+            "roi": 53.85,
+            "pipeline_per_dollar": 54.85,
+            "rank": 3
+          },
+          "linear": {
+            "pipeline_influenced": 289646.64,
+            "avg_deal_size_attributed": 28964.66,
+            "roi": 118.66,
+            "pipeline_per_dollar": 119.66,
+            "rank": 1
+          },
+          "time_decay": {
+            "pipeline_influenced": 562345.33,
+            "avg_deal_size_attributed": 56234.53,
+            "roi": 231.31,
+            "pipeline_per_dollar": 232.31,
+            "rank": 1
+          },
+          "w_shaped": {
+            "pipeline_influenced": 78018.91,
+            "avg_deal_size_attributed": 7801.89,
+            "roi": 31.23,
+            "pipeline_per_dollar": 32.23,
+            "rank": 3
+          }
+        }
+      }
+    },
+    "Events": {
+      "Conferences": {
+        "total_spend": 8458.67,
+        "leads_generated": 5,
+        "mqls": 5,
+        "sqls": 5,
+        "opps": 5,
+        "won": 1,
+        "cost_per_lead": 1691.73,
+        "cost_per_mql": 1691.73,
+        "cost_per_sql": 1691.73,
+        "cost_per_opp": 1691.73,
+        "cost_per_won": 8458.67,
+        "conversion_lead_to_won": 20.0,
+        "pipeline_created": 64794.01,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 0.0,
+            "avg_deal_size_attributed": 0.0,
+            "roi": -1.0,
+            "pipeline_per_dollar": 0.0,
+            "rank": 3
+          },
+          "last_touch": {
+            "pipeline_influenced": 249950.34,
+            "avg_deal_size_attributed": 83316.78,
+            "roi": 28.55,
+            "pipeline_per_dollar": 29.55,
+            "rank": 2
+          },
+          "linear": {
+            "pipeline_influenced": 127017.62,
+            "avg_deal_size_attributed": 42339.21,
+            "roi": 14.02,
+            "pipeline_per_dollar": 15.02,
+            "rank": 1
+          },
+          "time_decay": {
+            "pipeline_influenced": 316624.17,
+            "avg_deal_size_attributed": 105541.39,
+            "roi": 36.43,
+            "pipeline_per_dollar": 37.43,
+            "rank": 1
+          },
+          "w_shaped": {
+            "pipeline_influenced": 89117.97,
+            "avg_deal_size_attributed": 29705.99,
+            "roi": 9.54,
+            "pipeline_per_dollar": 10.54,
+            "rank": 1
+          }
+        }
+      },
+      "Hosted Roundtables": {
+        "total_spend": 4836.03,
+        "leads_generated": 6,
+        "mqls": 6,
+        "sqls": 5,
+        "opps": 4,
+        "won": 1,
+        "cost_per_lead": 806.0,
+        "cost_per_mql": 806.0,
+        "cost_per_sql": 967.21,
+        "cost_per_opp": 1209.01,
+        "cost_per_won": 4836.03,
+        "conversion_lead_to_won": 16.7,
+        "pipeline_created": 0,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 0.0,
+            "avg_deal_size_attributed": 0.0,
+            "roi": -1.0,
+            "pipeline_per_dollar": 0.0,
+            "rank": 2
+          },
+          "last_touch": {
+            "pipeline_influenced": 263469.89,
+            "avg_deal_size_attributed": 65867.47,
+            "roi": 53.48,
+            "pipeline_per_dollar": 54.48,
+            "rank": 1
+          },
+          "linear": {
+            "pipeline_influenced": 95685.8,
+            "avg_deal_size_attributed": 23921.45,
+            "roi": 18.79,
+            "pipeline_per_dollar": 19.79,
+            "rank": 2
+          },
+          "time_decay": {
+            "pipeline_influenced": 86431.1,
+            "avg_deal_size_attributed": 21607.78,
+            "roi": 16.87,
+            "pipeline_per_dollar": 17.87,
+            "rank": 3
+          },
+          "w_shaped": {
+            "pipeline_influenced": 85870.55,
+            "avg_deal_size_attributed": 21467.64,
+            "roi": 16.76,
+            "pipeline_per_dollar": 17.76,
+            "rank": 2
+          }
+        }
+      },
+      "Partner Events": {
+        "total_spend": 3339.56,
+        "leads_generated": 7,
+        "mqls": 7,
+        "sqls": 6,
+        "opps": 5,
+        "won": 1,
+        "cost_per_lead": 477.08,
+        "cost_per_mql": 477.08,
+        "cost_per_sql": 556.59,
+        "cost_per_opp": 667.91,
+        "cost_per_won": 3339.56,
+        "conversion_lead_to_won": 14.3,
+        "pipeline_created": 22628.68,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 22628.68,
+            "avg_deal_size_attributed": 5657.17,
+            "roi": 5.78,
+            "pipeline_per_dollar": 6.78,
+            "rank": 1
+          },
+          "last_touch": {
+            "pipeline_influenced": 22628.68,
+            "avg_deal_size_attributed": 5657.17,
+            "roi": 5.78,
+            "pipeline_per_dollar": 6.78,
+            "rank": 3
+          },
+          "linear": {
+            "pipeline_influenced": 88941.73,
+            "avg_deal_size_attributed": 22235.43,
+            "roi": 25.63,
+            "pipeline_per_dollar": 26.63,
+            "rank": 3
+          },
+          "time_decay": {
+            "pipeline_influenced": 154708.45,
+            "avg_deal_size_attributed": 38677.11,
+            "roi": 45.33,
+            "pipeline_per_dollar": 46.33,
+            "rank": 2
+          },
+          "w_shaped": {
+            "pipeline_influenced": 31626.82,
+            "avg_deal_size_attributed": 7906.7,
+            "roi": 8.47,
+            "pipeline_per_dollar": 9.47,
+            "rank": 3
+          }
+        }
+      }
+    },
+    "Google Ads": {
+      "Brand Search": {
+        "total_spend": 13805.34,
+        "leads_generated": 15,
+        "mqls": 15,
+        "sqls": 12,
+        "opps": 9,
+        "won": 2,
+        "cost_per_lead": 920.36,
+        "cost_per_mql": 920.36,
+        "cost_per_sql": 1150.44,
+        "cost_per_opp": 1533.93,
+        "cost_per_won": 6902.67,
+        "conversion_lead_to_won": 13.3,
+        "pipeline_created": 764971.22,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 482332.48,
+            "avg_deal_size_attributed": 48233.25,
+            "roi": 33.94,
+            "pipeline_per_dollar": 34.94,
+            "rank": 3
+          },
+          "last_touch": {
+            "pipeline_influenced": 59148.58,
+            "avg_deal_size_attributed": 5914.86,
+            "roi": 3.28,
+            "pipeline_per_dollar": 4.28,
+            "rank": 3
+          },
+          "linear": {
+            "pipeline_influenced": 218220.28,
+            "avg_deal_size_attributed": 21822.03,
+            "roi": 14.81,
+            "pipeline_per_dollar": 15.81,
+            "rank": 3
+          },
+          "time_decay": {
+            "pipeline_influenced": 76851.76,
+            "avg_deal_size_attributed": 7685.18,
+            "roi": 4.57,
+            "pipeline_per_dollar": 5.57,
+            "rank": 3
+          },
+          "w_shaped": {
+            "pipeline_influenced": 325203.56,
+            "avg_deal_size_attributed": 32520.36,
+            "roi": 22.56,
+            "pipeline_per_dollar": 23.56,
+            "rank": 3
+          }
+        }
+      },
+      "Non-Brand Search": {
+        "total_spend": 14808.42,
+        "leads_generated": 17,
+        "mqls": 17,
+        "sqls": 13,
+        "opps": 12,
+        "won": 6,
+        "cost_per_lead": 871.08,
+        "cost_per_mql": 871.08,
+        "cost_per_sql": 1139.11,
+        "cost_per_opp": 1234.04,
+        "cost_per_won": 2468.07,
+        "conversion_lead_to_won": 35.3,
+        "pipeline_created": 610993.1,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 507942.74,
+            "avg_deal_size_attributed": 39072.52,
+            "roi": 33.3,
+            "pipeline_per_dollar": 34.3,
+            "rank": 2
+          },
+          "last_touch": {
+            "pipeline_influenced": 418310.47,
+            "avg_deal_size_attributed": 32177.73,
+            "roi": 27.25,
+            "pipeline_per_dollar": 28.25,
+            "rank": 1
+          },
+          "linear": {
+            "pipeline_influenced": 367385.62,
+            "avg_deal_size_attributed": 28260.43,
+            "roi": 23.81,
+            "pipeline_per_dollar": 24.81,
+            "rank": 2
+          },
+          "time_decay": {
+            "pipeline_influenced": 283716.51,
+            "avg_deal_size_attributed": 21824.35,
+            "roi": 18.16,
+            "pipeline_per_dollar": 19.16,
+            "rank": 1
+          },
+          "w_shaped": {
+            "pipeline_influenced": 466198.53,
+            "avg_deal_size_attributed": 35861.43,
+            "roi": 30.48,
+            "pipeline_per_dollar": 31.48,
+            "rank": 2
+          }
+        }
+      },
+      "Retargeting": {
+        "total_spend": 9314.72,
+        "leads_generated": 16,
+        "mqls": 16,
+        "sqls": 12,
+        "opps": 11,
+        "won": 5,
+        "cost_per_lead": 582.17,
+        "cost_per_mql": 582.17,
+        "cost_per_sql": 776.23,
+        "cost_per_opp": 846.79,
+        "cost_per_won": 1862.94,
+        "conversion_lead_to_won": 31.2,
+        "pipeline_created": 1225526.36,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 878544.72,
+            "avg_deal_size_attributed": 73212.06,
+            "roi": 93.32,
+            "pipeline_per_dollar": 94.32,
+            "rank": 1
+          },
+          "last_touch": {
+            "pipeline_influenced": 134803.35,
+            "avg_deal_size_attributed": 11233.61,
+            "roi": 13.47,
+            "pipeline_per_dollar": 14.47,
+            "rank": 2
+          },
+          "linear": {
+            "pipeline_influenced": 458623.83,
+            "avg_deal_size_attributed": 38218.65,
+            "roi": 48.24,
+            "pipeline_per_dollar": 49.24,
+            "rank": 1
+          },
+          "time_decay": {
+            "pipeline_influenced": 177039.47,
+            "avg_deal_size_attributed": 14753.29,
+            "roi": 18.01,
+            "pipeline_per_dollar": 19.01,
+            "rank": 2
+          },
+          "w_shaped": {
+            "pipeline_influenced": 613845.73,
+            "avg_deal_size_attributed": 51153.81,
+            "roi": 64.9,
+            "pipeline_per_dollar": 65.9,
+            "rank": 1
+          }
+        }
+      }
+    },
+    "LinkedIn": {
+      "Conversation Ads": {
+        "total_spend": 6970.71,
+        "leads_generated": 9,
+        "mqls": 9,
+        "sqls": 8,
+        "opps": 8,
+        "won": 4,
+        "cost_per_lead": 774.52,
+        "cost_per_mql": 774.52,
+        "cost_per_sql": 871.34,
+        "cost_per_opp": 871.34,
+        "cost_per_won": 1742.68,
+        "conversion_lead_to_won": 44.4,
+        "pipeline_created": 215769.6,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 215769.6,
+            "avg_deal_size_attributed": 26971.2,
+            "roi": 29.95,
+            "pipeline_per_dollar": 30.95,
+            "rank": 1
+          },
+          "last_touch": {
+            "pipeline_influenced": 16379.73,
+            "avg_deal_size_attributed": 2047.47,
+            "roi": 1.35,
+            "pipeline_per_dollar": 2.35,
+            "rank": 2
+          },
+          "linear": {
+            "pipeline_influenced": 226023.83,
+            "avg_deal_size_attributed": 28252.98,
+            "roi": 31.42,
+            "pipeline_per_dollar": 32.42,
+            "rank": 1
+          },
+          "time_decay": {
+            "pipeline_influenced": 120382.47,
+            "avg_deal_size_attributed": 15047.81,
+            "roi": 16.27,
+            "pipeline_per_dollar": 17.27,
+            "rank": 1
+          },
+          "w_shaped": {
+            "pipeline_influenced": 160497.87,
+            "avg_deal_size_attributed": 20062.23,
+            "roi": 22.02,
+            "pipeline_per_dollar": 23.02,
+            "rank": 1
+          }
+        }
+      },
+      "InMail": {
+        "total_spend": 7986.71,
+        "leads_generated": 11,
+        "mqls": 11,
+        "sqls": 9,
+        "opps": 8,
+        "won": 4,
+        "cost_per_lead": 726.06,
+        "cost_per_mql": 726.06,
+        "cost_per_sql": 887.41,
+        "cost_per_opp": 998.34,
+        "cost_per_won": 1996.68,
+        "conversion_lead_to_won": 36.4,
+        "pipeline_created": 159831.62,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 159831.62,
+            "avg_deal_size_attributed": 17759.07,
+            "roi": 19.01,
+            "pipeline_per_dollar": 20.01,
+            "rank": 2
+          },
+          "last_touch": {
+            "pipeline_influenced": 0.0,
+            "avg_deal_size_attributed": 0.0,
+            "roi": -1.0,
+            "pipeline_per_dollar": 0.0,
+            "rank": 3
+          },
+          "linear": {
+            "pipeline_influenced": 219677.97,
+            "avg_deal_size_attributed": 24408.66,
+            "roi": 26.51,
+            "pipeline_per_dollar": 27.51,
+            "rank": 2
+          },
+          "time_decay": {
+            "pipeline_influenced": 117990.2,
+            "avg_deal_size_attributed": 13110.02,
+            "roi": 13.77,
+            "pipeline_per_dollar": 14.77,
+            "rank": 2
+          },
+          "w_shaped": {
+            "pipeline_influenced": 125957.05,
+            "avg_deal_size_attributed": 13995.23,
+            "roi": 14.77,
+            "pipeline_per_dollar": 15.77,
+            "rank": 3
+          }
+        }
+      },
+      "Sponsored Content": {
+        "total_spend": 12083.59,
+        "leads_generated": 8,
+        "mqls": 8,
+        "sqls": 6,
+        "opps": 6,
+        "won": 4,
+        "cost_per_lead": 1510.45,
+        "cost_per_mql": 1510.45,
+        "cost_per_sql": 2013.93,
+        "cost_per_opp": 2013.93,
+        "cost_per_won": 3020.9,
+        "conversion_lead_to_won": 50.0,
+        "pipeline_created": 71845.09,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 0.0,
+            "avg_deal_size_attributed": 0.0,
+            "roi": -1.0,
+            "pipeline_per_dollar": 0.0,
+            "rank": 3
+          },
+          "last_touch": {
+            "pipeline_influenced": 410371.64,
+            "avg_deal_size_attributed": 58624.52,
+            "roi": 32.96,
+            "pipeline_per_dollar": 33.96,
+            "rank": 1
+          },
+          "linear": {
+            "pipeline_influenced": 171053.24,
+            "avg_deal_size_attributed": 24436.18,
+            "roi": 13.16,
+            "pipeline_per_dollar": 14.16,
+            "rank": 3
+          },
+          "time_decay": {
+            "pipeline_influenced": 33775.56,
+            "avg_deal_size_attributed": 4825.08,
+            "roi": 1.8,
+            "pipeline_per_dollar": 2.8,
+            "rank": 3
+          },
+          "w_shaped": {
+            "pipeline_influenced": 138117.15,
+            "avg_deal_size_attributed": 19731.02,
+            "roi": 10.43,
+            "pipeline_per_dollar": 11.43,
+            "rank": 2
+          }
+        }
+      }
+    },
+    "Outbound BDR": {
+      "Cold Outbound": {
+        "total_spend": 6545.88,
+        "leads_generated": 10,
+        "mqls": 10,
+        "sqls": 8,
+        "opps": 6,
+        "won": 3,
+        "cost_per_lead": 654.59,
+        "cost_per_mql": 654.59,
+        "cost_per_sql": 818.24,
+        "cost_per_opp": 1090.98,
+        "cost_per_won": 2181.96,
+        "conversion_lead_to_won": 30.0,
+        "pipeline_created": 91903.43,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 0.0,
+            "avg_deal_size_attributed": 0.0,
+            "roi": -1.0,
+            "pipeline_per_dollar": 0.0,
+            "rank": 3
+          },
+          "last_touch": {
+            "pipeline_influenced": 181810.32,
+            "avg_deal_size_attributed": 36362.06,
+            "roi": 26.77,
+            "pipeline_per_dollar": 27.77,
+            "rank": 3
+          },
+          "linear": {
+            "pipeline_influenced": 121009.48,
+            "avg_deal_size_attributed": 24201.9,
+            "roi": 17.49,
+            "pipeline_per_dollar": 18.49,
+            "rank": 2
+          },
+          "time_decay": {
+            "pipeline_influenced": 174553.69,
+            "avg_deal_size_attributed": 34910.74,
+            "roi": 25.67,
+            "pipeline_per_dollar": 26.67,
+            "rank": 1
+          },
+          "w_shaped": {
+            "pipeline_influenced": 65124.01,
+            "avg_deal_size_attributed": 13024.8,
+            "roi": 8.95,
+            "pipeline_per_dollar": 9.95,
+            "rank": 3
+          }
+        }
+      },
+      "Inbound Response": {
+        "total_spend": 3674.42,
+        "leads_generated": 16,
+        "mqls": 16,
+        "sqls": 11,
+        "opps": 8,
+        "won": 3,
+        "cost_per_lead": 229.65,
+        "cost_per_mql": 229.65,
+        "cost_per_sql": 334.04,
+        "cost_per_opp": 459.3,
+        "cost_per_won": 1224.81,
+        "conversion_lead_to_won": 18.8,
+        "pipeline_created": 953859.95,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 618226.71,
+            "avg_deal_size_attributed": 61822.67,
+            "roi": 167.25,
+            "pipeline_per_dollar": 168.25,
+            "rank": 1
+          },
+          "last_touch": {
+            "pipeline_influenced": 287244.47,
+            "avg_deal_size_attributed": 28724.45,
+            "roi": 77.17,
+            "pipeline_per_dollar": 78.17,
+            "rank": 2
+          },
+          "linear": {
+            "pipeline_influenced": 320715.99,
+            "avg_deal_size_attributed": 32071.6,
+            "roi": 86.28,
+            "pipeline_per_dollar": 87.28,
+            "rank": 1
+          },
+          "time_decay": {
+            "pipeline_influenced": 81866.29,
+            "avg_deal_size_attributed": 8186.63,
+            "roi": 21.28,
+            "pipeline_per_dollar": 22.28,
+            "rank": 2
+          },
+          "w_shaped": {
+            "pipeline_influenced": 483616.9,
+            "avg_deal_size_attributed": 48361.69,
+            "roi": 130.62,
+            "pipeline_per_dollar": 131.62,
+            "rank": 1
+          }
+        }
+      },
+      "Warm Follow-up": {
+        "total_spend": 4572.38,
+        "leads_generated": 10,
+        "mqls": 10,
+        "sqls": 8,
+        "opps": 7,
+        "won": 1,
+        "cost_per_lead": 457.24,
+        "cost_per_mql": 457.24,
+        "cost_per_sql": 571.55,
+        "cost_per_opp": 653.2,
+        "cost_per_won": 4572.38,
+        "conversion_lead_to_won": 10.0,
+        "pipeline_created": 323478.49,
+        "by_model": {
+          "first_touch": {
+            "pipeline_influenced": 223322.6,
+            "avg_deal_size_attributed": 37220.43,
+            "roi": 47.84,
+            "pipeline_per_dollar": 48.84,
+            "rank": 2
+          },
+          "last_touch": {
+            "pipeline_influenced": 324306.39,
+            "avg_deal_size_attributed": 54051.07,
+            "roi": 69.93,
+            "pipeline_per_dollar": 70.93,
+            "rank": 1
+          },
+          "linear": {
+            "pipeline_influenced": 112640.28,
+            "avg_deal_size_attributed": 18773.38,
+            "roi": 23.63,
+            "pipeline_per_dollar": 24.63,
+            "rank": 3
+          },
+          "time_decay": {
+            "pipeline_influenced": 19668.45,
+            "avg_deal_size_attributed": 3278.08,
+            "roi": 3.3,
+            "pipeline_per_dollar": 4.3,
+            "rank": 3
+          },
+          "w_shaped": {
+            "pipeline_influenced": 235741.3,
+            "avg_deal_size_attributed": 39290.22,
+            "roi": 50.56,
+            "pipeline_per_dollar": 51.56,
+            "rank": 2
+          }
+        }
+      }
+    }
+  },
+  "diagnostic_flags": [
+    {
+      "channel": "Google Ads",
+      "model": "first_touch",
+      "flag_type": "high_volume_low_quality",
+      "leads_generated": 32,
+      "cost_per_won": 4214.28,
+      "conversion_rate": 28.1,
+      "pipeline_influenced": 1868819.94,
+      "roi": 48.27,
+      "roi_rank": 3,
+      "budget_pct": 30.4,
+      "budget_rank": 1
+    },
+    {
+      "channel": "Outbound BDR",
+      "model": "first_touch",
+      "flag_type": "underfunded",
+      "roi": 55.89,
+      "roi_rank": 2,
+      "budget_pct": 11.8,
+      "budget_rank": 5,
+      "pipeline_influenced": 841549.31
+    },
+    {
+      "channel": "Email Campaigns",
+      "model": "last_touch",
+      "flag_type": "underfunded",
+      "roi": 87.47,
+      "roi_rank": 1,
+      "budget_pct": 7.8,
+      "budget_rank": 6,
+      "pipeline_influenced": 862863.89
+    },
+    {
+      "channel": "Google Ads",
+      "model": "last_touch",
+      "flag_type": "high_volume_low_quality",
+      "leads_generated": 32,
+      "cost_per_won": 4214.28,
+      "conversion_rate": 28.1,
+      "pipeline_influenced": 612262.4,
+      "roi": 15.14,
+      "roi_rank": 5,
+      "budget_pct": 30.4,
+      "budget_rank": 1
+    },
+    {
+      "channel": "Email Campaigns",
+      "model": "linear",
+      "flag_type": "underfunded",
+      "roi": 80.03,
+      "roi_rank": 1,
+      "budget_pct": 7.8,
+      "budget_rank": 6,
+      "pipeline_influenced": 790309.43
+    },
+    {
+      "channel": "Google Ads",
+      "model": "linear",
+      "flag_type": "high_volume_low_quality",
+      "leads_generated": 32,
+      "cost_per_won": 4214.28,
+      "conversion_rate": 28.1,
+      "pipeline_influenced": 1044229.73,
+      "roi": 26.53,
+      "roi_rank": 4,
+      "budget_pct": 30.4,
+      "budget_rank": 1
+    },
+    {
+      "channel": "Email Campaigns",
+      "model": "time_decay",
+      "flag_type": "underfunded",
+      "roi": 135.15,
+      "roi_rank": 1,
+      "budget_pct": 7.8,
+      "budget_rank": 6,
+      "pipeline_influenced": 1327877.07
+    },
+    {
+      "channel": "Google Ads",
+      "model": "time_decay",
+      "flag_type": "high_volume_low_quality",
+      "leads_generated": 32,
+      "cost_per_won": 4214.28,
+      "conversion_rate": 28.1,
+      "pipeline_influenced": 537607.74,
+      "roi": 13.17,
+      "roi_rank": 5,
+      "budget_pct": 30.4,
+      "budget_rank": 1
+    },
+    {
+      "channel": "Google Ads",
+      "model": "w_shaped",
+      "flag_type": "high_volume_low_quality",
+      "leads_generated": 32,
+      "cost_per_won": 4214.28,
+      "conversion_rate": 28.1,
+      "pipeline_influenced": 1405247.82,
+      "roi": 36.05,
+      "roi_rank": 4,
+      "budget_pct": 30.4,
+      "budget_rank": 1
+    },
+    {
+      "channel": "Outbound BDR",
+      "model": "w_shaped",
+      "flag_type": "underfunded",
+      "roi": 52.03,
+      "roi_rank": 2,
+      "budget_pct": 11.8,
+      "budget_rank": 5,
+      "pipeline_influenced": 784482.21
+    }
+  ],
+  "persona_analysis": {
+    "Content Marketing": {
+      "touchpoint_distribution": [
+        {
+          "contact_role": "Marketing Director",
+          "count": 13,
+          "pct": 15.3
+        },
+        {
+          "contact_role": "Product Manager",
+          "count": 12,
+          "pct": 14.1
+        },
+        {
+          "contact_role": "Head of Demand Gen",
+          "count": 11,
+          "pct": 12.9
+        },
+        {
+          "contact_role": "VP Sales",
+          "count": 10,
+          "pct": 11.8
+        },
+        {
+          "contact_role": "Marketing Manager",
+          "count": 7,
+          "pct": 8.2
+        },
+        {
+          "contact_role": "Director of Ops",
+          "count": 6,
+          "pct": 7.1
+        },
+        {
+          "contact_role": "CMO",
+          "count": 5,
+          "pct": 5.9
+        },
+        {
+          "contact_role": "Director of Marketing",
+          "count": 4,
+          "pct": 4.7
+        },
+        {
+          "contact_role": "VP Marketing",
+          "count": 4,
+          "pct": 4.7
+        },
+        {
+          "contact_role": "CEO",
+          "count": 3,
+          "pct": 3.5
+        },
+        {
+          "contact_role": "CFO",
+          "count": 3,
+          "pct": 3.5
+        },
+        {
+          "contact_role": "CTO",
+          "count": 2,
+          "pct": 2.4
+        },
+        {
+          "contact_role": "Marketing Analyst",
+          "count": 2,
+          "pct": 2.4
+        },
+        {
+          "contact_role": "Content Strategist",
+          "count": 2,
+          "pct": 2.4
+        },
+        {
+          "contact_role": "SDR/BDR",
+          "count": 1,
+          "pct": 1.2
+        }
+      ],
+      "top_persona": "Marketing Director",
+      "persona_reach_breadth": 15
+    },
+    "Email Campaigns": {
+      "touchpoint_distribution": [
+        {
+          "contact_role": "Head of Demand Gen",
+          "count": 8,
+          "pct": 16.7
+        },
+        {
+          "contact_role": "Product Manager",
+          "count": 6,
+          "pct": 12.5
+        },
+        {
+          "contact_role": "VP Marketing",
+          "count": 6,
+          "pct": 12.5
+        },
+        {
+          "contact_role": "Director of Marketing",
+          "count": 6,
+          "pct": 12.5
+        },
+        {
+          "contact_role": "CEO",
+          "count": 4,
+          "pct": 8.3
+        },
+        {
+          "contact_role": "VP Sales",
+          "count": 3,
+          "pct": 6.2
+        },
+        {
+          "contact_role": "CFO",
+          "count": 3,
+          "pct": 6.2
+        },
+        {
+          "contact_role": "Marketing Director",
+          "count": 3,
+          "pct": 6.2
+        },
+        {
+          "contact_role": "Digital Marketing Specialist",
+          "count": 2,
+          "pct": 4.2
+        },
+        {
+          "contact_role": "Marketing Manager",
+          "count": 2,
+          "pct": 4.2
+        },
+        {
+          "contact_role": "CTO",
+          "count": 2,
+          "pct": 4.2
+        },
+        {
+          "contact_role": "CMO",
+          "count": 2,
+          "pct": 4.2
+        },
+        {
+          "contact_role": "Marketing Analyst",
+          "count": 1,
+          "pct": 2.1
+        }
+      ],
+      "top_persona": "Head of Demand Gen",
+      "persona_reach_breadth": 13
+    },
+    "Events": {
+      "touchpoint_distribution": [
+        {
+          "contact_role": "CEO",
+          "count": 6,
+          "pct": 24.0
+        },
+        {
+          "contact_role": "Marketing Director",
+          "count": 4,
+          "pct": 16.0
+        },
+        {
+          "contact_role": "VP Sales",
+          "count": 3,
+          "pct": 12.0
+        },
+        {
+          "contact_role": "Head of Demand Gen",
+          "count": 2,
+          "pct": 8.0
+        },
+        {
+          "contact_role": "CMO",
+          "count": 2,
+          "pct": 8.0
+        },
+        {
+          "contact_role": "VP Marketing",
+          "count": 2,
+          "pct": 8.0
+        },
+        {
+          "contact_role": "Product Manager",
+          "count": 1,
+          "pct": 4.0
+        },
+        {
+          "contact_role": "SDR/BDR",
+          "count": 1,
+          "pct": 4.0
+        },
+        {
+          "contact_role": "Director of Ops",
+          "count": 1,
+          "pct": 4.0
+        },
+        {
+          "contact_role": "Marketing Manager",
+          "count": 1,
+          "pct": 4.0
+        },
+        {
+          "contact_role": "CTO",
+          "count": 1,
+          "pct": 4.0
+        },
+        {
+          "contact_role": "Director of Marketing",
+          "count": 1,
+          "pct": 4.0
+        }
+      ],
+      "top_persona": "CEO",
+      "persona_reach_breadth": 12
+    },
+    "Google Ads": {
+      "touchpoint_distribution": [
+        {
+          "contact_role": "CFO",
+          "count": 9,
+          "pct": 12.9
+        },
+        {
+          "contact_role": "Content Strategist",
+          "count": 7,
+          "pct": 10.0
+        },
+        {
+          "contact_role": "SDR/BDR",
+          "count": 6,
+          "pct": 8.6
+        },
+        {
+          "contact_role": "VP Marketing",
+          "count": 6,
+          "pct": 8.6
+        },
+        {
+          "contact_role": "Product Manager",
+          "count": 6,
+          "pct": 8.6
+        },
+        {
+          "contact_role": "VP Sales",
+          "count": 5,
+          "pct": 7.1
+        },
+        {
+          "contact_role": "Head of Demand Gen",
+          "count": 5,
+          "pct": 7.1
+        },
+        {
+          "contact_role": "Director of Ops",
+          "count": 5,
+          "pct": 7.1
+        },
+        {
+          "contact_role": "Marketing Director",
+          "count": 5,
+          "pct": 7.1
+        },
+        {
+          "contact_role": "Director of Marketing",
+          "count": 4,
+          "pct": 5.7
+        },
+        {
+          "contact_role": "Marketing Manager",
+          "count": 3,
+          "pct": 4.3
+        },
+        {
+          "contact_role": "CEO",
+          "count": 3,
+          "pct": 4.3
+        },
+        {
+          "contact_role": "Digital Marketing Specialist",
+          "count": 2,
+          "pct": 2.9
+        },
+        {
+          "contact_role": "CMO",
+          "count": 2,
+          "pct": 2.9
+        },
+        {
+          "contact_role": "Marketing Analyst",
+          "count": 2,
+          "pct": 2.9
+        }
+      ],
+      "top_persona": "CFO",
+      "persona_reach_breadth": 15
+    },
+    "LinkedIn": {
+      "touchpoint_distribution": [
+        {
+          "contact_role": "Director of Ops",
+          "count": 4,
+          "pct": 13.3
+        },
+        {
+          "contact_role": "Product Manager",
+          "count": 3,
+          "pct": 10.0
+        },
+        {
+          "contact_role": "VP Marketing",
+          "count": 3,
+          "pct": 10.0
+        },
+        {
+          "contact_role": "VP Sales",
+          "count": 3,
+          "pct": 10.0
+        },
+        {
+          "contact_role": "CFO",
+          "count": 3,
+          "pct": 10.0
+        },
+        {
+          "contact_role": "Marketing Manager",
+          "count": 2,
+          "pct": 6.7
+        },
+        {
+          "contact_role": "CEO",
+          "count": 2,
+          "pct": 6.7
+        },
+        {
+          "contact_role": "Marketing Director",
+          "count": 2,
+          "pct": 6.7
+        },
+        {
+          "contact_role": "CMO",
+          "count": 2,
+          "pct": 6.7
+        },
+        {
+          "contact_role": "Head of Demand Gen",
+          "count": 2,
+          "pct": 6.7
+        },
+        {
+          "contact_role": "Director of Marketing",
+          "count": 2,
+          "pct": 6.7
+        },
+        {
+          "contact_role": "SDR/BDR",
+          "count": 1,
+          "pct": 3.3
+        },
+        {
+          "contact_role": "Content Strategist",
+          "count": 1,
+          "pct": 3.3
+        }
+      ],
+      "top_persona": "Director of Ops",
+      "persona_reach_breadth": 13
+    },
+    "Outbound BDR": {
+      "touchpoint_distribution": [
+        {
+          "contact_role": "Marketing Manager",
+          "count": 7,
+          "pct": 16.7
+        },
+        {
+          "contact_role": "CEO",
+          "count": 4,
+          "pct": 9.5
+        },
+        {
+          "contact_role": "VP Marketing",
+          "count": 4,
+          "pct": 9.5
+        },
+        {
+          "contact_role": "Marketing Analyst",
+          "count": 3,
+          "pct": 7.1
+        },
+        {
+          "contact_role": "Director of Marketing",
+          "count": 3,
+          "pct": 7.1
+        },
+        {
+          "contact_role": "VP Sales",
+          "count": 3,
+          "pct": 7.1
+        },
+        {
+          "contact_role": "CMO",
+          "count": 3,
+          "pct": 7.1
+        },
+        {
+          "contact_role": "Head of Demand Gen",
+          "count": 2,
+          "pct": 4.8
+        },
+        {
+          "contact_role": "Content Strategist",
+          "count": 2,
+          "pct": 4.8
+        },
+        {
+          "contact_role": "CFO",
+          "count": 2,
+          "pct": 4.8
+        },
+        {
+          "contact_role": "Digital Marketing Specialist",
+          "count": 2,
+          "pct": 4.8
+        },
+        {
+          "contact_role": "SDR/BDR",
+          "count": 2,
+          "pct": 4.8
+        },
+        {
+          "contact_role": "Product Manager",
+          "count": 2,
+          "pct": 4.8
+        },
+        {
+          "contact_role": "Marketing Director",
+          "count": 2,
+          "pct": 4.8
+        },
+        {
+          "contact_role": "Director of Ops",
+          "count": 1,
+          "pct": 2.4
+        }
+      ],
+      "top_persona": "Marketing Manager",
+      "persona_reach_breadth": 15
+    }
+  }
+}

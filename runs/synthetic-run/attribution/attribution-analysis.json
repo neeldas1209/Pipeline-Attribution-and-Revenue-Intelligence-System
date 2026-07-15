@@ -1,0 +1,4961 @@
+{
+  "metadata": {
+    "run_id": "synthetic-run",
+    "generated_date": "2026-07-14T00:00:00Z",
+    "agent": "01-attribution-modeling",
+    "total_deals_processed": 35,
+    "deals_skipped": {
+      "count": 0,
+      "deal_ids": []
+    },
+    "total_pipeline_attributed": 4464023.8,
+    "models_computed": [
+      "first_touch",
+      "last_touch",
+      "linear",
+      "time_decay",
+      "w_shaped"
+    ],
+    "half_life_days": 7,
+    "channel_activity": {
+      "Content Marketing": {
+        "first_touchpoint_date": "2025-07-04",
+        "last_touchpoint_date": "2026-06-30",
+        "total_touchpoint_count": 59
+      },
+      "LinkedIn": {
+        "first_touchpoint_date": "2025-07-11",
+        "last_touchpoint_date": "2026-06-30",
+        "total_touchpoint_count": 26
+      },
+      "Email Campaigns": {
+        "first_touchpoint_date": "2025-07-19",
+        "last_touchpoint_date": "2026-06-19",
+        "total_touchpoint_count": 36
+      },
+      "Google Ads": {
+        "first_touchpoint_date": "2025-07-26",
+        "last_touchpoint_date": "2026-05-27",
+        "total_touchpoint_count": 53
+      },
+      "Outbound BDR": {
+        "first_touchpoint_date": "2025-07-25",
+        "last_touchpoint_date": "2026-04-13",
+        "total_touchpoint_count": 22
+      },
+      "Events": {
+        "first_touchpoint_date": "2025-09-01",
+        "last_touchpoint_date": "2026-03-21",
+        "total_touchpoint_count": 16
+      }
+    }
+  },
+  "channel_summary": {
+    "Content Marketing": {
+      "first_touch": {
+        "pipeline_credited": 1210444.75,
+        "rank": 2,
+        "deals_touched": 23,
+        "touchpoint_count": 59,
+        "avg_credit_per_deal": 52628.03,
+        "pct_of_total": 27.1
+      },
+      "last_touch": {
+        "pipeline_credited": 1232736.05,
+        "rank": 1,
+        "deals_touched": 23,
+        "touchpoint_count": 59,
+        "avg_credit_per_deal": 53597.22,
+        "pct_of_total": 27.6
+      },
+      "linear": {
+        "pipeline_credited": 1146718.7,
+        "rank": 1,
+        "deals_touched": 23,
+        "touchpoint_count": 59,
+        "avg_credit_per_deal": 49857.33,
+        "pct_of_total": 25.7
+      },
+      "time_decay": {
+        "pipeline_credited": 1492538.61,
+        "rank": 1,
+        "deals_touched": 23,
+        "touchpoint_count": 59,
+        "avg_credit_per_deal": 64892.98,
+        "pct_of_total": 33.4
+      },
+      "w_shaped": {
+        "pipeline_credited": 1202339.48,
+        "rank": 2,
+        "deals_touched": 23,
+        "touchpoint_count": 59,
+        "avg_credit_per_deal": 52275.63,
+        "pct_of_total": 26.9
+      }
+    },
+    "Email Campaigns": {
+      "first_touch": {
+        "pipeline_credited": 144979.9,
+        "rank": 5,
+        "deals_touched": 19,
+        "touchpoint_count": 36,
+        "avg_credit_per_deal": 7630.52,
+        "pct_of_total": 3.2
+      },
+      "last_touch": {
+        "pipeline_credited": 862863.89,
+        "rank": 2,
+        "deals_touched": 19,
+        "touchpoint_count": 36,
+        "avg_credit_per_deal": 45413.89,
+        "pct_of_total": 19.3
+      },
+      "linear": {
+        "pipeline_credited": 790309.43,
+        "rank": 3,
+        "deals_touched": 19,
+        "touchpoint_count": 36,
+        "avg_credit_per_deal": 41595.23,
+        "pct_of_total": 17.7
+      },
+      "time_decay": {
+        "pipeline_credited": 1327877.07,
+        "rank": 2,
+        "deals_touched": 19,
+        "touchpoint_count": 36,
+        "avg_credit_per_deal": 69888.27,
+        "pct_of_total": 29.7
+      },
+      "w_shaped": {
+        "pipeline_credited": 440766.88,
+        "rank": 4,
+        "deals_touched": 19,
+        "touchpoint_count": 36,
+        "avg_credit_per_deal": 23198.26,
+        "pct_of_total": 9.9
+      }
+    },
+    "Events": {
+      "first_touch": {
+        "pipeline_credited": 22628.68,
+        "rank": 6,
+        "deals_touched": 6,
+        "touchpoint_count": 16,
+        "avg_credit_per_deal": 3771.45,
+        "pct_of_total": 0.5
+      },
+      "last_touch": {
+        "pipeline_credited": 536048.91,
+        "rank": 5,
+        "deals_touched": 6,
+        "touchpoint_count": 16,
+        "avg_credit_per_deal": 89341.49,
+        "pct_of_total": 12.0
+      },
+      "linear": {
+        "pipeline_credited": 311645.15,
+        "rank": 6,
+        "deals_touched": 6,
+        "touchpoint_count": 16,
+        "avg_credit_per_deal": 51940.86,
+        "pct_of_total": 7.0
+      },
+      "time_decay": {
+        "pipeline_credited": 557763.72,
+        "rank": 3,
+        "deals_touched": 6,
+        "touchpoint_count": 16,
+        "avg_credit_per_deal": 92960.62,
+        "pct_of_total": 12.5
+      },
+      "w_shaped": {
+        "pipeline_credited": 206615.34,
+        "rank": 6,
+        "deals_touched": 6,
+        "touchpoint_count": 16,
+        "avg_credit_per_deal": 34435.89,
+        "pct_of_total": 4.6
+      }
+    },
+    "Google Ads": {
+      "first_touch": {
+        "pipeline_credited": 1868819.94,
+        "rank": 1,
+        "deals_touched": 24,
+        "touchpoint_count": 53,
+        "avg_credit_per_deal": 77867.5,
+        "pct_of_total": 41.9
+      },
+      "last_touch": {
+        "pipeline_credited": 612262.4,
+        "rank": 4,
+        "deals_touched": 24,
+        "touchpoint_count": 53,
+        "avg_credit_per_deal": 25510.93,
+        "pct_of_total": 13.7
+      },
+      "linear": {
+        "pipeline_credited": 1044229.73,
+        "rank": 2,
+        "deals_touched": 24,
+        "touchpoint_count": 53,
+        "avg_credit_per_deal": 43509.57,
+        "pct_of_total": 23.4
+      },
+      "time_decay": {
+        "pipeline_credited": 537607.74,
+        "rank": 4,
+        "deals_touched": 24,
+        "touchpoint_count": 53,
+        "avg_credit_per_deal": 22400.32,
+        "pct_of_total": 12.0
+      },
+      "w_shaped": {
+        "pipeline_credited": 1405247.82,
+        "rank": 1,
+        "deals_touched": 24,
+        "touchpoint_count": 53,
+        "avg_credit_per_deal": 58551.99,
+        "pct_of_total": 31.5
+      }
+    },
+    "LinkedIn": {
+      "first_touch": {
+        "pipeline_credited": 375601.22,
+        "rank": 4,
+        "deals_touched": 15,
+        "touchpoint_count": 26,
+        "avg_credit_per_deal": 25040.08,
+        "pct_of_total": 8.4
+      },
+      "last_touch": {
+        "pipeline_credited": 426751.37,
+        "rank": 6,
+        "deals_touched": 15,
+        "touchpoint_count": 26,
+        "avg_credit_per_deal": 28450.09,
+        "pct_of_total": 9.6
+      },
+      "linear": {
+        "pipeline_credited": 616755.04,
+        "rank": 4,
+        "deals_touched": 15,
+        "touchpoint_count": 26,
+        "avg_credit_per_deal": 41117.0,
+        "pct_of_total": 13.8
+      },
+      "time_decay": {
+        "pipeline_credited": 272148.23,
+        "rank": 6,
+        "deals_touched": 15,
+        "touchpoint_count": 26,
+        "avg_credit_per_deal": 18143.22,
+        "pct_of_total": 6.1
+      },
+      "w_shaped": {
+        "pipeline_credited": 424572.07,
+        "rank": 5,
+        "deals_touched": 15,
+        "touchpoint_count": 26,
+        "avg_credit_per_deal": 28304.8,
+        "pct_of_total": 9.5
+      }
+    },
+    "Outbound BDR": {
+      "first_touch": {
+        "pipeline_credited": 841549.31,
+        "rank": 3,
+        "deals_touched": 15,
+        "touchpoint_count": 22,
+        "avg_credit_per_deal": 56103.29,
+        "pct_of_total": 18.9
+      },
+      "last_touch": {
+        "pipeline_credited": 793361.18,
+        "rank": 3,
+        "deals_touched": 15,
+        "touchpoint_count": 22,
+        "avg_credit_per_deal": 52890.75,
+        "pct_of_total": 17.8
+      },
+      "linear": {
+        "pipeline_credited": 554365.75,
+        "rank": 5,
+        "deals_touched": 15,
+        "touchpoint_count": 22,
+        "avg_credit_per_deal": 36957.72,
+        "pct_of_total": 12.4
+      },
+      "time_decay": {
+        "pipeline_credited": 276088.43,
+        "rank": 5,
+        "deals_touched": 15,
+        "touchpoint_count": 22,
+        "avg_credit_per_deal": 18405.9,
+        "pct_of_total": 6.2
+      },
+      "w_shaped": {
+        "pipeline_credited": 784482.21,
+        "rank": 3,
+        "deals_touched": 15,
+        "touchpoint_count": 22,
+        "avg_credit_per_deal": 52298.81,
+        "pct_of_total": 17.6
+      }
+    }
+  },
+  "campaign_detail": {
+    "Content Marketing": {
+      "Blog/SEO": {
+        "first_touch": {
+          "pipeline_credited": 200113.5,
+          "rank": 2,
+          "deals_touched": 12,
+          "touchpoint_count": 19,
+          "avg_credit_per_deal": 16676.12,
+          "pct_of_total": 4.5
+        },
+        "last_touch": {
+          "pipeline_credited": 227335.66,
+          "rank": 3,
+          "deals_touched": 12,
+          "touchpoint_count": 19,
+          "avg_credit_per_deal": 18944.64,
+          "pct_of_total": 5.1
+        },
+        "linear": {
+          "pipeline_credited": 366111.35,
+          "rank": 2,
+          "deals_touched": 12,
+          "touchpoint_count": 19,
+          "avg_credit_per_deal": 30509.28,
+          "pct_of_total": 8.2
+        },
+        "time_decay": {
+          "pipeline_credited": 473978.83,
+          "rank": 3,
+          "deals_touched": 12,
+          "touchpoint_count": 19,
+          "avg_credit_per_deal": 39498.24,
+          "pct_of_total": 10.6
+        },
+        "w_shaped": {
+          "pipeline_credited": 228808.78,
+          "rank": 2,
+          "deals_touched": 12,
+          "touchpoint_count": 19,
+          "avg_credit_per_deal": 19067.4,
+          "pct_of_total": 5.1
+        }
+      },
+      "Ebooks/Guides": {
+        "first_touch": {
+          "pipeline_credited": 905140.0,
+          "rank": 1,
+          "deals_touched": 13,
+          "touchpoint_count": 21,
+          "avg_credit_per_deal": 69626.15,
+          "pct_of_total": 20.3
+        },
+        "last_touch": {
+          "pipeline_credited": 570918.65,
+          "rank": 1,
+          "deals_touched": 13,
+          "touchpoint_count": 21,
+          "avg_credit_per_deal": 43916.82,
+          "pct_of_total": 12.8
+        },
+        "linear": {
+          "pipeline_credited": 447571.87,
+          "rank": 1,
+          "deals_touched": 13,
+          "touchpoint_count": 21,
+          "avg_credit_per_deal": 34428.61,
+          "pct_of_total": 10.0
+        },
+        "time_decay": {
+          "pipeline_credited": 535785.85,
+          "rank": 1,
+          "deals_touched": 13,
+          "touchpoint_count": 21,
+          "avg_credit_per_deal": 41214.3,
+          "pct_of_total": 12.0
+        },
+        "w_shaped": {
+          "pipeline_credited": 745527.45,
+          "rank": 1,
+          "deals_touched": 13,
+          "touchpoint_count": 21,
+          "avg_credit_per_deal": 57348.27,
+          "pct_of_total": 16.7
+        }
+      },
+      "Webinars": {
+        "first_touch": {
+          "pipeline_credited": 105191.25,
+          "rank": 3,
+          "deals_touched": 14,
+          "touchpoint_count": 19,
+          "avg_credit_per_deal": 7513.66,
+          "pct_of_total": 2.4
+        },
+        "last_touch": {
+          "pipeline_credited": 434481.74,
+          "rank": 2,
+          "deals_touched": 14,
+          "touchpoint_count": 19,
+          "avg_credit_per_deal": 31034.41,
+          "pct_of_total": 9.7
+        },
+        "linear": {
+          "pipeline_credited": 333035.48,
+          "rank": 3,
+          "deals_touched": 14,
+          "touchpoint_count": 19,
+          "avg_credit_per_deal": 23788.25,
+          "pct_of_total": 7.5
+        },
+        "time_decay": {
+          "pipeline_credited": 482773.93,
+          "rank": 2,
+          "deals_touched": 14,
+          "touchpoint_count": 19,
+          "avg_credit_per_deal": 34483.85,
+          "pct_of_total": 10.8
+        },
+        "w_shaped": {
+          "pipeline_credited": 228003.25,
+          "rank": 3,
+          "deals_touched": 14,
+          "touchpoint_count": 19,
+          "avg_credit_per_deal": 16285.95,
+          "pct_of_total": 5.1
+        }
+      }
+    },
+    "Email Campaigns": {
+      "Nurture Sequences": {
+        "first_touch": {
+          "pipeline_credited": 0.0,
+          "rank": 2,
+          "deals_touched": 12,
+          "touchpoint_count": 13,
+          "avg_credit_per_deal": 0.0,
+          "pct_of_total": 0.0
+        },
+        "last_touch": {
+          "pipeline_credited": 211400.96,
+          "rank": 2,
+          "deals_touched": 12,
+          "touchpoint_count": 13,
+          "avg_credit_per_deal": 17616.75,
+          "pct_of_total": 4.7
+        },
+        "linear": {
+          "pipeline_credited": 250783.45,
+          "rank": 2,
+          "deals_touched": 12,
+          "touchpoint_count": 13,
+          "avg_credit_per_deal": 20898.62,
+          "pct_of_total": 5.6
+        },
+        "time_decay": {
+          "pipeline_credited": 443441.19,
+          "rank": 2,
+          "deals_touched": 12,
+          "touchpoint_count": 13,
+          "avg_credit_per_deal": 36953.43,
+          "pct_of_total": 9.9
+        },
+        "w_shaped": {
+          "pipeline_credited": 95101.28,
+          "rank": 2,
+          "deals_touched": 12,
+          "touchpoint_count": 13,
+          "avg_credit_per_deal": 7925.11,
+          "pct_of_total": 2.1
+        }
+      },
+      "Product Updates": {
+        "first_touch": {
+          "pipeline_credited": 144979.9,
+          "rank": 1,
+          "deals_touched": 5,
+          "touchpoint_count": 10,
+          "avg_credit_per_deal": 28995.98,
+          "pct_of_total": 3.2
+        },
+        "last_touch": {
+          "pipeline_credited": 518685.67,
+          "rank": 1,
+          "deals_touched": 5,
+          "touchpoint_count": 10,
+          "avg_credit_per_deal": 103737.13,
+          "pct_of_total": 11.6
+        },
+        "linear": {
+          "pipeline_credited": 249879.34,
+          "rank": 3,
+          "deals_touched": 5,
+          "touchpoint_count": 10,
+          "avg_credit_per_deal": 49975.87,
+          "pct_of_total": 5.6
+        },
+        "time_decay": {
+          "pipeline_credited": 322090.55,
+          "rank": 3,
+          "deals_touched": 5,
+          "touchpoint_count": 10,
+          "avg_credit_per_deal": 64418.11,
+          "pct_of_total": 7.2
+        },
+        "w_shaped": {
+          "pipeline_credited": 267646.69,
+          "rank": 1,
+          "deals_touched": 5,
+          "touchpoint_count": 10,
+          "avg_credit_per_deal": 53529.34,
+          "pct_of_total": 6.0
+        }
+      },
+      "Re-engagement": {
+        "first_touch": {
+          "pipeline_credited": 0.0,
+          "rank": 3,
+          "deals_touched": 10,
+          "touchpoint_count": 13,
+          "avg_credit_per_deal": 0.0,
+          "pct_of_total": 0.0
+        },
+        "last_touch": {
+          "pipeline_credited": 132777.26,
+          "rank": 3,
+          "deals_touched": 10,
+          "touchpoint_count": 13,
+          "avg_credit_per_deal": 13277.73,
+          "pct_of_total": 3.0
+        },
+        "linear": {
+          "pipeline_credited": 289646.64,
+          "rank": 1,
+          "deals_touched": 10,
+          "touchpoint_count": 13,
+          "avg_credit_per_deal": 28964.66,
+          "pct_of_total": 6.5
+        },
+        "time_decay": {
+          "pipeline_credited": 562345.33,
+          "rank": 1,
+          "deals_touched": 10,
+          "touchpoint_count": 13,
+          "avg_credit_per_deal": 56234.53,
+          "pct_of_total": 12.6
+        },
+        "w_shaped": {
+          "pipeline_credited": 78018.91,
+          "rank": 3,
+          "deals_touched": 10,
+          "touchpoint_count": 13,
+          "avg_credit_per_deal": 7801.89,
+          "pct_of_total": 1.7
+        }
+      }
+    },
+    "Events": {
+      "Conferences": {
+        "first_touch": {
+          "pipeline_credited": 0.0,
+          "rank": 3,
+          "deals_touched": 3,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 0.0,
+          "pct_of_total": 0.0
+        },
+        "last_touch": {
+          "pipeline_credited": 249950.34,
+          "rank": 2,
+          "deals_touched": 3,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 83316.78,
+          "pct_of_total": 5.6
+        },
+        "linear": {
+          "pipeline_credited": 127017.62,
+          "rank": 1,
+          "deals_touched": 3,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 42339.21,
+          "pct_of_total": 2.8
+        },
+        "time_decay": {
+          "pipeline_credited": 316624.17,
+          "rank": 1,
+          "deals_touched": 3,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 105541.39,
+          "pct_of_total": 7.1
+        },
+        "w_shaped": {
+          "pipeline_credited": 89117.97,
+          "rank": 1,
+          "deals_touched": 3,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 29705.99,
+          "pct_of_total": 2.0
+        }
+      },
+      "Hosted Roundtables": {
+        "first_touch": {
+          "pipeline_credited": 0.0,
+          "rank": 2,
+          "deals_touched": 4,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 0.0,
+          "pct_of_total": 0.0
+        },
+        "last_touch": {
+          "pipeline_credited": 263469.89,
+          "rank": 1,
+          "deals_touched": 4,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 65867.47,
+          "pct_of_total": 5.9
+        },
+        "linear": {
+          "pipeline_credited": 95685.8,
+          "rank": 2,
+          "deals_touched": 4,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 23921.45,
+          "pct_of_total": 2.1
+        },
+        "time_decay": {
+          "pipeline_credited": 86431.1,
+          "rank": 3,
+          "deals_touched": 4,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 21607.78,
+          "pct_of_total": 1.9
+        },
+        "w_shaped": {
+          "pipeline_credited": 85870.55,
+          "rank": 2,
+          "deals_touched": 4,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 21467.64,
+          "pct_of_total": 1.9
+        }
+      },
+      "Partner Events": {
+        "first_touch": {
+          "pipeline_credited": 22628.68,
+          "rank": 1,
+          "deals_touched": 4,
+          "touchpoint_count": 6,
+          "avg_credit_per_deal": 5657.17,
+          "pct_of_total": 0.5
+        },
+        "last_touch": {
+          "pipeline_credited": 22628.68,
+          "rank": 3,
+          "deals_touched": 4,
+          "touchpoint_count": 6,
+          "avg_credit_per_deal": 5657.17,
+          "pct_of_total": 0.5
+        },
+        "linear": {
+          "pipeline_credited": 88941.73,
+          "rank": 3,
+          "deals_touched": 4,
+          "touchpoint_count": 6,
+          "avg_credit_per_deal": 22235.43,
+          "pct_of_total": 2.0
+        },
+        "time_decay": {
+          "pipeline_credited": 154708.45,
+          "rank": 2,
+          "deals_touched": 4,
+          "touchpoint_count": 6,
+          "avg_credit_per_deal": 38677.11,
+          "pct_of_total": 3.5
+        },
+        "w_shaped": {
+          "pipeline_credited": 31626.82,
+          "rank": 3,
+          "deals_touched": 4,
+          "touchpoint_count": 6,
+          "avg_credit_per_deal": 7906.7,
+          "pct_of_total": 0.7
+        }
+      }
+    },
+    "Google Ads": {
+      "Brand Search": {
+        "first_touch": {
+          "pipeline_credited": 482332.48,
+          "rank": 3,
+          "deals_touched": 10,
+          "touchpoint_count": 14,
+          "avg_credit_per_deal": 48233.25,
+          "pct_of_total": 10.8
+        },
+        "last_touch": {
+          "pipeline_credited": 59148.58,
+          "rank": 3,
+          "deals_touched": 10,
+          "touchpoint_count": 14,
+          "avg_credit_per_deal": 5914.86,
+          "pct_of_total": 1.3
+        },
+        "linear": {
+          "pipeline_credited": 218220.28,
+          "rank": 3,
+          "deals_touched": 10,
+          "touchpoint_count": 14,
+          "avg_credit_per_deal": 21822.03,
+          "pct_of_total": 4.9
+        },
+        "time_decay": {
+          "pipeline_credited": 76851.76,
+          "rank": 3,
+          "deals_touched": 10,
+          "touchpoint_count": 14,
+          "avg_credit_per_deal": 7685.18,
+          "pct_of_total": 1.7
+        },
+        "w_shaped": {
+          "pipeline_credited": 325203.56,
+          "rank": 3,
+          "deals_touched": 10,
+          "touchpoint_count": 14,
+          "avg_credit_per_deal": 32520.36,
+          "pct_of_total": 7.3
+        }
+      },
+      "Non-Brand Search": {
+        "first_touch": {
+          "pipeline_credited": 507942.74,
+          "rank": 2,
+          "deals_touched": 13,
+          "touchpoint_count": 21,
+          "avg_credit_per_deal": 39072.52,
+          "pct_of_total": 11.4
+        },
+        "last_touch": {
+          "pipeline_credited": 418310.47,
+          "rank": 1,
+          "deals_touched": 13,
+          "touchpoint_count": 21,
+          "avg_credit_per_deal": 32177.73,
+          "pct_of_total": 9.4
+        },
+        "linear": {
+          "pipeline_credited": 367385.62,
+          "rank": 2,
+          "deals_touched": 13,
+          "touchpoint_count": 21,
+          "avg_credit_per_deal": 28260.43,
+          "pct_of_total": 8.2
+        },
+        "time_decay": {
+          "pipeline_credited": 283716.51,
+          "rank": 1,
+          "deals_touched": 13,
+          "touchpoint_count": 21,
+          "avg_credit_per_deal": 21824.35,
+          "pct_of_total": 6.4
+        },
+        "w_shaped": {
+          "pipeline_credited": 466198.53,
+          "rank": 2,
+          "deals_touched": 13,
+          "touchpoint_count": 21,
+          "avg_credit_per_deal": 35861.43,
+          "pct_of_total": 10.4
+        }
+      },
+      "Retargeting": {
+        "first_touch": {
+          "pipeline_credited": 878544.72,
+          "rank": 1,
+          "deals_touched": 12,
+          "touchpoint_count": 18,
+          "avg_credit_per_deal": 73212.06,
+          "pct_of_total": 19.7
+        },
+        "last_touch": {
+          "pipeline_credited": 134803.35,
+          "rank": 2,
+          "deals_touched": 12,
+          "touchpoint_count": 18,
+          "avg_credit_per_deal": 11233.61,
+          "pct_of_total": 3.0
+        },
+        "linear": {
+          "pipeline_credited": 458623.83,
+          "rank": 1,
+          "deals_touched": 12,
+          "touchpoint_count": 18,
+          "avg_credit_per_deal": 38218.65,
+          "pct_of_total": 10.3
+        },
+        "time_decay": {
+          "pipeline_credited": 177039.47,
+          "rank": 2,
+          "deals_touched": 12,
+          "touchpoint_count": 18,
+          "avg_credit_per_deal": 14753.29,
+          "pct_of_total": 4.0
+        },
+        "w_shaped": {
+          "pipeline_credited": 613845.73,
+          "rank": 1,
+          "deals_touched": 12,
+          "touchpoint_count": 18,
+          "avg_credit_per_deal": 51153.81,
+          "pct_of_total": 13.8
+        }
+      }
+    },
+    "LinkedIn": {
+      "Conversation Ads": {
+        "first_touch": {
+          "pipeline_credited": 215769.6,
+          "rank": 1,
+          "deals_touched": 8,
+          "touchpoint_count": 9,
+          "avg_credit_per_deal": 26971.2,
+          "pct_of_total": 4.8
+        },
+        "last_touch": {
+          "pipeline_credited": 16379.73,
+          "rank": 2,
+          "deals_touched": 8,
+          "touchpoint_count": 9,
+          "avg_credit_per_deal": 2047.47,
+          "pct_of_total": 0.4
+        },
+        "linear": {
+          "pipeline_credited": 226023.83,
+          "rank": 1,
+          "deals_touched": 8,
+          "touchpoint_count": 9,
+          "avg_credit_per_deal": 28252.98,
+          "pct_of_total": 5.1
+        },
+        "time_decay": {
+          "pipeline_credited": 120382.47,
+          "rank": 1,
+          "deals_touched": 8,
+          "touchpoint_count": 9,
+          "avg_credit_per_deal": 15047.81,
+          "pct_of_total": 2.7
+        },
+        "w_shaped": {
+          "pipeline_credited": 160497.87,
+          "rank": 1,
+          "deals_touched": 8,
+          "touchpoint_count": 9,
+          "avg_credit_per_deal": 20062.23,
+          "pct_of_total": 3.6
+        }
+      },
+      "InMail": {
+        "first_touch": {
+          "pipeline_credited": 159831.62,
+          "rank": 2,
+          "deals_touched": 9,
+          "touchpoint_count": 9,
+          "avg_credit_per_deal": 17759.07,
+          "pct_of_total": 3.6
+        },
+        "last_touch": {
+          "pipeline_credited": 0.0,
+          "rank": 3,
+          "deals_touched": 9,
+          "touchpoint_count": 9,
+          "avg_credit_per_deal": 0.0,
+          "pct_of_total": 0.0
+        },
+        "linear": {
+          "pipeline_credited": 219677.97,
+          "rank": 2,
+          "deals_touched": 9,
+          "touchpoint_count": 9,
+          "avg_credit_per_deal": 24408.66,
+          "pct_of_total": 4.9
+        },
+        "time_decay": {
+          "pipeline_credited": 117990.2,
+          "rank": 2,
+          "deals_touched": 9,
+          "touchpoint_count": 9,
+          "avg_credit_per_deal": 13110.02,
+          "pct_of_total": 2.6
+        },
+        "w_shaped": {
+          "pipeline_credited": 125957.05,
+          "rank": 3,
+          "deals_touched": 9,
+          "touchpoint_count": 9,
+          "avg_credit_per_deal": 13995.23,
+          "pct_of_total": 2.8
+        }
+      },
+      "Sponsored Content": {
+        "first_touch": {
+          "pipeline_credited": 0.0,
+          "rank": 3,
+          "deals_touched": 7,
+          "touchpoint_count": 8,
+          "avg_credit_per_deal": 0.0,
+          "pct_of_total": 0.0
+        },
+        "last_touch": {
+          "pipeline_credited": 410371.64,
+          "rank": 1,
+          "deals_touched": 7,
+          "touchpoint_count": 8,
+          "avg_credit_per_deal": 58624.52,
+          "pct_of_total": 9.2
+        },
+        "linear": {
+          "pipeline_credited": 171053.24,
+          "rank": 3,
+          "deals_touched": 7,
+          "touchpoint_count": 8,
+          "avg_credit_per_deal": 24436.18,
+          "pct_of_total": 3.8
+        },
+        "time_decay": {
+          "pipeline_credited": 33775.56,
+          "rank": 3,
+          "deals_touched": 7,
+          "touchpoint_count": 8,
+          "avg_credit_per_deal": 4825.08,
+          "pct_of_total": 0.8
+        },
+        "w_shaped": {
+          "pipeline_credited": 138117.15,
+          "rank": 2,
+          "deals_touched": 7,
+          "touchpoint_count": 8,
+          "avg_credit_per_deal": 19731.02,
+          "pct_of_total": 3.1
+        }
+      }
+    },
+    "Outbound BDR": {
+      "Cold Outbound": {
+        "first_touch": {
+          "pipeline_credited": 0.0,
+          "rank": 3,
+          "deals_touched": 5,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 0.0,
+          "pct_of_total": 0.0
+        },
+        "last_touch": {
+          "pipeline_credited": 181810.32,
+          "rank": 3,
+          "deals_touched": 5,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 36362.06,
+          "pct_of_total": 4.1
+        },
+        "linear": {
+          "pipeline_credited": 121009.48,
+          "rank": 2,
+          "deals_touched": 5,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 24201.9,
+          "pct_of_total": 2.7
+        },
+        "time_decay": {
+          "pipeline_credited": 174553.69,
+          "rank": 1,
+          "deals_touched": 5,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 34910.74,
+          "pct_of_total": 3.9
+        },
+        "w_shaped": {
+          "pipeline_credited": 65124.01,
+          "rank": 3,
+          "deals_touched": 5,
+          "touchpoint_count": 5,
+          "avg_credit_per_deal": 13024.8,
+          "pct_of_total": 1.5
+        }
+      },
+      "Inbound Response": {
+        "first_touch": {
+          "pipeline_credited": 618226.71,
+          "rank": 1,
+          "deals_touched": 10,
+          "touchpoint_count": 11,
+          "avg_credit_per_deal": 61822.67,
+          "pct_of_total": 13.8
+        },
+        "last_touch": {
+          "pipeline_credited": 287244.47,
+          "rank": 2,
+          "deals_touched": 10,
+          "touchpoint_count": 11,
+          "avg_credit_per_deal": 28724.45,
+          "pct_of_total": 6.4
+        },
+        "linear": {
+          "pipeline_credited": 320715.99,
+          "rank": 1,
+          "deals_touched": 10,
+          "touchpoint_count": 11,
+          "avg_credit_per_deal": 32071.6,
+          "pct_of_total": 7.2
+        },
+        "time_decay": {
+          "pipeline_credited": 81866.29,
+          "rank": 2,
+          "deals_touched": 10,
+          "touchpoint_count": 11,
+          "avg_credit_per_deal": 8186.63,
+          "pct_of_total": 1.8
+        },
+        "w_shaped": {
+          "pipeline_credited": 483616.9,
+          "rank": 1,
+          "deals_touched": 10,
+          "touchpoint_count": 11,
+          "avg_credit_per_deal": 48361.69,
+          "pct_of_total": 10.8
+        }
+      },
+      "Warm Follow-up": {
+        "first_touch": {
+          "pipeline_credited": 223322.6,
+          "rank": 2,
+          "deals_touched": 6,
+          "touchpoint_count": 6,
+          "avg_credit_per_deal": 37220.43,
+          "pct_of_total": 5.0
+        },
+        "last_touch": {
+          "pipeline_credited": 324306.39,
+          "rank": 1,
+          "deals_touched": 6,
+          "touchpoint_count": 6,
+          "avg_credit_per_deal": 54051.07,
+          "pct_of_total": 7.3
+        },
+        "linear": {
+          "pipeline_credited": 112640.28,
+          "rank": 3,
+          "deals_touched": 6,
+          "touchpoint_count": 6,
+          "avg_credit_per_deal": 18773.38,
+          "pct_of_total": 2.5
+        },
+        "time_decay": {
+          "pipeline_credited": 19668.45,
+          "rank": 3,
+          "deals_touched": 6,
+          "touchpoint_count": 6,
+          "avg_credit_per_deal": 3278.08,
+          "pct_of_total": 0.4
+        },
+        "w_shaped": {
+          "pipeline_credited": 235741.3,
+          "rank": 2,
+          "deals_touched": 6,
+          "touchpoint_count": 6,
+          "avg_credit_per_deal": 39290.22,
+          "pct_of_total": 5.3
+        }
+      }
+    }
+  },
+  "deal_attribution": [
+    {
+      "deal_id": "DEAL-001",
+      "company_name": "Orbit Fabrication",
+      "deal_size": 26073.98,
+      "deal_outcome": "lost",
+      "touchpoint_count": 3,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 2
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-07-04",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Multi-Touch Attribution Guide",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Director of Ops",
+          "credits": {
+            "first_touch": 26073.98,
+            "last_touch": 0.0,
+            "linear": 8691.33,
+            "time_decay": 3936.95,
+            "w_shaped": 15644.39
+          }
+        },
+        {
+          "touchpoint_date": "2025-07-11",
+          "channel": "LinkedIn",
+          "campaign_name": "InMail",
+          "content_asset": "Product Update Announcement",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 8691.33,
+            "time_decay": 7873.89,
+            "w_shaped": 2607.4
+          }
+        },
+        {
+          "touchpoint_date": "2025-07-17",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Channel ROI Framework",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 26073.98,
+            "linear": 8691.32,
+            "time_decay": 14263.14,
+            "w_shaped": 7822.19
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-003",
+      "company_name": "Relay Diagnostics",
+      "deal_size": 144979.9,
+      "deal_outcome": "lost",
+      "touchpoint_count": 8,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 7
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-07-19",
+          "channel": "Email Campaigns",
+          "campaign_name": "Product Updates",
+          "content_asset": "Platform Update Newsletter",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Analyst",
+          "credits": {
+            "first_touch": 144979.9,
+            "last_touch": 0.0,
+            "linear": 18122.49,
+            "time_decay": 5316.63,
+            "w_shaped": 86987.94
+          }
+        },
+        {
+          "touchpoint_date": "2025-07-21",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "New Feature Alert",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Digital Marketing Specialist",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18122.49,
+            "time_decay": 6481.04,
+            "w_shaped": 2416.33
+          }
+        },
+        {
+          "touchpoint_date": "2025-07-25",
+          "channel": "Email Campaigns",
+          "campaign_name": "Product Updates",
+          "content_asset": "Platform Update Newsletter",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18122.49,
+            "time_decay": 9630.79,
+            "w_shaped": 2416.33
+          }
+        },
+        {
+          "touchpoint_date": "2025-07-26",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Pipeline Analytics LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "SDR/BDR",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18122.49,
+            "time_decay": 10633.25,
+            "w_shaped": 2416.33
+          }
+        },
+        {
+          "touchpoint_date": "2025-08-03",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Use Case Showcase",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18122.49,
+            "time_decay": 23480.12,
+            "w_shaped": 2416.33
+          }
+        },
+        {
+          "touchpoint_date": "2025-08-04",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Customer Testimonial Email",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18122.49,
+            "time_decay": 25924.16,
+            "w_shaped": 2416.33
+          }
+        },
+        {
+          "touchpoint_date": "2025-08-05",
+          "channel": "Email Campaigns",
+          "campaign_name": "Product Updates",
+          "content_asset": "Platform Update Newsletter",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18122.49,
+            "time_decay": 28622.59,
+            "w_shaped": 2416.33
+          }
+        },
+        {
+          "touchpoint_date": "2025-08-07",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Attribution Guide LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 144979.9,
+            "linear": 18122.47,
+            "time_decay": 34891.32,
+            "w_shaped": 43493.98
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-004",
+      "company_name": "Echo Precision",
+      "deal_size": 332778.12,
+      "deal_outcome": "lost",
+      "touchpoint_count": 8,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 7
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-07-25",
+          "channel": "Outbound BDR",
+          "campaign_name": "Inbound Response",
+          "content_asset": "Demo Request Response",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 332778.12,
+            "last_touch": 0.0,
+            "linear": 41597.26,
+            "time_decay": 9834.29,
+            "w_shaped": 199666.87
+          }
+        },
+        {
+          "touchpoint_date": "2025-07-27",
+          "channel": "LinkedIn",
+          "campaign_name": "Sponsored Content",
+          "content_asset": "Pipeline ROI Infographic",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 41597.26,
+            "time_decay": 11988.13,
+            "w_shaped": 5546.3
+          }
+        },
+        {
+          "touchpoint_date": "2025-07-31",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Case Study LP",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 41597.26,
+            "time_decay": 17814.29,
+            "w_shaped": 5546.3
+          }
+        },
+        {
+          "touchpoint_date": "2025-08-02",
+          "channel": "LinkedIn",
+          "campaign_name": "Conversation Ads",
+          "content_asset": "Interactive Product Tour",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 41597.26,
+            "time_decay": 21715.87,
+            "w_shaped": 5546.3
+          }
+        },
+        {
+          "touchpoint_date": "2025-08-09",
+          "channel": "LinkedIn",
+          "campaign_name": "InMail",
+          "content_asset": "Product Update Announcement",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 41597.26,
+            "time_decay": 43431.74,
+            "w_shaped": 5546.3
+          }
+        },
+        {
+          "touchpoint_date": "2025-08-09",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "We Miss You Email",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 41597.26,
+            "time_decay": 43431.74,
+            "w_shaped": 5546.3
+          }
+        },
+        {
+          "touchpoint_date": "2025-08-15",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Revenue Ops Workshop",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 41597.26,
+            "time_decay": 78674.3,
+            "w_shaped": 5546.3
+          }
+        },
+        {
+          "touchpoint_date": "2025-08-18",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Pipeline Intelligence Handbook",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 332778.12,
+            "linear": 41597.3,
+            "time_decay": 105887.76,
+            "w_shaped": 99833.45
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-008",
+      "company_name": "Orbit Payments",
+      "deal_size": 112847.66,
+      "deal_outcome": "won",
+      "touchpoint_count": 4,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 1
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-08-09",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "B2B Marketing Measurement Guide",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Analyst",
+          "credits": {
+            "first_touch": 112847.66,
+            "last_touch": 0.0,
+            "linear": 28211.92,
+            "time_decay": 23.27,
+            "w_shaped": 67708.6
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-04",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Complete Attribution Playbook",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Marketing Analyst",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 112847.66,
+            "linear": 28211.92,
+            "time_decay": 305.49,
+            "w_shaped": 33854.3
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-06",
+          "channel": "Email Campaigns",
+          "campaign_name": "Product Updates",
+          "content_asset": "Feature Launch Announcement",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 28211.92,
+            "time_decay": 7263.23,
+            "w_shaped": 5642.38
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-02",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Welcome Series Email",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 28211.9,
+            "time_decay": 105255.67,
+            "w_shaped": 5642.38
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-009",
+      "company_name": "Core Labs",
+      "deal_size": 218016.98,
+      "deal_outcome": "lost",
+      "touchpoint_count": 9,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 5
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-08-13",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Free Trial Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 218016.98,
+            "last_touch": 0.0,
+            "linear": 24224.11,
+            "time_decay": 16.57,
+            "w_shaped": 130810.19
+          }
+        },
+        {
+          "touchpoint_date": "2025-08-22",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Case Study LP",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24224.11,
+            "time_decay": 40.41,
+            "w_shaped": 3114.53
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-03",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Case Study LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24224.11,
+            "time_decay": 132.59,
+            "w_shaped": 3114.53
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-17",
+          "channel": "Outbound BDR",
+          "campaign_name": "Warm Follow-up",
+          "content_asset": "Content Download Follow-up",
+          "touchpoint_type": "sales_call",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24224.11,
+            "time_decay": 530.35,
+            "w_shaped": 3114.53
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-26",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Pipeline Analytics LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24224.11,
+            "time_decay": 1293.01,
+            "w_shaped": 3114.53
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-08",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Attribution Guide LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 218016.98,
+            "linear": 24224.11,
+            "time_decay": 4242.81,
+            "w_shaped": 65405.09
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-18",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "New Feature Alert",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24224.11,
+            "time_decay": 11420.8,
+            "w_shaped": 3114.53
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-02",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Channel ROI Framework",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24224.11,
+            "time_decay": 50438.32,
+            "w_shaped": 3114.53
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-13",
+          "channel": "Outbound BDR",
+          "campaign_name": "Cold Outbound",
+          "content_asset": "Cold Call - Initial Outreach",
+          "touchpoint_type": "sales_call",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24224.1,
+            "time_decay": 149902.12,
+            "w_shaped": 3114.52
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-010",
+      "company_name": "Pulse Diagnostics",
+      "deal_size": 219125.78,
+      "deal_outcome": "won",
+      "touchpoint_count": 9,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 4
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-08-19",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "ROI Calculator Page",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Content Strategist",
+          "credits": {
+            "first_touch": 219125.78,
+            "last_touch": 0.0,
+            "linear": 24347.31,
+            "time_decay": 6.61,
+            "w_shaped": 131475.47
+          }
+        },
+        {
+          "touchpoint_date": "2025-08-29",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "Special Offer Email",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24347.31,
+            "time_decay": 17.78,
+            "w_shaped": 3130.37
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-10",
+          "channel": "Outbound BDR",
+          "campaign_name": "Cold Outbound",
+          "content_asset": "Cold Call - Initial Outreach",
+          "touchpoint_type": "sales_call",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24347.31,
+            "time_decay": 58.35,
+            "w_shaped": 3130.37
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-27",
+          "channel": "Outbound BDR",
+          "campaign_name": "Inbound Response",
+          "content_asset": "Pricing Inquiry Call",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24347.31,
+            "time_decay": 314.12,
+            "w_shaped": 3130.37
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-11",
+          "channel": "Email Campaigns",
+          "campaign_name": "Product Updates",
+          "content_asset": "Integration Release Email",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 219125.78,
+            "linear": 24347.31,
+            "time_decay": 1256.48,
+            "w_shaped": 65737.73
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-22",
+          "channel": "LinkedIn",
+          "campaign_name": "Conversation Ads",
+          "content_asset": "Interactive Product Tour",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24347.31,
+            "time_decay": 3734.25,
+            "w_shaped": 3130.37
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-06",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Welcome Series Email",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24347.31,
+            "time_decay": 16491.78,
+            "w_shaped": 3130.37
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-14",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "Special Offer Email",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24347.31,
+            "time_decay": 36416.8,
+            "w_shaped": 3130.37
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-29",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "We Miss You Email",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 24347.3,
+            "time_decay": 160829.61,
+            "w_shaped": 3130.36
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-011",
+      "company_name": "Zen Group",
+      "deal_size": 81760.28,
+      "deal_outcome": "won",
+      "touchpoint_count": 4,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 1
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-08-25",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Complete Attribution Playbook",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 81760.28,
+            "last_touch": 0.0,
+            "linear": 20440.07,
+            "time_decay": 1.64,
+            "w_shaped": 49056.17
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-26",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "B2B Funnel Optimization",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 81760.28,
+            "linear": 20440.07,
+            "time_decay": 38.9,
+            "w_shaped": 24528.08
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-05",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Pipeline Intelligence Handbook",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 20440.07,
+            "time_decay": 2042.56,
+            "w_shaped": 4088.01
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-12",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Product Education Drip",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 20440.07,
+            "time_decay": 79677.18,
+            "w_shaped": 4088.02
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-012",
+      "company_name": "Wave AI",
+      "deal_size": 263469.89,
+      "deal_outcome": "lost",
+      "touchpoint_count": 6,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 3
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-08-29",
+          "channel": "Outbound BDR",
+          "campaign_name": "Inbound Response",
+          "content_asset": "Free Trial Onboarding Call",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 263469.89,
+            "last_touch": 0.0,
+            "linear": 43911.65,
+            "time_decay": 2428.89,
+            "w_shaped": 158081.93
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-08",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Pricing Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 43911.65,
+            "time_decay": 6538.1,
+            "w_shaped": 6586.75
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-16",
+          "channel": "LinkedIn",
+          "campaign_name": "Conversation Ads",
+          "content_asset": "Quick Demo Scheduler",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 43911.65,
+            "time_decay": 14437.29,
+            "w_shaped": 6586.75
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-23",
+          "channel": "Events",
+          "campaign_name": "Hosted Roundtables",
+          "content_asset": "RevOps Leaders Forum",
+          "touchpoint_type": "webinar_attendance",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 263469.89,
+            "linear": 43911.65,
+            "time_decay": 28874.58,
+            "w_shaped": 79040.97
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-02",
+          "channel": "Events",
+          "campaign_name": "Conferences",
+          "content_asset": "B2B Marketing Exchange",
+          "touchpoint_type": "webinar_attendance",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 43911.65,
+            "time_decay": 70397.01,
+            "w_shaped": 6586.75
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-09",
+          "channel": "Events",
+          "campaign_name": "Partner Events",
+          "content_asset": "HubSpot INBOUND Talk",
+          "touchpoint_type": "webinar_attendance",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 43911.64,
+            "time_decay": 140794.02,
+            "w_shaped": 6586.74
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-013",
+      "company_name": "Forge Industrial",
+      "deal_size": 22628.68,
+      "deal_outcome": "won",
+      "touchpoint_count": 4,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 1
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-09-01",
+          "channel": "Events",
+          "campaign_name": "Partner Events",
+          "content_asset": "Marketo Summit Workshop",
+          "touchpoint_type": "webinar_attendance",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 22628.68,
+            "last_touch": 0.0,
+            "linear": 5657.17,
+            "time_decay": 42.85,
+            "w_shaped": 13577.21
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-18",
+          "channel": "Events",
+          "campaign_name": "Partner Events",
+          "content_asset": "Marketo Summit Workshop",
+          "touchpoint_type": "event_attendance",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "SDR/BDR",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 22628.68,
+            "linear": 5657.17,
+            "time_decay": 230.69,
+            "w_shaped": 6788.6
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-12",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Demo Request Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 5657.17,
+            "time_decay": 2483.9,
+            "w_shaped": 1131.43
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-02",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "ROI Calculator Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 5657.17,
+            "time_decay": 19871.24,
+            "w_shaped": 1131.44
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-015",
+      "company_name": "Nova Capital",
+      "deal_size": 44672.62,
+      "deal_outcome": "lost",
+      "touchpoint_count": 3,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 1
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-09-14",
+          "channel": "Outbound BDR",
+          "campaign_name": "Warm Follow-up",
+          "content_asset": "Post-Event Follow-up Call",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 44672.62,
+            "last_touch": 0.0,
+            "linear": 14890.87,
+            "time_decay": 15.87,
+            "w_shaped": 26803.57
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-25",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Pipeline Analytics Deep Dive",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 44672.62,
+            "linear": 14890.87,
+            "time_decay": 919.78,
+            "w_shaped": 13401.79
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-03",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "CMO Metrics That Matter",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 14890.88,
+            "time_decay": 43736.97,
+            "w_shaped": 4467.26
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-016",
+      "company_name": "Zen Fintech",
+      "deal_size": 249950.34,
+      "deal_outcome": "won",
+      "touchpoint_count": 11,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 6
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-09-15",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Pipeline Intelligence Handbook",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Content Strategist",
+          "credits": {
+            "first_touch": 249950.34,
+            "last_touch": 0.0,
+            "linear": 22722.76,
+            "time_decay": 0.22,
+            "w_shaped": 149970.2
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-26",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Multi-Touch Attribution Guide",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Content Strategist",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 22722.76,
+            "time_decay": 0.65,
+            "w_shaped": 2777.23
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-12",
+          "channel": "LinkedIn",
+          "campaign_name": "InMail",
+          "content_asset": "Product Update Announcement",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 22722.76,
+            "time_decay": 3.16,
+            "w_shaped": 2777.23
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-24",
+          "channel": "Events",
+          "campaign_name": "Conferences",
+          "content_asset": "Revenue Summit",
+          "touchpoint_type": "webinar_attendance",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 22722.76,
+            "time_decay": 10.37,
+            "w_shaped": 2777.23
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-07",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Pipeline Analytics Deep Dive",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 22722.76,
+            "time_decay": 41.48,
+            "w_shaped": 2777.23
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-21",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Pipeline Intelligence Handbook",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 22722.76,
+            "time_decay": 165.91,
+            "w_shaped": 2777.23
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-05",
+          "channel": "Events",
+          "campaign_name": "Conferences",
+          "content_asset": "Revenue Summit",
+          "touchpoint_type": "webinar_attendance",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 249950.34,
+            "linear": 22722.76,
+            "time_decay": 663.64,
+            "w_shaped": 74985.1
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-21",
+          "channel": "LinkedIn",
+          "campaign_name": "Conversation Ads",
+          "content_asset": "Quick Demo Scheduler",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 22722.76,
+            "time_decay": 3235.97,
+            "w_shaped": 2777.23
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-06",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Pipeline Intelligence Handbook",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 22722.76,
+            "time_decay": 15778.74,
+            "w_shaped": 2777.23
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-16",
+          "channel": "Events",
+          "campaign_name": "Hosted Roundtables",
+          "content_asset": "RevOps Leaders Forum",
+          "touchpoint_type": "webinar_attendance",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 22722.76,
+            "time_decay": 42473.23,
+            "w_shaped": 2777.23
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-31",
+          "channel": "Events",
+          "campaign_name": "Conferences",
+          "content_asset": "Revenue Summit",
+          "touchpoint_type": "event_attendance",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 22722.74,
+            "time_decay": 187576.97,
+            "w_shaped": 2777.2
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-017",
+      "company_name": "Kite Labs",
+      "deal_size": 211400.96,
+      "deal_outcome": "lost",
+      "touchpoint_count": 12,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 11
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-09-24",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Brand Landing Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Digital Marketing Specialist",
+          "credits": {
+            "first_touch": 211400.96,
+            "last_touch": 0.0,
+            "linear": 17616.75,
+            "time_decay": 4008.45,
+            "w_shaped": 126840.58
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-25",
+          "channel": "Outbound BDR",
+          "campaign_name": "Inbound Response",
+          "content_asset": "Demo Request Response",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Content Strategist",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 17616.75,
+            "time_decay": 4425.69,
+            "w_shaped": 2114.01
+          }
+        },
+        {
+          "touchpoint_date": "2025-09-29",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Pricing Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Content Strategist",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 17616.75,
+            "time_decay": 6576.55,
+            "w_shaped": 2114.01
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-03",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Demo Request Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 17616.75,
+            "time_decay": 9772.71,
+            "w_shaped": 2114.01
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-04",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "ROI Calculator Page",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 17616.75,
+            "time_decay": 10789.95,
+            "w_shaped": 2114.01
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-05",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Pipeline Intelligence Handbook",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 17616.75,
+            "time_decay": 11913.07,
+            "w_shaped": 2114.01
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-07",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "B2B Marketing Measurement Guide",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 17616.75,
+            "time_decay": 14522.19,
+            "w_shaped": 2114.01
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-10",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Attribution Guide LP",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 17616.75,
+            "time_decay": 19545.42,
+            "w_shaped": 2114.01
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-13",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Multi-Touch Attribution Guide",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 17616.75,
+            "time_decay": 26306.19,
+            "w_shaped": 2114.01
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-14",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "CMO Metrics That Matter",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 17616.75,
+            "time_decay": 29044.39,
+            "w_shaped": 2114.01
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-16",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Complete Attribution Playbook",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 17616.75,
+            "time_decay": 35405.5,
+            "w_shaped": 2114.01
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-17",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Product Education Drip",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 211400.96,
+            "linear": 17616.71,
+            "time_decay": 39090.85,
+            "w_shaped": 63420.28
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-018",
+      "company_name": "Cloud Tech",
+      "deal_size": 59148.58,
+      "deal_outcome": "lost",
+      "touchpoint_count": 3,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 1
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-09-28",
+          "channel": "Outbound BDR",
+          "campaign_name": "Warm Follow-up",
+          "content_asset": "Post-Event Follow-up Call",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 59148.58,
+            "last_touch": 0.0,
+            "linear": 19716.19,
+            "time_decay": 50.35,
+            "w_shaped": 35489.15
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-05",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Pricing Page",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 59148.58,
+            "linear": 19716.19,
+            "time_decay": 2168.68,
+            "w_shaped": 17744.57
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-08",
+          "channel": "LinkedIn",
+          "campaign_name": "InMail",
+          "content_asset": "Executive Briefing Invite",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 19716.2,
+            "time_decay": 56929.55,
+            "w_shaped": 5914.86
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-019",
+      "company_name": "Lumen Care",
+      "deal_size": 61079.97,
+      "deal_outcome": "won",
+      "touchpoint_count": 7,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 3
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-10-01",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Product Overview Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "SDR/BDR",
+          "credits": {
+            "first_touch": 61079.97,
+            "last_touch": 0.0,
+            "linear": 8725.71,
+            "time_decay": 191.05,
+            "w_shaped": 36647.98
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-07",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Free Trial Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "SDR/BDR",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 8725.71,
+            "time_decay": 346.08,
+            "w_shaped": 1221.6
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-20",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Product Overview Page",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 8725.71,
+            "time_decay": 1253.8,
+            "w_shaped": 1221.6
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-27",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Case Study LP",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 61079.97,
+            "linear": 8725.71,
+            "time_decay": 2507.6,
+            "w_shaped": 18323.99
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-04",
+          "channel": "LinkedIn",
+          "campaign_name": "Sponsored Content",
+          "content_asset": "Pipeline ROI Infographic",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 8725.71,
+            "time_decay": 5537.23,
+            "w_shaped": 1221.6
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-14",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Product Education Drip",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 8725.71,
+            "time_decay": 14905.12,
+            "w_shaped": 1221.6
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-23",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Brand Landing Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 8725.71,
+            "time_decay": 36339.09,
+            "w_shaped": 1221.6
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-021",
+      "company_name": "Grid Fintech",
+      "deal_size": 31734.96,
+      "deal_outcome": "lost",
+      "touchpoint_count": 5,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 2
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-10-10",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Demo Request Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 31734.96,
+            "last_touch": 0.0,
+            "linear": 6346.99,
+            "time_decay": 56.69,
+            "w_shaped": 19040.98
+          }
+        },
+        {
+          "touchpoint_date": "2025-10-26",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Attribution Masterclass",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 6346.99,
+            "time_decay": 276.44,
+            "w_shaped": 1057.83
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-09",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Demo Request Page",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 31734.96,
+            "linear": 6346.99,
+            "time_decay": 1105.74,
+            "w_shaped": 9520.49
+          }
+        },
+        {
+          "touchpoint_date": "2025-11-22",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "We Miss You Email",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CTO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 6346.99,
+            "time_decay": 4006.0,
+            "w_shaped": 1057.83
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-11",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Revenue Ops Workshop",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 6347.0,
+            "time_decay": 26290.09,
+            "w_shaped": 1057.83
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-022",
+      "company_name": "Relay Solutions",
+      "deal_size": 41988.42,
+      "deal_outcome": "lost",
+      "touchpoint_count": 2,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 0
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-11-07",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Case Study LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 41988.42,
+            "last_touch": 41988.42,
+            "linear": 20994.21,
+            "time_decay": 90.35,
+            "w_shaped": 41988.42
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-08",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Welcome Series Email",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 20994.21,
+            "time_decay": 41898.07,
+            "w_shaped": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-023",
+      "company_name": "Pulse Capital",
+      "deal_size": 36481.35,
+      "deal_outcome": "lost",
+      "touchpoint_count": 5,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 4
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-11-30",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Attribution Guide LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Director of Ops",
+          "credits": {
+            "first_touch": 36481.35,
+            "last_touch": 0.0,
+            "linear": 7296.27,
+            "time_decay": 1199.59,
+            "w_shaped": 21888.81
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-02",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Attribution Guide LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Director of Ops",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 7296.27,
+            "time_decay": 1462.31,
+            "w_shaped": 1216.05
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-12",
+          "channel": "Outbound BDR",
+          "campaign_name": "Inbound Response",
+          "content_asset": "Free Trial Onboarding Call",
+          "touchpoint_type": "sales_call",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 7296.27,
+            "time_decay": 3936.26,
+            "w_shaped": 1216.05
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-20",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Pricing Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 7296.27,
+            "time_decay": 8691.96,
+            "w_shaped": 1216.05
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-29",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Pipeline Intelligence Handbook",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CTO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 36481.35,
+            "linear": 7296.27,
+            "time_decay": 21191.23,
+            "w_shaped": 10944.39
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-024",
+      "company_name": "Edge AI",
+      "deal_size": 287244.47,
+      "deal_outcome": "lost",
+      "touchpoint_count": 5,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 2
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-11-28",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Free Trial Page",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Digital Marketing Specialist",
+          "credits": {
+            "first_touch": 287244.47,
+            "last_touch": 0.0,
+            "linear": 57448.89,
+            "time_decay": 21.2,
+            "w_shaped": 172346.68
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-23",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Free Trial Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Content Strategist",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 57448.89,
+            "time_decay": 252.0,
+            "w_shaped": 9574.82
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-15",
+          "channel": "Outbound BDR",
+          "campaign_name": "Inbound Response",
+          "content_asset": "Free Trial Onboarding Call",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Digital Marketing Specialist",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 287244.47,
+            "linear": 57448.89,
+            "time_decay": 2457.57,
+            "w_shaped": 86173.34
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-08",
+          "channel": "Outbound BDR",
+          "campaign_name": "Inbound Response",
+          "content_asset": "Pricing Inquiry Call",
+          "touchpoint_type": "sales_call",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Digital Marketing Specialist",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 57448.89,
+            "time_decay": 26461.2,
+            "w_shaped": 9574.82
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-03",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "New Feature Alert",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Digital Marketing Specialist",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 57448.91,
+            "time_decay": 258052.5,
+            "w_shaped": 9574.81
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-025",
+      "company_name": "Relay Care",
+      "deal_size": 93890.44,
+      "deal_outcome": "lost",
+      "touchpoint_count": 10,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 1,
+        "opp_creation_index": 9
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-12-07",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Product Overview Page",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 93890.44,
+            "last_touch": 0.0,
+            "linear": 9389.04,
+            "time_decay": 4069.76,
+            "w_shaped": 28167.13
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-07",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Brand Landing Page",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 9389.04,
+            "time_decay": 4069.76,
+            "w_shaped": 28167.13
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-10",
+          "channel": "Events",
+          "campaign_name": "Partner Events",
+          "content_asset": "Salesforce Dreamforce Session",
+          "touchpoint_type": "event_attendance",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 9389.04,
+            "time_decay": 5477.5,
+            "w_shaped": 1341.29
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-11",
+          "channel": "Events",
+          "campaign_name": "Hosted Roundtables",
+          "content_asset": "CMO Dinner: Attribution in Practice",
+          "touchpoint_type": "webinar_attendance",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 9389.04,
+            "time_decay": 6047.65,
+            "w_shaped": 1341.29
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-12",
+          "channel": "Events",
+          "campaign_name": "Partner Events",
+          "content_asset": "Salesforce Dreamforce Session",
+          "touchpoint_type": "event_attendance",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 9389.04,
+            "time_decay": 6677.14,
+            "w_shaped": 1341.29
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-15",
+          "channel": "Events",
+          "campaign_name": "Hosted Roundtables",
+          "content_asset": "VP Marketing Roundtable",
+          "touchpoint_type": "webinar_attendance",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 9389.04,
+            "time_decay": 8986.77,
+            "w_shaped": 1341.29
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-17",
+          "channel": "Outbound BDR",
+          "campaign_name": "Inbound Response",
+          "content_asset": "Pricing Inquiry Call",
+          "touchpoint_type": "sales_call",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 9389.04,
+            "time_decay": 10954.99,
+            "w_shaped": 1341.29
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-19",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "New Feature Alert",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 9389.04,
+            "time_decay": 13354.28,
+            "w_shaped": 1341.29
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-21",
+          "channel": "Outbound BDR",
+          "campaign_name": "Warm Follow-up",
+          "content_asset": "Post-Event Follow-up Call",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 9389.04,
+            "time_decay": 16279.05,
+            "w_shaped": 1341.29
+          }
+        },
+        {
+          "touchpoint_date": "2025-12-22",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "We Miss You Email",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 93890.44,
+            "linear": 9389.08,
+            "time_decay": 17973.54,
+            "w_shaped": 28167.15
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-027",
+      "company_name": "Lumen Digital",
+      "deal_size": 119501.4,
+      "deal_outcome": "lost",
+      "touchpoint_count": 8,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 5
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-12-30",
+          "channel": "Outbound BDR",
+          "campaign_name": "Warm Follow-up",
+          "content_asset": "Content Download Follow-up",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 119501.4,
+            "last_touch": 0.0,
+            "linear": 14937.67,
+            "time_decay": 371.56,
+            "w_shaped": 71700.84
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-04",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Product Overview Page",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 14937.67,
+            "time_decay": 609.61,
+            "w_shaped": 1991.69
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-13",
+          "channel": "Events",
+          "campaign_name": "Partner Events",
+          "content_asset": "HubSpot INBOUND Talk",
+          "touchpoint_type": "webinar_attendance",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 14937.67,
+            "time_decay": 1486.25,
+            "w_shaped": 1991.69
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-21",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Multi-Touch Attribution Guide",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 14937.67,
+            "time_decay": 3281.9,
+            "w_shaped": 1991.69
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-27",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Pipeline Intelligence Handbook",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 14937.67,
+            "time_decay": 5944.99,
+            "w_shaped": 1991.69
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-05",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Channel ROI Framework",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 119501.4,
+            "linear": 14937.67,
+            "time_decay": 14494.04,
+            "w_shaped": 35850.42
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-14",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Use Case Showcase",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 14937.67,
+            "time_decay": 35336.87,
+            "w_shaped": 1991.69
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-19",
+          "channel": "Events",
+          "campaign_name": "Conferences",
+          "content_asset": "MarTech Conference",
+          "touchpoint_type": "webinar_attendance",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 14937.71,
+            "time_decay": 57976.18,
+            "w_shaped": 1991.69
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-029",
+      "company_name": "Core Advisory",
+      "deal_size": 16379.73,
+      "deal_outcome": "lost",
+      "touchpoint_count": 3,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 1
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2025-12-31",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Pipeline Analytics Deep Dive",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 16379.73,
+            "last_touch": 0.0,
+            "linear": 5459.91,
+            "time_decay": 48.95,
+            "w_shaped": 9827.84
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-31",
+          "channel": "LinkedIn",
+          "campaign_name": "Conversation Ads",
+          "content_asset": "Quick Demo Scheduler",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 16379.73,
+            "linear": 5459.91,
+            "time_decay": 1054.17,
+            "w_shaped": 4913.92
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-27",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Pipeline Analytics Deep Dive",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 5459.91,
+            "time_decay": 15276.61,
+            "w_shaped": 1637.97
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-030",
+      "company_name": "Edge Digital",
+      "deal_size": 159831.62,
+      "deal_outcome": "won",
+      "touchpoint_count": 5,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 2
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-01-04",
+          "channel": "LinkedIn",
+          "campaign_name": "InMail",
+          "content_asset": "Executive Briefing Invite",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "SDR/BDR",
+          "credits": {
+            "first_touch": 159831.62,
+            "last_touch": 0.0,
+            "linear": 31966.32,
+            "time_decay": 17.19,
+            "w_shaped": 95898.97
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-25",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Case Study LP",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "SDR/BDR",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 31966.32,
+            "time_decay": 137.55,
+            "w_shaped": 5327.72
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-16",
+          "channel": "Outbound BDR",
+          "campaign_name": "Cold Outbound",
+          "content_asset": "Cold Email Sequence",
+          "touchpoint_type": "sales_call",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 159831.62,
+            "linear": 31966.32,
+            "time_decay": 1214.97,
+            "w_shaped": 47949.49
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-15",
+          "channel": "Outbound BDR",
+          "campaign_name": "Inbound Response",
+          "content_asset": "Pricing Inquiry Call",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 31966.32,
+            "time_decay": 17606.88,
+            "w_shaped": 5327.72
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-05",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Pipeline Intelligence Handbook",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 31966.34,
+            "time_decay": 140855.03,
+            "w_shaped": 5327.72
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-031",
+      "company_name": "Nova Computing",
+      "deal_size": 324306.39,
+      "deal_outcome": "won",
+      "touchpoint_count": 11,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 5
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-01-12",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Complete Attribution Playbook",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 324306.39,
+            "last_touch": 0.0,
+            "linear": 29482.4,
+            "time_decay": 20.89,
+            "w_shaped": 194583.83
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-18",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Case Study LP",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 29482.4,
+            "time_decay": 37.83,
+            "w_shaped": 3603.4
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-28",
+          "channel": "LinkedIn",
+          "campaign_name": "Sponsored Content",
+          "content_asset": "Pipeline ROI Infographic",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 29482.4,
+            "time_decay": 101.84,
+            "w_shaped": 3603.4
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-06",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "CMO Metrics That Matter",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 29482.4,
+            "time_decay": 248.28,
+            "w_shaped": 3603.4
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-19",
+          "channel": "LinkedIn",
+          "campaign_name": "InMail",
+          "content_asset": "Executive Briefing Invite",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 29482.4,
+            "time_decay": 899.5,
+            "w_shaped": 3603.4
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-01",
+          "channel": "Outbound BDR",
+          "campaign_name": "Warm Follow-up",
+          "content_asset": "Referral Introduction Call",
+          "touchpoint_type": "sales_call",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 324306.39,
+            "linear": 29482.4,
+            "time_decay": 2421.27,
+            "w_shaped": 97291.92
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-08",
+          "channel": "Outbound BDR",
+          "campaign_name": "Cold Outbound",
+          "content_asset": "Cold Call - Initial Outreach",
+          "touchpoint_type": "sales_call",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 29482.4,
+            "time_decay": 4842.54,
+            "w_shaped": 3603.4
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-14",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "B2B Funnel Optimization",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 29482.4,
+            "time_decay": 8772.0,
+            "w_shaped": 3603.4
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-24",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Channel ROI Framework",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 29482.4,
+            "time_decay": 23612.48,
+            "w_shaped": 3603.4
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-07",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "B2B Marketing Measurement Guide",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 29482.4,
+            "time_decay": 94449.92,
+            "w_shaped": 3603.4
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-14",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Attribution Masterclass",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 29482.39,
+            "time_decay": 188899.84,
+            "w_shaped": 3603.44
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-032",
+      "company_name": "Xenon Advisory",
+      "deal_size": 115961.11,
+      "deal_outcome": "lost",
+      "touchpoint_count": 5,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 2
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-01-11",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Brand Landing Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 115961.11,
+            "last_touch": 0.0,
+            "linear": 23192.22,
+            "time_decay": 10.24,
+            "w_shaped": 69576.67
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-02",
+          "channel": "LinkedIn",
+          "campaign_name": "InMail",
+          "content_asset": "Personalized Demo Invite",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Content Strategist",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 23192.22,
+            "time_decay": 90.46,
+            "w_shaped": 3865.37
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-24",
+          "channel": "LinkedIn",
+          "campaign_name": "Sponsored Content",
+          "content_asset": "Pipeline ROI Infographic",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 115961.11,
+            "linear": 23192.22,
+            "time_decay": 799.04,
+            "w_shaped": 34788.33
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-24",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Attribution Masterclass",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 23192.22,
+            "time_decay": 12784.6,
+            "w_shaped": 3865.37
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-14",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "ROI Calculator Page",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 23192.23,
+            "time_decay": 102276.77,
+            "w_shaped": 3865.37
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-034",
+      "company_name": "Wave Consulting",
+      "deal_size": 187042.57,
+      "deal_outcome": "won",
+      "touchpoint_count": 10,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 6
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-01-14",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Attribution Guide LP",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Content Strategist",
+          "credits": {
+            "first_touch": 187042.57,
+            "last_touch": 0.0,
+            "linear": 18704.26,
+            "time_decay": 0.26,
+            "w_shaped": 112225.54
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-26",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Brand Landing Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18704.26,
+            "time_decay": 0.85,
+            "w_shaped": 2338.03
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-09",
+          "channel": "Outbound BDR",
+          "campaign_name": "Inbound Response",
+          "content_asset": "Pricing Inquiry Call",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18704.26,
+            "time_decay": 3.41,
+            "w_shaped": 2338.03
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-01",
+          "channel": "LinkedIn",
+          "campaign_name": "Conversation Ads",
+          "content_asset": "Interactive Product Tour",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Marketing Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18704.26,
+            "time_decay": 24.71,
+            "w_shaped": 2338.03
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-12",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Attribution Guide LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18704.26,
+            "time_decay": 73.45,
+            "w_shaped": 2338.03
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-30",
+          "channel": "LinkedIn",
+          "campaign_name": "Sponsored Content",
+          "content_asset": "Customer Success Story",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18704.26,
+            "time_decay": 436.6,
+            "w_shaped": 2338.03
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-13",
+          "channel": "LinkedIn",
+          "campaign_name": "Sponsored Content",
+          "content_asset": "Customer Success Story",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 187042.57,
+            "linear": 18704.26,
+            "time_decay": 1746.4,
+            "w_shaped": 56112.77
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-27",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Customer Testimonial Email",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18704.26,
+            "time_decay": 6985.61,
+            "w_shaped": 2338.03
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-15",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "ROI Calculator Page",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18704.26,
+            "time_decay": 41522.33,
+            "w_shaped": 2338.03
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-27",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Case Study LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CFO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 18704.23,
+            "time_decay": 136248.95,
+            "w_shaped": 2338.05
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-035",
+      "company_name": "Jump Engineering",
+      "deal_size": 91853.07,
+      "deal_outcome": "lost",
+      "touchpoint_count": 6,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 5
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-01-28",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Pipeline Velocity Best Practices",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "SDR/BDR",
+          "credits": {
+            "first_touch": 91853.07,
+            "last_touch": 0.0,
+            "linear": 15308.85,
+            "time_decay": 5994.86,
+            "w_shaped": 55111.84
+          }
+        },
+        {
+          "touchpoint_date": "2026-01-30",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "B2B Funnel Optimization",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 15308.85,
+            "time_decay": 7307.81,
+            "w_shaped": 2296.33
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-04",
+          "channel": "LinkedIn",
+          "campaign_name": "Sponsored Content",
+          "content_asset": "Pipeline ROI Infographic",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 15308.85,
+            "time_decay": 11989.71,
+            "w_shaped": 2296.33
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-06",
+          "channel": "Email Campaigns",
+          "campaign_name": "Product Updates",
+          "content_asset": "Feature Launch Announcement",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 15308.85,
+            "time_decay": 14615.62,
+            "w_shaped": 2296.33
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-09",
+          "channel": "Email Campaigns",
+          "campaign_name": "Product Updates",
+          "content_asset": "Integration Release Email",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 15308.85,
+            "time_decay": 19671.17,
+            "w_shaped": 2296.33
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-14",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Attribution Masterclass",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Head of Demand Gen",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 91853.07,
+            "linear": 15308.82,
+            "time_decay": 32273.9,
+            "w_shaped": 27555.91
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-037",
+      "company_name": "Yield AI",
+      "deal_size": 299559.89,
+      "deal_outcome": "lost",
+      "touchpoint_count": 8,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 7
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-02-02",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Case Study LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Content Strategist",
+          "credits": {
+            "first_touch": 299559.89,
+            "last_touch": 0.0,
+            "linear": 37444.99,
+            "time_decay": 2403.47,
+            "w_shaped": 179735.93
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-06",
+          "channel": "Google Ads",
+          "campaign_name": "Retargeting",
+          "content_asset": "Case Study LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 37444.99,
+            "time_decay": 3571.54,
+            "w_shaped": 4992.66
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-11",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Pipeline Analytics LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 37444.99,
+            "time_decay": 5859.71,
+            "w_shaped": 4992.66
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-21",
+          "channel": "Email Campaigns",
+          "campaign_name": "Product Updates",
+          "content_asset": "Feature Launch Announcement",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 37444.99,
+            "time_decay": 15773.18,
+            "w_shaped": 4992.66
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-25",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "ROI Calculator Page",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 37444.99,
+            "time_decay": 23438.85,
+            "w_shaped": 4992.66
+          }
+        },
+        {
+          "touchpoint_date": "2026-02-27",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Product Education Drip",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 37444.99,
+            "time_decay": 28572.28,
+            "w_shaped": 4992.66
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-11",
+          "channel": "Email Campaigns",
+          "campaign_name": "Product Updates",
+          "content_asset": "Feature Launch Announcement",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 37444.99,
+            "time_decay": 93755.42,
+            "w_shaped": 4992.66
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-14",
+          "channel": "Email Campaigns",
+          "campaign_name": "Product Updates",
+          "content_asset": "Feature Launch Announcement",
+          "touchpoint_type": "email_open",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 299559.89,
+            "linear": 37444.96,
+            "time_decay": 126185.44,
+            "w_shaped": 89868.0
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-038",
+      "company_name": "Bright Risk Analytics",
+      "deal_size": 82186.45,
+      "deal_outcome": "lost",
+      "touchpoint_count": 8,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 5
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-03-12",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Channel ROI Framework",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 82186.45,
+            "last_touch": 0.0,
+            "linear": 10273.31,
+            "time_decay": 20.04,
+            "w_shaped": 49311.87
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-21",
+          "channel": "Events",
+          "campaign_name": "Hosted Roundtables",
+          "content_asset": "CMO Dinner: Attribution in Practice",
+          "touchpoint_type": "webinar_attendance",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 10273.31,
+            "time_decay": 48.87,
+            "w_shaped": 1369.77
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-06",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Attribution Guide LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 10273.31,
+            "time_decay": 238.29,
+            "w_shaped": 1369.77
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-15",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "CMO Metrics That Matter",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 10273.31,
+            "time_decay": 580.97,
+            "w_shaped": 1369.77
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-29",
+          "channel": "Google Ads",
+          "campaign_name": "Brand Search",
+          "content_asset": "Pricing Page",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 10273.31,
+            "time_decay": 2323.86,
+            "w_shaped": 1369.77
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-07",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Revenue Ops Workshop",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 82186.45,
+            "linear": 10273.31,
+            "time_decay": 5131.51,
+            "w_shaped": 24655.93
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-20",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Channel ROI Framework",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 10273.31,
+            "time_decay": 18590.92,
+            "w_shaped": 1369.77
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-31",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Complete Attribution Playbook",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 10273.28,
+            "time_decay": 55251.99,
+            "w_shaped": 1369.8
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-039",
+      "company_name": "Onyx Health",
+      "deal_size": 28907.37,
+      "deal_outcome": "won",
+      "touchpoint_count": 3,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 1
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-03-14",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Complete Attribution Playbook",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 28907.37,
+            "last_touch": 0.0,
+            "linear": 9635.79,
+            "time_decay": 6.28,
+            "w_shaped": 17344.42
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-27",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Attribution Guide LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 28907.37,
+            "linear": 9635.79,
+            "time_decay": 490.13,
+            "w_shaped": 8672.21
+          }
+        },
+        {
+          "touchpoint_date": "2026-06-07",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "B2B Marketing Measurement Guide",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 9635.79,
+            "time_decay": 28410.96,
+            "w_shaped": 2890.74
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-040",
+      "company_name": "Data Tech",
+      "deal_size": 215769.6,
+      "deal_outcome": "lost",
+      "touchpoint_count": 8,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 5
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-03-18",
+          "channel": "LinkedIn",
+          "campaign_name": "Conversation Ads",
+          "content_asset": "ROI Assessment Tool",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Director of Ops",
+          "credits": {
+            "first_touch": 215769.6,
+            "last_touch": 0.0,
+            "linear": 26971.2,
+            "time_decay": 149.24,
+            "w_shaped": 129461.76
+          }
+        },
+        {
+          "touchpoint_date": "2026-03-28",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Multi-Touch Attribution Guide",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 26971.2,
+            "time_decay": 401.73,
+            "w_shaped": 3596.16
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-03",
+          "channel": "LinkedIn",
+          "campaign_name": "Conversation Ads",
+          "content_asset": "Interactive Product Tour",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Director of Ops",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 26971.2,
+            "time_decay": 727.71,
+            "w_shaped": 3596.16
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-19",
+          "channel": "LinkedIn",
+          "campaign_name": "InMail",
+          "content_asset": "Personalized Demo Invite",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Director of Ops",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 26971.2,
+            "time_decay": 3548.36,
+            "w_shaped": 3596.16
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-28",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "Special Offer Email",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 26971.2,
+            "time_decay": 8651.0,
+            "w_shaped": 3596.16
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-05",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Attribution Masterclass",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 215769.6,
+            "linear": 26971.2,
+            "time_decay": 17302.0,
+            "w_shaped": 64730.88
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-15",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Pipeline Velocity Best Practices",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Director of Ops",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 26971.2,
+            "time_decay": 46573.54,
+            "w_shaped": 3596.16
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-26",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Channel ROI Framework",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 26971.2,
+            "time_decay": 138416.02,
+            "w_shaped": 3596.16
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-041",
+      "company_name": "Forge Consulting",
+      "deal_size": 21978.7,
+      "deal_outcome": "lost",
+      "touchpoint_count": 2,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 1
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-03-27",
+          "channel": "Outbound BDR",
+          "campaign_name": "Inbound Response",
+          "content_asset": "Pricing Inquiry Call",
+          "touchpoint_type": "sales_call",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 21978.7,
+            "last_touch": 0.0,
+            "linear": 10989.35,
+            "time_decay": 3442.99,
+            "w_shaped": 14652.47
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-13",
+          "channel": "Outbound BDR",
+          "campaign_name": "Cold Outbound",
+          "content_asset": "Cold Email Sequence",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 21978.7,
+            "linear": 10989.35,
+            "time_decay": 18535.71,
+            "w_shaped": 7326.23
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-042",
+      "company_name": "Edge Systems",
+      "deal_size": 88811.52,
+      "deal_outcome": "won",
+      "touchpoint_count": 3,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 1
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-03-29",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "CMO Metrics That Matter",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Director of Ops",
+          "credits": {
+            "first_touch": 88811.52,
+            "last_touch": 0.0,
+            "linear": 29603.84,
+            "time_decay": 91.8,
+            "w_shaped": 53286.91
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-05",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Complete Attribution Playbook",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 88811.52,
+            "linear": 29603.84,
+            "time_decay": 3580.89,
+            "w_shaped": 26643.46
+          }
+        },
+        {
+          "touchpoint_date": "2026-06-06",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Multi-Touch Attribution Guide",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "VP Sales",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 29603.84,
+            "time_decay": 85138.83,
+            "w_shaped": 8881.15
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-043",
+      "company_name": "Grid Engineering",
+      "deal_size": 38886.82,
+      "deal_outcome": "won",
+      "touchpoint_count": 5,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 2
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-03-30",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Pipeline Analytics LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 38886.82,
+            "last_touch": 0.0,
+            "linear": 7777.36,
+            "time_decay": 90.24,
+            "w_shaped": 23332.09
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-16",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Customer Testimonial Email",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Product Manager",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 7777.36,
+            "time_decay": 485.81,
+            "w_shaped": 1296.23
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-27",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "Special Offer Email",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 38886.82,
+            "linear": 7777.36,
+            "time_decay": 1443.82,
+            "w_shaped": 11666.05
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-11",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Attribution Guide LP",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CEO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 7777.36,
+            "time_decay": 5775.26,
+            "w_shaped": 1296.23
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-28",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "CMO Metrics That Matter",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "CMO",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 7777.38,
+            "time_decay": 31091.69,
+            "w_shaped": 1296.22
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-044",
+      "company_name": "Logic MedTech",
+      "deal_size": 107367.96,
+      "deal_outcome": "won",
+      "touchpoint_count": 7,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 3
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-04-11",
+          "channel": "Content Marketing",
+          "campaign_name": "Ebooks/Guides",
+          "content_asset": "Complete Attribution Playbook",
+          "touchpoint_type": "email_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 107367.96,
+            "last_touch": 0.0,
+            "linear": 15338.28,
+            "time_decay": 27.32,
+            "w_shaped": 64420.78
+          }
+        },
+        {
+          "touchpoint_date": "2026-04-19",
+          "channel": "Content Marketing",
+          "campaign_name": "Webinars",
+          "content_asset": "Attribution Masterclass",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 15338.28,
+            "time_decay": 60.33,
+            "w_shaped": 2147.36
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-04",
+          "channel": "Email Campaigns",
+          "campaign_name": "Re-engagement",
+          "content_asset": "Special Offer Email",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "mql",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 15338.28,
+            "time_decay": 266.42,
+            "w_shaped": 2147.36
+          }
+        },
+        {
+          "touchpoint_date": "2026-05-19",
+          "channel": "LinkedIn",
+          "campaign_name": "Sponsored Content",
+          "content_asset": "Customer Success Story",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 107367.96,
+            "linear": 15338.28,
+            "time_decay": 1176.61,
+            "w_shaped": 32210.39
+          }
+        },
+        {
+          "touchpoint_date": "2026-06-03",
+          "channel": "LinkedIn",
+          "campaign_name": "InMail",
+          "content_asset": "Executive Briefing Invite",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "sql",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 15338.28,
+            "time_decay": 5196.35,
+            "w_shaped": 2147.36
+          }
+        },
+        {
+          "touchpoint_date": "2026-06-19",
+          "channel": "Email Campaigns",
+          "campaign_name": "Nurture Sequences",
+          "content_asset": "Welcome Series Email",
+          "touchpoint_type": "page_visit",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Director of Marketing",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 15338.28,
+            "time_decay": 25337.67,
+            "w_shaped": 2147.36
+          }
+        },
+        {
+          "touchpoint_date": "2026-06-30",
+          "channel": "LinkedIn",
+          "campaign_name": "Conversation Ads",
+          "content_asset": "ROI Assessment Tool",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 15338.28,
+            "time_decay": 75303.26,
+            "w_shaped": 2147.35
+          }
+        }
+      ]
+    },
+    {
+      "deal_id": "DEAL-046",
+      "company_name": "Warp Group",
+      "deal_size": 26406.22,
+      "deal_outcome": "won",
+      "touchpoint_count": 2,
+      "key_moments": {
+        "first_touch_index": 0,
+        "lead_creation_index": 0,
+        "opp_creation_index": 0
+      },
+      "touchpoints": [
+        {
+          "touchpoint_date": "2026-04-16",
+          "channel": "Google Ads",
+          "campaign_name": "Non-Brand Search",
+          "content_asset": "Pipeline Analytics LP",
+          "touchpoint_type": "ad_click",
+          "funnel_stage_at_touch": "lead",
+          "contact_role": "Content Strategist",
+          "credits": {
+            "first_touch": 26406.22,
+            "last_touch": 26406.22,
+            "linear": 13203.11,
+            "time_decay": 15.71,
+            "w_shaped": 26406.22
+          }
+        },
+        {
+          "touchpoint_date": "2026-06-30",
+          "channel": "Content Marketing",
+          "campaign_name": "Blog/SEO",
+          "content_asset": "Multi-Touch Attribution Guide",
+          "touchpoint_type": "content_download",
+          "funnel_stage_at_touch": "opportunity",
+          "contact_role": "Marketing Director",
+          "credits": {
+            "first_touch": 0.0,
+            "last_touch": 0.0,
+            "linear": 13203.11,
+            "time_decay": 26390.51,
+            "w_shaped": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

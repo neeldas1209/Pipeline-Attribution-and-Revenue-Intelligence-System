@@ -1,0 +1,424 @@
+{
+  "metadata": {
+    "run_id": "synthetic-run",
+    "generated_date": "2026-07-14T00:00:00Z",
+    "agent": "04-scenario-planning",
+    "total_budget": 124882.07,
+    "current_pipeline": 4464023.8,
+    "current_revenue": 1785609.52,
+    "current_roi": 35.75,
+    "historical_win_rate": 0.4,
+    "scenarios_generated": 4,
+    "models_computed": [
+      "first_touch",
+      "last_touch",
+      "linear",
+      "time_decay",
+      "w_shaped"
+    ]
+  },
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "name": "Scale Email Campaigns",
+      "description": "Shift 15% of budget from Google Ads to Email Campaigns, leveraging Email Campaigns's higher ROI",
+      "reallocation": {
+        "changes": [
+          {
+            "channel": "Email Campaigns",
+            "from_pct": 7.8,
+            "to_pct": 22.8,
+            "delta_dollars": 18732.31
+          },
+          {
+            "channel": "Google Ads",
+            "from_pct": 30.4,
+            "to_pct": 15.4,
+            "delta_dollars": -18732.31
+          }
+        ],
+        "unchanged": [
+          "Content Marketing",
+          "Events",
+          "LinkedIn",
+          "Outbound BDR"
+        ]
+      },
+      "projections": {
+        "first_touch": {
+          "projected_pipeline": 3818765.07,
+          "pipeline_delta": -645258.73,
+          "pipeline_delta_pct": -14.5,
+          "projected_revenue": 1527506.03,
+          "projected_roi": 30.58,
+          "roi_delta": -5.17,
+          "confidence": "High"
+        },
+        "last_touch": {
+          "projected_pipeline": 5815434.56,
+          "pipeline_delta": 1351410.76,
+          "pipeline_delta_pct": 30.3,
+          "projected_revenue": 2326173.82,
+          "projected_roi": 46.57,
+          "roi_delta": 10.82,
+          "confidence": "High"
+        },
+        "linear": {
+          "projected_pipeline": 5464938.04,
+          "pipeline_delta": 1000914.24,
+          "pipeline_delta_pct": 22.4,
+          "projected_revenue": 2185975.22,
+          "projected_roi": 43.76,
+          "roi_delta": 8.01,
+          "confidence": "High"
+        },
+        "time_decay": {
+          "projected_pipeline": 6746225.58,
+          "pipeline_delta": 2282201.78,
+          "pipeline_delta_pct": 51.1,
+          "projected_revenue": 2698490.23,
+          "projected_roi": 54.02,
+          "roi_delta": 18.27,
+          "confidence": "High"
+        },
+        "w_shaped": {
+          "projected_pipeline": 4614682.21,
+          "pipeline_delta": 150658.41,
+          "pipeline_delta_pct": 3.4,
+          "projected_revenue": 1845872.88,
+          "projected_roi": 36.95,
+          "roi_delta": 1.2,
+          "confidence": "High"
+        }
+      },
+      "assumptions": [
+        "Linear scaling: pipeline_per_dollar remains constant as spend increases",
+        "Email Campaigns can absorb additional spend without diminishing returns",
+        "Market conditions remain stable"
+      ],
+      "generated_because": "Email Campaigns flagged as underfunded (3 models), Google Ads flagged as high-volume-low-quality (5 models)"
+    },
+    {
+      "scenario_id": "S2",
+      "name": "Redistribute from Google Ads",
+      "description": "Reduce Google Ads by 12.2pp, redistribute to Content Marketing and Outbound BDR",
+      "reallocation": {
+        "changes": [
+          {
+            "channel": "Content Marketing",
+            "from_pct": 15.0,
+            "to_pct": 21.1,
+            "delta_dollars": 7617.81
+          },
+          {
+            "channel": "Google Ads",
+            "from_pct": 30.4,
+            "to_pct": 18.2,
+            "delta_dollars": -15235.61
+          },
+          {
+            "channel": "Outbound BDR",
+            "from_pct": 11.8,
+            "to_pct": 17.9,
+            "delta_dollars": 7617.81
+          }
+        ],
+        "unchanged": [
+          "Email Campaigns",
+          "Events",
+          "LinkedIn"
+        ]
+      },
+      "projections": {
+        "first_touch": {
+          "projected_pipeline": 4638137.56,
+          "pipeline_delta": 174113.76,
+          "pipeline_delta_pct": 3.9,
+          "projected_revenue": 1855255.02,
+          "projected_roi": 37.14,
+          "roi_delta": 1.39,
+          "confidence": "High"
+        },
+        "last_touch": {
+          "projected_pipeline": 5124494.53,
+          "pipeline_delta": 660470.73,
+          "pipeline_delta_pct": 14.8,
+          "projected_revenue": 2049797.81,
+          "projected_roi": 41.03,
+          "roi_delta": 5.28,
+          "confidence": "High"
+        },
+        "linear": {
+          "projected_pipeline": 4795124.32,
+          "pipeline_delta": 331100.52,
+          "pipeline_delta_pct": 7.4,
+          "projected_revenue": 1918049.73,
+          "projected_roi": 38.4,
+          "roi_delta": 2.65,
+          "confidence": "High"
+        },
+        "time_decay": {
+          "projected_pipeline": 4994504.78,
+          "pipeline_delta": 530480.98,
+          "pipeline_delta_pct": 11.9,
+          "projected_revenue": 1997801.91,
+          "projected_roi": 39.99,
+          "roi_delta": 4.24,
+          "confidence": "High"
+        },
+        "w_shaped": {
+          "projected_pipeline": 4790604.83,
+          "pipeline_delta": 326581.03,
+          "pipeline_delta_pct": 7.3,
+          "projected_revenue": 1916241.93,
+          "projected_roi": 38.36,
+          "roi_delta": 2.61,
+          "confidence": "High"
+        }
+      },
+      "assumptions": [
+        "Linear scaling: pipeline_per_dollar remains constant",
+        "Google Ads reduction doesn't impact downstream pipeline disproportionately",
+        "Content Marketing, Outbound BDR can absorb incremental spend efficiently"
+      ],
+      "generated_because": "Google Ads flagged as high-volume-low-quality under 5 models; Content Marketing, Outbound BDR are top ROI channels"
+    },
+    {
+      "scenario_id": "S3",
+      "name": "Aggressive Reallocation from Events",
+      "description": "Reduce Events to 7.5% of budget, redistribute to top-ROI channels",
+      "reallocation": {
+        "changes": [
+          {
+            "channel": "Content Marketing",
+            "from_pct": 15.0,
+            "to_pct": 17.9,
+            "delta_dollars": 3621.58
+          },
+          {
+            "channel": "Events",
+            "from_pct": 13.3,
+            "to_pct": 7.5,
+            "delta_dollars": -7243.16
+          },
+          {
+            "channel": "Outbound BDR",
+            "from_pct": 11.8,
+            "to_pct": 14.7,
+            "delta_dollars": 3621.58
+          }
+        ],
+        "unchanged": [
+          "Email Campaigns",
+          "Google Ads",
+          "LinkedIn"
+        ]
+      },
+      "projections": {
+        "first_touch": {
+          "projected_pipeline": 4893364.05,
+          "pipeline_delta": 429340.25,
+          "pipeline_delta_pct": 9.6,
+          "projected_revenue": 1957345.62,
+          "projected_roi": 39.18,
+          "roi_delta": 3.43,
+          "confidence": "High"
+        },
+        "last_touch": {
+          "projected_pipeline": 4659641.01,
+          "pipeline_delta": 195617.21,
+          "pipeline_delta_pct": 4.4,
+          "projected_revenue": 1863856.4,
+          "projected_roi": 37.31,
+          "roi_delta": 1.56,
+          "confidence": "High"
+        },
+        "linear": {
+          "projected_pipeline": 4684436.34,
+          "pipeline_delta": 220412.54,
+          "pipeline_delta_pct": 4.9,
+          "projected_revenue": 1873774.54,
+          "projected_roi": 37.51,
+          "roi_delta": 1.76,
+          "confidence": "High"
+        },
+        "time_decay": {
+          "projected_pipeline": 4574541.37,
+          "pipeline_delta": 110517.57,
+          "pipeline_delta_pct": 2.5,
+          "projected_revenue": 1829816.55,
+          "projected_roi": 36.63,
+          "roi_delta": 0.88,
+          "confidence": "High"
+        },
+        "w_shaped": {
+          "projected_pipeline": 4796726.55,
+          "pipeline_delta": 332702.75,
+          "pipeline_delta_pct": 7.5,
+          "projected_revenue": 1918690.62,
+          "projected_roi": 38.41,
+          "roi_delta": 2.66,
+          "confidence": "High"
+        }
+      },
+      "assumptions": [
+        "Linear scaling: pipeline_per_dollar remains constant at higher spend levels",
+        "Events at 7.5% still maintains minimum viable presence",
+        "Large reallocation can be executed without disruption",
+        "No channel saturation effects at increased spend levels"
+      ],
+      "generated_because": "ROI spread of 5.5x between best and worst channels; both underfunded and low-quality flags present"
+    },
+    {
+      "scenario_id": "SQ",
+      "name": "Status Quo: Current allocation projected forward",
+      "description": "No reallocation. Current budget distribution maintained with existing spend trends.",
+      "reallocation": {
+        "changes": [],
+        "unchanged": [
+          "Content Marketing",
+          "Email Campaigns",
+          "Events",
+          "Google Ads",
+          "LinkedIn",
+          "Outbound BDR"
+        ]
+      },
+      "projections": {
+        "first_touch": {
+          "projected_pipeline": 4463156.55,
+          "pipeline_delta": -867.25,
+          "pipeline_delta_pct": -0.0,
+          "projected_revenue": 1785262.62,
+          "projected_roi": 35.74,
+          "roi_delta": -0.01,
+          "confidence": "High"
+        },
+        "last_touch": {
+          "projected_pipeline": 4460526.54,
+          "pipeline_delta": -3497.26,
+          "pipeline_delta_pct": -0.1,
+          "projected_revenue": 1784210.62,
+          "projected_roi": 35.72,
+          "roi_delta": -0.03,
+          "confidence": "High"
+        },
+        "linear": {
+          "projected_pipeline": 4462759.43,
+          "pipeline_delta": -1264.37,
+          "pipeline_delta_pct": -0.0,
+          "projected_revenue": 1785103.77,
+          "projected_roi": 35.74,
+          "roi_delta": -0.01,
+          "confidence": "High"
+        },
+        "time_decay": {
+          "projected_pipeline": 4461258.35,
+          "pipeline_delta": -2765.45,
+          "pipeline_delta_pct": -0.1,
+          "projected_revenue": 1784503.34,
+          "projected_roi": 35.72,
+          "roi_delta": -0.03,
+          "confidence": "High"
+        },
+        "w_shaped": {
+          "projected_pipeline": 4462201.21,
+          "pipeline_delta": -1822.59,
+          "pipeline_delta_pct": -0.0,
+          "projected_revenue": 1784880.48,
+          "projected_roi": 35.73,
+          "roi_delta": -0.02,
+          "confidence": "High"
+        }
+      },
+      "assumptions": [
+        "Current budget allocation continues unchanged",
+        "Pipeline_per_dollar rates remain stable",
+        "Market conditions and competitive dynamics unchanged"
+      ],
+      "generated_because": "Mandatory baseline scenario for comparison"
+    }
+  ],
+  "custom_scenario_parameters": {
+    "total_budget": 124882.07,
+    "win_rate": 0.4,
+    "current_pipeline": 4464023.8,
+    "current_revenue": 1785609.52,
+    "current_roi": 35.75,
+    "current_allocation": {
+      "Content Marketing": 15.0,
+      "Email Campaigns": 7.8,
+      "Events": 13.3,
+      "Google Ads": 30.4,
+      "LinkedIn": 21.7,
+      "Outbound BDR": 11.8
+    },
+    "pipeline_per_dollar": {
+      "Content Marketing": {
+        "first_touch": 64.62,
+        "last_touch": 65.81,
+        "linear": 61.21,
+        "time_decay": 79.68,
+        "w_shaped": 64.18
+      },
+      "Email Campaigns": {
+        "first_touch": 14.87,
+        "last_touch": 88.47,
+        "linear": 81.03,
+        "time_decay": 136.15,
+        "w_shaped": 45.19
+      },
+      "Events": {
+        "first_touch": 1.36,
+        "last_touch": 32.23,
+        "linear": 18.74,
+        "time_decay": 33.53,
+        "w_shaped": 12.42
+      },
+      "Google Ads": {
+        "first_touch": 49.27,
+        "last_touch": 16.14,
+        "linear": 27.53,
+        "time_decay": 14.17,
+        "w_shaped": 37.05
+      },
+      "LinkedIn": {
+        "first_touch": 13.89,
+        "last_touch": 15.78,
+        "linear": 22.81,
+        "time_decay": 10.06,
+        "w_shaped": 15.7
+      },
+      "Outbound BDR": {
+        "first_touch": 56.89,
+        "last_touch": 53.63,
+        "linear": 37.48,
+        "time_decay": 18.66,
+        "w_shaped": 53.03
+      }
+    }
+  },
+  "generation_reasoning": {
+    "flags_found": {
+      "underfunded": [
+        "Outbound BDR (first_touch)",
+        "Email Campaigns (last_touch)",
+        "Email Campaigns (linear)",
+        "Email Campaigns (time_decay)",
+        "Outbound BDR (w_shaped)"
+      ],
+      "high_volume_low_quality": [
+        "Google Ads (first_touch)",
+        "Google Ads (last_touch)",
+        "Google Ads (linear)",
+        "Google Ads (time_decay)",
+        "Google Ads (w_shaped)"
+      ]
+    },
+    "source_channel_selection": "Google Ads selected as primary source: flagged high-volume-low-quality under 5 models",
+    "destination_channel_selection": "Email Campaigns, Outbound BDR selected as destinations: flagged underfunded with highest ROI",
+    "reallocation_sizing": "Moderate shifts (15% for scaling, 40% reduction for redistribution) to balance impact vs risk",
+    "scenarios_generated": 4,
+    "note": "ROI spread: 5.5x. Aggressive scenario included."
+  }
+}

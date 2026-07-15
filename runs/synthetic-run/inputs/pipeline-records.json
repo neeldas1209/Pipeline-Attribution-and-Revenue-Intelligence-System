@@ -1,0 +1,3952 @@
+[
+  {
+    "deal_id": "DEAL-001",
+    "company_name": "Orbit Fabrication",
+    "industry": "Manufacturing",
+    "company_size": "SMB",
+    "employee_count": 95,
+    "annual_revenue": "$1M-$10M",
+    "geography": "North America",
+    "deal_size": 26073.98,
+    "deal_type": "New Business",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "chose_competitor",
+    "sales_rep": "Sarah Chen",
+    "product_line": "Integrations",
+    "lead_source": "Inbound",
+    "buyer_persona": "CFO",
+    "lead_created_date": "2025-07-01",
+    "mql_date": "2025-07-06",
+    "sql_date": null,
+    "opportunity_created_date": null,
+    "closed_date": "2025-07-17",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-07-04",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Multi-Touch Attribution Guide",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2025-07-11",
+        "channel": "LinkedIn",
+        "campaign_name": "InMail",
+        "content_asset": "Product Update Announcement",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-07-17",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Product Manager"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-002",
+    "company_name": "Xenon Therapeutics",
+    "industry": "Healthcare",
+    "company_size": "Mid-Market",
+    "employee_count": 996,
+    "annual_revenue": "$50M-$100M",
+    "geography": "Europe",
+    "deal_size": 47438.02,
+    "deal_type": "New Business",
+    "deal_stage": "opportunity",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Alex Kim",
+    "product_line": "Analytics",
+    "lead_source": "Inbound",
+    "buyer_persona": "CMO",
+    "lead_created_date": "2025-07-06",
+    "mql_date": "2025-07-29",
+    "sql_date": "2025-08-22",
+    "opportunity_created_date": "2025-09-11",
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-07-06",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-08-09",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Free Trial Onboarding Call",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2025-09-08",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Feature Launch Announcement",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Product Manager"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-003",
+    "company_name": "Relay Diagnostics",
+    "industry": "Healthcare",
+    "company_size": "Enterprise",
+    "employee_count": 11074,
+    "annual_revenue": "$100M-$500M",
+    "geography": "North America",
+    "deal_size": 144979.9,
+    "deal_type": "New Business",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "no_budget",
+    "sales_rep": "Alex Kim",
+    "product_line": "Platform",
+    "lead_source": "Inbound",
+    "buyer_persona": "VP Marketing",
+    "lead_created_date": "2025-07-18",
+    "mql_date": "2025-07-22",
+    "sql_date": null,
+    "opportunity_created_date": null,
+    "closed_date": "2025-08-10",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-07-19",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Platform Update Newsletter",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Analyst"
+      },
+      {
+        "touchpoint_date": "2025-07-21",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "New Feature Alert",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Digital Marketing Specialist"
+      },
+      {
+        "touchpoint_date": "2025-07-25",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Platform Update Newsletter",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-07-26",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Pipeline Analytics LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "SDR/BDR"
+      },
+      {
+        "touchpoint_date": "2025-08-03",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Use Case Showcase",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-08-04",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Customer Testimonial Email",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-08-05",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Platform Update Newsletter",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-08-07",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Attribution Guide LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Marketing"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-004",
+    "company_name": "Echo Precision",
+    "industry": "Manufacturing",
+    "company_size": "Enterprise",
+    "employee_count": 12164,
+    "annual_revenue": "$500M-$1B",
+    "geography": "North America",
+    "deal_size": 332778.12,
+    "deal_type": "Expansion",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "chose_competitor",
+    "sales_rep": "Priya Patel",
+    "product_line": "Analytics",
+    "lead_source": "Outbound",
+    "buyer_persona": "CEO",
+    "lead_created_date": "2025-07-22",
+    "mql_date": "2025-08-02",
+    "sql_date": null,
+    "opportunity_created_date": null,
+    "closed_date": "2025-08-18",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-07-25",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Demo Request Response",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-07-27",
+        "channel": "LinkedIn",
+        "campaign_name": "Sponsored Content",
+        "content_asset": "Pipeline ROI Infographic",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-07-31",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Case Study LP",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-08-02",
+        "channel": "LinkedIn",
+        "campaign_name": "Conversation Ads",
+        "content_asset": "Interactive Product Tour",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2025-08-09",
+        "channel": "LinkedIn",
+        "campaign_name": "InMail",
+        "content_asset": "Product Update Announcement",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2025-08-09",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "We Miss You Email",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2025-08-15",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Revenue Ops Workshop",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2025-08-18",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Pipeline Intelligence Handbook",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CEO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-005",
+    "company_name": "Pulse Computing",
+    "industry": "Technology",
+    "company_size": "SMB",
+    "employee_count": 168,
+    "annual_revenue": "$10M-$50M",
+    "geography": "North America",
+    "deal_size": 34477.18,
+    "deal_type": "Renewal",
+    "deal_stage": "opportunity",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Alex Kim",
+    "product_line": "Platform",
+    "lead_source": "Inbound",
+    "buyer_persona": "VP Sales",
+    "lead_created_date": "2025-07-24",
+    "mql_date": "2025-08-09",
+    "sql_date": "2025-08-22",
+    "opportunity_created_date": "2025-09-05",
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-07-24",
+        "channel": "Outbound BDR",
+        "campaign_name": "Warm Follow-up",
+        "content_asset": "Post-Event Follow-up Call",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-08-16",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "CMO Metrics That Matter",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CTO"
+      },
+      {
+        "touchpoint_date": "2025-09-04",
+        "channel": "Events",
+        "campaign_name": "Partner Events",
+        "content_asset": "Salesforce Dreamforce Session",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Head of Demand Gen"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-006",
+    "company_name": "Delta Computing",
+    "industry": "Technology",
+    "company_size": "Mid-Market",
+    "employee_count": 854,
+    "annual_revenue": "$10M-$50M",
+    "geography": "North America",
+    "deal_size": 65678.71,
+    "deal_type": "Renewal",
+    "deal_stage": "sql",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Alex Kim",
+    "product_line": "Enterprise Suite",
+    "lead_source": "Referral",
+    "buyer_persona": "CMO",
+    "lead_created_date": "2025-07-30",
+    "mql_date": "2025-08-12",
+    "sql_date": "2025-08-22",
+    "opportunity_created_date": null,
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-07-30",
+        "channel": "Outbound BDR",
+        "campaign_name": "Warm Follow-up",
+        "content_asset": "Content Download Follow-up",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Content Strategist"
+      },
+      {
+        "touchpoint_date": "2025-08-08",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Pricing Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Content Strategist"
+      },
+      {
+        "touchpoint_date": "2025-08-15",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Free Trial Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2025-08-21",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Revenue Ops Workshop",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CMO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-007",
+    "company_name": "Alpha Industrial",
+    "industry": "Manufacturing",
+    "company_size": "Enterprise",
+    "employee_count": 7765,
+    "annual_revenue": "$1B+",
+    "geography": "APAC",
+    "deal_size": 135050.75,
+    "deal_type": "New Business",
+    "deal_stage": "opportunity",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Emily Thompson",
+    "product_line": "Enterprise Suite",
+    "lead_source": "Inbound",
+    "buyer_persona": "CEO",
+    "lead_created_date": "2025-08-01",
+    "mql_date": "2025-08-11",
+    "sql_date": "2025-08-19",
+    "opportunity_created_date": "2025-08-21",
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-08-01",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "CMO Metrics That Matter",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2025-08-02",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Free Trial Onboarding Call",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Analyst"
+      },
+      {
+        "touchpoint_date": "2025-08-06",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "ROI Calculator Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-08-06",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Platform Update Newsletter",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-08-10",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Pricing Inquiry Call",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-08-11",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "CMO Metrics That Matter",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-08-12",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Pipeline Velocity Best Practices",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-08-14",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Product Education Drip",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-08-15",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Use Case Showcase",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-08-21",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Revenue Ops Workshop",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-08-21",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Pipeline Velocity Best Practices",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Marketing Director"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-008",
+    "company_name": "Orbit Payments",
+    "industry": "Financial Services",
+    "company_size": "Mid-Market",
+    "employee_count": 454,
+    "annual_revenue": "$50M-$100M",
+    "geography": "North America",
+    "deal_size": 112847.66,
+    "deal_type": "Renewal",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "David Lee",
+    "product_line": "Integrations",
+    "lead_source": "Event",
+    "buyer_persona": "CMO",
+    "lead_created_date": "2025-08-09",
+    "mql_date": "2025-08-21",
+    "sql_date": "2025-09-07",
+    "opportunity_created_date": "2025-09-30",
+    "closed_date": "2025-11-02",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-08-09",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "B2B Marketing Measurement Guide",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Analyst"
+      },
+      {
+        "touchpoint_date": "2025-09-04",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Complete Attribution Playbook",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Marketing Analyst"
+      },
+      {
+        "touchpoint_date": "2025-10-06",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Feature Launch Announcement",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2025-11-02",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Welcome Series Email",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Sales"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-009",
+    "company_name": "Core Labs",
+    "industry": "Technology",
+    "company_size": "Enterprise",
+    "employee_count": 12069,
+    "annual_revenue": "$100M-$500M",
+    "geography": "North America",
+    "deal_size": 218016.98,
+    "deal_type": "New Business",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "no_budget",
+    "sales_rep": "Rachel Cohen",
+    "product_line": "Analytics",
+    "lead_source": "Referral",
+    "buyer_persona": "CEO",
+    "lead_created_date": "2025-08-13",
+    "mql_date": "2025-08-23",
+    "sql_date": "2025-09-15",
+    "opportunity_created_date": "2025-10-16",
+    "closed_date": "2025-11-13",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-08-13",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Free Trial Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2025-08-22",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Case Study LP",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2025-09-03",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Case Study LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-09-17",
+        "channel": "Outbound BDR",
+        "campaign_name": "Warm Follow-up",
+        "content_asset": "Content Download Follow-up",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-09-26",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Pipeline Analytics LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2025-10-08",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Attribution Guide LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-10-18",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "New Feature Alert",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2025-11-02",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2025-11-13",
+        "channel": "Outbound BDR",
+        "campaign_name": "Cold Outbound",
+        "content_asset": "Cold Call - Initial Outreach",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CFO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-010",
+    "company_name": "Pulse Diagnostics",
+    "industry": "Healthcare",
+    "company_size": "Enterprise",
+    "employee_count": 14549,
+    "annual_revenue": "$500M-$1B",
+    "geography": "Europe",
+    "deal_size": 219125.78,
+    "deal_type": "Expansion",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Priya Patel",
+    "product_line": "Platform",
+    "lead_source": "Outbound",
+    "buyer_persona": "CTO",
+    "lead_created_date": "2025-08-18",
+    "mql_date": "2025-08-31",
+    "sql_date": "2025-09-18",
+    "opportunity_created_date": "2025-10-19",
+    "closed_date": "2025-11-29",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-08-19",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "ROI Calculator Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Content Strategist"
+      },
+      {
+        "touchpoint_date": "2025-08-29",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "Special Offer Email",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-09-10",
+        "channel": "Outbound BDR",
+        "campaign_name": "Cold Outbound",
+        "content_asset": "Cold Call - Initial Outreach",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-09-27",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Pricing Inquiry Call",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-10-11",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Integration Release Email",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-10-22",
+        "channel": "LinkedIn",
+        "campaign_name": "Conversation Ads",
+        "content_asset": "Interactive Product Tour",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-11-06",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Welcome Series Email",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-11-14",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "Special Offer Email",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-11-29",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "We Miss You Email",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Head of Demand Gen"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-011",
+    "company_name": "Zen Group",
+    "industry": "Professional Services",
+    "company_size": "Mid-Market",
+    "employee_count": 769,
+    "annual_revenue": "$100M-$500M",
+    "geography": "North America",
+    "deal_size": 81760.28,
+    "deal_type": "New Business",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Jordan Martinez",
+    "product_line": "Platform",
+    "lead_source": "Event",
+    "buyer_persona": "CTO",
+    "lead_created_date": "2025-08-22",
+    "mql_date": "2025-09-07",
+    "sql_date": "2025-09-22",
+    "opportunity_created_date": "2025-11-04",
+    "closed_date": "2025-12-13",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-08-25",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Complete Attribution Playbook",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-09-26",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "B2B Funnel Optimization",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-11-05",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Pipeline Intelligence Handbook",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-12-12",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Product Education Drip",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Marketing Manager"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-012",
+    "company_name": "Wave AI",
+    "industry": "Technology",
+    "company_size": "Enterprise",
+    "employee_count": 9346,
+    "annual_revenue": "$500M-$1B",
+    "geography": "North America",
+    "deal_size": 263469.89,
+    "deal_type": "Renewal",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "chose_competitor",
+    "sales_rep": "Marcus Johnson",
+    "product_line": "Integrations",
+    "lead_source": "Partner",
+    "buyer_persona": "VP Marketing",
+    "lead_created_date": "2025-08-29",
+    "mql_date": "2025-09-12",
+    "sql_date": "2025-09-23",
+    "opportunity_created_date": "2025-09-25",
+    "closed_date": "2025-10-09",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-08-29",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Free Trial Onboarding Call",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-09-08",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Pricing Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-09-16",
+        "channel": "LinkedIn",
+        "campaign_name": "Conversation Ads",
+        "content_asset": "Quick Demo Scheduler",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-09-23",
+        "channel": "Events",
+        "campaign_name": "Hosted Roundtables",
+        "content_asset": "RevOps Leaders Forum",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-10-02",
+        "channel": "Events",
+        "campaign_name": "Conferences",
+        "content_asset": "B2B Marketing Exchange",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CMO"
+      },
+      {
+        "touchpoint_date": "2025-10-09",
+        "channel": "Events",
+        "campaign_name": "Partner Events",
+        "content_asset": "HubSpot INBOUND Talk",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CMO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-013",
+    "company_name": "Forge Industrial",
+    "industry": "Manufacturing",
+    "company_size": "SMB",
+    "employee_count": 154,
+    "annual_revenue": "$1M-$10M",
+    "geography": "North America",
+    "deal_size": 22628.68,
+    "deal_type": "New Business",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Jordan Martinez",
+    "product_line": "Analytics",
+    "lead_source": "Inbound",
+    "buyer_persona": "VP Sales",
+    "lead_created_date": "2025-08-31",
+    "mql_date": "2025-09-16",
+    "sql_date": "2025-09-28",
+    "opportunity_created_date": "2025-10-04",
+    "closed_date": "2025-11-02",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-09-01",
+        "channel": "Events",
+        "campaign_name": "Partner Events",
+        "content_asset": "Marketo Summit Workshop",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-09-18",
+        "channel": "Events",
+        "campaign_name": "Partner Events",
+        "content_asset": "Marketo Summit Workshop",
+        "touchpoint_type": "event_attendance",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "SDR/BDR"
+      },
+      {
+        "touchpoint_date": "2025-10-12",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Demo Request Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-11-02",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "ROI Calculator Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Head of Demand Gen"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-014",
+    "company_name": "Orbit Precision",
+    "industry": "Manufacturing",
+    "company_size": "Mid-Market",
+    "employee_count": 987,
+    "annual_revenue": "$50M-$100M",
+    "geography": "North America",
+    "deal_size": 64794.01,
+    "deal_type": "Renewal",
+    "deal_stage": "opportunity",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "David Lee",
+    "product_line": "Platform",
+    "lead_source": "Referral",
+    "buyer_persona": "CTO",
+    "lead_created_date": "2025-09-07",
+    "mql_date": "2025-09-18",
+    "sql_date": "2025-10-13",
+    "opportunity_created_date": "2025-11-02",
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-09-07",
+        "channel": "Events",
+        "campaign_name": "Conferences",
+        "content_asset": "B2B Marketing Exchange",
+        "touchpoint_type": "event_attendance",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2025-09-18",
+        "channel": "Outbound BDR",
+        "campaign_name": "Warm Follow-up",
+        "content_asset": "Content Download Follow-up",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2025-09-23",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Pricing Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2025-10-06",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Free Trial Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2025-10-17",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Demo Request Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-10-20",
+        "channel": "LinkedIn",
+        "campaign_name": "Conversation Ads",
+        "content_asset": "ROI Assessment Tool",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-10-31",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Free Trial Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Marketing"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-015",
+    "company_name": "Nova Capital",
+    "industry": "Financial Services",
+    "company_size": "SMB",
+    "employee_count": 50,
+    "annual_revenue": "$1M-$10M",
+    "geography": "Europe",
+    "deal_size": 44672.62,
+    "deal_type": "Renewal",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "chose_competitor",
+    "sales_rep": "Rachel Cohen",
+    "product_line": "Platform",
+    "lead_source": "Referral",
+    "buyer_persona": "CFO",
+    "lead_created_date": "2025-09-14",
+    "mql_date": "2025-09-29",
+    "sql_date": "2025-10-19",
+    "opportunity_created_date": "2025-11-08",
+    "closed_date": "2025-12-03",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-09-14",
+        "channel": "Outbound BDR",
+        "campaign_name": "Warm Follow-up",
+        "content_asset": "Post-Event Follow-up Call",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2025-10-25",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Pipeline Analytics Deep Dive",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2025-12-03",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "CMO Metrics That Matter",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CEO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-016",
+    "company_name": "Zen Fintech",
+    "industry": "Financial Services",
+    "company_size": "Enterprise",
+    "employee_count": 2213,
+    "annual_revenue": "$1B+",
+    "geography": "APAC",
+    "deal_size": 249950.34,
+    "deal_type": "New Business",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Alex Kim",
+    "product_line": "Platform",
+    "lead_source": "Event",
+    "buyer_persona": "VP Sales",
+    "lead_created_date": "2025-09-15",
+    "mql_date": "2025-10-06",
+    "sql_date": "2025-10-07",
+    "opportunity_created_date": "2025-12-09",
+    "closed_date": "2026-02-03",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-09-15",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Pipeline Intelligence Handbook",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Content Strategist"
+      },
+      {
+        "touchpoint_date": "2025-09-26",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Multi-Touch Attribution Guide",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Content Strategist"
+      },
+      {
+        "touchpoint_date": "2025-10-12",
+        "channel": "LinkedIn",
+        "campaign_name": "InMail",
+        "content_asset": "Product Update Announcement",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2025-10-24",
+        "channel": "Events",
+        "campaign_name": "Conferences",
+        "content_asset": "Revenue Summit",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2025-11-07",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Pipeline Analytics Deep Dive",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2025-11-21",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Pipeline Intelligence Handbook",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2025-12-05",
+        "channel": "Events",
+        "campaign_name": "Conferences",
+        "content_asset": "Revenue Summit",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2025-12-21",
+        "channel": "LinkedIn",
+        "campaign_name": "Conversation Ads",
+        "content_asset": "Quick Demo Scheduler",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-01-06",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Pipeline Intelligence Handbook",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-01-16",
+        "channel": "Events",
+        "campaign_name": "Hosted Roundtables",
+        "content_asset": "RevOps Leaders Forum",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-01-31",
+        "channel": "Events",
+        "campaign_name": "Conferences",
+        "content_asset": "Revenue Summit",
+        "touchpoint_type": "event_attendance",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CEO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-017",
+    "company_name": "Kite Labs",
+    "industry": "Technology",
+    "company_size": "Enterprise",
+    "employee_count": 7931,
+    "annual_revenue": "$100M-$500M",
+    "geography": "North America",
+    "deal_size": 211400.96,
+    "deal_type": "New Business",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "chose_competitor",
+    "sales_rep": "Jordan Martinez",
+    "product_line": "Analytics",
+    "lead_source": "Outbound",
+    "buyer_persona": "CFO",
+    "lead_created_date": "2025-09-24",
+    "mql_date": "2025-10-03",
+    "sql_date": null,
+    "opportunity_created_date": null,
+    "closed_date": "2025-10-19",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-09-24",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Brand Landing Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Digital Marketing Specialist"
+      },
+      {
+        "touchpoint_date": "2025-09-25",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Demo Request Response",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Content Strategist"
+      },
+      {
+        "touchpoint_date": "2025-09-29",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Pricing Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Content Strategist"
+      },
+      {
+        "touchpoint_date": "2025-10-03",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Demo Request Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-10-04",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "ROI Calculator Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-10-05",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Pipeline Intelligence Handbook",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2025-10-07",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "B2B Marketing Measurement Guide",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-10-10",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Attribution Guide LP",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2025-10-13",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Multi-Touch Attribution Guide",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-10-14",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "CMO Metrics That Matter",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2025-10-16",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Complete Attribution Playbook",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2025-10-17",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Product Education Drip",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CFO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-018",
+    "company_name": "Cloud Tech",
+    "industry": "Technology",
+    "company_size": "Mid-Market",
+    "employee_count": 403,
+    "annual_revenue": "$10M-$50M",
+    "geography": "North America",
+    "deal_size": 59148.58,
+    "deal_type": "New Business",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "chose_competitor",
+    "sales_rep": "Emily Thompson",
+    "product_line": "Analytics",
+    "lead_source": "Outbound",
+    "buyer_persona": "CMO",
+    "lead_created_date": "2025-09-28",
+    "mql_date": "2025-10-06",
+    "sql_date": "2025-10-27",
+    "opportunity_created_date": "2025-11-14",
+    "closed_date": "2025-12-10",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-09-28",
+        "channel": "Outbound BDR",
+        "campaign_name": "Warm Follow-up",
+        "content_asset": "Post-Event Follow-up Call",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2025-11-05",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Pricing Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-12-08",
+        "channel": "LinkedIn",
+        "campaign_name": "InMail",
+        "content_asset": "Executive Briefing Invite",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CMO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-019",
+    "company_name": "Lumen Care",
+    "industry": "Healthcare",
+    "company_size": "Mid-Market",
+    "employee_count": 379,
+    "annual_revenue": "$50M-$100M",
+    "geography": "North America",
+    "deal_size": 61079.97,
+    "deal_type": "Renewal",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Emily Thompson",
+    "product_line": "Integrations",
+    "lead_source": "Referral",
+    "buyer_persona": "VP Sales",
+    "lead_created_date": "2025-09-29",
+    "mql_date": "2025-10-09",
+    "sql_date": "2025-10-10",
+    "opportunity_created_date": "2025-11-03",
+    "closed_date": "2025-11-24",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-10-01",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Product Overview Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "SDR/BDR"
+      },
+      {
+        "touchpoint_date": "2025-10-07",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Free Trial Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "SDR/BDR"
+      },
+      {
+        "touchpoint_date": "2025-10-20",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Product Overview Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2025-10-27",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Case Study LP",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2025-11-04",
+        "channel": "LinkedIn",
+        "campaign_name": "Sponsored Content",
+        "content_asset": "Pipeline ROI Infographic",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2025-11-14",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Product Education Drip",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2025-11-23",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Brand Landing Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Sales"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-020",
+    "company_name": "Data Diagnostics",
+    "industry": "Healthcare",
+    "company_size": "Mid-Market",
+    "employee_count": 945,
+    "annual_revenue": "$50M-$100M",
+    "geography": "Europe",
+    "deal_size": 103050.36,
+    "deal_type": "Expansion",
+    "deal_stage": "sql",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Alex Kim",
+    "product_line": "Platform",
+    "lead_source": "Partner",
+    "buyer_persona": "VP Sales",
+    "lead_created_date": "2025-10-07",
+    "mql_date": "2025-10-21",
+    "sql_date": "2025-11-11",
+    "opportunity_created_date": null,
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-10-07",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "ROI Calculator Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2025-10-23",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Product Overview Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2025-11-09",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "B2B Marketing Measurement Guide",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Director of Ops"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-021",
+    "company_name": "Grid Fintech",
+    "industry": "Financial Services",
+    "company_size": "SMB",
+    "employee_count": 145,
+    "annual_revenue": "$10M-$50M",
+    "geography": "North America",
+    "deal_size": 31734.96,
+    "deal_type": "Renewal",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "went_dark",
+    "sales_rep": "Alex Kim",
+    "product_line": "Integrations",
+    "lead_source": "Referral",
+    "buyer_persona": "VP Sales",
+    "lead_created_date": "2025-10-10",
+    "mql_date": "2025-10-17",
+    "sql_date": "2025-10-28",
+    "opportunity_created_date": "2025-11-16",
+    "closed_date": "2025-12-11",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-10-10",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Demo Request Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-10-26",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Attribution Masterclass",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-11-09",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Demo Request Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2025-11-22",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "We Miss You Email",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CTO"
+      },
+      {
+        "touchpoint_date": "2025-12-11",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Revenue Ops Workshop",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Marketing"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-022",
+    "company_name": "Relay Solutions",
+    "industry": "Professional Services",
+    "company_size": "SMB",
+    "employee_count": 145,
+    "annual_revenue": "$10M-$50M",
+    "geography": "Europe",
+    "deal_size": 41988.42,
+    "deal_type": "Expansion",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "no_budget",
+    "sales_rep": "David Lee",
+    "product_line": "Enterprise Suite",
+    "lead_source": "Referral",
+    "buyer_persona": "VP Marketing",
+    "lead_created_date": "2025-11-04",
+    "mql_date": "2025-11-16",
+    "sql_date": "2025-12-06",
+    "opportunity_created_date": "2025-12-19",
+    "closed_date": "2026-01-09",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-11-07",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Case Study LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2026-01-08",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Welcome Series Email",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Product Manager"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-023",
+    "company_name": "Pulse Capital",
+    "industry": "Financial Services",
+    "company_size": "SMB",
+    "employee_count": 84,
+    "annual_revenue": "$1M-$10M",
+    "geography": "North America",
+    "deal_size": 36481.35,
+    "deal_type": "Expansion",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "built_in_house",
+    "sales_rep": "Rachel Cohen",
+    "product_line": "Enterprise Suite",
+    "lead_source": "Outbound",
+    "buyer_persona": "VP Marketing",
+    "lead_created_date": "2025-11-28",
+    "mql_date": "2025-12-12",
+    "sql_date": null,
+    "opportunity_created_date": null,
+    "closed_date": "2025-12-29",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-11-30",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Attribution Guide LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2025-12-02",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Attribution Guide LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2025-12-12",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Free Trial Onboarding Call",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2025-12-20",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Pricing Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2025-12-29",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Pipeline Intelligence Handbook",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CTO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-024",
+    "company_name": "Edge AI",
+    "industry": "Technology",
+    "company_size": "Enterprise",
+    "employee_count": 13314,
+    "annual_revenue": "$1B+",
+    "geography": "Europe",
+    "deal_size": 287244.47,
+    "deal_type": "New Business",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "built_in_house",
+    "sales_rep": "Alex Kim",
+    "product_line": "Enterprise Suite",
+    "lead_source": "Inbound",
+    "buyer_persona": "VP Sales",
+    "lead_created_date": "2025-11-28",
+    "mql_date": "2025-12-06",
+    "sql_date": "2025-12-15",
+    "opportunity_created_date": "2026-01-19",
+    "closed_date": "2026-03-04",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-11-28",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Free Trial Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Digital Marketing Specialist"
+      },
+      {
+        "touchpoint_date": "2025-12-23",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Free Trial Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Content Strategist"
+      },
+      {
+        "touchpoint_date": "2026-01-15",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Free Trial Onboarding Call",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Digital Marketing Specialist"
+      },
+      {
+        "touchpoint_date": "2026-02-08",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Pricing Inquiry Call",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Digital Marketing Specialist"
+      },
+      {
+        "touchpoint_date": "2026-03-03",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "New Feature Alert",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Digital Marketing Specialist"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-025",
+    "company_name": "Relay Care",
+    "industry": "Healthcare",
+    "company_size": "Enterprise",
+    "employee_count": 7929,
+    "annual_revenue": "$1B+",
+    "geography": "North America",
+    "deal_size": 93890.44,
+    "deal_type": "Renewal",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "went_dark",
+    "sales_rep": "Alex Kim",
+    "product_line": "Integrations",
+    "lead_source": "Outbound",
+    "buyer_persona": "CFO",
+    "lead_created_date": "2025-12-07",
+    "mql_date": "2025-12-15",
+    "sql_date": null,
+    "opportunity_created_date": null,
+    "closed_date": "2025-12-23",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-12-07",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Product Overview Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2025-12-07",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Brand Landing Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2025-12-10",
+        "channel": "Events",
+        "campaign_name": "Partner Events",
+        "content_asset": "Salesforce Dreamforce Session",
+        "touchpoint_type": "event_attendance",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-12-11",
+        "channel": "Events",
+        "campaign_name": "Hosted Roundtables",
+        "content_asset": "CMO Dinner: Attribution in Practice",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2025-12-12",
+        "channel": "Events",
+        "campaign_name": "Partner Events",
+        "content_asset": "Salesforce Dreamforce Session",
+        "touchpoint_type": "event_attendance",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2025-12-15",
+        "channel": "Events",
+        "campaign_name": "Hosted Roundtables",
+        "content_asset": "VP Marketing Roundtable",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-12-17",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Pricing Inquiry Call",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-12-19",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "New Feature Alert",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2025-12-21",
+        "channel": "Outbound BDR",
+        "campaign_name": "Warm Follow-up",
+        "content_asset": "Post-Event Follow-up Call",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2025-12-22",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "We Miss You Email",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Marketing Director"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-026",
+    "company_name": "Hive Computing",
+    "industry": "Technology",
+    "company_size": "Enterprise",
+    "employee_count": 5623,
+    "annual_revenue": "$100M-$500M",
+    "geography": "North America",
+    "deal_size": 143515.12,
+    "deal_type": "New Business",
+    "deal_stage": "sql",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Emily Thompson",
+    "product_line": "Enterprise Suite",
+    "lead_source": "Inbound",
+    "buyer_persona": "CEO",
+    "lead_created_date": "2025-12-10",
+    "mql_date": "2025-12-20",
+    "sql_date": "2025-12-29",
+    "opportunity_created_date": null,
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-12-12",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Complete Attribution Playbook",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-12-16",
+        "channel": "Outbound BDR",
+        "campaign_name": "Cold Outbound",
+        "content_asset": "Cold Call - Initial Outreach",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-12-16",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Pricing Inquiry Call",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "SDR/BDR"
+      },
+      {
+        "touchpoint_date": "2025-12-17",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Pricing Inquiry Call",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-12-25",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Attribution Masterclass",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-12-26",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Pricing Inquiry Call",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2025-12-26",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "B2B Funnel Optimization",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Marketing Manager"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-027",
+    "company_name": "Lumen Digital",
+    "industry": "Technology",
+    "company_size": "Mid-Market",
+    "employee_count": 831,
+    "annual_revenue": "$10M-$50M",
+    "geography": "North America",
+    "deal_size": 119501.4,
+    "deal_type": "New Business",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "timing",
+    "sales_rep": "Emily Thompson",
+    "product_line": "Platform",
+    "lead_source": "Inbound",
+    "buyer_persona": "VP Marketing",
+    "lead_created_date": "2025-12-29",
+    "mql_date": "2026-01-20",
+    "sql_date": "2026-01-30",
+    "opportunity_created_date": "2026-02-09",
+    "closed_date": "2026-02-21",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-12-30",
+        "channel": "Outbound BDR",
+        "campaign_name": "Warm Follow-up",
+        "content_asset": "Content Download Follow-up",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-01-04",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Product Overview Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2026-01-13",
+        "channel": "Events",
+        "campaign_name": "Partner Events",
+        "content_asset": "HubSpot INBOUND Talk",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2026-01-21",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Multi-Touch Attribution Guide",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-01-27",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Pipeline Intelligence Handbook",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-02-05",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2026-02-14",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Use Case Showcase",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2026-02-19",
+        "channel": "Events",
+        "campaign_name": "Conferences",
+        "content_asset": "MarTech Conference",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Sales"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-028",
+    "company_name": "Relay Financial",
+    "industry": "Financial Services",
+    "company_size": "SMB",
+    "employee_count": 69,
+    "annual_revenue": "$10M-$50M",
+    "geography": "APAC",
+    "deal_size": 43151.1,
+    "deal_type": "New Business",
+    "deal_stage": "sql",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Alex Kim",
+    "product_line": "Analytics",
+    "lead_source": "Outbound",
+    "buyer_persona": "CTO",
+    "lead_created_date": "2025-12-30",
+    "mql_date": "2026-01-18",
+    "sql_date": "2026-01-25",
+    "opportunity_created_date": null,
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-12-31",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Pricing Inquiry Call",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Analyst"
+      },
+      {
+        "touchpoint_date": "2026-01-04",
+        "channel": "Outbound BDR",
+        "campaign_name": "Cold Outbound",
+        "content_asset": "LinkedIn Connection Request",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2026-01-13",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Free Trial Onboarding Call",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2026-01-25",
+        "channel": "LinkedIn",
+        "campaign_name": "InMail",
+        "content_asset": "Executive Briefing Invite",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Product Manager"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-029",
+    "company_name": "Core Advisory",
+    "industry": "Professional Services",
+    "company_size": "SMB",
+    "employee_count": 126,
+    "annual_revenue": "$1M-$10M",
+    "geography": "Europe",
+    "deal_size": 16379.73,
+    "deal_type": "New Business",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "no_budget",
+    "sales_rep": "Alex Kim",
+    "product_line": "Platform",
+    "lead_source": "Inbound",
+    "buyer_persona": "CMO",
+    "lead_created_date": "2025-12-31",
+    "mql_date": "2026-01-10",
+    "sql_date": "2026-01-27",
+    "opportunity_created_date": "2026-02-05",
+    "closed_date": "2026-02-27",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2025-12-31",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Pipeline Analytics Deep Dive",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2026-01-31",
+        "channel": "LinkedIn",
+        "campaign_name": "Conversation Ads",
+        "content_asset": "Quick Demo Scheduler",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2026-02-27",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Pipeline Analytics Deep Dive",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Head of Demand Gen"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-030",
+    "company_name": "Edge Digital",
+    "industry": "Technology",
+    "company_size": "Enterprise",
+    "employee_count": 3539,
+    "annual_revenue": "$500M-$1B",
+    "geography": "Europe",
+    "deal_size": 159831.62,
+    "deal_type": "New Business",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Jordan Martinez",
+    "product_line": "Integrations",
+    "lead_source": "Event",
+    "buyer_persona": "CFO",
+    "lead_created_date": "2026-01-04",
+    "mql_date": "2026-01-08",
+    "sql_date": "2026-01-31",
+    "opportunity_created_date": "2026-02-18",
+    "closed_date": "2026-04-06",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-01-04",
+        "channel": "LinkedIn",
+        "campaign_name": "InMail",
+        "content_asset": "Executive Briefing Invite",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "SDR/BDR"
+      },
+      {
+        "touchpoint_date": "2026-01-25",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Case Study LP",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "SDR/BDR"
+      },
+      {
+        "touchpoint_date": "2026-02-16",
+        "channel": "Outbound BDR",
+        "campaign_name": "Cold Outbound",
+        "content_asset": "Cold Email Sequence",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-03-15",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Pricing Inquiry Call",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2026-04-05",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Pipeline Intelligence Handbook",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Marketing Director"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-031",
+    "company_name": "Nova Computing",
+    "industry": "Technology",
+    "company_size": "Enterprise",
+    "employee_count": 7883,
+    "annual_revenue": "$500M-$1B",
+    "geography": "North America",
+    "deal_size": 324306.39,
+    "deal_type": "New Business",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Sarah Chen",
+    "product_line": "Platform",
+    "lead_source": "Outbound",
+    "buyer_persona": "CFO",
+    "lead_created_date": "2026-01-11",
+    "mql_date": "2026-01-12",
+    "sql_date": "2026-01-29",
+    "opportunity_created_date": "2026-03-01",
+    "closed_date": "2026-04-14",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-01-12",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Complete Attribution Playbook",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2026-01-18",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Case Study LP",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2026-01-28",
+        "channel": "LinkedIn",
+        "campaign_name": "Sponsored Content",
+        "content_asset": "Pipeline ROI Infographic",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2026-02-06",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "CMO Metrics That Matter",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2026-02-19",
+        "channel": "LinkedIn",
+        "campaign_name": "InMail",
+        "content_asset": "Executive Briefing Invite",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "CMO"
+      },
+      {
+        "touchpoint_date": "2026-03-01",
+        "channel": "Outbound BDR",
+        "campaign_name": "Warm Follow-up",
+        "content_asset": "Referral Introduction Call",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CMO"
+      },
+      {
+        "touchpoint_date": "2026-03-08",
+        "channel": "Outbound BDR",
+        "campaign_name": "Cold Outbound",
+        "content_asset": "Cold Call - Initial Outreach",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CMO"
+      },
+      {
+        "touchpoint_date": "2026-03-14",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "B2B Funnel Optimization",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2026-03-24",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-04-07",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "B2B Marketing Measurement Guide",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CMO"
+      },
+      {
+        "touchpoint_date": "2026-04-14",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Attribution Masterclass",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Sales"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-032",
+    "company_name": "Xenon Advisory",
+    "industry": "Professional Services",
+    "company_size": "Mid-Market",
+    "employee_count": 726,
+    "annual_revenue": "$50M-$100M",
+    "geography": "APAC",
+    "deal_size": 115961.11,
+    "deal_type": "New Business",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "chose_competitor",
+    "sales_rep": "Alex Kim",
+    "product_line": "Enterprise Suite",
+    "lead_source": "Inbound",
+    "buyer_persona": "CTO",
+    "lead_created_date": "2026-01-11",
+    "mql_date": "2026-01-29",
+    "sql_date": "2026-02-26",
+    "opportunity_created_date": "2026-03-10",
+    "closed_date": "2026-04-16",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-01-11",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Brand Landing Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-02-02",
+        "channel": "LinkedIn",
+        "campaign_name": "InMail",
+        "content_asset": "Personalized Demo Invite",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Content Strategist"
+      },
+      {
+        "touchpoint_date": "2026-02-24",
+        "channel": "LinkedIn",
+        "campaign_name": "Sponsored Content",
+        "content_asset": "Pipeline ROI Infographic",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2026-03-24",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Attribution Masterclass",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-04-14",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "ROI Calculator Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CFO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-033",
+    "company_name": "Flow Health",
+    "industry": "Healthcare",
+    "company_size": "Mid-Market",
+    "employee_count": 469,
+    "annual_revenue": "$10M-$50M",
+    "geography": "Europe",
+    "deal_size": 66520.99,
+    "deal_type": "Expansion",
+    "deal_stage": "opportunity",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "David Lee",
+    "product_line": "Platform",
+    "lead_source": "Outbound",
+    "buyer_persona": "CEO",
+    "lead_created_date": "2026-01-13",
+    "mql_date": "2026-01-29",
+    "sql_date": "2026-02-10",
+    "opportunity_created_date": "2026-02-24",
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-01-15",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Pipeline Intelligence Handbook",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2026-02-02",
+        "channel": "Outbound BDR",
+        "campaign_name": "Cold Outbound",
+        "content_asset": "Cold Email Sequence",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-02-24",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Feature Launch Announcement",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Head of Demand Gen"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-034",
+    "company_name": "Wave Consulting",
+    "industry": "Professional Services",
+    "company_size": "Enterprise",
+    "employee_count": 7797,
+    "annual_revenue": "$100M-$500M",
+    "geography": "North America",
+    "deal_size": 187042.57,
+    "deal_type": "Renewal",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Rachel Cohen",
+    "product_line": "Integrations",
+    "lead_source": "Inbound",
+    "buyer_persona": "VP Sales",
+    "lead_created_date": "2026-01-14",
+    "mql_date": "2026-01-30",
+    "sql_date": "2026-02-13",
+    "opportunity_created_date": "2026-04-21",
+    "closed_date": "2026-05-28",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-01-14",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Attribution Guide LP",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Content Strategist"
+      },
+      {
+        "touchpoint_date": "2026-01-26",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Brand Landing Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2026-02-09",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Pricing Inquiry Call",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2026-03-01",
+        "channel": "LinkedIn",
+        "campaign_name": "Conversation Ads",
+        "content_asset": "Interactive Product Tour",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2026-03-12",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Attribution Guide LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2026-03-30",
+        "channel": "LinkedIn",
+        "campaign_name": "Sponsored Content",
+        "content_asset": "Customer Success Story",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2026-04-13",
+        "channel": "LinkedIn",
+        "campaign_name": "Sponsored Content",
+        "content_asset": "Customer Success Story",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2026-04-27",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Customer Testimonial Email",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2026-05-15",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "ROI Calculator Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CFO"
+      },
+      {
+        "touchpoint_date": "2026-05-27",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Case Study LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CFO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-035",
+    "company_name": "Jump Engineering",
+    "industry": "Manufacturing",
+    "company_size": "Enterprise",
+    "employee_count": 5584,
+    "annual_revenue": "$100M-$500M",
+    "geography": "North America",
+    "deal_size": 91853.07,
+    "deal_type": "Renewal",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "timing",
+    "sales_rep": "Sarah Chen",
+    "product_line": "Analytics",
+    "lead_source": "Outbound",
+    "buyer_persona": "CFO",
+    "lead_created_date": "2026-01-28",
+    "mql_date": "2026-02-07",
+    "sql_date": null,
+    "opportunity_created_date": null,
+    "closed_date": "2026-02-16",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-01-28",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Pipeline Velocity Best Practices",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "SDR/BDR"
+      },
+      {
+        "touchpoint_date": "2026-01-30",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "B2B Funnel Optimization",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2026-02-04",
+        "channel": "LinkedIn",
+        "campaign_name": "Sponsored Content",
+        "content_asset": "Pipeline ROI Infographic",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2026-02-06",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Feature Launch Announcement",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2026-02-09",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Integration Release Email",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Head of Demand Gen"
+      },
+      {
+        "touchpoint_date": "2026-02-14",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Attribution Masterclass",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Head of Demand Gen"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-036",
+    "company_name": "Insight Software",
+    "industry": "Technology",
+    "company_size": "Enterprise",
+    "employee_count": 6202,
+    "annual_revenue": "$1B+",
+    "geography": "APAC",
+    "deal_size": 292482.14,
+    "deal_type": "New Business",
+    "deal_stage": "sql",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Emily Thompson",
+    "product_line": "Platform",
+    "lead_source": "Partner",
+    "buyer_persona": "CFO",
+    "lead_created_date": "2026-01-29",
+    "mql_date": "2026-02-07",
+    "sql_date": "2026-02-18",
+    "opportunity_created_date": null,
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-01-29",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Demo Request Response",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2026-01-29",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Product Education Drip",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2026-02-04",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Pipeline Velocity Best Practices",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2026-02-04",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Revenue Ops Workshop",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2026-02-07",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Pipeline Velocity Best Practices",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2026-02-10",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Revenue Ops Workshop",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2026-02-15",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "CMO Metrics That Matter",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2026-02-18",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Platform Update Newsletter",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Director of Marketing"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-037",
+    "company_name": "Yield AI",
+    "industry": "Technology",
+    "company_size": "Enterprise",
+    "employee_count": 13970,
+    "annual_revenue": "$500M-$1B",
+    "geography": "APAC",
+    "deal_size": 299559.89,
+    "deal_type": "Expansion",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "timing",
+    "sales_rep": "Alex Kim",
+    "product_line": "Platform",
+    "lead_source": "Outbound",
+    "buyer_persona": "CEO",
+    "lead_created_date": "2026-02-02",
+    "mql_date": "2026-02-13",
+    "sql_date": null,
+    "opportunity_created_date": null,
+    "closed_date": "2026-03-14",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-02-02",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Case Study LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Content Strategist"
+      },
+      {
+        "touchpoint_date": "2026-02-06",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Case Study LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2026-02-11",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Pipeline Analytics LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2026-02-21",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Feature Launch Announcement",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2026-02-25",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "ROI Calculator Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CMO"
+      },
+      {
+        "touchpoint_date": "2026-02-27",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Product Education Drip",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2026-03-11",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Feature Launch Announcement",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CMO"
+      },
+      {
+        "touchpoint_date": "2026-03-14",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Feature Launch Announcement",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Director of Marketing"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-038",
+    "company_name": "Bright Risk Analytics",
+    "industry": "Financial Services",
+    "company_size": "Enterprise",
+    "employee_count": 7484,
+    "annual_revenue": "$500M-$1B",
+    "geography": "North America",
+    "deal_size": 82186.45,
+    "deal_type": "New Business",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "went_dark",
+    "sales_rep": "Marcus Johnson",
+    "product_line": "Platform",
+    "lead_source": "Partner",
+    "buyer_persona": "CFO",
+    "lead_created_date": "2026-03-12",
+    "mql_date": "2026-03-29",
+    "sql_date": "2026-04-01",
+    "opportunity_created_date": "2026-05-08",
+    "closed_date": "2026-05-31",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-03-12",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-03-21",
+        "channel": "Events",
+        "campaign_name": "Hosted Roundtables",
+        "content_asset": "CMO Dinner: Attribution in Practice",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-04-06",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Attribution Guide LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-04-15",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "CMO Metrics That Matter",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-04-29",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Pricing Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CMO"
+      },
+      {
+        "touchpoint_date": "2026-05-07",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Revenue Ops Workshop",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-05-20",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CMO"
+      },
+      {
+        "touchpoint_date": "2026-05-31",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Complete Attribution Playbook",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Marketing Director"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-039",
+    "company_name": "Onyx Health",
+    "industry": "Healthcare",
+    "company_size": "SMB",
+    "employee_count": 182,
+    "annual_revenue": "$1M-$10M",
+    "geography": "Europe",
+    "deal_size": 28907.37,
+    "deal_type": "New Business",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Marcus Johnson",
+    "product_line": "Enterprise Suite",
+    "lead_source": "Inbound",
+    "buyer_persona": "VP Marketing",
+    "lead_created_date": "2026-03-14",
+    "mql_date": "2026-04-01",
+    "sql_date": "2026-04-22",
+    "opportunity_created_date": "2026-05-19",
+    "closed_date": "2026-06-07",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-03-14",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Complete Attribution Playbook",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "VP Marketing"
+      },
+      {
+        "touchpoint_date": "2026-04-27",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Attribution Guide LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2026-06-07",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "B2B Marketing Measurement Guide",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Marketing"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-040",
+    "company_name": "Data Tech",
+    "industry": "Technology",
+    "company_size": "Enterprise",
+    "employee_count": 10571,
+    "annual_revenue": "$500M-$1B",
+    "geography": "North America",
+    "deal_size": 215769.6,
+    "deal_type": "Expansion",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "chose_competitor",
+    "sales_rep": "Emily Thompson",
+    "product_line": "Analytics",
+    "lead_source": "Inbound",
+    "buyer_persona": "VP Marketing",
+    "lead_created_date": "2026-03-18",
+    "mql_date": "2026-04-01",
+    "sql_date": "2026-04-17",
+    "opportunity_created_date": "2026-05-05",
+    "closed_date": "2026-05-26",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-03-18",
+        "channel": "LinkedIn",
+        "campaign_name": "Conversation Ads",
+        "content_asset": "ROI Assessment Tool",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2026-03-28",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Multi-Touch Attribution Guide",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2026-04-03",
+        "channel": "LinkedIn",
+        "campaign_name": "Conversation Ads",
+        "content_asset": "Interactive Product Tour",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2026-04-19",
+        "channel": "LinkedIn",
+        "campaign_name": "InMail",
+        "content_asset": "Personalized Demo Invite",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2026-04-28",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "Special Offer Email",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2026-05-05",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Attribution Masterclass",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2026-05-15",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Pipeline Velocity Best Practices",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2026-05-26",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Product Manager"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-041",
+    "company_name": "Forge Consulting",
+    "industry": "Professional Services",
+    "company_size": "SMB",
+    "employee_count": 73,
+    "annual_revenue": "$1M-$10M",
+    "geography": "Europe",
+    "deal_size": 21978.7,
+    "deal_type": "Renewal",
+    "deal_stage": "closed_lost",
+    "deal_outcome": "lost",
+    "lost_reason": "went_dark",
+    "sales_rep": "Jordan Martinez",
+    "product_line": "Analytics",
+    "lead_source": "Outbound",
+    "buyer_persona": "VP Marketing",
+    "lead_created_date": "2026-03-27",
+    "mql_date": "2026-04-03",
+    "sql_date": null,
+    "opportunity_created_date": null,
+    "closed_date": "2026-04-13",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-03-27",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Pricing Inquiry Call",
+        "touchpoint_type": "sales_call",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2026-04-13",
+        "channel": "Outbound BDR",
+        "campaign_name": "Cold Outbound",
+        "content_asset": "Cold Email Sequence",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CEO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-042",
+    "company_name": "Edge Systems",
+    "industry": "Technology",
+    "company_size": "Mid-Market",
+    "employee_count": 481,
+    "annual_revenue": "$100M-$500M",
+    "geography": "North America",
+    "deal_size": 88811.52,
+    "deal_type": "Renewal",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Jordan Martinez",
+    "product_line": "Integrations",
+    "lead_source": "Inbound",
+    "buyer_persona": "CTO",
+    "lead_created_date": "2026-03-29",
+    "mql_date": "2026-04-08",
+    "sql_date": "2026-04-29",
+    "opportunity_created_date": "2026-05-05",
+    "closed_date": "2026-06-06",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-03-29",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "CMO Metrics That Matter",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2026-05-05",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Complete Attribution Playbook",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CMO"
+      },
+      {
+        "touchpoint_date": "2026-06-06",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Multi-Touch Attribution Guide",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Sales"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-043",
+    "company_name": "Grid Engineering",
+    "industry": "Manufacturing",
+    "company_size": "SMB",
+    "employee_count": 127,
+    "annual_revenue": "$1M-$10M",
+    "geography": "North America",
+    "deal_size": 38886.82,
+    "deal_type": "Expansion",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Priya Patel",
+    "product_line": "Platform",
+    "lead_source": "Inbound",
+    "buyer_persona": "CMO",
+    "lead_created_date": "2026-03-30",
+    "mql_date": "2026-04-06",
+    "sql_date": "2026-04-23",
+    "opportunity_created_date": "2026-05-04",
+    "closed_date": "2026-05-28",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-03-30",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Pipeline Analytics LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-04-16",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Customer Testimonial Email",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Product Manager"
+      },
+      {
+        "touchpoint_date": "2026-04-27",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "Special Offer Email",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2026-05-11",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Attribution Guide LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2026-05-28",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "CMO Metrics That Matter",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CMO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-044",
+    "company_name": "Logic MedTech",
+    "industry": "Healthcare",
+    "company_size": "Mid-Market",
+    "employee_count": 780,
+    "annual_revenue": "$10M-$50M",
+    "geography": "North America",
+    "deal_size": 107367.96,
+    "deal_type": "New Business",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Marcus Johnson",
+    "product_line": "Enterprise Suite",
+    "lead_source": "Inbound",
+    "buyer_persona": "CEO",
+    "lead_created_date": "2026-04-08",
+    "mql_date": "2026-04-26",
+    "sql_date": "2026-05-14",
+    "opportunity_created_date": "2026-05-31",
+    "closed_date": "2026-06-30",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-04-11",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Complete Attribution Playbook",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-04-19",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Attribution Masterclass",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-05-04",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "Special Offer Email",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Marketing Director"
+      },
+      {
+        "touchpoint_date": "2026-05-19",
+        "channel": "LinkedIn",
+        "campaign_name": "Sponsored Content",
+        "content_asset": "Customer Success Story",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2026-06-03",
+        "channel": "LinkedIn",
+        "campaign_name": "InMail",
+        "content_asset": "Executive Briefing Invite",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2026-06-19",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Welcome Series Email",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2026-06-30",
+        "channel": "LinkedIn",
+        "campaign_name": "Conversation Ads",
+        "content_asset": "ROI Assessment Tool",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Marketing Director"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-045",
+    "company_name": "Data Computing",
+    "industry": "Technology",
+    "company_size": "Enterprise",
+    "employee_count": 6464,
+    "annual_revenue": "$100M-$500M",
+    "geography": "Europe",
+    "deal_size": 346981.64,
+    "deal_type": "New Business",
+    "deal_stage": "mql",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Sarah Chen",
+    "product_line": "Analytics",
+    "lead_source": "Referral",
+    "buyer_persona": "VP Marketing",
+    "lead_created_date": "2026-04-10",
+    "mql_date": "2026-04-22",
+    "sql_date": null,
+    "opportunity_created_date": null,
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-04-10",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Case Study LP",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-04-15",
+        "channel": "Outbound BDR",
+        "campaign_name": "Cold Outbound",
+        "content_asset": "Cold Email Sequence",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-04-16",
+        "channel": "Outbound BDR",
+        "campaign_name": "Warm Follow-up",
+        "content_asset": "Content Download Follow-up",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-04-19",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Welcome Series Email",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CMO"
+      },
+      {
+        "touchpoint_date": "2026-04-22",
+        "channel": "Outbound BDR",
+        "campaign_name": "Cold Outbound",
+        "content_asset": "Cold Email Sequence",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CMO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-046",
+    "company_name": "Warp Group",
+    "industry": "Professional Services",
+    "company_size": "SMB",
+    "employee_count": 94,
+    "annual_revenue": "$1M-$10M",
+    "geography": "Europe",
+    "deal_size": 26406.22,
+    "deal_type": "New Business",
+    "deal_stage": "closed_won",
+    "deal_outcome": "won",
+    "lost_reason": null,
+    "sales_rep": "Rachel Cohen",
+    "product_line": "Analytics",
+    "lead_source": "Inbound",
+    "buyer_persona": "CFO",
+    "lead_created_date": "2026-04-13",
+    "mql_date": "2026-04-29",
+    "sql_date": "2026-05-04",
+    "opportunity_created_date": "2026-06-03",
+    "closed_date": "2026-06-30",
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-04-16",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Pipeline Analytics LP",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Content Strategist"
+      },
+      {
+        "touchpoint_date": "2026-06-30",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Multi-Touch Attribution Guide",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Marketing Director"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-047",
+    "company_name": "Trace Commerce",
+    "industry": "Retail/E-commerce",
+    "company_size": "Mid-Market",
+    "employee_count": 588,
+    "annual_revenue": "$100M-$500M",
+    "geography": "APAC",
+    "deal_size": 59401.51,
+    "deal_type": "New Business",
+    "deal_stage": "sql",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Jordan Martinez",
+    "product_line": "Integrations",
+    "lead_source": "Referral",
+    "buyer_persona": "VP Sales",
+    "lead_created_date": "2026-04-16",
+    "mql_date": "2026-04-26",
+    "sql_date": "2026-05-14",
+    "opportunity_created_date": null,
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-04-16",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Pricing Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2026-04-24",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2026-04-27",
+        "channel": "Events",
+        "campaign_name": "Hosted Roundtables",
+        "content_asset": "VP Marketing Roundtable",
+        "touchpoint_type": "event_attendance",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CTO"
+      },
+      {
+        "touchpoint_date": "2026-05-07",
+        "channel": "Events",
+        "campaign_name": "Partner Events",
+        "content_asset": "HubSpot INBOUND Talk",
+        "touchpoint_type": "event_attendance",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Director of Marketing"
+      },
+      {
+        "touchpoint_date": "2026-05-14",
+        "channel": "Email Campaigns",
+        "campaign_name": "Product Updates",
+        "content_asset": "Integration Release Email",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CTO"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-048",
+    "company_name": "Key Retail",
+    "industry": "Retail/E-commerce",
+    "company_size": "Mid-Market",
+    "employee_count": 939,
+    "annual_revenue": "$50M-$100M",
+    "geography": "APAC",
+    "deal_size": 71845.09,
+    "deal_type": "New Business",
+    "deal_stage": "opportunity",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Marcus Johnson",
+    "product_line": "Enterprise Suite",
+    "lead_source": "Referral",
+    "buyer_persona": "CTO",
+    "lead_created_date": "2026-05-02",
+    "mql_date": "2026-05-13",
+    "sql_date": "2026-05-16",
+    "opportunity_created_date": "2026-05-27",
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-05-02",
+        "channel": "LinkedIn",
+        "campaign_name": "Sponsored Content",
+        "content_asset": "Pipeline ROI Infographic",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2026-05-04",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Manager"
+      },
+      {
+        "touchpoint_date": "2026-05-12",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "Director of Ops"
+      },
+      {
+        "touchpoint_date": "2026-05-15",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-05-19",
+        "channel": "LinkedIn",
+        "campaign_name": "InMail",
+        "content_asset": "Product Update Announcement",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-05-23",
+        "channel": "Content Marketing",
+        "campaign_name": "Blog/SEO",
+        "content_asset": "Channel ROI Framework",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-05-25",
+        "channel": "Content Marketing",
+        "campaign_name": "Ebooks/Guides",
+        "content_asset": "Pipeline Intelligence Handbook",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "Director of Ops"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-049",
+    "company_name": "Pulse Precision",
+    "industry": "Manufacturing",
+    "company_size": "Enterprise",
+    "employee_count": 14588,
+    "annual_revenue": "$500M-$1B",
+    "geography": "North America",
+    "deal_size": 91903.43,
+    "deal_type": "Renewal",
+    "deal_stage": "opportunity",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Alex Kim",
+    "product_line": "Integrations",
+    "lead_source": "Event",
+    "buyer_persona": "VP Sales",
+    "lead_created_date": "2026-05-23",
+    "mql_date": "2026-06-11",
+    "sql_date": "2026-06-29",
+    "opportunity_created_date": "2026-06-29",
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-05-26",
+        "channel": "Outbound BDR",
+        "campaign_name": "Cold Outbound",
+        "content_asset": "Cold Call - Initial Outreach",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Analyst"
+      },
+      {
+        "touchpoint_date": "2026-06-02",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Attribution Guide LP",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Analyst"
+      },
+      {
+        "touchpoint_date": "2026-06-09",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "Pipeline Analytics Deep Dive",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-06-17",
+        "channel": "Google Ads",
+        "campaign_name": "Retargeting",
+        "content_asset": "Free Trial Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-06-19",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Welcome Series Email",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Sales"
+      },
+      {
+        "touchpoint_date": "2026-06-27",
+        "channel": "Content Marketing",
+        "campaign_name": "Webinars",
+        "content_asset": "CMO Metrics That Matter",
+        "touchpoint_type": "content_download",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "VP Sales"
+      }
+    ]
+  },
+  {
+    "deal_id": "DEAL-050",
+    "company_name": "Quartz Engineering",
+    "industry": "Manufacturing",
+    "company_size": "Enterprise",
+    "employee_count": 3340,
+    "annual_revenue": "$100M-$500M",
+    "geography": "North America",
+    "deal_size": 223237.23,
+    "deal_type": "Renewal",
+    "deal_stage": "opportunity",
+    "deal_outcome": "open",
+    "lost_reason": null,
+    "sales_rep": "Jordan Martinez",
+    "product_line": "Platform",
+    "lead_source": "Inbound",
+    "buyer_persona": "CFO",
+    "lead_created_date": "2026-05-29",
+    "mql_date": "2026-06-12",
+    "sql_date": "2026-06-25",
+    "opportunity_created_date": "2026-06-27",
+    "closed_date": null,
+    "touchpoints": [
+      {
+        "touchpoint_date": "2026-05-30",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Pricing Page",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "Marketing Analyst"
+      },
+      {
+        "touchpoint_date": "2026-06-01",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Pricing Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "SDR/BDR"
+      },
+      {
+        "touchpoint_date": "2026-06-01",
+        "channel": "Google Ads",
+        "campaign_name": "Brand Search",
+        "content_asset": "Product Overview Page",
+        "touchpoint_type": "page_visit",
+        "funnel_stage_at_touch": "lead",
+        "contact_role": "SDR/BDR"
+      },
+      {
+        "touchpoint_date": "2026-06-04",
+        "channel": "Outbound BDR",
+        "campaign_name": "Inbound Response",
+        "content_asset": "Demo Request Response",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "SDR/BDR"
+      },
+      {
+        "touchpoint_date": "2026-06-08",
+        "channel": "Google Ads",
+        "campaign_name": "Non-Brand Search",
+        "content_asset": "Attribution Guide LP",
+        "touchpoint_type": "ad_click",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2026-06-09",
+        "channel": "Events",
+        "campaign_name": "Conferences",
+        "content_asset": "B2B Marketing Exchange",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "mql",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2026-06-13",
+        "channel": "Events",
+        "campaign_name": "Partner Events",
+        "content_asset": "HubSpot INBOUND Talk",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2026-06-14",
+        "channel": "Events",
+        "campaign_name": "Conferences",
+        "content_asset": "SaaStr Annual Booth",
+        "touchpoint_type": "event_attendance",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2026-06-20",
+        "channel": "Events",
+        "campaign_name": "Hosted Roundtables",
+        "content_asset": "VP Marketing Roundtable",
+        "touchpoint_type": "event_attendance",
+        "funnel_stage_at_touch": "sql",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2026-06-20",
+        "channel": "Events",
+        "campaign_name": "Conferences",
+        "content_asset": "B2B Marketing Exchange",
+        "touchpoint_type": "webinar_attendance",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2026-06-21",
+        "channel": "Email Campaigns",
+        "campaign_name": "Re-engagement",
+        "content_asset": "We Miss You Email",
+        "touchpoint_type": "email_open",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CEO"
+      },
+      {
+        "touchpoint_date": "2026-06-27",
+        "channel": "Email Campaigns",
+        "campaign_name": "Nurture Sequences",
+        "content_asset": "Welcome Series Email",
+        "touchpoint_type": "email_click",
+        "funnel_stage_at_touch": "opportunity",
+        "contact_role": "CEO"
+      }
+    ]
+  }
+]

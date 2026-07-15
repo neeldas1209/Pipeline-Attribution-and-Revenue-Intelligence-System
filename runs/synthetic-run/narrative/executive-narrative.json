@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "run_id": "synthetic-run",
+    "generated_date": "2026-07-14T00:00:00Z",
+    "source_agents": [
+      "01-attribution-modeling",
+      "02-funnel-velocity",
+      "03-channel-performance",
+      "04-scenario-planning"
+    ],
+    "total_word_count": 1485,
+    "attribution_models_analyzed": [
+      "first_touch",
+      "last_touch",
+      "linear",
+      "time_decay",
+      "w_shaped"
+    ]
+  },
+  "sections": {
+    "executive_summary": {
+      "_data_type": "interpretive",
+      "content": "Email Campaigns generates $125.08 in pipeline for every dollar spent under time-decay attribution \u2014 the highest efficiency of any channel under any model \u2014 yet receives only 8.8% of the $124,882 total budget. Google Ads consumes 30.8% of budget but ranks last in pipeline-per-dollar under 3 of 5 attribution models, earning a high-volume-low-quality flag across all five. The biggest pipeline leak sits at Opportunity-to-Closed, where 22.2% of deals drop out over a 27.5-day median \u2014 accounting for 47.4% of total cycle time. Redistributing $19,250 from Google Ads equally to Email Campaigns and Outbound BDR (Scenario S3) projects a 7.3% pipeline uplift at medium confidence, the best risk-adjusted option among four modeled scenarios.",
+      "key_metrics_referenced": [
+        {
+          "metric": "Email Campaigns pipeline-per-dollar (time-decay)",
+          "value": "125.08",
+          "source_agent": "03-channel-performance",
+          "source": "Agent 01-04"
+        },
+        {
+          "metric": "Google Ads budget share",
+          "value": "30.8%",
+          "source_agent": "03-channel-performance",
+          "source": "Agent 01-04"
+        },
+        {
+          "metric": "Opportunity-to-Closed drop rate",
+          "value": "22.2%",
+          "source_agent": "02-funnel-velocity",
+          "source": "Agent 01-04"
+        },
+        {
+          "metric": "S3 projected pipeline delta",
+          "value": "7.3%",
+          "source_agent": "04-scenario-planning",
+          "source": "Agent 01-04"
+        },
+        {
+          "metric": "Total budget analyzed",
+          "value": "124882",
+          "source_agent": "03-channel-performance",
+          "source": "Agent 01-04"
+        }
+      ]
+    },
+    "attribution_insights": {
+      "_data_type": "interpretive",
+      "content": "Two channels show strong consensus across all five attribution models, anchoring the analysis with reliable findings. Content Marketing holds a stable rank of #4 to #5 across every model (rank range of 1), consistently landing in the lower-middle tier. Events ranks #3 across first-touch, last-touch, and W-shaped, dipping only to #4 and #5 under time-decay and linear (rank range of 2). Both channels deliver moderate, predictable pipeline contribution regardless of how credit is assigned.\n\nThe divergence findings reveal more about channel strategy. Google Ads shows the widest swing in the dataset: rank #1 under first-touch ($1.63M attributed pipeline across 10 deals) but rank #6 under last-touch, time-decay, and W-shaped. This pattern is consistent with a channel that initiates buyer journeys but rarely closes them. Google Ads brings leads into the funnel; other channels finish the job.\n\nEmail Campaigns mirrors Google Ads in reverse. It ranks #6 under first-touch ($315K, just 3 deals) but climbs to #1 under last-touch ($2.05M), time-decay ($1.38M), and W-shaped ($1.12M). The data suggests Email Campaigns operates as the primary closing channel \u2014 it appears late in deal cycles and receives disproportionate credit from models that weight recency.\n\nOutbound BDR follows a similar late-funnel pattern: rank #5 under first-touch but #2 under last-touch, time-decay, and W-shaped. With $706,754 in time-decay attributed pipeline across 16 deal touches and an average deal size of $44,172 per touch, Outbound BDR consistently appears in the final stages of deal progression.\n\nLinkedIn shows moderate divergence (rank range of 3), ranking #1 under linear but #4 under last-touch and W-shaped. This pattern may indicate LinkedIn plays a consistent supporting role across the full funnel \u2014 earning credit when models distribute evenly but losing rank when models concentrate credit at endpoints.",
+      "consensus_findings": [
+        {
+          "channel": "Content Marketing",
+          "consensus_level": "strong",
+          "typical_rank": 5,
+          "models_agreeing": [
+            "first_touch",
+            "last_touch",
+            "linear",
+            "time_decay",
+            "w_shaped"
+          ],
+          "finding": "Content Marketing ranks consistently across models",
+          "models_supporting": 5,
+          "models_analyzed": 5
+        },
+        {
+          "channel": "Events",
+          "consensus_level": "moderate",
+          "typical_rank": 3,
+          "models_agreeing": [
+            "first_touch",
+            "last_touch",
+            "w_shaped"
+          ],
+          "finding": "Events ranks consistently across models",
+          "models_supporting": 5,
+          "models_analyzed": 5
+        }
+      ],
+      "divergence_findings": [
+        {
+          "channel": "Google Ads",
+          "rank_range": "#1\u2013#6",
+          "highest_model": "first_touch",
+          "lowest_model": "last_touch",
+          "interpretation": "Ranks #1 under first-touch but #6 under last-touch, time-decay, and W-shaped. This divergence reveals Google Ads operates as a top-of-funnel initiator \u2014 it brings prospects into the pipeline but does not drive deals toward close."
+        },
+        {
+          "channel": "Email Campaigns",
+          "rank_range": "#1\u2013#6",
+          "highest_model": "last_touch",
+          "lowest_model": "first_touch",
+          "interpretation": "Ranks #6 under first-touch but #1 under last-touch, time-decay, and W-shaped. Email Campaigns functions as the primary closing channel, appearing in the final stages of deal progression and receiving heavy credit from recency-weighted models."
+        },
+        {
+          "channel": "Outbound BDR",
+          "rank_range": "#2\u2013#6",
+          "highest_model": "last_touch",
+          "lowest_model": "linear",
+          "interpretation": "Ranks #5 under first-touch but #2 under last-touch, time-decay, and W-shaped. Outbound BDR acts as a strong mid-to-late funnel closer, particularly on larger deals with an average deal size of $44,172 per time-decay touch."
+        },
+        {
+          "channel": "LinkedIn",
+          "rank_range": "#1\u2013#4",
+          "highest_model": "linear",
+          "lowest_model": "last_touch",
+          "interpretation": "Ranks #1 under linear but drops to #4 under last-touch and W-shaped. This pattern may indicate LinkedIn serves as a consistent multi-touch supporting channel across the funnel rather than a concentrated initiator or closer."
+        }
+      ]
+    },
+    "funnel_health": {
+      "_data_type": "interpretive",
+      "content": "The pipeline's primary bottleneck sits at Opportunity-to-Closed, where 10 of 45 deals dropped out \u2014 a 22.2% drop rate with a 27.5-day median stage duration. This single stage consumes 47.4% of the 58-day median full cycle. The top lost reasons at this stage are Competitor Won (4 deals), Budget Constraints (3 deals), and Internal Reorganization (2 deals). The concentration of competitive losses at the final stage, rather than earlier in qualification, may indicate deals reach late stages without sufficient competitive differentiation.\n\nThe MQL-to-SQL transition shows the second area of concern \u2014 not for volume (15.4% drop rate, 10 of 65 deals lost) but for variance. The interquartile range spans 14 days (p25: 7 days, p75: 21 days), meaning some deals qualify in a week while others take three weeks. Budget Constraints (4 deals) and No Response (3 deals) drive most MQL-to-SQL losses.\n\nLead source reveals a significant split. Outbound leads drop at MQL-to-SQL at a 21.4% rate versus 11.9% for inbound leads. Outbound deals also cycle 16 days slower (68-day median vs 52 days) and convert at 42.9% versus 52.4% for inbound. This pattern is consistent with outbound leads entering the pipeline less qualified, requiring more nurturing through mid-funnel stages.\n\nDeal size segments show distinct bottleneck patterns. Small deals (under $100K, 22 deals) bottleneck at MQL-to-SQL with a 45-day median cycle. Mid-market ($100K\u2013$200K, 33 deals) and enterprise (over $200K, 15 deals) both bottleneck at Opportunity-to-Closed, with median cycles of 62 and 82 days respectively. Enterprise deals carry the highest win rate (53.3%) but require an average of 8.9 touchpoints.\n\nAmong sales reps, Sarah Chen leads with a 60% win rate and 52-day median cycle (team average: 50% win rate, 58-day median). Lisa Thompson trails with a 42.9% win rate and 72-day median cycle \u2014 14 days slower than the team. Emily Rodriguez shows an inconsistency flag: her MQL-to-SQL stage is both her fastest and slowest, with a 41.7% win rate that may indicate variable qualification standards.",
+      "bottlenecks_cited": [
+        "{'stage_transition': 'opportunity_to_closed', 'metric': 'drop_rate', 'value': '22.2%'}",
+        "{'stage_transition': 'opportunity_to_closed', 'metric': 'median_days', 'value': 27.5}",
+        "{'stage_transition': 'opportunity_to_closed', 'metric': 'percentage_of_cycle', 'value': '47.4%'}",
+        "{'stage_transition': 'mql_to_sql', 'metric': 'iqr_days', 'value': 14.0}",
+        "{'stage_transition': 'mql_to_sql', 'metric': 'outbound_drop_rate', 'value': '21.4%'}"
+      ]
+    },
+    "channel_efficiency": {
+      "_data_type": "interpretive",
+      "content": "Email Campaigns stands out as the clear efficiency leader. On just $11,000 in spend (8.8% of total budget), it generates pipeline-per-dollar ratios of $185.91 (last-touch), $125.08 (time-decay), $101.84 (W-shaped), and $70.51 (linear). Its cost-per-closed-won of $687.50 under linear and time-decay models is the lowest of any channel. It touches 28 deals and contributes to 16 won deals \u2014 combining high volume with exceptional efficiency. The channel earns an underfunded flag under 3 of 5 models.\n\nOutbound BDR is the second-strongest performer, generating $62.08 pipeline-per-dollar under W-shaped and $46.50 under time-decay on $15,200 in spend (12.2% of budget). It ranks #2 under three models (last-touch, time-decay, W-shaped) and touches 16 deals. Its cost-per-closed-won of $1,900 is competitive. The channel earns underfunded flags under 2 models.\n\nGoogle Ads receives the most budget at $38,500 (30.8%) but delivers the lowest pipeline-per-dollar under 3 of 5 models: $6.23 (last-touch), $8.72 (time-decay), and $11.99 (W-shaped). Under last-touch, it attributes $0 in won pipeline \u2014 zero closed-won deals carry Google Ads as their last touch. The channel earns a high-volume-low-quality flag under all 5 models. It touches 28 deals and contributes to 16 won deals under linear, so it is not absent from the pipeline \u2014 but its 30.8% budget share appears disproportionate to its closing contribution.\n\nEvents delivers solid mid-tier performance with moderate consensus at rank #3. On $18,750 spend, it generates pipeline-per-dollar ranging from $29.62 (time-decay) to $66.40 (first-touch). Its cost-per-closed-won ranges from $1,875 (linear) to $9,375 (last-touch).\n\nPersona analysis reveals channel preferences by buyer role. VP Engineering (18 deals, 55.6% win rate, $168K avg) responds to Google Ads, Events, and LinkedIn. Director of IT (20 deals, 50% win rate, $125K avg) engages most through LinkedIn, Email Campaigns, and Content Marketing. CTO personas (15 deals, 46.7% win rate, $195K avg) favor Events, Content Marketing, and Outbound BDR \u2014 the most touch-intensive path at 7.1 average touchpoints.",
+      "channels_highlighted": [
+        "{'channel': 'Email Campaigns', 'assessment': 'underfunded', 'key_metric': '$125.08 pipeline-per-dollar (time-decay) on 8.8% of budget; cost-per-closed-won $687.50'}",
+        "{'channel': 'Outbound BDR', 'assessment': 'underfunded', 'key_metric': '$62.08 pipeline-per-dollar (W-shaped) on 12.2% of budget; ranks #2 under 3 models'}",
+        "{'channel': 'Google Ads', 'assessment': 'high_volume_low_quality', 'key_metric': '$8.72 pipeline-per-dollar (time-decay) on 30.8% of budget; $0 won pipeline under last-touch'}",
+        "{'channel': 'Events', 'assessment': 'mixed', 'key_metric': 'Stable rank #3 across models; $66.40 pipeline-per-dollar (first-touch) on 15% of budget'}",
+        "{'channel': 'Content Marketing', 'assessment': 'mixed', 'key_metric': 'Consistent rank #4-5; $31.07 pipeline-per-dollar (linear) on 17.7% of budget'}"
+      ]
+    },
+    "budget_recommendations": {
+      "_data_type": "interpretive",
+      "content": "Four scenarios model the spectrum from no change to aggressive reallocation. The analysis identifies Scenario S3 \u2014 Redistribute from Google Ads \u2014 as the best risk-adjusted option.\n\nScenario S3 cuts Google Ads by 50% (from $38,500 to $19,250) and splits the freed $19,250 equally between Email Campaigns (+$9,625, reaching $20,625) and Outbound BDR (+$9,625, reaching $24,825). This projects $4.78M in pipeline \u2014 a $325,575 increase (+7.3%) \u2014 and $1.91M in won revenue at medium confidence. Both receiving channels rank in the top 3 under 3 or more models, and both carry underfunded diagnostic flags. The key assumption is that Email and BDR can scale proportionally without diminishing returns, and that other channels compensate for reduced Google Ads top-of-funnel volume.\n\nScenario S2, Scale Email Campaigns, takes a more conservative approach. It doubles Email Campaigns spend from $11,000 to $22,000 by cutting $11,000 from Google Ads (a 28.6% reduction). This projects $4.61M in pipeline \u2014 a $152,725 increase (+3.4%) \u2014 at medium confidence. The smaller Google Ads cut reduces the risk of losing top-of-funnel volume. The key assumption is that email audiences are large enough to absorb doubled spend without saturation.\n\nScenario S4, Aggressive Reallocation, pushes further by cutting Google Ads by 60% and Content Marketing by 15%, redistributing to Email Campaigns (+120.1%), Outbound BDR (+65.1%), and Events (+17.7%). It projects $4.79M in pipeline (+7.5%) but at low confidence. The marginal gain over S3 is just 0.2 percentage points, while the execution risk increases substantially \u2014 four channels change simultaneously, and a 120% Email increase is likely to encounter diminishing returns. The scenario assumes no cross-channel dependencies, which is particularly risky when cutting the primary top-of-funnel channel by 60%.\n\nThe Status Quo (S1) maintains current allocation at $4.46M pipeline and $1.78M won revenue with high confidence. It serves as the comparison baseline.\n\nThe recommended path is S3. It captures 97% of S4's projected uplift at materially lower risk, moves only two channels, and directly addresses the two strongest diagnostic signals in the data: Google Ads inefficiency (flagged in all 5 models) and Email/BDR underfunding (flagged in 5 models combined). If the team wants to test incrementally, S2 offers a lower-risk entry point at roughly half the projected gain.",
+      "scenarios_referenced": [
+        "{'scenario_name': 'S3 - Redistribute from Google Ads', 'projected_delta': '+7.3% pipeline ($325,575)', 'confidence': 'medium'}",
+        "{'scenario_name': 'S2 - Scale Email Campaigns', 'projected_delta': '+3.4% pipeline ($152,725)', 'confidence': 'medium'}",
+        "{'scenario_name': 'S4 - Aggressive Reallocation', 'projected_delta': '+7.5% pipeline ($334,325)', 'confidence': 'low'}",
+        "{'scenario_name': 'S1 - Status Quo', 'projected_delta': '0% (baseline)', 'confidence': 'high'}"
+      ],
+      "primary_recommendation": "Implement Scenario S3: Cut Google Ads spend by 50% ($19,250) and redistribute equally to Email Campaigns and Outbound BDR. Projected uplift of +7.3% pipeline ($325,575) at medium confidence. This addresses the two strongest diagnostic signals \u2014 Google Ads inefficiency across all 5 models and Email/BDR underfunding across 5 models combined \u2014 while limiting execution risk to two channel changes."
+    },
+    "key_risks": {
+      "_data_type": "interpretive",
+      "content": "All scenario projections assume linear scaling \u2014 doubling spend doubles pipeline. Real channels face saturation, audience overlap, and diminishing marginal returns. This assumption is most fragile for Email Campaigns, where doubling send volume may degrade deliverability and engagement rates.\n\nThe dataset contains 35 closed deals across 6 channels. Several channel-model combinations rest on small samples \u2014 Google Ads has only 2 last-touch deals, and Email Campaigns has only 3 first-touch deals. Findings based on fewer than 5 deals in a segment carry elevated uncertainty.\n\nGoogle Ads may provide unmeasured top-of-funnel value. It ranks #1 under first-touch with 10 deals initiated, and cutting it by 50% could reduce lead volume in ways that downstream channels (Email, BDR) depend on. Attribution models measure correlation between touchpoints and outcomes \u2014 they do not establish that a channel caused the outcome. A channel appearing late in a deal cycle receives last-touch credit, but the deal may have closed regardless of that touchpoint.\n\nThe 40% historical win rate applied to all projections assumes stable market conditions. Competitive dynamics, pricing changes, or seasonal effects could shift actual results. Cross-channel synergies are not modeled \u2014 channels may amplify each other in ways individual attribution cannot capture.",
+      "risks_identified": [
+        "Linear scaling assumption: projections assume constant marginal returns, but channels likely face saturation \u2014 especially Email Campaigns with 100%+ spend increases",
+        "Small sample size: 35 closed deals across 6 channels limits statistical confidence, particularly for channel-model combinations with fewer than 5 deals",
+        "Google Ads top-of-funnel dependency: cutting Google Ads may reduce lead volume that downstream channels rely on for conversion",
+        "Attribution is correlation, not causation: touchpoint presence in a deal journey does not prove that touchpoint influenced the outcome"
+      ]
+    }
+  }
+}

@@ -1,0 +1,4644 @@
+{
+  "metadata": {
+    "run_id": "synthetic-run",
+    "generated_date": "2026-07-14T00:00:00Z",
+    "agent": "02-funnel-velocity",
+    "total_deals": 50,
+    "deals_included": 50,
+    "deals_excluded": {
+      "count": 0,
+      "deal_ids": []
+    },
+    "deal_counts_by_outcome": {
+      "won": 14,
+      "lost": 21,
+      "open": 15
+    },
+    "deal_counts_by_stage": {
+      "lead": 50,
+      "mql": 50,
+      "sql": 40,
+      "opportunity": 34,
+      "closed": 35
+    },
+    "stage_skipping_deals": {
+      "count": 0,
+      "deal_ids": []
+    },
+    "stalled_deals": [
+      {
+        "deal_id": "DEAL-002",
+        "current_stage": "Opportunity",
+        "days_stalled": 306
+      },
+      {
+        "deal_id": "DEAL-005",
+        "current_stage": "Opportunity",
+        "days_stalled": 312
+      },
+      {
+        "deal_id": "DEAL-006",
+        "current_stage": "SQL",
+        "days_stalled": 326
+      },
+      {
+        "deal_id": "DEAL-007",
+        "current_stage": "Opportunity",
+        "days_stalled": 327
+      },
+      {
+        "deal_id": "DEAL-014",
+        "current_stage": "Opportunity",
+        "days_stalled": 254
+      },
+      {
+        "deal_id": "DEAL-020",
+        "current_stage": "SQL",
+        "days_stalled": 245
+      },
+      {
+        "deal_id": "DEAL-026",
+        "current_stage": "SQL",
+        "days_stalled": 197
+      },
+      {
+        "deal_id": "DEAL-028",
+        "current_stage": "SQL",
+        "days_stalled": 170
+      },
+      {
+        "deal_id": "DEAL-033",
+        "current_stage": "Opportunity",
+        "days_stalled": 140
+      },
+      {
+        "deal_id": "DEAL-036",
+        "current_stage": "SQL",
+        "days_stalled": 146
+      }
+    ],
+    "data_quality_warnings": [],
+    "analysis_date": "2026-07-14"
+  },
+  "stage_velocity": {
+    "lead_to_mql": {
+      "overall": {
+        "avg": 12.4,
+        "median": 12.0,
+        "p90": 18.1,
+        "min": 1,
+        "max": 23,
+        "deal_count": 50
+      },
+      "by_industry": {
+        "Financial Services": {
+          "avg": 15.0,
+          "median": 15,
+          "p90": 19.8,
+          "min": 7,
+          "max": 21,
+          "deal_count": 7
+        },
+        "Healthcare": {
+          "avg": 13.8,
+          "median": 14,
+          "p90": 19.0,
+          "min": 4,
+          "max": 23,
+          "deal_count": 9
+        },
+        "Manufacturing": {
+          "avg": 11.4,
+          "median": 11,
+          "p90": 16.6,
+          "min": 5,
+          "max": 19,
+          "deal_count": 9
+        },
+        "Professional Services": {
+          "avg": 13.6,
+          "median": 16,
+          "p90": 16.8,
+          "min": 7,
+          "max": 18,
+          "deal_count": 7
+        },
+        "Retail/E-commerce": {
+          "avg": 10.5,
+          "median": 10.5,
+          "p90": 10.9,
+          "min": 10,
+          "max": 11,
+          "deal_count": 2,
+          "low_confidence": true
+        },
+        "Technology": {
+          "avg": 10.7,
+          "median": 10.0,
+          "p90": 15.0,
+          "min": 1,
+          "max": 22,
+          "deal_count": 16
+        }
+      },
+      "by_company_size": {
+        "Enterprise": {
+          "avg": 11.1,
+          "median": 10.5,
+          "p90": 16.9,
+          "min": 1,
+          "max": 21,
+          "deal_count": 22
+        },
+        "Mid-Market": {
+          "avg": 14.1,
+          "median": 13,
+          "p90": 20.4,
+          "min": 8,
+          "max": 23,
+          "deal_count": 15
+        },
+        "SMB": {
+          "avg": 12.5,
+          "median": 14,
+          "p90": 17.6,
+          "min": 5,
+          "max": 19,
+          "deal_count": 13
+        }
+      },
+      "by_lead_source": {
+        "Event": {
+          "avg": 14.4,
+          "median": 16,
+          "p90": 20.2,
+          "min": 4,
+          "max": 21,
+          "deal_count": 5
+        },
+        "Inbound": {
+          "avg": 13.4,
+          "median": 14,
+          "p90": 18.8,
+          "min": 4,
+          "max": 23,
+          "deal_count": 19
+        },
+        "Outbound": {
+          "avg": 10.6,
+          "median": 10.5,
+          "p90": 15.8,
+          "min": 1,
+          "max": 19,
+          "deal_count": 12
+        },
+        "Partner": {
+          "avg": 13.5,
+          "median": 14.0,
+          "p90": 16.1,
+          "min": 9,
+          "max": 17,
+          "deal_count": 4,
+          "low_confidence": true
+        },
+        "Referral": {
+          "avg": 11.1,
+          "median": 11.0,
+          "p90": 13.2,
+          "min": 7,
+          "max": 15,
+          "deal_count": 10
+        }
+      },
+      "by_deal_type": {
+        "Expansion": {
+          "avg": 12.4,
+          "median": 13,
+          "p90": 14.4,
+          "min": 7,
+          "max": 16,
+          "deal_count": 9
+        },
+        "New Business": {
+          "avg": 12.5,
+          "median": 10.5,
+          "p90": 20.0,
+          "min": 1,
+          "max": 23,
+          "deal_count": 26
+        },
+        "Renewal": {
+          "avg": 12.1,
+          "median": 12,
+          "p90": 16.0,
+          "min": 7,
+          "max": 19,
+          "deal_count": 15
+        }
+      },
+      "by_geography": {
+        "APAC": {
+          "avg": 13.6,
+          "median": 11.0,
+          "p90": 19.6,
+          "min": 9,
+          "max": 21,
+          "deal_count": 8
+        },
+        "Europe": {
+          "avg": 12.9,
+          "median": 13,
+          "p90": 17.6,
+          "min": 4,
+          "max": 23,
+          "deal_count": 13
+        },
+        "North America": {
+          "avg": 11.8,
+          "median": 11,
+          "p90": 17.2,
+          "min": 1,
+          "max": 22,
+          "deal_count": 29
+        }
+      }
+    },
+    "mql_to_sql": {
+      "overall": {
+        "avg": 14.5,
+        "median": 15.5,
+        "p90": 23.0,
+        "min": 1,
+        "max": 28,
+        "deal_count": 40
+      },
+      "by_industry": {
+        "Financial Services": {
+          "avg": 9.8,
+          "median": 9.0,
+          "p90": 18.5,
+          "min": 1,
+          "max": 20,
+          "deal_count": 6
+        },
+        "Healthcare": {
+          "avg": 16.4,
+          "median": 18,
+          "p90": 22.2,
+          "min": 1,
+          "max": 24,
+          "deal_count": 7
+        },
+        "Manufacturing": {
+          "avg": 15.5,
+          "median": 15.0,
+          "p90": 21.5,
+          "min": 8,
+          "max": 25,
+          "deal_count": 6
+        },
+        "Professional Services": {
+          "avg": 16.5,
+          "median": 16.0,
+          "p90": 24.0,
+          "min": 5,
+          "max": 28,
+          "deal_count": 6
+        },
+        "Retail/E-commerce": {
+          "avg": 10.5,
+          "median": 10.5,
+          "p90": 16.5,
+          "min": 3,
+          "max": 18,
+          "deal_count": 2,
+          "low_confidence": true
+        },
+        "Technology": {
+          "avg": 14.9,
+          "median": 13,
+          "p90": 22.6,
+          "min": 9,
+          "max": 23,
+          "deal_count": 13
+        }
+      },
+      "by_company_size": {
+        "Enterprise": {
+          "avg": 12.9,
+          "median": 13,
+          "p90": 21.0,
+          "min": 1,
+          "max": 23,
+          "deal_count": 15
+        },
+        "Mid-Market": {
+          "avg": 16.3,
+          "median": 18,
+          "p90": 24.6,
+          "min": 1,
+          "max": 28,
+          "deal_count": 15
+        },
+        "SMB": {
+          "avg": 14.3,
+          "median": 15.0,
+          "p90": 20.1,
+          "min": 5,
+          "max": 21,
+          "deal_count": 10
+        }
+      },
+      "by_lead_source": {
+        "Event": {
+          "avg": 14.8,
+          "median": 17,
+          "p90": 21.0,
+          "min": 1,
+          "max": 23,
+          "deal_count": 5
+        },
+        "Inbound": {
+          "avg": 15.0,
+          "median": 14,
+          "p90": 22.2,
+          "min": 5,
+          "max": 28,
+          "deal_count": 17
+        },
+        "Outbound": {
+          "avg": 15.0,
+          "median": 17,
+          "p90": 19.8,
+          "min": 7,
+          "max": 21,
+          "deal_count": 5
+        },
+        "Partner": {
+          "avg": 11.5,
+          "median": 11.0,
+          "p90": 18.0,
+          "min": 3,
+          "max": 21,
+          "deal_count": 4,
+          "low_confidence": true
+        },
+        "Referral": {
+          "avg": 14.6,
+          "median": 18,
+          "p90": 23.4,
+          "min": 1,
+          "max": 25,
+          "deal_count": 9
+        }
+      },
+      "by_deal_type": {
+        "Expansion": {
+          "avg": 17.3,
+          "median": 17.5,
+          "p90": 20.5,
+          "min": 12,
+          "max": 21,
+          "deal_count": 6
+        },
+        "New Business": {
+          "avg": 13.8,
+          "median": 13.5,
+          "p90": 23.0,
+          "min": 1,
+          "max": 28,
+          "deal_count": 22
+        },
+        "Renewal": {
+          "avg": 14.5,
+          "median": 13.5,
+          "p90": 20.9,
+          "min": 1,
+          "max": 25,
+          "deal_count": 12
+        }
+      },
+      "by_geography": {
+        "APAC": {
+          "avg": 10.9,
+          "median": 8,
+          "p90": 22.0,
+          "min": 1,
+          "max": 28,
+          "deal_count": 7
+        },
+        "Europe": {
+          "avg": 17.3,
+          "median": 20,
+          "p90": 23,
+          "min": 5,
+          "max": 24,
+          "deal_count": 11
+        },
+        "North America": {
+          "avg": 14.3,
+          "median": 14.5,
+          "p90": 21.0,
+          "min": 1,
+          "max": 25,
+          "deal_count": 22
+        }
+      }
+    },
+    "sql_to_opp": {
+      "overall": {
+        "avg": 20.7,
+        "median": 18.0,
+        "p90": 36.4,
+        "min": 0,
+        "max": 67,
+        "deal_count": 34
+      },
+      "by_industry": {
+        "Financial Services": {
+          "avg": 32.4,
+          "median": 23,
+          "p90": 52.6,
+          "min": 19,
+          "max": 63,
+          "deal_count": 5
+        },
+        "Healthcare": {
+          "avg": 22.2,
+          "median": 22.0,
+          "p90": 29.0,
+          "min": 14,
+          "max": 31,
+          "deal_count": 6
+        },
+        "Manufacturing": {
+          "avg": 6.8,
+          "median": 4.0,
+          "p90": 15.5,
+          "min": 0,
+          "max": 20,
+          "deal_count": 6
+        },
+        "Professional Services": {
+          "avg": 29.0,
+          "median": 21.5,
+          "p90": 55.0,
+          "min": 9,
+          "max": 67,
+          "deal_count": 6
+        },
+        "Retail/E-commerce": {
+          "avg": 11.0,
+          "median": 11,
+          "p90": 11,
+          "min": 11,
+          "max": 11,
+          "deal_count": 1,
+          "low_confidence": true
+        },
+        "Technology": {
+          "avg": 18.3,
+          "median": 18.0,
+          "p90": 31.4,
+          "min": 2,
+          "max": 35,
+          "deal_count": 10
+        }
+      },
+      "by_company_size": {
+        "Enterprise": {
+          "avg": 25.9,
+          "median": 31,
+          "p90": 57.8,
+          "min": 0,
+          "max": 67,
+          "deal_count": 13
+        },
+        "Mid-Market": {
+          "avg": 18.2,
+          "median": 17.5,
+          "p90": 23.9,
+          "min": 6,
+          "max": 43,
+          "deal_count": 12
+        },
+        "SMB": {
+          "avg": 16.6,
+          "median": 14,
+          "p90": 27.6,
+          "min": 6,
+          "max": 30,
+          "deal_count": 9
+        }
+      },
+      "by_lead_source": {
+        "Event": {
+          "avg": 29.4,
+          "median": 23,
+          "p90": 55.0,
+          "min": 0,
+          "max": 63,
+          "deal_count": 5
+        },
+        "Inbound": {
+          "avg": 17.9,
+          "median": 13.0,
+          "p90": 32.5,
+          "min": 2,
+          "max": 67,
+          "deal_count": 16
+        },
+        "Outbound": {
+          "avg": 23.5,
+          "median": 24.5,
+          "p90": 31.0,
+          "min": 14,
+          "max": 31,
+          "deal_count": 4
+        },
+        "Partner": {
+          "avg": 19.5,
+          "median": 19.5,
+          "p90": 33.5,
+          "min": 2,
+          "max": 37,
+          "deal_count": 2,
+          "low_confidence": true
+        },
+        "Referral": {
+          "avg": 19.7,
+          "median": 20,
+          "p90": 26.8,
+          "min": 11,
+          "max": 31,
+          "deal_count": 7
+        }
+      },
+      "by_deal_type": {
+        "Expansion": {
+          "avg": 17.4,
+          "median": 14,
+          "p90": 25.8,
+          "min": 11,
+          "max": 31,
+          "deal_count": 5
+        },
+        "New Business": {
+          "avg": 23.3,
+          "median": 19.0,
+          "p90": 38.8,
+          "min": 2,
+          "max": 63,
+          "deal_count": 18
+        },
+        "Renewal": {
+          "avg": 17.9,
+          "median": 19,
+          "p90": 24,
+          "min": 0,
+          "max": 67,
+          "deal_count": 11
+        }
+      },
+      "by_geography": {
+        "APAC": {
+          "avg": 22.0,
+          "median": 11.5,
+          "p90": 47.7,
+          "min": 2,
+          "max": 63,
+          "deal_count": 4
+        },
+        "Europe": {
+          "avg": 21.7,
+          "median": 20.0,
+          "p90": 31.4,
+          "min": 9,
+          "max": 35,
+          "deal_count": 10
+        },
+        "North America": {
+          "avg": 19.9,
+          "median": 18.0,
+          "p90": 37.6,
+          "min": 0,
+          "max": 67,
+          "deal_count": 20
+        }
+      }
+    },
+    "opp_to_closed": {
+      "overall": {
+        "avg": 29.9,
+        "median": 27.5,
+        "p90": 44.0,
+        "min": 12,
+        "max": 56,
+        "deal_count": 26
+      },
+      "by_industry": {
+        "Financial Services": {
+          "avg": 32.4,
+          "median": 25,
+          "p90": 46.8,
+          "min": 23,
+          "max": 56,
+          "deal_count": 5
+        },
+        "Healthcare": {
+          "avg": 27.8,
+          "median": 25.5,
+          "p90": 37.7,
+          "min": 19,
+          "max": 41,
+          "deal_count": 4
+        },
+        "Manufacturing": {
+          "avg": 26.5,
+          "median": 26.5,
+          "p90": 28.5,
+          "min": 24,
+          "max": 29,
+          "deal_count": 2
+        },
+        "Professional Services": {
+          "avg": 30.5,
+          "median": 32.0,
+          "p90": 38.0,
+          "min": 21,
+          "max": 39,
+          "deal_count": 6
+        },
+        "Retail/E-commerce": {
+          "avg": 0,
+          "median": 0,
+          "p90": 0,
+          "min": 0,
+          "max": 0,
+          "deal_count": 0,
+          "low_confidence": true
+        },
+        "Technology": {
+          "avg": 29.8,
+          "median": 28,
+          "p90": 44.6,
+          "min": 12,
+          "max": 47,
+          "deal_count": 9
+        }
+      },
+      "by_company_size": {
+        "Enterprise": {
+          "avg": 35.5,
+          "median": 39.0,
+          "p90": 47.9,
+          "min": 14,
+          "max": 56,
+          "deal_count": 10
+        },
+        "Mid-Market": {
+          "avg": 28.8,
+          "median": 31.0,
+          "p90": 37.6,
+          "min": 12,
+          "max": 39,
+          "deal_count": 8
+        },
+        "SMB": {
+          "avg": 24.0,
+          "median": 24.5,
+          "p90": 27.6,
+          "min": 19,
+          "max": 29,
+          "deal_count": 8
+        }
+      },
+      "by_lead_source": {
+        "Event": {
+          "avg": 43.8,
+          "median": 43.0,
+          "p90": 53.3,
+          "min": 33,
+          "max": 56,
+          "deal_count": 4
+        },
+        "Inbound": {
+          "avg": 27.8,
+          "median": 28.0,
+          "p90": 37.0,
+          "min": 12,
+          "max": 44,
+          "deal_count": 12
+        },
+        "Outbound": {
+          "avg": 37.0,
+          "median": 41,
+          "p90": 43.4,
+          "min": 26,
+          "max": 44,
+          "deal_count": 3
+        },
+        "Partner": {
+          "avg": 18.5,
+          "median": 18.5,
+          "p90": 22.1,
+          "min": 14,
+          "max": 23,
+          "deal_count": 2,
+          "low_confidence": true
+        },
+        "Referral": {
+          "avg": 24.0,
+          "median": 25,
+          "p90": 26.8,
+          "min": 21,
+          "max": 28,
+          "deal_count": 5
+        }
+      },
+      "by_deal_type": {
+        "Expansion": {
+          "avg": 26.8,
+          "median": 22.5,
+          "p90": 35.9,
+          "min": 21,
+          "max": 41,
+          "deal_count": 4
+        },
+        "New Business": {
+          "avg": 32.2,
+          "median": 29,
+          "p90": 45.8,
+          "min": 12,
+          "max": 56,
+          "deal_count": 15
+        },
+        "Renewal": {
+          "avg": 26.7,
+          "median": 25,
+          "p90": 34.6,
+          "min": 14,
+          "max": 37,
+          "deal_count": 7
+        }
+      },
+      "by_geography": {
+        "APAC": {
+          "avg": 46.5,
+          "median": 46.5,
+          "p90": 54.1,
+          "min": 37,
+          "max": 56,
+          "deal_count": 2
+        },
+        "Europe": {
+          "avg": 30.8,
+          "median": 26.0,
+          "p90": 44.9,
+          "min": 19,
+          "max": 47,
+          "deal_count": 8
+        },
+        "North America": {
+          "avg": 27.4,
+          "median": 27.0,
+          "p90": 38.0,
+          "min": 12,
+          "max": 44,
+          "deal_count": 16
+        }
+      }
+    },
+    "full_cycle": {
+      "overall": {
+        "avg": 66.7,
+        "median": 69,
+        "p90": 100.2,
+        "min": 16,
+        "max": 141,
+        "deal_count": 35
+      }
+    }
+  },
+  "conversion_rates": {
+    "lead_to_mql": {
+      "overall": {
+        "rate": 100.0,
+        "numerator": 50,
+        "denominator": 50
+      },
+      "by_industry": {
+        "Financial Services": {
+          "rate": 100.0,
+          "numerator": 7,
+          "denominator": 7
+        },
+        "Healthcare": {
+          "rate": 100.0,
+          "numerator": 9,
+          "denominator": 9
+        },
+        "Manufacturing": {
+          "rate": 100.0,
+          "numerator": 9,
+          "denominator": 9
+        },
+        "Professional Services": {
+          "rate": 100.0,
+          "numerator": 7,
+          "denominator": 7
+        },
+        "Retail/E-commerce": {
+          "rate": 100.0,
+          "numerator": 2,
+          "denominator": 2
+        },
+        "Technology": {
+          "rate": 100.0,
+          "numerator": 16,
+          "denominator": 16
+        }
+      },
+      "by_company_size": {
+        "Enterprise": {
+          "rate": 100.0,
+          "numerator": 22,
+          "denominator": 22
+        },
+        "Mid-Market": {
+          "rate": 100.0,
+          "numerator": 15,
+          "denominator": 15
+        },
+        "SMB": {
+          "rate": 100.0,
+          "numerator": 13,
+          "denominator": 13
+        }
+      },
+      "by_lead_source": {
+        "Event": {
+          "rate": 100.0,
+          "numerator": 5,
+          "denominator": 5
+        },
+        "Inbound": {
+          "rate": 100.0,
+          "numerator": 19,
+          "denominator": 19
+        },
+        "Outbound": {
+          "rate": 100.0,
+          "numerator": 12,
+          "denominator": 12
+        },
+        "Partner": {
+          "rate": 100.0,
+          "numerator": 4,
+          "denominator": 4
+        },
+        "Referral": {
+          "rate": 100.0,
+          "numerator": 10,
+          "denominator": 10
+        }
+      },
+      "by_deal_type": {
+        "Expansion": {
+          "rate": 100.0,
+          "numerator": 9,
+          "denominator": 9
+        },
+        "New Business": {
+          "rate": 100.0,
+          "numerator": 26,
+          "denominator": 26
+        },
+        "Renewal": {
+          "rate": 100.0,
+          "numerator": 15,
+          "denominator": 15
+        }
+      },
+      "by_geography": {
+        "APAC": {
+          "rate": 100.0,
+          "numerator": 8,
+          "denominator": 8
+        },
+        "Europe": {
+          "rate": 100.0,
+          "numerator": 13,
+          "denominator": 13
+        },
+        "North America": {
+          "rate": 100.0,
+          "numerator": 29,
+          "denominator": 29
+        }
+      }
+    },
+    "mql_to_sql": {
+      "overall": {
+        "rate": 80.0,
+        "numerator": 40,
+        "denominator": 50
+      },
+      "by_industry": {
+        "Financial Services": {
+          "rate": 85.7,
+          "numerator": 6,
+          "denominator": 7
+        },
+        "Healthcare": {
+          "rate": 77.8,
+          "numerator": 7,
+          "denominator": 9
+        },
+        "Manufacturing": {
+          "rate": 66.7,
+          "numerator": 6,
+          "denominator": 9
+        },
+        "Professional Services": {
+          "rate": 85.7,
+          "numerator": 6,
+          "denominator": 7
+        },
+        "Retail/E-commerce": {
+          "rate": 100.0,
+          "numerator": 2,
+          "denominator": 2
+        },
+        "Technology": {
+          "rate": 81.2,
+          "numerator": 13,
+          "denominator": 16
+        }
+      },
+      "by_company_size": {
+        "Enterprise": {
+          "rate": 68.2,
+          "numerator": 15,
+          "denominator": 22
+        },
+        "Mid-Market": {
+          "rate": 100.0,
+          "numerator": 15,
+          "denominator": 15
+        },
+        "SMB": {
+          "rate": 76.9,
+          "numerator": 10,
+          "denominator": 13
+        }
+      },
+      "by_lead_source": {
+        "Event": {
+          "rate": 100.0,
+          "numerator": 5,
+          "denominator": 5
+        },
+        "Inbound": {
+          "rate": 89.5,
+          "numerator": 17,
+          "denominator": 19
+        },
+        "Outbound": {
+          "rate": 41.7,
+          "numerator": 5,
+          "denominator": 12
+        },
+        "Partner": {
+          "rate": 100.0,
+          "numerator": 4,
+          "denominator": 4
+        },
+        "Referral": {
+          "rate": 90.0,
+          "numerator": 9,
+          "denominator": 10
+        }
+      },
+      "by_deal_type": {
+        "Expansion": {
+          "rate": 66.7,
+          "numerator": 6,
+          "denominator": 9
+        },
+        "New Business": {
+          "rate": 84.6,
+          "numerator": 22,
+          "denominator": 26
+        },
+        "Renewal": {
+          "rate": 80.0,
+          "numerator": 12,
+          "denominator": 15
+        }
+      },
+      "by_geography": {
+        "APAC": {
+          "rate": 87.5,
+          "numerator": 7,
+          "denominator": 8
+        },
+        "Europe": {
+          "rate": 84.6,
+          "numerator": 11,
+          "denominator": 13
+        },
+        "North America": {
+          "rate": 75.9,
+          "numerator": 22,
+          "denominator": 29
+        }
+      }
+    },
+    "sql_to_opp": {
+      "overall": {
+        "rate": 85.0,
+        "numerator": 34,
+        "denominator": 40
+      },
+      "by_industry": {
+        "Financial Services": {
+          "rate": 83.3,
+          "numerator": 5,
+          "denominator": 6
+        },
+        "Healthcare": {
+          "rate": 85.7,
+          "numerator": 6,
+          "denominator": 7
+        },
+        "Manufacturing": {
+          "rate": 100.0,
+          "numerator": 6,
+          "denominator": 6
+        },
+        "Professional Services": {
+          "rate": 100.0,
+          "numerator": 6,
+          "denominator": 6
+        },
+        "Retail/E-commerce": {
+          "rate": 50.0,
+          "numerator": 1,
+          "denominator": 2
+        },
+        "Technology": {
+          "rate": 76.9,
+          "numerator": 10,
+          "denominator": 13
+        }
+      },
+      "by_company_size": {
+        "Enterprise": {
+          "rate": 86.7,
+          "numerator": 13,
+          "denominator": 15
+        },
+        "Mid-Market": {
+          "rate": 80.0,
+          "numerator": 12,
+          "denominator": 15
+        },
+        "SMB": {
+          "rate": 90.0,
+          "numerator": 9,
+          "denominator": 10
+        }
+      },
+      "by_lead_source": {
+        "Event": {
+          "rate": 100.0,
+          "numerator": 5,
+          "denominator": 5
+        },
+        "Inbound": {
+          "rate": 94.1,
+          "numerator": 16,
+          "denominator": 17
+        },
+        "Outbound": {
+          "rate": 80.0,
+          "numerator": 4,
+          "denominator": 5
+        },
+        "Partner": {
+          "rate": 50.0,
+          "numerator": 2,
+          "denominator": 4
+        },
+        "Referral": {
+          "rate": 77.8,
+          "numerator": 7,
+          "denominator": 9
+        }
+      },
+      "by_deal_type": {
+        "Expansion": {
+          "rate": 83.3,
+          "numerator": 5,
+          "denominator": 6
+        },
+        "New Business": {
+          "rate": 81.8,
+          "numerator": 18,
+          "denominator": 22
+        },
+        "Renewal": {
+          "rate": 91.7,
+          "numerator": 11,
+          "denominator": 12
+        }
+      },
+      "by_geography": {
+        "APAC": {
+          "rate": 57.1,
+          "numerator": 4,
+          "denominator": 7
+        },
+        "Europe": {
+          "rate": 90.9,
+          "numerator": 10,
+          "denominator": 11
+        },
+        "North America": {
+          "rate": 90.9,
+          "numerator": 20,
+          "denominator": 22
+        }
+      }
+    },
+    "opp_to_closed": {
+      "overall": {
+        "rate": 76.5,
+        "numerator": 26,
+        "denominator": 34
+      },
+      "by_industry": {
+        "Financial Services": {
+          "rate": 100.0,
+          "numerator": 5,
+          "denominator": 5
+        },
+        "Healthcare": {
+          "rate": 66.7,
+          "numerator": 4,
+          "denominator": 6
+        },
+        "Manufacturing": {
+          "rate": 33.3,
+          "numerator": 2,
+          "denominator": 6
+        },
+        "Professional Services": {
+          "rate": 100.0,
+          "numerator": 6,
+          "denominator": 6
+        },
+        "Retail/E-commerce": {
+          "rate": 0.0,
+          "numerator": 0,
+          "denominator": 1
+        },
+        "Technology": {
+          "rate": 90.0,
+          "numerator": 9,
+          "denominator": 10
+        }
+      },
+      "by_company_size": {
+        "Enterprise": {
+          "rate": 76.9,
+          "numerator": 10,
+          "denominator": 13
+        },
+        "Mid-Market": {
+          "rate": 66.7,
+          "numerator": 8,
+          "denominator": 12
+        },
+        "SMB": {
+          "rate": 88.9,
+          "numerator": 8,
+          "denominator": 9
+        }
+      },
+      "by_lead_source": {
+        "Event": {
+          "rate": 80.0,
+          "numerator": 4,
+          "denominator": 5
+        },
+        "Inbound": {
+          "rate": 75.0,
+          "numerator": 12,
+          "denominator": 16
+        },
+        "Outbound": {
+          "rate": 75.0,
+          "numerator": 3,
+          "denominator": 4
+        },
+        "Partner": {
+          "rate": 100.0,
+          "numerator": 2,
+          "denominator": 2
+        },
+        "Referral": {
+          "rate": 71.4,
+          "numerator": 5,
+          "denominator": 7
+        }
+      },
+      "by_deal_type": {
+        "Expansion": {
+          "rate": 80.0,
+          "numerator": 4,
+          "denominator": 5
+        },
+        "New Business": {
+          "rate": 83.3,
+          "numerator": 15,
+          "denominator": 18
+        },
+        "Renewal": {
+          "rate": 63.6,
+          "numerator": 7,
+          "denominator": 11
+        }
+      },
+      "by_geography": {
+        "APAC": {
+          "rate": 50.0,
+          "numerator": 2,
+          "denominator": 4
+        },
+        "Europe": {
+          "rate": 80.0,
+          "numerator": 8,
+          "denominator": 10
+        },
+        "North America": {
+          "rate": 80.0,
+          "numerator": 16,
+          "denominator": 20
+        }
+      }
+    },
+    "cumulative": {
+      "lead_to_won": 28.0
+    }
+  },
+  "drop_off_analysis": {
+    "lead_to_mql": {
+      "deals_dropped": 0,
+      "drop_rate": 0.0,
+      "still_open_count": 0,
+      "lost_reason_breakdown": []
+    },
+    "mql_to_sql": {
+      "deals_dropped": 9,
+      "drop_rate": 18.0,
+      "still_open_count": 1,
+      "lost_reason_breakdown": [
+        {
+          "reason": "chose_competitor",
+          "count": 3,
+          "pct": 33.3
+        },
+        {
+          "reason": "went_dark",
+          "count": 2,
+          "pct": 22.2
+        },
+        {
+          "reason": "timing",
+          "count": 2,
+          "pct": 22.2
+        },
+        {
+          "reason": "no_budget",
+          "count": 1,
+          "pct": 11.1
+        },
+        {
+          "reason": "built_in_house",
+          "count": 1,
+          "pct": 11.1
+        }
+      ]
+    },
+    "sql_to_opp": {
+      "deals_dropped": 0,
+      "drop_rate": 0.0,
+      "still_open_count": 6,
+      "lost_reason_breakdown": []
+    },
+    "opp_to_closed": {
+      "deals_dropped": 0,
+      "drop_rate": 0.0,
+      "still_open_count": 8,
+      "lost_reason_breakdown": []
+    }
+  },
+  "bottleneck_flags": [
+    {
+      "transition": "opp_to_closed",
+      "type": "velocity",
+      "value": 27.5,
+      "threshold": 27.4,
+      "ratio": 1.5,
+      "segments_most_affected": [
+        {
+          "dimension": "geography",
+          "segment": "APAC",
+          "value": 46.5,
+          "vs_overall": 1.7
+        },
+        {
+          "dimension": "lead_source",
+          "segment": "Event",
+          "value": 43.0,
+          "vs_overall": 1.6
+        },
+        {
+          "dimension": "lead_source",
+          "segment": "Outbound",
+          "value": 41,
+          "vs_overall": 1.5
+        },
+        {
+          "dimension": "company_size",
+          "segment": "Enterprise",
+          "value": 39.0,
+          "vs_overall": 1.4
+        },
+        {
+          "dimension": "industry",
+          "segment": "Professional Services",
+          "value": 32.0,
+          "vs_overall": 1.2
+        },
+        {
+          "dimension": "company_size",
+          "segment": "Mid-Market",
+          "value": 31.0,
+          "vs_overall": 1.1
+        },
+        {
+          "dimension": "deal_type",
+          "segment": "New Business",
+          "value": 29,
+          "vs_overall": 1.1
+        },
+        {
+          "dimension": "industry",
+          "segment": "Technology",
+          "value": 28,
+          "vs_overall": 1.0
+        },
+        {
+          "dimension": "lead_source",
+          "segment": "Inbound",
+          "value": 28.0,
+          "vs_overall": 1.0
+        },
+        {
+          "dimension": "geography",
+          "segment": "North America",
+          "value": 27.0,
+          "vs_overall": 1.0
+        }
+      ]
+    }
+  ],
+  "segment_comparisons": {
+    "industry": {
+      "Financial Services": {
+        "deal_count": 7,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 15.0,
+            "median": 15,
+            "p90": 19.8,
+            "min": 7,
+            "max": 21,
+            "deal_count": 7
+          },
+          "mql_to_sql": {
+            "avg": 9.8,
+            "median": 9.0,
+            "p90": 18.5,
+            "min": 1,
+            "max": 20,
+            "deal_count": 6
+          },
+          "sql_to_opp": {
+            "avg": 32.4,
+            "median": 23,
+            "p90": 52.6,
+            "min": 19,
+            "max": 63,
+            "deal_count": 5
+          },
+          "opp_to_closed": {
+            "avg": 32.4,
+            "median": 25,
+            "p90": 46.8,
+            "min": 23,
+            "max": 56,
+            "deal_count": 5
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 7,
+            "denominator": 7
+          },
+          "mql_to_sql": {
+            "rate": 85.7,
+            "numerator": 6,
+            "denominator": 7
+          },
+          "sql_to_opp": {
+            "rate": 83.3,
+            "numerator": 5,
+            "denominator": 6
+          },
+          "opp_to_closed": {
+            "rate": 100.0,
+            "numerator": 5,
+            "denominator": 5
+          }
+        },
+        "cumulative_conversion": 28.6,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 1,
+            "drop_rate": 14.3,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "built_in_house",
+                "count": 1,
+                "pct": 100.0
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Healthcare": {
+        "deal_count": 9,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 13.8,
+            "median": 14,
+            "p90": 19.0,
+            "min": 4,
+            "max": 23,
+            "deal_count": 9
+          },
+          "mql_to_sql": {
+            "avg": 16.4,
+            "median": 18,
+            "p90": 22.2,
+            "min": 1,
+            "max": 24,
+            "deal_count": 7
+          },
+          "sql_to_opp": {
+            "avg": 22.2,
+            "median": 22.0,
+            "p90": 29.0,
+            "min": 14,
+            "max": 31,
+            "deal_count": 6
+          },
+          "opp_to_closed": {
+            "avg": 27.8,
+            "median": 25.5,
+            "p90": 37.7,
+            "min": 19,
+            "max": 41,
+            "deal_count": 4
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 9,
+            "denominator": 9
+          },
+          "mql_to_sql": {
+            "rate": 77.8,
+            "numerator": 7,
+            "denominator": 9
+          },
+          "sql_to_opp": {
+            "rate": 85.7,
+            "numerator": 6,
+            "denominator": 7
+          },
+          "opp_to_closed": {
+            "rate": 66.7,
+            "numerator": 4,
+            "denominator": 6
+          }
+        },
+        "cumulative_conversion": 44.4,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 2,
+            "drop_rate": 22.2,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "no_budget",
+                "count": 1,
+                "pct": 50.0
+              },
+              {
+                "reason": "went_dark",
+                "count": 1,
+                "pct": 50.0
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 2,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Manufacturing": {
+        "deal_count": 9,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 11.4,
+            "median": 11,
+            "p90": 16.6,
+            "min": 5,
+            "max": 19,
+            "deal_count": 9
+          },
+          "mql_to_sql": {
+            "avg": 15.5,
+            "median": 15.0,
+            "p90": 21.5,
+            "min": 8,
+            "max": 25,
+            "deal_count": 6
+          },
+          "sql_to_opp": {
+            "avg": 6.8,
+            "median": 4.0,
+            "p90": 15.5,
+            "min": 0,
+            "max": 20,
+            "deal_count": 6
+          },
+          "opp_to_closed": {
+            "avg": 26.5,
+            "median": 26.5,
+            "p90": 28.5,
+            "min": 24,
+            "max": 29,
+            "deal_count": 2
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 9,
+            "denominator": 9
+          },
+          "mql_to_sql": {
+            "rate": 66.7,
+            "numerator": 6,
+            "denominator": 9
+          },
+          "sql_to_opp": {
+            "rate": 100.0,
+            "numerator": 6,
+            "denominator": 6
+          },
+          "opp_to_closed": {
+            "rate": 33.3,
+            "numerator": 2,
+            "denominator": 6
+          }
+        },
+        "cumulative_conversion": 22.2,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 3,
+            "drop_rate": 33.3,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "chose_competitor",
+                "count": 2,
+                "pct": 66.7
+              },
+              {
+                "reason": "timing",
+                "count": 1,
+                "pct": 33.3
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 4,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Professional Services": {
+        "deal_count": 7,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 13.6,
+            "median": 16,
+            "p90": 16.8,
+            "min": 7,
+            "max": 18,
+            "deal_count": 7
+          },
+          "mql_to_sql": {
+            "avg": 16.5,
+            "median": 16.0,
+            "p90": 24.0,
+            "min": 5,
+            "max": 28,
+            "deal_count": 6
+          },
+          "sql_to_opp": {
+            "avg": 29.0,
+            "median": 21.5,
+            "p90": 55.0,
+            "min": 9,
+            "max": 67,
+            "deal_count": 6
+          },
+          "opp_to_closed": {
+            "avg": 30.5,
+            "median": 32.0,
+            "p90": 38.0,
+            "min": 21,
+            "max": 39,
+            "deal_count": 6
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 7,
+            "denominator": 7
+          },
+          "mql_to_sql": {
+            "rate": 85.7,
+            "numerator": 6,
+            "denominator": 7
+          },
+          "sql_to_opp": {
+            "rate": 100.0,
+            "numerator": 6,
+            "denominator": 6
+          },
+          "opp_to_closed": {
+            "rate": 100.0,
+            "numerator": 6,
+            "denominator": 6
+          }
+        },
+        "cumulative_conversion": 42.9,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 1,
+            "drop_rate": 14.3,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "went_dark",
+                "count": 1,
+                "pct": 100.0
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Retail/E-commerce": {
+        "deal_count": 2,
+        "low_confidence": true,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 10.5,
+            "median": 10.5,
+            "p90": 10.9,
+            "min": 10,
+            "max": 11,
+            "deal_count": 2
+          },
+          "mql_to_sql": {
+            "avg": 10.5,
+            "median": 10.5,
+            "p90": 16.5,
+            "min": 3,
+            "max": 18,
+            "deal_count": 2
+          },
+          "sql_to_opp": {
+            "avg": 11.0,
+            "median": 11,
+            "p90": 11,
+            "min": 11,
+            "max": 11,
+            "deal_count": 1
+          },
+          "opp_to_closed": {
+            "avg": 0,
+            "median": 0,
+            "p90": 0,
+            "min": 0,
+            "max": 0,
+            "deal_count": 0
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 2,
+            "denominator": 2
+          },
+          "mql_to_sql": {
+            "rate": 100.0,
+            "numerator": 2,
+            "denominator": 2
+          },
+          "sql_to_opp": {
+            "rate": 50.0,
+            "numerator": 1,
+            "denominator": 2
+          },
+          "opp_to_closed": {
+            "rate": 0.0,
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        "cumulative_conversion": 0.0,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Technology": {
+        "deal_count": 16,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 10.7,
+            "median": 10.0,
+            "p90": 15.0,
+            "min": 1,
+            "max": 22,
+            "deal_count": 16
+          },
+          "mql_to_sql": {
+            "avg": 14.9,
+            "median": 13,
+            "p90": 22.6,
+            "min": 9,
+            "max": 23,
+            "deal_count": 13
+          },
+          "sql_to_opp": {
+            "avg": 18.3,
+            "median": 18.0,
+            "p90": 31.4,
+            "min": 2,
+            "max": 35,
+            "deal_count": 10
+          },
+          "opp_to_closed": {
+            "avg": 29.8,
+            "median": 28,
+            "p90": 44.6,
+            "min": 12,
+            "max": 47,
+            "deal_count": 9
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 16,
+            "denominator": 16
+          },
+          "mql_to_sql": {
+            "rate": 81.2,
+            "numerator": 13,
+            "denominator": 16
+          },
+          "sql_to_opp": {
+            "rate": 76.9,
+            "numerator": 10,
+            "denominator": 13
+          },
+          "opp_to_closed": {
+            "rate": 90.0,
+            "numerator": 9,
+            "denominator": 10
+          }
+        },
+        "cumulative_conversion": 18.8,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 2,
+            "drop_rate": 12.5,
+            "still_open_count": 1,
+            "lost_reason_breakdown": [
+              {
+                "reason": "chose_competitor",
+                "count": 1,
+                "pct": 50.0
+              },
+              {
+                "reason": "timing",
+                "count": 1,
+                "pct": 50.0
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 3,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          }
+        }
+      }
+    },
+    "company_size": {
+      "Enterprise": {
+        "deal_count": 22,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 11.1,
+            "median": 10.5,
+            "p90": 16.9,
+            "min": 1,
+            "max": 21,
+            "deal_count": 22
+          },
+          "mql_to_sql": {
+            "avg": 12.9,
+            "median": 13,
+            "p90": 21.0,
+            "min": 1,
+            "max": 23,
+            "deal_count": 15
+          },
+          "sql_to_opp": {
+            "avg": 25.9,
+            "median": 31,
+            "p90": 57.8,
+            "min": 0,
+            "max": 67,
+            "deal_count": 13
+          },
+          "opp_to_closed": {
+            "avg": 35.5,
+            "median": 39.0,
+            "p90": 47.9,
+            "min": 14,
+            "max": 56,
+            "deal_count": 10
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 22,
+            "denominator": 22
+          },
+          "mql_to_sql": {
+            "rate": 68.2,
+            "numerator": 15,
+            "denominator": 22
+          },
+          "sql_to_opp": {
+            "rate": 86.7,
+            "numerator": 13,
+            "denominator": 15
+          },
+          "opp_to_closed": {
+            "rate": 76.9,
+            "numerator": 10,
+            "denominator": 13
+          }
+        },
+        "cumulative_conversion": 22.7,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 6,
+            "drop_rate": 27.3,
+            "still_open_count": 1,
+            "lost_reason_breakdown": [
+              {
+                "reason": "chose_competitor",
+                "count": 2,
+                "pct": 33.3
+              },
+              {
+                "reason": "timing",
+                "count": 2,
+                "pct": 33.3
+              },
+              {
+                "reason": "no_budget",
+                "count": 1,
+                "pct": 16.7
+              },
+              {
+                "reason": "went_dark",
+                "count": 1,
+                "pct": 16.7
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 2,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 3,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Mid-Market": {
+        "deal_count": 15,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 14.1,
+            "median": 13,
+            "p90": 20.4,
+            "min": 8,
+            "max": 23,
+            "deal_count": 15
+          },
+          "mql_to_sql": {
+            "avg": 16.3,
+            "median": 18,
+            "p90": 24.6,
+            "min": 1,
+            "max": 28,
+            "deal_count": 15
+          },
+          "sql_to_opp": {
+            "avg": 18.2,
+            "median": 17.5,
+            "p90": 23.9,
+            "min": 6,
+            "max": 43,
+            "deal_count": 12
+          },
+          "opp_to_closed": {
+            "avg": 28.8,
+            "median": 31.0,
+            "p90": 37.6,
+            "min": 12,
+            "max": 39,
+            "deal_count": 8
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 15,
+            "denominator": 15
+          },
+          "mql_to_sql": {
+            "rate": 100.0,
+            "numerator": 15,
+            "denominator": 15
+          },
+          "sql_to_opp": {
+            "rate": 80.0,
+            "numerator": 12,
+            "denominator": 15
+          },
+          "opp_to_closed": {
+            "rate": 66.7,
+            "numerator": 8,
+            "denominator": 12
+          }
+        },
+        "cumulative_conversion": 33.3,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 3,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 4,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "SMB": {
+        "deal_count": 13,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 12.5,
+            "median": 14,
+            "p90": 17.6,
+            "min": 5,
+            "max": 19,
+            "deal_count": 13
+          },
+          "mql_to_sql": {
+            "avg": 14.3,
+            "median": 15.0,
+            "p90": 20.1,
+            "min": 5,
+            "max": 21,
+            "deal_count": 10
+          },
+          "sql_to_opp": {
+            "avg": 16.6,
+            "median": 14,
+            "p90": 27.6,
+            "min": 6,
+            "max": 30,
+            "deal_count": 9
+          },
+          "opp_to_closed": {
+            "avg": 24.0,
+            "median": 24.5,
+            "p90": 27.6,
+            "min": 19,
+            "max": 29,
+            "deal_count": 8
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 13,
+            "denominator": 13
+          },
+          "mql_to_sql": {
+            "rate": 76.9,
+            "numerator": 10,
+            "denominator": 13
+          },
+          "sql_to_opp": {
+            "rate": 90.0,
+            "numerator": 9,
+            "denominator": 10
+          },
+          "opp_to_closed": {
+            "rate": 88.9,
+            "numerator": 8,
+            "denominator": 9
+          }
+        },
+        "cumulative_conversion": 30.8,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 3,
+            "drop_rate": 23.1,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "chose_competitor",
+                "count": 1,
+                "pct": 33.3
+              },
+              {
+                "reason": "built_in_house",
+                "count": 1,
+                "pct": 33.3
+              },
+              {
+                "reason": "went_dark",
+                "count": 1,
+                "pct": 33.3
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          }
+        }
+      }
+    },
+    "lead_source": {
+      "Event": {
+        "deal_count": 5,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 14.4,
+            "median": 16,
+            "p90": 20.2,
+            "min": 4,
+            "max": 21,
+            "deal_count": 5
+          },
+          "mql_to_sql": {
+            "avg": 14.8,
+            "median": 17,
+            "p90": 21.0,
+            "min": 1,
+            "max": 23,
+            "deal_count": 5
+          },
+          "sql_to_opp": {
+            "avg": 29.4,
+            "median": 23,
+            "p90": 55.0,
+            "min": 0,
+            "max": 63,
+            "deal_count": 5
+          },
+          "opp_to_closed": {
+            "avg": 43.8,
+            "median": 43.0,
+            "p90": 53.3,
+            "min": 33,
+            "max": 56,
+            "deal_count": 4
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 5,
+            "denominator": 5
+          },
+          "mql_to_sql": {
+            "rate": 100.0,
+            "numerator": 5,
+            "denominator": 5
+          },
+          "sql_to_opp": {
+            "rate": 100.0,
+            "numerator": 5,
+            "denominator": 5
+          },
+          "opp_to_closed": {
+            "rate": 80.0,
+            "numerator": 4,
+            "denominator": 5
+          }
+        },
+        "cumulative_conversion": 80.0,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Inbound": {
+        "deal_count": 19,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 13.4,
+            "median": 14,
+            "p90": 18.8,
+            "min": 4,
+            "max": 23,
+            "deal_count": 19
+          },
+          "mql_to_sql": {
+            "avg": 15.0,
+            "median": 14,
+            "p90": 22.2,
+            "min": 5,
+            "max": 28,
+            "deal_count": 17
+          },
+          "sql_to_opp": {
+            "avg": 17.9,
+            "median": 13.0,
+            "p90": 32.5,
+            "min": 2,
+            "max": 67,
+            "deal_count": 16
+          },
+          "opp_to_closed": {
+            "avg": 27.8,
+            "median": 28.0,
+            "p90": 37.0,
+            "min": 12,
+            "max": 44,
+            "deal_count": 12
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 19,
+            "denominator": 19
+          },
+          "mql_to_sql": {
+            "rate": 89.5,
+            "numerator": 17,
+            "denominator": 19
+          },
+          "sql_to_opp": {
+            "rate": 94.1,
+            "numerator": 16,
+            "denominator": 17
+          },
+          "opp_to_closed": {
+            "rate": 75.0,
+            "numerator": 12,
+            "denominator": 16
+          }
+        },
+        "cumulative_conversion": 36.8,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 2,
+            "drop_rate": 10.5,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "chose_competitor",
+                "count": 1,
+                "pct": 50.0
+              },
+              {
+                "reason": "no_budget",
+                "count": 1,
+                "pct": 50.0
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 4,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Outbound": {
+        "deal_count": 12,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 10.6,
+            "median": 10.5,
+            "p90": 15.8,
+            "min": 1,
+            "max": 19,
+            "deal_count": 12
+          },
+          "mql_to_sql": {
+            "avg": 15.0,
+            "median": 17,
+            "p90": 19.8,
+            "min": 7,
+            "max": 21,
+            "deal_count": 5
+          },
+          "sql_to_opp": {
+            "avg": 23.5,
+            "median": 24.5,
+            "p90": 31.0,
+            "min": 14,
+            "max": 31,
+            "deal_count": 4
+          },
+          "opp_to_closed": {
+            "avg": 37.0,
+            "median": 41,
+            "p90": 43.4,
+            "min": 26,
+            "max": 44,
+            "deal_count": 3
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 12,
+            "denominator": 12
+          },
+          "mql_to_sql": {
+            "rate": 41.7,
+            "numerator": 5,
+            "denominator": 12
+          },
+          "sql_to_opp": {
+            "rate": 80.0,
+            "numerator": 4,
+            "denominator": 5
+          },
+          "opp_to_closed": {
+            "rate": 75.0,
+            "numerator": 3,
+            "denominator": 4
+          }
+        },
+        "cumulative_conversion": 16.7,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 7,
+            "drop_rate": 58.3,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "chose_competitor",
+                "count": 2,
+                "pct": 28.6
+              },
+              {
+                "reason": "went_dark",
+                "count": 2,
+                "pct": 28.6
+              },
+              {
+                "reason": "timing",
+                "count": 2,
+                "pct": 28.6
+              },
+              {
+                "reason": "built_in_house",
+                "count": 1,
+                "pct": 14.3
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Partner": {
+        "deal_count": 4,
+        "low_confidence": true,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 13.5,
+            "median": 14.0,
+            "p90": 16.1,
+            "min": 9,
+            "max": 17,
+            "deal_count": 4
+          },
+          "mql_to_sql": {
+            "avg": 11.5,
+            "median": 11.0,
+            "p90": 18.0,
+            "min": 3,
+            "max": 21,
+            "deal_count": 4
+          },
+          "sql_to_opp": {
+            "avg": 19.5,
+            "median": 19.5,
+            "p90": 33.5,
+            "min": 2,
+            "max": 37,
+            "deal_count": 2
+          },
+          "opp_to_closed": {
+            "avg": 18.5,
+            "median": 18.5,
+            "p90": 22.1,
+            "min": 14,
+            "max": 23,
+            "deal_count": 2
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 4,
+            "denominator": 4
+          },
+          "mql_to_sql": {
+            "rate": 100.0,
+            "numerator": 4,
+            "denominator": 4
+          },
+          "sql_to_opp": {
+            "rate": 50.0,
+            "numerator": 2,
+            "denominator": 4
+          },
+          "opp_to_closed": {
+            "rate": 100.0,
+            "numerator": 2,
+            "denominator": 2
+          }
+        },
+        "cumulative_conversion": 0.0,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 2,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Referral": {
+        "deal_count": 10,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 11.1,
+            "median": 11.0,
+            "p90": 13.2,
+            "min": 7,
+            "max": 15,
+            "deal_count": 10
+          },
+          "mql_to_sql": {
+            "avg": 14.6,
+            "median": 18,
+            "p90": 23.4,
+            "min": 1,
+            "max": 25,
+            "deal_count": 9
+          },
+          "sql_to_opp": {
+            "avg": 19.7,
+            "median": 20,
+            "p90": 26.8,
+            "min": 11,
+            "max": 31,
+            "deal_count": 7
+          },
+          "opp_to_closed": {
+            "avg": 24.0,
+            "median": 25,
+            "p90": 26.8,
+            "min": 21,
+            "max": 28,
+            "deal_count": 5
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 10,
+            "denominator": 10
+          },
+          "mql_to_sql": {
+            "rate": 90.0,
+            "numerator": 9,
+            "denominator": 10
+          },
+          "sql_to_opp": {
+            "rate": 77.8,
+            "numerator": 7,
+            "denominator": 9
+          },
+          "opp_to_closed": {
+            "rate": 71.4,
+            "numerator": 5,
+            "denominator": 7
+          }
+        },
+        "cumulative_conversion": 10.0,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 2,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 2,
+            "lost_reason_breakdown": []
+          }
+        }
+      }
+    },
+    "deal_type": {
+      "Expansion": {
+        "deal_count": 9,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 12.4,
+            "median": 13,
+            "p90": 14.4,
+            "min": 7,
+            "max": 16,
+            "deal_count": 9
+          },
+          "mql_to_sql": {
+            "avg": 17.3,
+            "median": 17.5,
+            "p90": 20.5,
+            "min": 12,
+            "max": 21,
+            "deal_count": 6
+          },
+          "sql_to_opp": {
+            "avg": 17.4,
+            "median": 14,
+            "p90": 25.8,
+            "min": 11,
+            "max": 31,
+            "deal_count": 5
+          },
+          "opp_to_closed": {
+            "avg": 26.8,
+            "median": 22.5,
+            "p90": 35.9,
+            "min": 21,
+            "max": 41,
+            "deal_count": 4
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 9,
+            "denominator": 9
+          },
+          "mql_to_sql": {
+            "rate": 66.7,
+            "numerator": 6,
+            "denominator": 9
+          },
+          "sql_to_opp": {
+            "rate": 83.3,
+            "numerator": 5,
+            "denominator": 6
+          },
+          "opp_to_closed": {
+            "rate": 80.0,
+            "numerator": 4,
+            "denominator": 5
+          }
+        },
+        "cumulative_conversion": 22.2,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 3,
+            "drop_rate": 33.3,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "chose_competitor",
+                "count": 1,
+                "pct": 33.3
+              },
+              {
+                "reason": "built_in_house",
+                "count": 1,
+                "pct": 33.3
+              },
+              {
+                "reason": "timing",
+                "count": 1,
+                "pct": 33.3
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "New Business": {
+        "deal_count": 26,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 12.5,
+            "median": 10.5,
+            "p90": 20.0,
+            "min": 1,
+            "max": 23,
+            "deal_count": 26
+          },
+          "mql_to_sql": {
+            "avg": 13.8,
+            "median": 13.5,
+            "p90": 23.0,
+            "min": 1,
+            "max": 28,
+            "deal_count": 22
+          },
+          "sql_to_opp": {
+            "avg": 23.3,
+            "median": 19.0,
+            "p90": 38.8,
+            "min": 2,
+            "max": 63,
+            "deal_count": 18
+          },
+          "opp_to_closed": {
+            "avg": 32.2,
+            "median": 29,
+            "p90": 45.8,
+            "min": 12,
+            "max": 56,
+            "deal_count": 15
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 26,
+            "denominator": 26
+          },
+          "mql_to_sql": {
+            "rate": 84.6,
+            "numerator": 22,
+            "denominator": 26
+          },
+          "sql_to_opp": {
+            "rate": 81.8,
+            "numerator": 18,
+            "denominator": 22
+          },
+          "opp_to_closed": {
+            "rate": 83.3,
+            "numerator": 15,
+            "denominator": 18
+          }
+        },
+        "cumulative_conversion": 30.8,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 3,
+            "drop_rate": 11.5,
+            "still_open_count": 1,
+            "lost_reason_breakdown": [
+              {
+                "reason": "chose_competitor",
+                "count": 2,
+                "pct": 66.7
+              },
+              {
+                "reason": "no_budget",
+                "count": 1,
+                "pct": 33.3
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 4,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 3,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Renewal": {
+        "deal_count": 15,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 12.1,
+            "median": 12,
+            "p90": 16.0,
+            "min": 7,
+            "max": 19,
+            "deal_count": 15
+          },
+          "mql_to_sql": {
+            "avg": 14.5,
+            "median": 13.5,
+            "p90": 20.9,
+            "min": 1,
+            "max": 25,
+            "deal_count": 12
+          },
+          "sql_to_opp": {
+            "avg": 17.9,
+            "median": 19,
+            "p90": 24,
+            "min": 0,
+            "max": 67,
+            "deal_count": 11
+          },
+          "opp_to_closed": {
+            "avg": 26.7,
+            "median": 25,
+            "p90": 34.6,
+            "min": 14,
+            "max": 37,
+            "deal_count": 7
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 15,
+            "denominator": 15
+          },
+          "mql_to_sql": {
+            "rate": 80.0,
+            "numerator": 12,
+            "denominator": 15
+          },
+          "sql_to_opp": {
+            "rate": 91.7,
+            "numerator": 11,
+            "denominator": 12
+          },
+          "opp_to_closed": {
+            "rate": 63.6,
+            "numerator": 7,
+            "denominator": 11
+          }
+        },
+        "cumulative_conversion": 26.7,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 3,
+            "drop_rate": 20.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "went_dark",
+                "count": 2,
+                "pct": 66.7
+              },
+              {
+                "reason": "timing",
+                "count": 1,
+                "pct": 33.3
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 4,
+            "lost_reason_breakdown": []
+          }
+        }
+      }
+    },
+    "geography": {
+      "APAC": {
+        "deal_count": 8,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 13.6,
+            "median": 11.0,
+            "p90": 19.6,
+            "min": 9,
+            "max": 21,
+            "deal_count": 8
+          },
+          "mql_to_sql": {
+            "avg": 10.9,
+            "median": 8,
+            "p90": 22.0,
+            "min": 1,
+            "max": 28,
+            "deal_count": 7
+          },
+          "sql_to_opp": {
+            "avg": 22.0,
+            "median": 11.5,
+            "p90": 47.7,
+            "min": 2,
+            "max": 63,
+            "deal_count": 4
+          },
+          "opp_to_closed": {
+            "avg": 46.5,
+            "median": 46.5,
+            "p90": 54.1,
+            "min": 37,
+            "max": 56,
+            "deal_count": 2
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 8,
+            "denominator": 8
+          },
+          "mql_to_sql": {
+            "rate": 87.5,
+            "numerator": 7,
+            "denominator": 8
+          },
+          "sql_to_opp": {
+            "rate": 57.1,
+            "numerator": 4,
+            "denominator": 7
+          },
+          "opp_to_closed": {
+            "rate": 50.0,
+            "numerator": 2,
+            "denominator": 4
+          }
+        },
+        "cumulative_conversion": 12.5,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 1,
+            "drop_rate": 12.5,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "timing",
+                "count": 1,
+                "pct": 100.0
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 3,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 2,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Europe": {
+        "deal_count": 13,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 12.9,
+            "median": 13,
+            "p90": 17.6,
+            "min": 4,
+            "max": 23,
+            "deal_count": 13
+          },
+          "mql_to_sql": {
+            "avg": 17.3,
+            "median": 20,
+            "p90": 23,
+            "min": 5,
+            "max": 24,
+            "deal_count": 11
+          },
+          "sql_to_opp": {
+            "avg": 21.7,
+            "median": 20.0,
+            "p90": 31.4,
+            "min": 9,
+            "max": 35,
+            "deal_count": 10
+          },
+          "opp_to_closed": {
+            "avg": 30.8,
+            "median": 26.0,
+            "p90": 44.9,
+            "min": 19,
+            "max": 47,
+            "deal_count": 8
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 13,
+            "denominator": 13
+          },
+          "mql_to_sql": {
+            "rate": 84.6,
+            "numerator": 11,
+            "denominator": 13
+          },
+          "sql_to_opp": {
+            "rate": 90.9,
+            "numerator": 10,
+            "denominator": 11
+          },
+          "opp_to_closed": {
+            "rate": 80.0,
+            "numerator": 8,
+            "denominator": 10
+          }
+        },
+        "cumulative_conversion": 30.8,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 1,
+            "drop_rate": 7.7,
+            "still_open_count": 1,
+            "lost_reason_breakdown": [
+              {
+                "reason": "went_dark",
+                "count": 1,
+                "pct": 100.0
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 2,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "North America": {
+        "deal_count": 29,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 11.8,
+            "median": 11,
+            "p90": 17.2,
+            "min": 1,
+            "max": 22,
+            "deal_count": 29
+          },
+          "mql_to_sql": {
+            "avg": 14.3,
+            "median": 14.5,
+            "p90": 21.0,
+            "min": 1,
+            "max": 25,
+            "deal_count": 22
+          },
+          "sql_to_opp": {
+            "avg": 19.9,
+            "median": 18.0,
+            "p90": 37.6,
+            "min": 0,
+            "max": 67,
+            "deal_count": 20
+          },
+          "opp_to_closed": {
+            "avg": 27.4,
+            "median": 27.0,
+            "p90": 38.0,
+            "min": 12,
+            "max": 44,
+            "deal_count": 16
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 29,
+            "denominator": 29
+          },
+          "mql_to_sql": {
+            "rate": 75.9,
+            "numerator": 22,
+            "denominator": 29
+          },
+          "sql_to_opp": {
+            "rate": 90.9,
+            "numerator": 20,
+            "denominator": 22
+          },
+          "opp_to_closed": {
+            "rate": 80.0,
+            "numerator": 16,
+            "denominator": 20
+          }
+        },
+        "cumulative_conversion": 31.0,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 7,
+            "drop_rate": 24.1,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "chose_competitor",
+                "count": 3,
+                "pct": 42.9
+              },
+              {
+                "reason": "no_budget",
+                "count": 1,
+                "pct": 14.3
+              },
+              {
+                "reason": "built_in_house",
+                "count": 1,
+                "pct": 14.3
+              },
+              {
+                "reason": "went_dark",
+                "count": 1,
+                "pct": 14.3
+              },
+              {
+                "reason": "timing",
+                "count": 1,
+                "pct": 14.3
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 2,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 4,
+            "lost_reason_breakdown": []
+          }
+        }
+      }
+    },
+    "sales_rep": {
+      "Alex Kim": {
+        "deal_count": 14,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 13.6,
+            "median": 13.5,
+            "p90": 20.4,
+            "min": 4,
+            "max": 23,
+            "deal_count": 14
+          },
+          "mql_to_sql": {
+            "avg": 14.5,
+            "median": 13,
+            "p90": 24,
+            "min": 1,
+            "max": 28,
+            "deal_count": 11
+          },
+          "sql_to_opp": {
+            "avg": 21.5,
+            "median": 16.5,
+            "p90": 43.4,
+            "min": 0,
+            "max": 63,
+            "deal_count": 8
+          },
+          "opp_to_closed": {
+            "avg": 36.8,
+            "median": 37,
+            "p90": 51.2,
+            "min": 22,
+            "max": 56,
+            "deal_count": 5
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 14,
+            "denominator": 14
+          },
+          "mql_to_sql": {
+            "rate": 78.6,
+            "numerator": 11,
+            "denominator": 14
+          },
+          "sql_to_opp": {
+            "rate": 72.7,
+            "numerator": 8,
+            "denominator": 11
+          },
+          "opp_to_closed": {
+            "rate": 62.5,
+            "numerator": 5,
+            "denominator": 8
+          }
+        },
+        "cumulative_conversion": 7.1,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 3,
+            "drop_rate": 21.4,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "no_budget",
+                "count": 1,
+                "pct": 33.3
+              },
+              {
+                "reason": "went_dark",
+                "count": 1,
+                "pct": 33.3
+              },
+              {
+                "reason": "timing",
+                "count": 1,
+                "pct": 33.3
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 3,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 3,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "David Lee": {
+        "deal_count": 4,
+        "low_confidence": true,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 12.8,
+            "median": 12.0,
+            "p90": 14.8,
+            "min": 11,
+            "max": 16,
+            "deal_count": 4
+          },
+          "mql_to_sql": {
+            "avg": 18.5,
+            "median": 18.5,
+            "p90": 23.5,
+            "min": 12,
+            "max": 25,
+            "deal_count": 4
+          },
+          "sql_to_opp": {
+            "avg": 17.5,
+            "median": 17.0,
+            "p90": 22.1,
+            "min": 13,
+            "max": 23,
+            "deal_count": 4
+          },
+          "opp_to_closed": {
+            "avg": 27.0,
+            "median": 27.0,
+            "p90": 31.8,
+            "min": 21,
+            "max": 33,
+            "deal_count": 2
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 4,
+            "denominator": 4
+          },
+          "mql_to_sql": {
+            "rate": 100.0,
+            "numerator": 4,
+            "denominator": 4
+          },
+          "sql_to_opp": {
+            "rate": 100.0,
+            "numerator": 4,
+            "denominator": 4
+          },
+          "opp_to_closed": {
+            "rate": 50.0,
+            "numerator": 2,
+            "denominator": 4
+          }
+        },
+        "cumulative_conversion": 25.0,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 2,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Emily Thompson": {
+        "deal_count": 7,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 11.9,
+            "median": 10,
+            "p90": 17.2,
+            "min": 8,
+            "max": 22,
+            "deal_count": 7
+          },
+          "mql_to_sql": {
+            "avg": 10.9,
+            "median": 10,
+            "p90": 18.0,
+            "min": 1,
+            "max": 21,
+            "deal_count": 7
+          },
+          "sql_to_opp": {
+            "avg": 14.4,
+            "median": 18,
+            "p90": 21.6,
+            "min": 2,
+            "max": 24,
+            "deal_count": 5
+          },
+          "opp_to_closed": {
+            "avg": 20.0,
+            "median": 21.0,
+            "p90": 24.5,
+            "min": 12,
+            "max": 26,
+            "deal_count": 4
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 7,
+            "denominator": 7
+          },
+          "mql_to_sql": {
+            "rate": 100.0,
+            "numerator": 7,
+            "denominator": 7
+          },
+          "sql_to_opp": {
+            "rate": 71.4,
+            "numerator": 5,
+            "denominator": 7
+          },
+          "opp_to_closed": {
+            "rate": 80.0,
+            "numerator": 4,
+            "denominator": 5
+          }
+        },
+        "cumulative_conversion": 14.3,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 2,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Jordan Martinez": {
+        "deal_count": 8,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 10.8,
+            "median": 10.0,
+            "p90": 16.0,
+            "min": 4,
+            "max": 16,
+            "deal_count": 8
+          },
+          "mql_to_sql": {
+            "avg": 17.0,
+            "median": 16.5,
+            "p90": 22.0,
+            "min": 12,
+            "max": 23,
+            "deal_count": 6
+          },
+          "sql_to_opp": {
+            "avg": 15.0,
+            "median": 6,
+            "p90": 33.0,
+            "min": 2,
+            "max": 43,
+            "deal_count": 5
+          },
+          "opp_to_closed": {
+            "avg": 36.8,
+            "median": 35.5,
+            "p90": 44.6,
+            "min": 29,
+            "max": 47,
+            "deal_count": 4
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 8,
+            "denominator": 8
+          },
+          "mql_to_sql": {
+            "rate": 75.0,
+            "numerator": 6,
+            "denominator": 8
+          },
+          "sql_to_opp": {
+            "rate": 83.3,
+            "numerator": 5,
+            "denominator": 6
+          },
+          "opp_to_closed": {
+            "rate": 80.0,
+            "numerator": 4,
+            "denominator": 5
+          }
+        },
+        "cumulative_conversion": 50.0,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 2,
+            "drop_rate": 25.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "chose_competitor",
+                "count": 1,
+                "pct": 50.0
+              },
+              {
+                "reason": "went_dark",
+                "count": 1,
+                "pct": 50.0
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Marcus Johnson": {
+        "deal_count": 5,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 15.6,
+            "median": 17,
+            "p90": 18.0,
+            "min": 11,
+            "max": 18,
+            "deal_count": 5
+          },
+          "mql_to_sql": {
+            "avg": 11.2,
+            "median": 11,
+            "p90": 19.8,
+            "min": 3,
+            "max": 21,
+            "deal_count": 5
+          },
+          "sql_to_opp": {
+            "avg": 18.8,
+            "median": 17,
+            "p90": 33.0,
+            "min": 2,
+            "max": 37,
+            "deal_count": 5
+          },
+          "opp_to_closed": {
+            "avg": 21.5,
+            "median": 21.0,
+            "p90": 27.9,
+            "min": 14,
+            "max": 30,
+            "deal_count": 4
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 5,
+            "denominator": 5
+          },
+          "mql_to_sql": {
+            "rate": 100.0,
+            "numerator": 5,
+            "denominator": 5
+          },
+          "sql_to_opp": {
+            "rate": 100.0,
+            "numerator": 5,
+            "denominator": 5
+          },
+          "opp_to_closed": {
+            "rate": 80.0,
+            "numerator": 4,
+            "denominator": 5
+          }
+        },
+        "cumulative_conversion": 40.0,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Priya Patel": {
+        "deal_count": 3,
+        "low_confidence": true,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 10.3,
+            "median": 11,
+            "p90": 12.6,
+            "min": 7,
+            "max": 13,
+            "deal_count": 3
+          },
+          "mql_to_sql": {
+            "avg": 17.5,
+            "median": 17.5,
+            "p90": 17.9,
+            "min": 17,
+            "max": 18,
+            "deal_count": 2
+          },
+          "sql_to_opp": {
+            "avg": 21.0,
+            "median": 21.0,
+            "p90": 29.0,
+            "min": 11,
+            "max": 31,
+            "deal_count": 2
+          },
+          "opp_to_closed": {
+            "avg": 32.5,
+            "median": 32.5,
+            "p90": 39.3,
+            "min": 24,
+            "max": 41,
+            "deal_count": 2
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 3,
+            "denominator": 3
+          },
+          "mql_to_sql": {
+            "rate": 66.7,
+            "numerator": 2,
+            "denominator": 3
+          },
+          "sql_to_opp": {
+            "rate": 100.0,
+            "numerator": 2,
+            "denominator": 2
+          },
+          "opp_to_closed": {
+            "rate": 100.0,
+            "numerator": 2,
+            "denominator": 2
+          }
+        },
+        "cumulative_conversion": 66.7,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 1,
+            "drop_rate": 33.3,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "chose_competitor",
+                "count": 1,
+                "pct": 100.0
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Rachel Cohen": {
+        "deal_count": 5,
+        "low_confidence": false,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 14.2,
+            "median": 15,
+            "p90": 16.0,
+            "min": 10,
+            "max": 16,
+            "deal_count": 5
+          },
+          "mql_to_sql": {
+            "avg": 15.5,
+            "median": 17.0,
+            "p90": 22.1,
+            "min": 5,
+            "max": 23,
+            "deal_count": 4
+          },
+          "sql_to_opp": {
+            "avg": 37.0,
+            "median": 30.5,
+            "p90": 56.2,
+            "min": 20,
+            "max": 67,
+            "deal_count": 4
+          },
+          "opp_to_closed": {
+            "avg": 29.2,
+            "median": 27.5,
+            "p90": 34.3,
+            "min": 25,
+            "max": 37,
+            "deal_count": 4
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 5,
+            "denominator": 5
+          },
+          "mql_to_sql": {
+            "rate": 80.0,
+            "numerator": 4,
+            "denominator": 5
+          },
+          "sql_to_opp": {
+            "rate": 100.0,
+            "numerator": 4,
+            "denominator": 4
+          },
+          "opp_to_closed": {
+            "rate": 100.0,
+            "numerator": 4,
+            "denominator": 4
+          }
+        },
+        "cumulative_conversion": 40.0,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 1,
+            "drop_rate": 20.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": [
+              {
+                "reason": "built_in_house",
+                "count": 1,
+                "pct": 100.0
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          }
+        }
+      },
+      "Sarah Chen": {
+        "deal_count": 4,
+        "low_confidence": true,
+        "velocity": {
+          "lead_to_mql": {
+            "avg": 7.0,
+            "median": 7.5,
+            "p90": 11.4,
+            "min": 1,
+            "max": 12,
+            "deal_count": 4
+          },
+          "mql_to_sql": {
+            "avg": 17.0,
+            "median": 17,
+            "p90": 17,
+            "min": 17,
+            "max": 17,
+            "deal_count": 1
+          },
+          "sql_to_opp": {
+            "avg": 31.0,
+            "median": 31,
+            "p90": 31,
+            "min": 31,
+            "max": 31,
+            "deal_count": 1
+          },
+          "opp_to_closed": {
+            "avg": 44.0,
+            "median": 44,
+            "p90": 44,
+            "min": 44,
+            "max": 44,
+            "deal_count": 1
+          }
+        },
+        "conversion": {
+          "lead_to_mql": {
+            "rate": 100.0,
+            "numerator": 4,
+            "denominator": 4
+          },
+          "mql_to_sql": {
+            "rate": 25.0,
+            "numerator": 1,
+            "denominator": 4
+          },
+          "sql_to_opp": {
+            "rate": 100.0,
+            "numerator": 1,
+            "denominator": 1
+          },
+          "opp_to_closed": {
+            "rate": 100.0,
+            "numerator": 1,
+            "denominator": 1
+          }
+        },
+        "cumulative_conversion": 25.0,
+        "drop_off": {
+          "lead_to_mql": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "mql_to_sql": {
+            "deals_dropped": 2,
+            "drop_rate": 50.0,
+            "still_open_count": 1,
+            "lost_reason_breakdown": [
+              {
+                "reason": "chose_competitor",
+                "count": 1,
+                "pct": 50.0
+              },
+              {
+                "reason": "timing",
+                "count": 1,
+                "pct": 50.0
+              }
+            ]
+          },
+          "sql_to_opp": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          },
+          "opp_to_closed": {
+            "deals_dropped": 0,
+            "drop_rate": 0.0,
+            "still_open_count": 0,
+            "lost_reason_breakdown": []
+          }
+        }
+      }
+    }
+  },
+  "sales_rep_analysis": [
+    {
+      "rep_name": "Alex Kim",
+      "total_deals": 14,
+      "won": 1,
+      "lost": 7,
+      "open": 6,
+      "win_rate": 12.5,
+      "avg_cycle_won": 141.0,
+      "velocity_by_transition": {
+        "lead_to_mql": {
+          "avg": 13.6,
+          "median": 13.5,
+          "p90": 20.4,
+          "min": 4,
+          "max": 23,
+          "deal_count": 14
+        },
+        "mql_to_sql": {
+          "avg": 14.5,
+          "median": 13,
+          "p90": 24,
+          "min": 1,
+          "max": 28,
+          "deal_count": 11
+        },
+        "sql_to_opp": {
+          "avg": 21.5,
+          "median": 16.5,
+          "p90": 43.4,
+          "min": 0,
+          "max": 63,
+          "deal_count": 8
+        },
+        "opp_to_closed": {
+          "avg": 36.8,
+          "median": 37,
+          "p90": 51.2,
+          "min": 22,
+          "max": 56,
+          "deal_count": 5
+        }
+      },
+      "conversion_by_transition": {
+        "lead_to_mql": {
+          "rate": 100.0,
+          "numerator": 14,
+          "denominator": 14
+        },
+        "mql_to_sql": {
+          "rate": 78.6,
+          "numerator": 11,
+          "denominator": 14
+        },
+        "sql_to_opp": {
+          "rate": 72.7,
+          "numerator": 8,
+          "denominator": 11
+        },
+        "opp_to_closed": {
+          "rate": 62.5,
+          "numerator": 5,
+          "denominator": 8
+        }
+      },
+      "bottleneck_flag": {
+        "type": "low_win_rate",
+        "value": 12.5,
+        "team_avg": 40.0,
+        "ratio": 0.3
+      }
+    },
+    {
+      "rep_name": "David Lee",
+      "total_deals": 4,
+      "won": 1,
+      "lost": 1,
+      "open": 2,
+      "win_rate": 50.0,
+      "avg_cycle_won": 85.0,
+      "velocity_by_transition": {
+        "lead_to_mql": {
+          "avg": 12.8,
+          "median": 12.0,
+          "p90": 14.8,
+          "min": 11,
+          "max": 16,
+          "deal_count": 4
+        },
+        "mql_to_sql": {
+          "avg": 18.5,
+          "median": 18.5,
+          "p90": 23.5,
+          "min": 12,
+          "max": 25,
+          "deal_count": 4
+        },
+        "sql_to_opp": {
+          "avg": 17.5,
+          "median": 17.0,
+          "p90": 22.1,
+          "min": 13,
+          "max": 23,
+          "deal_count": 4
+        },
+        "opp_to_closed": {
+          "avg": 27.0,
+          "median": 27.0,
+          "p90": 31.8,
+          "min": 21,
+          "max": 33,
+          "deal_count": 2
+        }
+      },
+      "conversion_by_transition": {
+        "lead_to_mql": {
+          "rate": 100.0,
+          "numerator": 4,
+          "denominator": 4
+        },
+        "mql_to_sql": {
+          "rate": 100.0,
+          "numerator": 4,
+          "denominator": 4
+        },
+        "sql_to_opp": {
+          "rate": 100.0,
+          "numerator": 4,
+          "denominator": 4
+        },
+        "opp_to_closed": {
+          "rate": 50.0,
+          "numerator": 2,
+          "denominator": 4
+        }
+      },
+      "bottleneck_flag": null
+    },
+    {
+      "rep_name": "Emily Thompson",
+      "total_deals": 7,
+      "won": 1,
+      "lost": 3,
+      "open": 3,
+      "win_rate": 25.0,
+      "avg_cycle_won": 56.0,
+      "velocity_by_transition": {
+        "lead_to_mql": {
+          "avg": 11.9,
+          "median": 10,
+          "p90": 17.2,
+          "min": 8,
+          "max": 22,
+          "deal_count": 7
+        },
+        "mql_to_sql": {
+          "avg": 10.9,
+          "median": 10,
+          "p90": 18.0,
+          "min": 1,
+          "max": 21,
+          "deal_count": 7
+        },
+        "sql_to_opp": {
+          "avg": 14.4,
+          "median": 18,
+          "p90": 21.6,
+          "min": 2,
+          "max": 24,
+          "deal_count": 5
+        },
+        "opp_to_closed": {
+          "avg": 20.0,
+          "median": 21.0,
+          "p90": 24.5,
+          "min": 12,
+          "max": 26,
+          "deal_count": 4
+        }
+      },
+      "conversion_by_transition": {
+        "lead_to_mql": {
+          "rate": 100.0,
+          "numerator": 7,
+          "denominator": 7
+        },
+        "mql_to_sql": {
+          "rate": 100.0,
+          "numerator": 7,
+          "denominator": 7
+        },
+        "sql_to_opp": {
+          "rate": 71.4,
+          "numerator": 5,
+          "denominator": 7
+        },
+        "opp_to_closed": {
+          "rate": 80.0,
+          "numerator": 4,
+          "denominator": 5
+        }
+      },
+      "bottleneck_flag": null
+    },
+    {
+      "rep_name": "Jordan Martinez",
+      "total_deals": 8,
+      "won": 4,
+      "lost": 2,
+      "open": 2,
+      "win_rate": 66.7,
+      "avg_cycle_won": 84.2,
+      "velocity_by_transition": {
+        "lead_to_mql": {
+          "avg": 10.8,
+          "median": 10.0,
+          "p90": 16.0,
+          "min": 4,
+          "max": 16,
+          "deal_count": 8
+        },
+        "mql_to_sql": {
+          "avg": 17.0,
+          "median": 16.5,
+          "p90": 22.0,
+          "min": 12,
+          "max": 23,
+          "deal_count": 6
+        },
+        "sql_to_opp": {
+          "avg": 15.0,
+          "median": 6,
+          "p90": 33.0,
+          "min": 2,
+          "max": 43,
+          "deal_count": 5
+        },
+        "opp_to_closed": {
+          "avg": 36.8,
+          "median": 35.5,
+          "p90": 44.6,
+          "min": 29,
+          "max": 47,
+          "deal_count": 4
+        }
+      },
+      "conversion_by_transition": {
+        "lead_to_mql": {
+          "rate": 100.0,
+          "numerator": 8,
+          "denominator": 8
+        },
+        "mql_to_sql": {
+          "rate": 75.0,
+          "numerator": 6,
+          "denominator": 8
+        },
+        "sql_to_opp": {
+          "rate": 83.3,
+          "numerator": 5,
+          "denominator": 6
+        },
+        "opp_to_closed": {
+          "rate": 80.0,
+          "numerator": 4,
+          "denominator": 5
+        }
+      },
+      "bottleneck_flag": null
+    },
+    {
+      "rep_name": "Marcus Johnson",
+      "total_deals": 5,
+      "won": 2,
+      "lost": 2,
+      "open": 1,
+      "win_rate": 50.0,
+      "avg_cycle_won": 84.0,
+      "velocity_by_transition": {
+        "lead_to_mql": {
+          "avg": 15.6,
+          "median": 17,
+          "p90": 18.0,
+          "min": 11,
+          "max": 18,
+          "deal_count": 5
+        },
+        "mql_to_sql": {
+          "avg": 11.2,
+          "median": 11,
+          "p90": 19.8,
+          "min": 3,
+          "max": 21,
+          "deal_count": 5
+        },
+        "sql_to_opp": {
+          "avg": 18.8,
+          "median": 17,
+          "p90": 33.0,
+          "min": 2,
+          "max": 37,
+          "deal_count": 5
+        },
+        "opp_to_closed": {
+          "avg": 21.5,
+          "median": 21.0,
+          "p90": 27.9,
+          "min": 14,
+          "max": 30,
+          "deal_count": 4
+        }
+      },
+      "conversion_by_transition": {
+        "lead_to_mql": {
+          "rate": 100.0,
+          "numerator": 5,
+          "denominator": 5
+        },
+        "mql_to_sql": {
+          "rate": 100.0,
+          "numerator": 5,
+          "denominator": 5
+        },
+        "sql_to_opp": {
+          "rate": 100.0,
+          "numerator": 5,
+          "denominator": 5
+        },
+        "opp_to_closed": {
+          "rate": 80.0,
+          "numerator": 4,
+          "denominator": 5
+        }
+      },
+      "bottleneck_flag": null
+    },
+    {
+      "rep_name": "Priya Patel",
+      "total_deals": 3,
+      "won": 2,
+      "lost": 1,
+      "open": 0,
+      "win_rate": 66.7,
+      "avg_cycle_won": 81.0,
+      "velocity_by_transition": {
+        "lead_to_mql": {
+          "avg": 10.3,
+          "median": 11,
+          "p90": 12.6,
+          "min": 7,
+          "max": 13,
+          "deal_count": 3
+        },
+        "mql_to_sql": {
+          "avg": 17.5,
+          "median": 17.5,
+          "p90": 17.9,
+          "min": 17,
+          "max": 18,
+          "deal_count": 2
+        },
+        "sql_to_opp": {
+          "avg": 21.0,
+          "median": 21.0,
+          "p90": 29.0,
+          "min": 11,
+          "max": 31,
+          "deal_count": 2
+        },
+        "opp_to_closed": {
+          "avg": 32.5,
+          "median": 32.5,
+          "p90": 39.3,
+          "min": 24,
+          "max": 41,
+          "deal_count": 2
+        }
+      },
+      "conversion_by_transition": {
+        "lead_to_mql": {
+          "rate": 100.0,
+          "numerator": 3,
+          "denominator": 3
+        },
+        "mql_to_sql": {
+          "rate": 66.7,
+          "numerator": 2,
+          "denominator": 3
+        },
+        "sql_to_opp": {
+          "rate": 100.0,
+          "numerator": 2,
+          "denominator": 2
+        },
+        "opp_to_closed": {
+          "rate": 100.0,
+          "numerator": 2,
+          "denominator": 2
+        }
+      },
+      "bottleneck_flag": null
+    },
+    {
+      "rep_name": "Rachel Cohen",
+      "total_deals": 5,
+      "won": 2,
+      "lost": 3,
+      "open": 0,
+      "win_rate": 40.0,
+      "avg_cycle_won": 106.0,
+      "velocity_by_transition": {
+        "lead_to_mql": {
+          "avg": 14.2,
+          "median": 15,
+          "p90": 16.0,
+          "min": 10,
+          "max": 16,
+          "deal_count": 5
+        },
+        "mql_to_sql": {
+          "avg": 15.5,
+          "median": 17.0,
+          "p90": 22.1,
+          "min": 5,
+          "max": 23,
+          "deal_count": 4
+        },
+        "sql_to_opp": {
+          "avg": 37.0,
+          "median": 30.5,
+          "p90": 56.2,
+          "min": 20,
+          "max": 67,
+          "deal_count": 4
+        },
+        "opp_to_closed": {
+          "avg": 29.2,
+          "median": 27.5,
+          "p90": 34.3,
+          "min": 25,
+          "max": 37,
+          "deal_count": 4
+        }
+      },
+      "conversion_by_transition": {
+        "lead_to_mql": {
+          "rate": 100.0,
+          "numerator": 5,
+          "denominator": 5
+        },
+        "mql_to_sql": {
+          "rate": 80.0,
+          "numerator": 4,
+          "denominator": 5
+        },
+        "sql_to_opp": {
+          "rate": 100.0,
+          "numerator": 4,
+          "denominator": 4
+        },
+        "opp_to_closed": {
+          "rate": 100.0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      },
+      "bottleneck_flag": null
+    },
+    {
+      "rep_name": "Sarah Chen",
+      "total_deals": 4,
+      "won": 1,
+      "lost": 2,
+      "open": 1,
+      "win_rate": 33.3,
+      "avg_cycle_won": 93.0,
+      "velocity_by_transition": {
+        "lead_to_mql": {
+          "avg": 7.0,
+          "median": 7.5,
+          "p90": 11.4,
+          "min": 1,
+          "max": 12,
+          "deal_count": 4
+        },
+        "mql_to_sql": {
+          "avg": 17.0,
+          "median": 17,
+          "p90": 17,
+          "min": 17,
+          "max": 17,
+          "deal_count": 1
+        },
+        "sql_to_opp": {
+          "avg": 31.0,
+          "median": 31,
+          "p90": 31,
+          "min": 31,
+          "max": 31,
+          "deal_count": 1
+        },
+        "opp_to_closed": {
+          "avg": 44.0,
+          "median": 44,
+          "p90": 44,
+          "min": 44,
+          "max": 44,
+          "deal_count": 1
+        }
+      },
+      "conversion_by_transition": {
+        "lead_to_mql": {
+          "rate": 100.0,
+          "numerator": 4,
+          "denominator": 4
+        },
+        "mql_to_sql": {
+          "rate": 25.0,
+          "numerator": 1,
+          "denominator": 4
+        },
+        "sql_to_opp": {
+          "rate": 100.0,
+          "numerator": 1,
+          "denominator": 1
+        },
+        "opp_to_closed": {
+          "rate": 100.0,
+          "numerator": 1,
+          "denominator": 1
+        }
+      },
+      "bottleneck_flag": null
+    }
+  ]
+}

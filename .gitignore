@@ -1,9 +1,1 @@
-runs/*/attribution/
-runs/*/velocity/
-runs/*/performance/
-runs/*/scenarios/
-runs/*/narrative/
-runs/*/dashboard/
-runs/*/review/
-runs/*/inputs/*.json
 .DS_Store
