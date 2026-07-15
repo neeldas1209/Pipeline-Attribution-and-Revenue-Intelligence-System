@@ -8,6 +8,8 @@ Most B2B marketing teams have attribution data sitting in their CRM, but it rare
 
 ## What This System Does
 
+**[View the live dashboard](https://neeldas1209.github.io/Pipeline-Attribution-and-Revenue-Intelligence-System/runs/synthetic-run/dashboard/dashboard.html)**
+
 This system takes two standard CRM exports — pipeline deals with touchpoints and channel spend data — and runs them through a six-agent pipeline that:
 
 1. **Attributes pipeline credit** across five models (first-touch, last-touch, linear, time-decay, W-shaped) for every closed deal
